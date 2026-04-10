@@ -1,0 +1,11 @@
+{
+  "name": "card-release-calendar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generate a filtered iCal feed for trading card releases and pre-orders.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check"
+  }
+}

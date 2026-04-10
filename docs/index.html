@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Card Release Calendar</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f5ef;
+        --card: #fffef8;
+        --ink: #171717;
+        --accent: #0a7a57;
+        --border: #d8d1c2;
+      }
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background:
+          radial-gradient(circle at top left, rgba(10, 122, 87, 0.14), transparent 35%),
+          linear-gradient(180deg, #fbfaf5 0%, var(--bg) 100%);
+        color: var(--ink);
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 28px;
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+      }
+      a {
+        color: var(--accent);
+      }
+      .pill {
+        display: inline-block;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(10, 122, 87, 0.12);
+        color: var(--accent);
+      }
+      ul {
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <p>Filtered iCal feed for subscribed card releases.</p>
+        <h1>Card Release Calendar</h1>
+        <p><a href="./cards.ics">Subscribe to cards.ics</a></p>
+        <p>Current filters:</p>
+        <div><span class="pill">Bowman</span></div>
+        <p>Upcoming matches:</p>
+        <ul>
+          <li><strong>2026 Bowman Baseball pre-order</strong><br>Monday, April 13, 2026 at 9:00 AM PDT</li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
