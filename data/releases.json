@@ -149,37 +149,5 @@
       "Basketball",
       "Mega Box"
     ]
-  },
-  {
-    "id": "2025-topps-chrome-football-mega-boxes",
-    "title": "2025 Topps Chrome® Football Mega Boxes",
-    "startsAt": "2026-05-01T09:00:00-07:00",
-    "endsAt": "2026-05-01T10:00:00-07:00",
-    "notes": "Mega Boxes",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Topps",
-    "sourceUrl": "https://thetoppscompany.sjv.io/Jkqbyr",
-    "tags": [
-      "Topps",
-      "Football",
-      "Mega Box"
-    ]
-  },
-  {
-    "id": "2025-26-bowman-basketball-mega-boxes",
-    "title": "2025-26 Bowman Basketball Mega Boxes",
-    "startsAt": "2026-05-07T09:00:00-07:00",
-    "endsAt": "2026-05-07T10:00:00-07:00",
-    "notes": "Mega Boxes",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Topps",
-    "sourceUrl": "https://thetoppscompany.sjv.io/QYjGD6",
-    "tags": [
-      "Topps",
-      "Basketball",
-      "Mega Box"
-    ]
   }
 ]
