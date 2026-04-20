@@ -165,5 +165,69 @@
       "Football",
       "Mega Box"
     ]
+  },
+  {
+    "id": "2026-topps-bowman-baseball",
+    "title": "Prospects Ethan Holliday Aiva Arquette Headline Card Chases in 2026 Topps Bowman Baseball Release",
+    "startsAt": "2026-05-15T09:00:00-07:00",
+    "endsAt": "2026-05-15T10:00:00-07:00",
+    "notes": "Upcoming Bowman Baseball release with top prospect cards. Source: Sports Illustrated",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Google News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVThCWHVOQlgwems2TDlUbnN3ZTFqaHphSXRJM29SQ3BuRlJlVmlCZlBtUXZTYTgzMXFnMW5Edi1mZ1NBR0wtRnBZOWwzSzRPRmFTY2hlRFFxLWVuRi11VzBhM3g1Z0lFWFM2SGRQUzdmYkxGaHBtMzl0Z3VjMTZkaHZoNHVyTXVNcFA3S2pmSUw5dGtxRGVSQ1NMTExJQ0JnbGJZZXRSeFhUaURyc2tOU0d2MTNFdm5Y?oc=5",
+    "tags": [
+      "Topps",
+      "Baseball",
+      "Scraped"
+    ]
+  },
+  {
+    "id": "2025-topps-chrome-football",
+    "title": "2025 Topps Chrome Football",
+    "startsAt": "2026-05-01T09:00:00-07:00",
+    "endsAt": "2026-05-01T10:00:00-07:00",
+    "notes": "Most anticipated sports card release of 2026 featuring NFL players. Multiple sources indicate future release. Source: The New York Times, Sports Illustrated, DraftKings Network",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Google News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV1A3c0Y3bXRMOG9xUVhQNlVKOFFWZFBpRFFpMDYycVY1cUxXYUhHVW1GdEphd2djZk1uX0pqNC1Hemo0ZkVRN2ltWmU0dTl3MVhOdjM1RWpzVVQ1LU5NUmxPMHVSNGRRM2gySG8zXy1xb24yNm1GWnN6TlgxdW1aSk1iSVg2RFhmR1RHZXF3?oc=5",
+    "tags": [
+      "Topps",
+      "Football",
+      "Scraped"
+    ]
+  },
+  {
+    "id": "2025-26-topps-hoops-basketball",
+    "title": "2025-26 Topps Hoops Basketball",
+    "startsAt": "2026-05-20T09:00:00-07:00",
+    "endsAt": "2026-05-20T10:00:00-07:00",
+    "notes": "Early collector's guide indicates upcoming basketball card release. Source: Sports Illustrated",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Google News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcGVqQ0RtQTh3ekVGVmZWVFFsT1E5cnRBSVlYYmNwZVNIWkNES1JuQW9WdGVWVmFDcHpHRHRvd0VBS1NveXhXMVptTWZxYjlHMl9oV0pNVjRydlNmbGNiSGpwWnRqdkV2dmljUEpsV1A4ZGkxVmhxdTVHaWlPTnpYSms0NEZoOXJQbEkwSDFpQWRkLUk?oc=5",
+    "tags": [
+      "Topps",
+      "Basketball",
+      "Scraped"
+    ]
+  },
+  {
+    "id": "2026-bowman-baseball",
+    "title": "2026 Bowman Baseball",
+    "startsAt": "2026-05-16T09:00:00-07:00",
+    "endsAt": "2026-05-16T10:00:00-07:00",
+    "notes": "Bowman Baseball release with preorder information. Source: DraftKings Network",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Google News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTndDUHVWZ3g4dHdIbU1fWUFpWXZnejl6VzF2RV9xUkpPcXlnZm5uTDlxUy01UzZBb3pFaFZYSUk4TllWSi0yNTh2WG91b1RwRUgxUWg4RWZRZ1hLdEdjUnJKMXFoSDk5aXVmaDhIZW9aVFFQYTF4QW5DMFBnQzZzY28wOFlnNkpUYmU3ME4xN2VLQkFfbkE?oc=5",
+    "tags": [
+      "Topps",
+      "Baseball",
+      "Scraped"
+    ]
   }
 ]
