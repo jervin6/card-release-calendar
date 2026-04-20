@@ -7,7 +7,7 @@ X-WR-CALNAME:Card Releases
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 UID:2026-bowman-baseball-preorder@card-release-calendar
-DTSTAMP:20260420T215824Z
+DTSTAMP:20260420T215912Z
 DTSTART:20260413T160000Z
 DTEND:20260413T170000Z
 SUMMARY:2026 Bowman Baseball pre-order
@@ -19,7 +19,7 @@ URL:https://x.com/CardPurchaser
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-topps-finest-football-preorder-eql@card-release-calendar
-DTSTAMP:20260420T215824Z
+DTSTAMP:20260420T215912Z
 DTSTART:20260420T160000Z
 DTEND:20260420T170000Z
 SUMMARY:2025 Topps Finest Football pre-order (EQL)
@@ -32,7 +32,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-bowman-university-best-basketball-preorder@card-release-calenda
  r
-DTSTAMP:20260420T215824Z
+DTSTAMP:20260420T215912Z
 DTSTART:20260421T160000Z
 DTEND:20260421T170000Z
 SUMMARY:2025-26 Bowman University Best Basketball pre-order
@@ -44,7 +44,7 @@ URL:https://thetoppscompany.sjv.io/POBY7z
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-bowman-basketball-hobby-eql@card-release-calendar
-DTSTAMP:20260420T215824Z
+DTSTAMP:20260420T215912Z
 DTSTART:20260422T160000Z
 DTEND:20260422T170000Z
 SUMMARY:2025-26 Bowman Basketball (Hobby EQL + Value Boxes)
@@ -57,7 +57,7 @@ URL:https://thetoppscompany.sjv.io/QYjGD6
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-black-baseball@card-release-calendar
-DTSTAMP:20260420T215824Z
+DTSTAMP:20260420T215912Z
 DTSTART:20260429T160000Z
 DTEND:20260429T170000Z
 SUMMARY:2026 Topps Chrome Black Baseball
@@ -69,7 +69,7 @@ URL:https://thetoppscompany.sjv.io/1G9v4x
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-topps-definitive-baseball-eql@card-release-calendar
-DTSTAMP:20260420T215824Z
+DTSTAMP:20260420T215912Z
 DTSTART:20260429T160000Z
 DTEND:20260429T170000Z
 SUMMARY:2025 Topps Definitive Baseball (EQL)
@@ -81,7 +81,7 @@ URL:https://thetoppscompany.sjv.io/QYYZX9
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-cosmic-chrome-basketball@card-release-calendar
-DTSTAMP:20260420T215824Z
+DTSTAMP:20260420T215912Z
 DTSTART:20260429T160000Z
 DTEND:20260429T170000Z
 SUMMARY:2025-26 Topps Cosmic Chrome Basketball
@@ -93,7 +93,7 @@ URL:https://thetoppscompany.sjv.io/5kkY72
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-topps-chrome-football-mega@card-release-calendar
-DTSTAMP:20260420T215824Z
+DTSTAMP:20260420T215912Z
 DTSTART:20260501T160000Z
 DTEND:20260501T170000Z
 SUMMARY:2025 Topps Chrome Football (Mega Boxes)
@@ -105,7 +105,7 @@ URL:https://thetoppscompany.sjv.io/Jkqbyr
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-bowman-basketball-mega@card-release-calendar
-DTSTAMP:20260420T215824Z
+DTSTAMP:20260420T215912Z
 DTSTART:20260507T160000Z
 DTEND:20260507T170000Z
 SUMMARY:2025-26 Bowman Basketball (Mega Boxes)
@@ -117,7 +117,7 @@ URL:https://thetoppscompany.sjv.io/QYjGD6
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-topps-chrome-football-mega-box@card-release-calendar
-DTSTAMP:20260420T215824Z
+DTSTAMP:20260420T215912Z
 DTSTART:20250501T160000Z
 DTEND:20250501T170000Z
 SUMMARY:2025 Topps Chrome® Football Mega Boxes
@@ -126,81 +126,5 @@ DESCRIPTION:Mega Box format\nSource: Topps - https://thetoppscompany.sjv.io
 STATUS:TENTATIVE
 LOCATION:Online
 URL:https://thetoppscompany.sjv.io/Jkqbyr
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-topps-bowman-baseball@card-release-calendar
-DTSTAMP:20260420T215824Z
-DTSTART:20260515T160000Z
-DTEND:20260515T170000Z
-SUMMARY:Prospects Ethan Holliday Aiva Arquette Headline Card Chases in 2026
-  Topps Bowman Baseball Release
-DESCRIPTION:Upcoming Bowman Baseball release with top prospect cards. Sourc
- e: Sports Illustrated\nSource: Google News - https://news.google.com/rss/ar
- ticles/CBMiuAFBVV95cUxNVThCWHVOQlgwems2TDlUbnN3ZTFqaHphSXRJM29SQ3BuRlJlVmlC
- ZlBtUXZTYTgzMXFnMW5Edi1mZ1NBR0wtRnBZOWwzSzRPRmFTY2hlRFFxLWVuRi11VzBhM3g1Z0l
- FWFM2SGRQUzdmYkxGaHBtMzl0Z3VjMTZkaHZoNHVyTXVNcFA3S2pmSUw5dGtxRGVSQ1NMTExJQ0
- JnbGJZZXRSeFhUaURyc2tOU0d2MTNFdm5Y?oc=5
-STATUS:TENTATIVE
-LOCATION:Online
-URL:https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVThCWHVOQlgwems2TD
- lUbnN3ZTFqaHphSXRJM29SQ3BuRlJlVmlCZlBtUXZTYTgzMXFnMW5Edi1mZ1NBR0wtRnBZOWwzS
- zRPRmFTY2hlRFFxLWVuRi11VzBhM3g1Z0lFWFM2SGRQUzdmYkxGaHBtMzl0Z3VjMTZkaHZoNHVy
- TXVNcFA3S2pmSUw5dGtxRGVSQ1NMTExJQ0JnbGJZZXRSeFhUaURyc2tOU0d2MTNFdm5Y?oc=5
-END:VEVENT
-BEGIN:VEVENT
-UID:2025-topps-chrome-football@card-release-calendar
-DTSTAMP:20260420T215824Z
-DTSTART:20260501T160000Z
-DTEND:20260501T170000Z
-SUMMARY:2025 Topps Chrome Football
-DESCRIPTION:Most anticipated sports card release of 2026 featuring NFL play
- ers. Multiple sources indicate future release. Source: The New York Times\,
-  Sports Illustrated\, DraftKings Network\nSource: Google News - https://new
- s.google.com/rss/articles/CBMijgFBVV95cUxOV1A3c0Y3bXRMOG9xUVhQNlVKOFFWZFBpR
- FFpMDYycVY1cUxXYUhHVW1GdEphd2djZk1uX0pqNC1Hemo0ZkVRN2ltWmU0dTl3MVhOdjM1RWpz
- VVQ1LU5NUmxPMHVSNGRRM2gySG8zXy1xb24yNm1GWnN6TlgxdW1aSk1iSVg2RFhmR1RHZXF3?oc
- =5
-STATUS:TENTATIVE
-LOCATION:Online
-URL:https://news.google.com/rss/articles/CBMijgFBVV95cUxOV1A3c0Y3bXRMOG9xUV
- hQNlVKOFFWZFBpRFFpMDYycVY1cUxXYUhHVW1GdEphd2djZk1uX0pqNC1Hemo0ZkVRN2ltWmU0d
- Tl3MVhOdjM1RWpzVVQ1LU5NUmxPMHVSNGRRM2gySG8zXy1xb24yNm1GWnN6TlgxdW1aSk1iSVg2
- RFhmR1RHZXF3?oc=5
-END:VEVENT
-BEGIN:VEVENT
-UID:2025-26-topps-hoops-basketball@card-release-calendar
-DTSTAMP:20260420T215824Z
-DTSTART:20260520T160000Z
-DTEND:20260520T170000Z
-SUMMARY:2025-26 Topps Hoops Basketball
-DESCRIPTION:Early collector's guide indicates upcoming basketball card rele
- ase. Source: Sports Illustrated\nSource: Google News - https://news.google.
- com/rss/articles/CBMikwFBVV95cUxNcGVqQ0RtQTh3ekVGVmZWVFFsT1E5cnRBSVlYYmNwZV
- NIWkNES1JuQW9WdGVWVmFDcHpHRHRvd0VBS1NveXhXMVptTWZxYjlHMl9oV0pNVjRydlNmbGNiS
- GpwWnRqdkV2dmljUEpsV1A4ZGkxVmhxdTVHaWlPTnpYSms0NEZoOXJQbEkwSDFpQWRkLUk?oc=5
-STATUS:TENTATIVE
-LOCATION:Online
-URL:https://news.google.com/rss/articles/CBMikwFBVV95cUxNcGVqQ0RtQTh3ekVGVm
- ZWVFFsT1E5cnRBSVlYYmNwZVNIWkNES1JuQW9WdGVWVmFDcHpHRHRvd0VBS1NveXhXMVptTWZxY
- jlHMl9oV0pNVjRydlNmbGNiSGpwWnRqdkV2dmljUEpsV1A4ZGkxVmhxdTVHaWlPTnpYSms0NEZo
- OXJQbEkwSDFpQWRkLUk?oc=5
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-bowman-baseball@card-release-calendar
-DTSTAMP:20260420T215824Z
-DTSTART:20260516T160000Z
-DTEND:20260516T170000Z
-SUMMARY:2026 Bowman Baseball
-DESCRIPTION:Bowman Baseball release with preorder information. Source: Draf
- tKings Network\nSource: Google News - https://news.google.com/rss/articles/
- CBMilgFBVV95cUxNTndDUHVWZ3g4dHdIbU1fWUFpWXZnejl6VzF2RV9xUkpPcXlnZm5uTDlxUy0
- 1UzZBb3pFaFZYSUk4TllWSi0yNTh2WG91b1RwRUgxUWg4RWZRZ1hLdEdjUnJKMXFoSDk5aXVmaD
- hIZW9aVFFQYTF4QW5DMFBnQzZzY28wOFlnNkpUYmU3ME4xN2VLQkFfbkE?oc=5
-STATUS:TENTATIVE
-LOCATION:Online
-URL:https://news.google.com/rss/articles/CBMilgFBVV95cUxNTndDUHVWZ3g4dHdIbU
- 1fWUFpWXZnejl6VzF2RV9xUkpPcXlnZm5uTDlxUy01UzZBb3pFaFZYSUk4TllWSi0yNTh2WG91b
- 1RwRUgxUWg4RWZRZ1hLdEdjUnJKMXFoSDk5aXVmaDhIZW9aVFFQYTF4QW5DMFBnQzZzY28wOFln
- NkpUYmU3ME4xN2VLQkFfbkE?oc=5
 END:VEVENT
 END:VCALENDAR
