@@ -149,5 +149,21 @@
       "Basketball",
       "Mega Box"
     ]
+  },
+  {
+    "id": "2025-topps-chrome-football-mega-box",
+    "title": "2025 Topps Chrome® Football Mega Boxes",
+    "startsAt": "2025-05-01T09:00:00-07:00",
+    "endsAt": "2025-05-01T10:00:00-07:00",
+    "notes": "Mega Box format",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Topps",
+    "sourceUrl": "https://thetoppscompany.sjv.io/Jkqbyr",
+    "tags": [
+      "Topps",
+      "Football",
+      "Mega Box"
+    ]
   }
 ]
