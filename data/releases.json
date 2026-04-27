@@ -165,5 +165,38 @@
       "Football",
       "Mega Box"
     ]
+  },
+  {
+    "id": "2025-26-topps-signature-class-basketball-preorder",
+    "title": "2025-26 Topps Signature Class Basketball - Pre-Order",
+    "startsAt": "2026-04-28T09:00:00-07:00",
+    "endsAt": "2026-04-28T10:00:00-07:00",
+    "notes": "EQL release, 8 packs per box, 2 autographs per box",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "",
+    "tags": [
+      "Topps",
+      "Basketball",
+      "EQL",
+      "Pre-order"
+    ]
+  },
+  {
+    "id": "2025-26-topps-merlin-basketball",
+    "title": "2025-26 Topps Merlin Basketball",
+    "startsAt": "2026-04-28T09:00:00-07:00",
+    "endsAt": "2026-04-28T10:00:00-07:00",
+    "notes": "18 packs per box, 1 autograph per box",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Topps",
+    "sourceUrl": "",
+    "tags": [
+      "Topps",
+      "Basketball",
+      "Merlin"
+    ]
   }
 ]
