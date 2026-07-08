@@ -1,5 +1,21 @@
 [
   {
+    "id": "2025-topps-chrome-football-mega-box",
+    "title": "2025 Topps Chrome® Football Mega Boxes",
+    "startsAt": "2025-05-01T09:00:00-07:00",
+    "endsAt": "2025-05-01T10:00:00-07:00",
+    "notes": "Mega Box format",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Topps",
+    "sourceUrl": "https://thetoppscompany.sjv.io/Jkqbyr",
+    "tags": [
+      "Topps",
+      "Football",
+      "Mega Box"
+    ]
+  },
+  {
     "id": "2026-bowman-baseball-preorder",
     "title": "2026 Bowman Baseball pre-order",
     "startsAt": "2026-04-13T09:00:00-07:00",
@@ -65,6 +81,39 @@
       "Bowman",
       "Basketball",
       "EQL"
+    ]
+  },
+  {
+    "id": "2025-26-topps-signature-class-basketball-preorder",
+    "title": "2025-26 Topps Signature Class Basketball - Pre-Order",
+    "startsAt": "2026-04-28T09:00:00-07:00",
+    "endsAt": "2026-04-28T10:00:00-07:00",
+    "notes": "EQL release, 8 packs per box, 2 autographs per box",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "",
+    "tags": [
+      "Topps",
+      "Basketball",
+      "EQL",
+      "Pre-order"
+    ]
+  },
+  {
+    "id": "2025-26-topps-merlin-basketball",
+    "title": "2025-26 Topps Merlin Basketball",
+    "startsAt": "2026-04-28T09:00:00-07:00",
+    "endsAt": "2026-04-28T10:00:00-07:00",
+    "notes": "18 packs per box, 1 autograph per box",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Topps",
+    "sourceUrl": "",
+    "tags": [
+      "Topps",
+      "Basketball",
+      "Merlin"
     ]
   },
   {
@@ -151,52 +200,543 @@
     ]
   },
   {
-    "id": "2025-topps-chrome-football-mega-box",
-    "title": "2025 Topps Chrome® Football Mega Boxes",
-    "startsAt": "2025-05-01T09:00:00-07:00",
-    "endsAt": "2025-05-01T10:00:00-07:00",
-    "notes": "Mega Box format",
+    "id": "2026-topps-finest-baseball-20260708",
+    "title": "2026 Topps Finest Baseball",
+    "startsAt": "2026-07-08T09:00:00-07:00",
+    "endsAt": "2026-07-08T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
     "location": "Online",
     "status": "TENTATIVE",
-    "sourceName": "Topps",
-    "sourceUrl": "https://thetoppscompany.sjv.io/Jkqbyr",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
       "Topps",
-      "Football",
-      "Mega Box"
+      "Baseball"
     ]
   },
   {
-    "id": "2025-26-topps-signature-class-basketball-preorder",
-    "title": "2025-26 Topps Signature Class Basketball - Pre-Order",
-    "startsAt": "2026-04-28T09:00:00-07:00",
-    "endsAt": "2026-04-28T10:00:00-07:00",
-    "notes": "EQL release, 8 packs per box, 2 autographs per box",
+    "id": "2026-topps-series-2-baseball-all-star-game-20260708",
+    "title": "2026 Topps Series 2 Baseball All-Star Game",
+    "startsAt": "2026-07-08T09:00:00-07:00",
+    "endsAt": "2026-07-08T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
     "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
       "Topps",
-      "Basketball",
-      "EQL",
-      "Pre-order"
+      "Baseball"
     ]
   },
   {
-    "id": "2025-26-topps-merlin-basketball",
-    "title": "2025-26 Topps Merlin Basketball",
-    "startsAt": "2026-04-28T09:00:00-07:00",
-    "endsAt": "2026-04-28T10:00:00-07:00",
-    "notes": "18 packs per box, 1 autograph per box",
+    "id": "2025-26-topps-motif-basketball-20260709",
+    "title": "2025-26 Topps Motif Basketball",
+    "startsAt": "2026-07-09T09:00:00-07:00",
+    "endsAt": "2026-07-09T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
     "location": "Online",
     "status": "TENTATIVE",
-    "sourceName": "Topps",
-    "sourceUrl": "",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
     "tags": [
       "Topps",
-      "Basketball",
-      "Merlin"
+      "Basketball"
+    ]
+  },
+  {
+    "id": "2026-topps-dynamic-duals-baseball-20260715",
+    "title": "2026 Topps Dynamic Duals Baseball",
+    "startsAt": "2026-07-15T09:00:00-07:00",
+    "endsAt": "2026-07-15T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-series-2-baseball-fanatics-fest-nyc-edition-fanatics-fest-refractors-20260716",
+    "title": "2026 Topps Series 2 Baseball Fanatics Fest NYC Edition (Fanatics Fest Refractors)",
+    "startsAt": "2026-07-16T09:00:00-07:00",
+    "endsAt": "2026-07-16T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-chrome-baseball-20260722",
+    "title": "2026 Topps Chrome Baseball",
+    "startsAt": "2026-07-22T09:00:00-07:00",
+    "endsAt": "2026-07-22T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2025-26-topps-inception-basketball-20260723",
+    "title": "2025-26 Topps Inception Basketball",
+    "startsAt": "2026-07-23T09:00:00-07:00",
+    "endsAt": "2026-07-23T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Basketball"
+    ]
+  },
+  {
+    "id": "2026-topps-dynamic-duals-baseball-20260729",
+    "title": "2026 Topps Dynamic Duals Baseball",
+    "startsAt": "2026-07-29T09:00:00-07:00",
+    "endsAt": "2026-07-29T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-tribute-baseball-20260729",
+    "title": "2026 Topps Tribute Baseball",
+    "startsAt": "2026-07-29T09:00:00-07:00",
+    "endsAt": "2026-07-29T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-chrome-baseball-20260805",
+    "title": "2026 Topps Chrome Baseball",
+    "startsAt": "2026-08-05T09:00:00-07:00",
+    "endsAt": "2026-08-05T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2025-26-topps-motif-basketball-20260820",
+    "title": "2025-26 Topps Motif Basketball",
+    "startsAt": "2026-08-20T09:00:00-07:00",
+    "endsAt": "2026-08-20T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Basketball"
+    ]
+  },
+  {
+    "id": "2026-bowman-chrome-baseball-20260910",
+    "title": "2026 Bowman Chrome Baseball",
+    "startsAt": "2026-09-10T09:00:00-07:00",
+    "endsAt": "2026-09-10T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-bowman-chrome-baseball-20260911",
+    "title": "2026 Bowman Chrome Baseball",
+    "startsAt": "2026-09-11T09:00:00-07:00",
+    "endsAt": "2026-09-11T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-five-star-baseball-20260926",
+    "title": "2026 Topps Five Star Baseball",
+    "startsAt": "2026-09-26T09:00:00-07:00",
+    "endsAt": "2026-09-26T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-pro-debut-baseball-20260926",
+    "title": "2026 Topps Pro Debut Baseball",
+    "startsAt": "2026-09-26T09:00:00-07:00",
+    "endsAt": "2026-09-26T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-update-series-baseball-20261016",
+    "title": "2026 Topps Update Series Baseball",
+    "startsAt": "2026-10-16T09:00:00-07:00",
+    "endsAt": "2026-10-16T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-holiday-baseball-20261022",
+    "title": "2026 Topps Holiday Baseball",
+    "startsAt": "2026-10-22T09:00:00-07:00",
+    "endsAt": "2026-10-22T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-27-topps-basketball-20261023",
+    "title": "2026-27 Topps Basketball",
+    "startsAt": "2026-10-23T09:00:00-07:00",
+    "endsAt": "2026-10-23T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Basketball"
+    ]
+  },
+  {
+    "id": "2026-27-topps-holiday-basketball-countdown-calendar-20261030",
+    "title": "2026-27 Topps Holiday Basketball Countdown Calendar",
+    "startsAt": "2026-10-30T09:00:00-07:00",
+    "endsAt": "2026-10-30T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Basketball"
+    ]
+  },
+  {
+    "id": "2026-bowman-sterling-baseball-20261031",
+    "title": "2026 Bowman Sterling Baseball",
+    "startsAt": "2026-10-31T09:00:00-07:00",
+    "endsAt": "2026-10-31T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-bowman-university-chrome-football-20261031",
+    "title": "2026 Bowman University Chrome Football",
+    "startsAt": "2026-10-31T09:00:00-07:00",
+    "endsAt": "2026-10-31T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Football"
+    ]
+  },
+  {
+    "id": "2026-topps-update-series-baseball-20261031",
+    "title": "2026 Topps Update Series Baseball",
+    "startsAt": "2026-10-31T09:00:00-07:00",
+    "endsAt": "2026-10-31T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-stadium-club-baseball-20261106",
+    "title": "2026 Topps Stadium Club Baseball",
+    "startsAt": "2026-11-06T09:00:00-08:00",
+    "endsAt": "2026-11-06T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-stadium-club-baseball-20261108",
+    "title": "2026 Topps Stadium Club Baseball",
+    "startsAt": "2026-11-08T09:00:00-08:00",
+    "endsAt": "2026-11-08T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-chrome-update-series-baseball-20261113",
+    "title": "2026 Topps Chrome Update Series Baseball",
+    "startsAt": "2026-11-13T09:00:00-08:00",
+    "endsAt": "2026-11-13T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-gilded-collection-baseball-20261122",
+    "title": "2026 Topps Gilded Collection Baseball",
+    "startsAt": "2026-11-22T09:00:00-08:00",
+    "endsAt": "2026-11-22T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-27-topps-chrome-basketball-20261204",
+    "title": "2026-27 Topps Chrome Basketball",
+    "startsAt": "2026-12-04T09:00:00-08:00",
+    "endsAt": "2026-12-04T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Basketball"
+    ]
+  },
+  {
+    "id": "2026-topps-chrome-update-series-baseball-20261210",
+    "title": "2026 Topps Chrome Update Series Baseball",
+    "startsAt": "2026-12-10T09:00:00-08:00",
+    "endsAt": "2026-12-10T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-archives-baseball-20261212",
+    "title": "2026 Topps Archives Baseball",
+    "startsAt": "2026-12-12T09:00:00-08:00",
+    "endsAt": "2026-12-12T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-heritage-high-number-baseball-20261217",
+    "title": "2026 Topps Heritage High Number Baseball",
+    "startsAt": "2026-12-17T09:00:00-08:00",
+    "endsAt": "2026-12-17T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-27-topps-chrome-basketball-20261218",
+    "title": "2026-27 Topps Chrome Basketball",
+    "startsAt": "2026-12-18T09:00:00-08:00",
+    "endsAt": "2026-12-18T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Basketball"
+    ]
+  },
+  {
+    "id": "2026-topps-triple-threads-baseball-20261219",
+    "title": "2026 Topps Triple Threads Baseball",
+    "startsAt": "2026-12-19T09:00:00-08:00",
+    "endsAt": "2026-12-19T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-topps-chrome-update-series-baseball-sapphire-edition-20270107",
+    "title": "2026 Topps Chrome Update Series Baseball Sapphire Edition",
+    "startsAt": "2027-01-07T09:00:00-08:00",
+    "endsAt": "2027-01-07T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-bowman-draft-baseball-20270114",
+    "title": "2026 Bowman Draft Baseball",
+    "startsAt": "2027-01-14T09:00:00-08:00",
+    "endsAt": "2027-01-14T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-27-topps-finest-basketball-20270305",
+    "title": "2026-27 Topps Finest Basketball",
+    "startsAt": "2027-03-05T09:00:00-08:00",
+    "endsAt": "2027-03-05T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Basketball"
+    ]
+  },
+  {
+    "id": "2026-bowman-s-best-baseball-20270311",
+    "title": "2026 Bowman's Best Baseball",
+    "startsAt": "2027-03-11T09:00:00-08:00",
+    "endsAt": "2027-03-11T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
     ]
   }
 ]
