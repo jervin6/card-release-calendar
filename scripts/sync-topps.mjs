@@ -35,11 +35,17 @@ const SUBSCRIPTIONS_PATH = path.join(ROOT, "config", "subscriptions.json");
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
 
-// Topps calendars: the calendar-year page plus the two season-spanning pages
-// (basketball/football/hockey seasons live on the YYYY-YY slugs).
+// Topps calendars. waxstat labels products by CARD-YEAR, and a given year's
+// products (esp. football/basketball) keep releasing well into the next
+// calendar year — e.g. "2025 Topps Chrome Black Football" drops Jul 2026. So we
+// scrape several year pages (calendar-year + season-spanning YYYY-YY) and let
+// the future-date filter keep only what's still upcoming. Missing slugs 404 and
+// are skipped harmlessly.
 const SOURCE_SLUGS = [
-  "2026-topps-cards-release-calendar",
+  "2024-25-topps-cards-release-calendar",
+  "2025-topps-cards-release-calendar",
   "2025-26-topps-cards-release-calendar",
+  "2026-topps-cards-release-calendar",
   "2026-27-topps-cards-release-calendar",
   "2027-topps-cards-release-calendar",
 ];
