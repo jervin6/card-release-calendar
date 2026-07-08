@@ -245,6 +245,21 @@
     ]
   },
   {
+    "id": "2025-topps-chrome-black-football-20260710",
+    "title": "2025 Topps Chrome Black Football",
+    "startsAt": "2026-07-10T09:00:00-07:00",
+    "endsAt": "2026-07-10T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Football"
+    ]
+  },
+  {
     "id": "2026-topps-dynamic-duals-baseball-20260715",
     "title": "2026 Topps Dynamic Duals Baseball",
     "startsAt": "2026-07-15T09:00:00-07:00",
@@ -272,6 +287,36 @@
     "tags": [
       "Topps",
       "Baseball"
+    ]
+  },
+  {
+    "id": "2025-26-topps-chrome-uefa-club-competitions-soccer-fanatics-fest-nyc-edition-fan-20260716",
+    "title": "2025-26 Topps Chrome UEFA Club Competitions Soccer Fanatics Fest NYC Edition (Fanatics Fest Refractors)",
+    "startsAt": "2026-07-16T09:00:00-07:00",
+    "endsAt": "2026-07-16T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Soccer"
+    ]
+  },
+  {
+    "id": "2025-26-topps-pristine-premier-league-soccer-20260716",
+    "title": "2025-26 Topps Pristine Premier League Soccer",
+    "startsAt": "2026-07-16T09:00:00-07:00",
+    "endsAt": "2026-07-16T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Soccer"
     ]
   },
   {
@@ -335,6 +380,51 @@
     ]
   },
   {
+    "id": "2025-26-topps-inception-uefa-club-competitions-soccer-20260730",
+    "title": "2025-26 Topps Inception UEFA Club Competitions Soccer",
+    "startsAt": "2026-07-30T09:00:00-07:00",
+    "endsAt": "2026-07-30T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Soccer"
+    ]
+  },
+  {
+    "id": "2025-topps-resurgence-football-20260731",
+    "title": "2025 Topps Resurgence Football",
+    "startsAt": "2026-07-31T09:00:00-07:00",
+    "endsAt": "2026-07-31T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Football"
+    ]
+  },
+  {
+    "id": "2025-26-topps-uefa-women-s-champions-league-chrome-soccer-sapphire-edition-20260731",
+    "title": "2025-26 Topps UEFA Women's Champions League Chrome Soccer Sapphire Edition",
+    "startsAt": "2026-07-31T09:00:00-07:00",
+    "endsAt": "2026-07-31T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Soccer"
+    ]
+  },
+  {
     "id": "2026-topps-chrome-baseball-20260805",
     "title": "2026 Topps Chrome Baseball",
     "startsAt": "2026-08-05T09:00:00-07:00",
@@ -347,6 +437,36 @@
     "tags": [
       "Topps",
       "Baseball"
+    ]
+  },
+  {
+    "id": "2025-26-topps-uefa-club-competitions-museum-collection-soccer-hat-trick-20260813",
+    "title": "2025-26 Topps UEFA Club Competitions Museum Collection Soccer Hat Trick",
+    "startsAt": "2026-08-13T09:00:00-07:00",
+    "endsAt": "2026-08-13T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Soccer"
+    ]
+  },
+  {
+    "id": "2025-26-topps-uefa-club-competitions-museum-collection-soccer-20260813",
+    "title": "2025-26 Topps UEFA Club Competitions Museum Collection Soccer",
+    "startsAt": "2026-08-13T09:00:00-07:00",
+    "endsAt": "2026-08-13T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Soccer"
     ]
   },
   {
@@ -710,6 +830,36 @@
     ]
   },
   {
+    "id": "2026-topps-mls-chrome-soccer-20270206",
+    "title": "2026 Topps MLS Chrome Soccer",
+    "startsAt": "2027-02-06T09:00:00-08:00",
+    "endsAt": "2027-02-06T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Soccer"
+    ]
+  },
+  {
+    "id": "2026-topps-mls-chrome-soccer-mania-20270206",
+    "title": "2026 Topps MLS Chrome Soccer Mania",
+    "startsAt": "2027-02-06T09:00:00-08:00",
+    "endsAt": "2027-02-06T10:00:00-08:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Soccer"
+    ]
+  },
+  {
     "id": "2026-27-topps-finest-basketball-20270305",
     "title": "2026-27 Topps Finest Basketball",
     "startsAt": "2027-03-05T09:00:00-08:00",
@@ -737,6 +887,21 @@
     "tags": [
       "Topps",
       "Baseball"
+    ]
+  },
+  {
+    "id": "2025-26-topps-inception-uefa-club-competitions-soccer-20270717",
+    "title": "2025-26 Topps Inception UEFA Club Competitions Soccer",
+    "startsAt": "2027-07-17T09:00:00-07:00",
+    "endsAt": "2027-07-17T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Soccer"
     ]
   }
 ]
