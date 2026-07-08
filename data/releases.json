@@ -320,6 +320,21 @@
     ]
   },
   {
+    "id": "2026-topps-chrome-x-cactus-jack-fanatics-fest-nyc-travis-scott-edition-baseball-20260716",
+    "title": "2026 Topps Chrome x Cactus Jack Fanatics Fest NYC Travis Scott Edition Baseball",
+    "startsAt": "2026-07-16T09:00:00-07:00",
+    "endsAt": "2026-07-16T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
     "id": "2026-topps-chrome-baseball-20260722",
     "title": "2026 Topps Chrome Baseball",
     "startsAt": "2026-07-22T09:00:00-07:00",
@@ -887,6 +902,21 @@
     "tags": [
       "Topps",
       "Baseball"
+    ]
+  },
+  {
+    "id": "2026-27-topps-cosmic-chrome-basketball-20270501",
+    "title": "2026-27 Topps Cosmic Chrome Basketball",
+    "startsAt": "2027-05-01T09:00:00-07:00",
+    "endsAt": "2027-05-01T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Basketball"
     ]
   },
   {
