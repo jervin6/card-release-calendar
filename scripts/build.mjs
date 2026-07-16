@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { execFileSync } from "node:child_process";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
@@ -38,6 +39,29 @@ function formatUtcStamp(date) {
     .toISOString()
     .replace(/[-:]/g, "")
     .replace(/\.\d{3}Z$/, "Z");
+}
+
+// DTSTAMP means "when this event was last revised", not "when the build ran".
+// Deriving it from the last commit that touched the inputs keeps the build
+// byte-for-byte reproducible, so the hourly CI job only commits docs/ when the
+// data actually changed instead of churning a new feed every run.
+function lastDataRevisionUtc() {
+  try {
+    const iso = execFileSync(
+      "git",
+      ["-C", rootDir, "log", "-1", "--format=%cI", "--", releasesPath, subscriptionsPath],
+      { stdio: ["ignore", "pipe", "ignore"] }
+    )
+      .toString()
+      .trim();
+    const date = new Date(iso);
+    if (!Number.isNaN(date.getTime())) {
+      return date;
+    }
+  } catch {
+    // no git history available (shallow clone, tarball) — fall through
+  }
+  return new Date();
 }
 
 function toUtcOrThrow(value) {
@@ -97,7 +121,7 @@ function buildEventLines(release, generatedAtUtc) {
 }
 
 function buildCalendar(releases) {
-  const generatedAtUtc = formatUtcStamp(new Date());
+  const generatedAtUtc = formatUtcStamp(lastDataRevisionUtc());
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",

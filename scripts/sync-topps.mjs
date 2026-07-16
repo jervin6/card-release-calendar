@@ -268,7 +268,21 @@ async function main() {
     git(["commit", "-m", `data: add ${added.length} upcoming Topps release(s) [auto]`]);
     log(`Committed ${added.length} release(s).`);
     if (!NO_PUSH) {
-      git(["push"]);
+      // CI pushes its own "Rebuild calendar feed" commits to main, so this
+      // branch is routinely behind by the time we get here. Rebase onto the
+      // remote first — a bare push would be rejected non-fast-forward and the
+      // release would sit here unpublished. We only touch data/releases.json
+      // and CI only touches docs/, so this rebase shouldn't conflict; if it
+      // ever does, abort and leave the commit for a human rather than guess.
+      const branch = git(["rev-parse", "--abbrev-ref", "HEAD"]).trim();
+      git(["fetch", "origin", branch]);
+      try {
+        git(["rebase", `origin/${branch}`]);
+      } catch (e) {
+        git(["rebase", "--abort"]);
+        throw new Error(`rebase onto origin/${branch} conflicted; commit left local: ${e.message}`);
+      }
+      git(["push", "origin", branch]);
       log("Pushed — GitHub Actions will rebuild docs/cards.ics.");
     } else log("--no-push: commit only.");
   } catch (e) {
