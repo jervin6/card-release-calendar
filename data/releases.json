@@ -577,6 +577,66 @@
     ]
   },
   {
+    "id": "2026-topps-football-108-20260821",
+    "title": "2026 Topps Football 108",
+    "startsAt": "2026-08-21T09:00:00-07:00",
+    "endsAt": "2026-08-21T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Football"
+    ]
+  },
+  {
+    "id": "2026-topps-football-kids-20260821",
+    "title": "2026 Topps Football Kids",
+    "startsAt": "2026-08-21T09:00:00-07:00",
+    "endsAt": "2026-08-21T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Football"
+    ]
+  },
+  {
+    "id": "2026-topps-football-london-games-20260821",
+    "title": "2026 Topps Football London Games",
+    "startsAt": "2026-08-21T09:00:00-07:00",
+    "endsAt": "2026-08-21T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Football"
+    ]
+  },
+  {
+    "id": "2026-topps-football-walmart-exclusive-20260821",
+    "title": "2026 Topps Football (Walmart Exclusive)",
+    "startsAt": "2026-08-21T09:00:00-07:00",
+    "endsAt": "2026-08-21T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Football"
+    ]
+  },
+  {
     "id": "2026-bowman-chrome-baseball-20260910",
     "title": "2026 Bowman Chrome Baseball",
     "startsAt": "2026-09-10T09:00:00-07:00",
