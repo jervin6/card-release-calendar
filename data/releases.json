@@ -802,6 +802,21 @@
     ]
   },
   {
+    "id": "2025-26-topps-chrome-black-basketball-20260827",
+    "title": "2025-26 Topps Chrome Black Basketball",
+    "startsAt": "2026-08-27T09:00:00-07:00",
+    "endsAt": "2026-08-27T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Basketball"
+    ]
+  },
+  {
     "id": "2026-bowman-chrome-baseball-20260910",
     "title": "2026 Bowman Chrome Baseball",
     "startsAt": "2026-09-10T09:00:00-07:00",
