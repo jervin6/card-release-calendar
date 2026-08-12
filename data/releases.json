@@ -817,6 +817,21 @@
     ]
   },
   {
+    "id": "2026-bowman-chrome-baseball-20260909",
+    "title": "2026 Bowman Chrome Baseball",
+    "startsAt": "2026-09-09T09:00:00-07:00",
+    "endsAt": "2026-09-09T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
     "id": "2026-bowman-chrome-baseball-20260910",
     "title": "2026 Bowman Chrome Baseball",
     "startsAt": "2026-09-10T09:00:00-07:00",
@@ -889,6 +904,21 @@
     "tags": [
       "Topps",
       "Soccer"
+    ]
+  },
+  {
+    "id": "2026-bowman-chrome-baseball-20260923",
+    "title": "2026 Bowman Chrome Baseball",
+    "startsAt": "2026-09-23T09:00:00-07:00",
+    "endsAt": "2026-09-23T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
     ]
   },
   {
