@@ -877,6 +877,36 @@
     ]
   },
   {
+    "id": "2026-topps-mls-chrome-soccer-20260910",
+    "title": "2026 Topps MLS Chrome Soccer",
+    "startsAt": "2026-09-10T09:00:00-07:00",
+    "endsAt": "2026-09-10T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Soccer"
+    ]
+  },
+  {
+    "id": "2026-topps-mls-chrome-soccer-mania-20260910",
+    "title": "2026 Topps MLS Chrome Soccer Mania",
+    "startsAt": "2026-09-10T09:00:00-07:00",
+    "endsAt": "2026-09-10T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Soccer"
+    ]
+  },
+  {
     "id": "2026-bowman-chrome-baseball-20260911",
     "title": "2026 Bowman Chrome Baseball",
     "startsAt": "2026-09-11T09:00:00-07:00",
@@ -1009,6 +1039,36 @@
     "tags": [
       "Topps",
       "Baseball"
+    ]
+  },
+  {
+    "id": "2026-bowman-chrome-baseball-sapphire-edition-20260930",
+    "title": "2026 Bowman Chrome Baseball Sapphire Edition",
+    "startsAt": "2026-09-30T09:00:00-07:00",
+    "endsAt": "2026-09-30T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Baseball"
+    ]
+  },
+  {
+    "id": "2026-27-topps-english-premier-league-soccer-20260930",
+    "title": "2026-27 Topps English Premier League Soccer",
+    "startsAt": "2026-09-30T09:00:00-07:00",
+    "endsAt": "2026-09-30T10:00:00-07:00",
+    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
+    "tags": [
+      "Topps",
+      "Soccer"
     ]
   },
   {
