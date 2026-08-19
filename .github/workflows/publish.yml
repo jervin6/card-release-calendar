@@ -3,7 +3,7 @@ name: Sync and build calendar feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 * * * *"
+    - cron: "15 */6 * * *"
   push:
     branches:
       - main

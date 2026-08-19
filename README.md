@@ -67,7 +67,7 @@ Edit `data/releases.json` and add entries like:
 
 ## Deploy with GitHub Pages
 
-At 15 minutes past every hour, the GitHub Actions workflow fetches all configured release sources, reconciles `data/releases.json`, rebuilds the feeds and site, and publishes `docs/`. It can also be started manually from GitHub Actions.
+Every six hours, the GitHub Actions workflow fetches all configured release sources, reconciles `data/releases.json`, rebuilds the feeds and site, and publishes `docs/`. It can also be started manually from GitHub Actions.
 
 Imported future records are replaced from the latest source snapshot on every sync. Past release history is preserved; future manual records remain unless a higher-authority official source matches the same product.
 
