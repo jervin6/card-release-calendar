@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT1H
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 BEGIN:VEVENT
 UID:pokemon-mega-evolution-ascended-heroes-tcg@card-release-calendar
-DTSTAMP:20260819T033409Z
+DTSTAMP:20260819T040757Z
 DTSTART:20260828T160000Z
 DTEND:20260828T170000Z
 SUMMARY:Pokemon Mega Evolution Ascended Heroes
@@ -27,7 +27,7 @@ URL:https://www.waxstat.com/boxes/pokemon-mega-evolution-ascended-heroes-ti
 END:VEVENT
 BEGIN:VEVENT
 UID:yu-gi-oh-magnificent-monsters-tcg@card-release-calendar
-DTSTAMP:20260819T033409Z
+DTSTAMP:20260819T040757Z
 DTSTART:20260904T160000Z
 DTEND:20260904T170000Z
 SUMMARY:Yu-Gi-Oh! Magnificent Monsters
@@ -42,7 +42,7 @@ URL:https://www.waxstat.com/boxes/yu-gi-oh-magnificent-monsters-display
 END:VEVENT
 BEGIN:VEVENT
 UID:digimon-card-game-timeless-bonds-tcg@card-release-calendar
-DTSTAMP:20260819T033409Z
+DTSTAMP:20260819T040757Z
 DTSTART:20260904T160000Z
 DTEND:20260904T170000Z
 SUMMARY:Digimon Card Game: Timeless Bonds
@@ -58,7 +58,7 @@ URL:https://www.waxstat.com/boxes/digimon-card-game-timeless-bonds-booster-
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-30th-celebration-tcg@card-release-calendar
-DTSTAMP:20260819T033409Z
+DTSTAMP:20260819T040757Z
 DTSTART:20260916T160000Z
 DTEND:20260916T170000Z
 SUMMARY:Pokemon 30th Celebration
@@ -76,7 +76,7 @@ URL:https://www.waxstat.com/boxes/pokemon-30th-celebration-elite-trainer-bo
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-mega-forces-tcg@card-release-calendar
-DTSTAMP:20260819T033409Z
+DTSTAMP:20260819T040757Z
 DTSTART:20260930T160000Z
 DTEND:20260930T170000Z
 SUMMARY:Pokemon Mega Forces
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:disney-lorcana-illumineer-s-quest-the-great-hunny-rescue-tcg@card-relea
  se-calendar
-DTSTAMP:20260819T033409Z
+DTSTAMP:20260819T040757Z
 DTSTART:20261002T160000Z
 DTEND:20261002T170000Z
 SUMMARY:Disney Lorcana: Illumineer's Quest: The Great Hunny Rescue
@@ -107,7 +107,7 @@ URL:https://www.disneylorcana.com/en-US/product/great-hunny-rescue
 END:VEVENT
 BEGIN:VEVENT
 UID:magic-the-gathering-reality-fracture-tcg@card-release-calendar
-DTSTAMP:20260819T033409Z
+DTSTAMP:20260819T040757Z
 DTSTART:20261002T160000Z
 DTEND:20261002T170000Z
 SUMMARY:Magic the Gathering Reality Fracture
@@ -123,7 +123,7 @@ URL:https://www.waxstat.com/boxes/magic-the-gathering-reality-fracture-coll
 END:VEVENT
 BEGIN:VEVENT
 UID:yu-gi-oh-beyond-the-brave-tcg@card-release-calendar
-DTSTAMP:20260819T033409Z
+DTSTAMP:20260819T040757Z
 DTSTART:20261009T160000Z
 DTEND:20261009T170000Z
 SUMMARY:Yu-Gi-Oh! Beyond the Brave
@@ -138,7 +138,7 @@ URL:https://www.waxstat.com/boxes/yu-gi-oh-beyond-the-brave-booster-box
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-lorcana-hyperia-city-prerelease-tcg@card-release-calendar
-DTSTAMP:20260819T033409Z
+DTSTAMP:20260819T040757Z
 DTSTART:20261016T160000Z
 DTEND:20261016T170000Z
 SUMMARY:Disney Lorcana: Hyperia City Prerelease
@@ -153,7 +153,7 @@ URL:https://www.disneylorcana.com/en-US/product/hyperia-city
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-lorcana-hyperia-city-tcg@card-release-calendar
-DTSTAMP:20260819T033409Z
+DTSTAMP:20260819T040757Z
 DTSTART:20261023T160000Z
 DTEND:20261023T170000Z
 SUMMARY:Disney Lorcana: Hyperia City
@@ -168,7 +168,7 @@ URL:https://www.disneylorcana.com/en-US/product/hyperia-city
 END:VEVENT
 BEGIN:VEVENT
 UID:magic-the-gathering-star-trek-tcg@card-release-calendar
-DTSTAMP:20260819T033409Z
+DTSTAMP:20260819T040757Z
 DTSTART:20261113T170000Z
 DTEND:20261113T180000Z
 SUMMARY:Magic: The Gathering | Star Trek
@@ -183,7 +183,7 @@ URL:https://magic.wizards.com/en/products/star-trek
 END:VEVENT
 BEGIN:VEVENT
 UID:yu-gi-oh-glorious-victors-tcg@card-release-calendar
-DTSTAMP:20260819T033409Z
+DTSTAMP:20260819T040757Z
 DTSTART:20261204T170000Z
 DTEND:20261204T180000Z
 SUMMARY:Yu-Gi-Oh! Glorious Victors
@@ -199,7 +199,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:one-piece-trading-card-game-learn-together-luffy-zoro-and-nami-starter-
  deck-set--tcg@card-release-calendar
-DTSTAMP:20260819T033409Z
+DTSTAMP:20260819T040757Z
 DTSTART:20270915T160000Z
 DTEND:20270915T170000Z
 SUMMARY:One Piece Trading Card Game Learn Together Luffy\, Zoro & Nami Star
