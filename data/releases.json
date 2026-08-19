@@ -566,959 +566,1025 @@
     "title": "2025-26 Topps Motif Basketball",
     "startsAt": "2026-08-20T09:00:00-07:00",
     "endsAt": "2026-08-20T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Basketball"
-    ]
-  },
-  {
-    "id": "2026-27-topps-english-premier-league-soccer-30-multipack-20260820",
-    "title": "2026-27 Topps English Premier League Soccer 30-Multipack",
-    "startsAt": "2026-08-20T09:00:00-07:00",
-    "endsAt": "2026-08-20T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
-  },
-  {
-    "id": "2026-27-topps-english-premier-league-soccer-multipack-20260820",
-    "title": "2026-27 Topps English Premier League Soccer Multipack",
-    "startsAt": "2026-08-20T09:00:00-07:00",
-    "endsAt": "2026-08-20T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
-  },
-  {
-    "id": "2026-27-topps-english-premier-league-soccer-tin-20260820",
-    "title": "2026-27 Topps English Premier League Soccer Tin",
-    "startsAt": "2026-08-20T09:00:00-07:00",
-    "endsAt": "2026-08-20T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
-  },
-  {
-    "id": "2026-27-topps-english-premier-league-soccer-youth-20260820",
-    "title": "2026-27 Topps English Premier League Soccer Youth",
-    "startsAt": "2026-08-20T09:00:00-07:00",
-    "endsAt": "2026-08-20T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-27-topps-english-premier-league-soccer-20260820",
     "title": "2026-27 Topps English Premier League Soccer",
     "startsAt": "2026-08-20T09:00:00-07:00",
     "endsAt": "2026-08-20T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Soccer"
-    ]
-  },
-  {
-    "id": "2026-27-topps-english-premier-league-soccer-display-20260820",
-    "title": "2026-27 Topps English Premier League Soccer Display",
-    "startsAt": "2026-08-20T09:00:00-07:00",
-    "endsAt": "2026-08-20T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
-  },
-  {
-    "id": "2026-27-topps-english-premier-league-soccer-eco-40-20260820",
-    "title": "2026-27 Topps English Premier League Soccer Eco 40",
-    "startsAt": "2026-08-20T09:00:00-07:00",
-    "endsAt": "2026-08-20T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
-  },
-  {
-    "id": "2026-27-topps-english-premier-league-soccer-eco-20260820",
-    "title": "2026-27 Topps English Premier League Soccer Eco",
-    "startsAt": "2026-08-20T09:00:00-07:00",
-    "endsAt": "2026-08-20T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
-  },
-  {
-    "id": "2026-27-topps-english-premier-league-soccer-starter-30-20260820",
-    "title": "2026-27 Topps English Premier League Soccer Starter 30",
-    "startsAt": "2026-08-20T09:00:00-07:00",
-    "endsAt": "2026-08-20T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
-  },
-  {
-    "id": "2026-27-topps-english-premier-league-soccer-starter-20260820",
-    "title": "2026-27 Topps English Premier League Soccer Starter",
-    "startsAt": "2026-08-20T09:00:00-07:00",
-    "endsAt": "2026-08-20T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
-  },
-  {
-    "id": "2026-27-topps-english-premier-league-soccer-24-tin-20260820",
-    "title": "2026-27 Topps English Premier League Soccer 24-Tin",
-    "startsAt": "2026-08-20T09:00:00-07:00",
-    "endsAt": "2026-08-20T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-football-20260821",
     "title": "2026 Topps Football",
     "startsAt": "2026-08-21T09:00:00-07:00",
     "endsAt": "2026-08-21T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Football"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "waxstat-sync"
   },
   {
-    "id": "2026-topps-football-108-20260821",
-    "title": "2026 Topps Football 108",
-    "startsAt": "2026-08-21T09:00:00-07:00",
-    "endsAt": "2026-08-21T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "id": "2026-topps-chrome-baseball-sapphire-edition-20260826",
+    "title": "2026 Topps Chrome Baseball Sapphire Edition",
+    "startsAt": "2026-08-26T09:00:00-07:00",
+    "endsAt": "2026-08-26T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
-      "Football"
-    ]
-  },
-  {
-    "id": "2026-topps-football-kids-20260821",
-    "title": "2026 Topps Football Kids",
-    "startsAt": "2026-08-21T09:00:00-07:00",
-    "endsAt": "2026-08-21T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Football"
-    ]
-  },
-  {
-    "id": "2026-topps-football-london-games-20260821",
-    "title": "2026 Topps Football London Games",
-    "startsAt": "2026-08-21T09:00:00-07:00",
-    "endsAt": "2026-08-21T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Football"
-    ]
-  },
-  {
-    "id": "2026-topps-football-walmart-exclusive-20260821",
-    "title": "2026 Topps Football (Walmart Exclusive)",
-    "startsAt": "2026-08-21T09:00:00-07:00",
-    "endsAt": "2026-08-21T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Football"
-    ]
-  },
-  {
-    "id": "2026-topps-football-fanatics-20260821",
-    "title": "2026 Topps Football Fanatics",
-    "startsAt": "2026-08-21T09:00:00-07:00",
-    "endsAt": "2026-08-21T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Football"
-    ]
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2025-26-topps-chrome-black-basketball-20260827",
     "title": "2025-26 Topps Chrome Black Basketball",
     "startsAt": "2026-08-27T09:00:00-07:00",
     "endsAt": "2026-08-27T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Basketball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "pokemon-mega-evolution-ascended-heroes-20260828",
+    "title": "Pokemon Mega Evolution Ascended Heroes",
+    "startsAt": "2026-08-28T09:00:00-07:00",
+    "endsAt": "2026-08-28T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "magic-the-gathering-the-hobbit-20260831",
+    "title": "Magic The Gathering The Hobbit",
+    "startsAt": "2026-08-31T09:00:00-07:00",
+    "endsAt": "2026-08-31T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "magic-the-gathering-the-hobbit-20260904",
+    "title": "Magic the Gathering The Hobbit",
+    "startsAt": "2026-09-04T09:00:00-07:00",
+    "endsAt": "2026-09-04T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "yu-gi-oh-magnificent-monsters-20260904",
+    "title": "Yu-Gi-Oh! Magnificent Monsters",
+    "startsAt": "2026-09-04T09:00:00-07:00",
+    "endsAt": "2026-09-04T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "Yu-Gi-Oh!"
+    ],
+    "category": "tcg",
+    "game": "Yu-Gi-Oh!",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "digimon-card-game-timeless-bonds-20260904",
+    "title": "Digimon Card Game: Timeless Bonds",
+    "startsAt": "2026-09-04T09:00:00-07:00",
+    "endsAt": "2026-09-04T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-other-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "Digimon"
+    ],
+    "category": "tcg",
+    "game": "Digimon",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-bowman-chrome-baseball-20260909",
     "title": "2026 Bowman Chrome Baseball",
     "startsAt": "2026-09-09T09:00:00-07:00",
     "endsAt": "2026-09-09T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
-  },
-  {
-    "id": "2026-bowman-chrome-baseball-20260910",
-    "title": "2026 Bowman Chrome Baseball",
-    "startsAt": "2026-09-10T09:00:00-07:00",
-    "endsAt": "2026-09-10T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Baseball"
-    ]
-  },
-  {
-    "id": "2026-topps-mls-chrome-soccer-20260910",
-    "title": "2026 Topps MLS Chrome Soccer",
-    "startsAt": "2026-09-10T09:00:00-07:00",
-    "endsAt": "2026-09-10T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
-  },
-  {
-    "id": "2026-topps-mls-chrome-soccer-mania-20260910",
-    "title": "2026 Topps MLS Chrome Soccer Mania",
-    "startsAt": "2026-09-10T09:00:00-07:00",
-    "endsAt": "2026-09-10T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-chrome-mls-soccer-20260910",
     "title": "2026 Topps Chrome MLS Soccer",
     "startsAt": "2026-09-10T09:00:00-07:00",
     "endsAt": "2026-09-10T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Soccer"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "waxstat-sync"
   },
   {
-    "id": "2026-bowman-chrome-baseball-20260911",
-    "title": "2026 Bowman Chrome Baseball",
-    "startsAt": "2026-09-11T09:00:00-07:00",
-    "endsAt": "2026-09-11T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "id": "2026-topps-mls-chrome-soccer-20260910",
+    "title": "2026 Topps MLS Chrome Soccer",
+    "startsAt": "2026-09-10T09:00:00-07:00",
+    "endsAt": "2026-09-10T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
-      "Baseball"
-    ]
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "2026-topps-mls-chrome-soccer-mania-20260910",
+    "title": "2026 Topps MLS Chrome Soccer Mania",
+    "startsAt": "2026-09-10T09:00:00-07:00",
+    "endsAt": "2026-09-10T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-baseball-x-kaws-20260912",
     "title": "2026 Topps Baseball x KAWS",
     "startsAt": "2026-09-12T09:00:00-07:00",
     "endsAt": "2026-09-12T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
-    "id": "2026-27-topps-english-premier-league-soccer-20260916",
-    "title": "2026-27 Topps English Premier League Soccer",
+    "id": "pokemon-30th-celebration-20260916",
+    "title": "Pokemon 30th Celebration",
     "startsAt": "2026-09-16T09:00:00-07:00",
     "endsAt": "2026-09-16T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
+    "sourceUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
     "tags": [
-      "Topps",
-      "Soccer"
-    ]
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2025-26-topps-uefa-club-competitions-museum-collection-soccer-hat-trick-20260918",
     "title": "2025-26 Topps UEFA Club Competitions Museum Collection Soccer Hat Trick",
     "startsAt": "2026-09-18T09:00:00-07:00",
     "endsAt": "2026-09-18T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Soccer"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2025-26-topps-uefa-club-competitions-museum-collection-soccer-20260918",
     "title": "2025-26 Topps UEFA Club Competitions Museum Collection Soccer",
     "startsAt": "2026-09-18T09:00:00-07:00",
     "endsAt": "2026-09-18T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Soccer"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-bowman-chrome-baseball-20260923",
     "title": "2026 Bowman Chrome Baseball",
     "startsAt": "2026-09-23T09:00:00-07:00",
     "endsAt": "2026-09-23T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
-  },
-  {
-    "id": "2026-topps-five-star-baseball-20260926",
-    "title": "2026 Topps Five Star Baseball",
-    "startsAt": "2026-09-26T09:00:00-07:00",
-    "endsAt": "2026-09-26T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Baseball"
-    ]
-  },
-  {
-    "id": "2026-topps-pro-debut-baseball-20260926",
-    "title": "2026 Topps Pro Debut Baseball",
-    "startsAt": "2026-09-26T09:00:00-07:00",
-    "endsAt": "2026-09-26T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Baseball"
-    ]
-  },
-  {
-    "id": "2026-topps-baseball-x-kaws-20260928",
-    "title": "2026 Topps Baseball x KAWS",
-    "startsAt": "2026-09-28T09:00:00-07:00",
-    "endsAt": "2026-09-28T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-bowman-chrome-baseball-sapphire-edition-20260930",
     "title": "2026 Bowman Chrome Baseball Sapphire Edition",
     "startsAt": "2026-09-30T09:00:00-07:00",
     "endsAt": "2026-09-30T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-27-topps-english-premier-league-soccer-20260930",
     "title": "2026-27 Topps English Premier League Soccer",
     "startsAt": "2026-09-30T09:00:00-07:00",
     "endsAt": "2026-09-30T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Soccer"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "waxstat-sync"
   },
   {
-    "id": "2026-topps-update-series-baseball-20261016",
-    "title": "2026 Topps Update Series Baseball",
-    "startsAt": "2026-10-16T09:00:00-07:00",
-    "endsAt": "2026-10-16T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "id": "pokemon-mega-forces-20260930",
+    "title": "Pokemon Mega Forces",
+    "startsAt": "2026-09-30T09:00:00-07:00",
+    "endsAt": "2026-09-30T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
     "tags": [
-      "Topps",
-      "Baseball"
-    ]
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "pokemon-30th-celebration-20261002",
+    "title": "Pokemon 30th Celebration",
+    "startsAt": "2026-10-02T09:00:00-07:00",
+    "endsAt": "2026-10-02T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "magic-the-gathering-reality-fracture-20261002",
+    "title": "Magic the Gathering Reality Fracture",
+    "startsAt": "2026-10-02T09:00:00-07:00",
+    "endsAt": "2026-10-02T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "yu-gi-oh-beyond-the-brave-20261009",
+    "title": "Yu-Gi-Oh! Beyond the Brave",
+    "startsAt": "2026-10-09T09:00:00-07:00",
+    "endsAt": "2026-10-09T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "Yu-Gi-Oh!"
+    ],
+    "category": "tcg",
+    "game": "Yu-Gi-Oh!",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-holiday-baseball-20261022",
     "title": "2026 Topps Holiday Baseball",
     "startsAt": "2026-10-22T09:00:00-07:00",
     "endsAt": "2026-10-22T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-27-topps-basketball-20261023",
     "title": "2026-27 Topps Basketball",
     "startsAt": "2026-10-23T09:00:00-07:00",
     "endsAt": "2026-10-23T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Basketball"
-    ]
-  },
-  {
-    "id": "2026-27-topps-holiday-basketball-countdown-calendar-20261030",
-    "title": "2026-27 Topps Holiday Basketball Countdown Calendar",
-    "startsAt": "2026-10-30T09:00:00-07:00",
-    "endsAt": "2026-10-30T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Basketball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-27-topps-english-premier-league-soccer-golden-boot-4-tin-tray-20261030",
     "title": "2026-27 Topps English Premier League Soccer Golden Boot 4-Tin Tray",
     "startsAt": "2026-10-30T09:00:00-07:00",
     "endsAt": "2026-10-30T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Soccer"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "waxstat-sync"
   },
   {
-    "id": "2026-27-topps-english-premier-league-soccer-golden-boot-tin-20261030",
-    "title": "2026-27 Topps English Premier League Soccer Golden Boot Tin",
+    "id": "2026-27-topps-english-premier-league-soccer-golden-boot-20261030",
+    "title": "2026-27 Topps English Premier League Soccer Golden Boot",
     "startsAt": "2026-10-30T09:00:00-07:00",
     "endsAt": "2026-10-30T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Soccer"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "2026-27-topps-holiday-basketball-countdown-calendar-20261030",
+    "title": "2026-27 Topps Holiday Basketball Countdown Calendar",
+    "startsAt": "2026-10-30T09:00:00-07:00",
+    "endsAt": "2026-10-30T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "pokemon-30th-celebration-20261030",
+    "title": "Pokemon 30th Celebration",
+    "startsAt": "2026-10-30T09:00:00-07:00",
+    "endsAt": "2026-10-30T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-bowman-sterling-baseball-20261031",
     "title": "2026 Bowman Sterling Baseball",
     "startsAt": "2026-10-31T09:00:00-07:00",
     "endsAt": "2026-10-31T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-bowman-university-chrome-football-20261031",
     "title": "2026 Bowman University Chrome Football",
     "startsAt": "2026-10-31T09:00:00-07:00",
     "endsAt": "2026-10-31T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Football"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-update-series-baseball-20261031",
     "title": "2026 Topps Update Series Baseball",
     "startsAt": "2026-10-31T09:00:00-07:00",
     "endsAt": "2026-10-31T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-stadium-club-baseball-20261106",
     "title": "2026 Topps Stadium Club Baseball",
     "startsAt": "2026-11-06T09:00:00-08:00",
     "endsAt": "2026-11-06T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "pokemon-30th-celebration-20261106",
+    "title": "Pokemon 30th Celebration",
+    "startsAt": "2026-11-06T09:00:00-08:00",
+    "endsAt": "2026-11-06T10:00:00-08:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "pokemon-30th-celebration-20261107",
+    "title": "Pokemon 30th Celebration",
+    "startsAt": "2026-11-07T09:00:00-08:00",
+    "endsAt": "2026-11-07T10:00:00-08:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-stadium-club-baseball-20261108",
     "title": "2026 Topps Stadium Club Baseball",
     "startsAt": "2026-11-08T09:00:00-08:00",
     "endsAt": "2026-11-08T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-chrome-update-series-baseball-20261113",
     "title": "2026 Topps Chrome Update Series Baseball",
     "startsAt": "2026-11-13T09:00:00-08:00",
     "endsAt": "2026-11-13T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-gilded-collection-baseball-20261122",
     "title": "2026 Topps Gilded Collection Baseball",
     "startsAt": "2026-11-22T09:00:00-08:00",
     "endsAt": "2026-11-22T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-27-topps-chrome-basketball-20261204",
     "title": "2026-27 Topps Chrome Basketball",
     "startsAt": "2026-12-04T09:00:00-08:00",
     "endsAt": "2026-12-04T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Basketball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "pokemon-30th-celebration-20261204",
+    "title": "Pokemon 30th Celebration",
+    "startsAt": "2026-12-04T09:00:00-08:00",
+    "endsAt": "2026-12-04T10:00:00-08:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "yu-gi-oh-glorious-victors-20261204",
+    "title": "Yu-Gi-Oh! Glorious Victors",
+    "startsAt": "2026-12-04T09:00:00-08:00",
+    "endsAt": "2026-12-04T10:00:00-08:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "Yu-Gi-Oh!"
+    ],
+    "category": "tcg",
+    "game": "Yu-Gi-Oh!",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-chrome-update-series-baseball-20261210",
     "title": "2026 Topps Chrome Update Series Baseball",
     "startsAt": "2026-12-10T09:00:00-08:00",
     "endsAt": "2026-12-10T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-archives-baseball-20261212",
     "title": "2026 Topps Archives Baseball",
     "startsAt": "2026-12-12T09:00:00-08:00",
     "endsAt": "2026-12-12T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-heritage-high-number-baseball-20261217",
     "title": "2026 Topps Heritage High Number Baseball",
     "startsAt": "2026-12-17T09:00:00-08:00",
     "endsAt": "2026-12-17T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-27-topps-chrome-basketball-20261218",
     "title": "2026-27 Topps Chrome Basketball",
     "startsAt": "2026-12-18T09:00:00-08:00",
     "endsAt": "2026-12-18T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Basketball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-triple-threads-baseball-20261219",
     "title": "2026 Topps Triple Threads Baseball",
     "startsAt": "2026-12-19T09:00:00-08:00",
     "endsAt": "2026-12-19T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-topps-chrome-update-series-baseball-sapphire-edition-20270107",
     "title": "2026 Topps Chrome Update Series Baseball Sapphire Edition",
     "startsAt": "2027-01-07T09:00:00-08:00",
     "endsAt": "2027-01-07T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-bowman-draft-baseball-20270114",
     "title": "2026 Bowman Draft Baseball",
     "startsAt": "2027-01-14T09:00:00-08:00",
     "endsAt": "2027-01-14T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-27-topps-uefa-club-competitions-soccer-20270115",
     "title": "2026-27 Topps UEFA Club Competitions Soccer",
     "startsAt": "2027-01-15T09:00:00-08:00",
     "endsAt": "2027-01-15T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Soccer"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-27-topps-midnight-basketball-20270129",
     "title": "2026-27 Topps Midnight Basketball",
     "startsAt": "2027-01-29T09:00:00-08:00",
     "endsAt": "2027-01-29T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Basketball"
-    ]
-  },
-  {
-    "id": "2026-topps-mls-chrome-soccer-20270206",
-    "title": "2026 Topps MLS Chrome Soccer",
-    "startsAt": "2027-02-06T09:00:00-08:00",
-    "endsAt": "2027-02-06T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
-  },
-  {
-    "id": "2026-topps-mls-chrome-soccer-mania-20270206",
-    "title": "2026 Topps MLS Chrome Soccer Mania",
-    "startsAt": "2027-02-06T09:00:00-08:00",
-    "endsAt": "2027-02-06T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "tags": [
-      "Topps",
-      "Soccer"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-27-topps-finest-basketball-20270305",
     "title": "2026-27 Topps Finest Basketball",
     "startsAt": "2027-03-05T09:00:00-08:00",
     "endsAt": "2027-03-05T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Basketball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-bowman-s-best-baseball-20270311",
     "title": "2026 Bowman's Best Baseball",
     "startsAt": "2027-03-11T09:00:00-08:00",
     "endsAt": "2027-03-11T10:00:00-08:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Baseball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2026-27-topps-cosmic-chrome-basketball-20270501",
     "title": "2026-27 Topps Cosmic Chrome Basketball",
     "startsAt": "2027-05-01T09:00:00-07:00",
     "endsAt": "2027-05-01T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Basketball"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "waxstat-sync"
   },
   {
     "id": "2025-26-topps-inception-uefa-club-competitions-soccer-20270717",
     "title": "2025-26 Topps Inception UEFA Club Competitions Soccer",
     "startsAt": "2027-07-17T09:00:00-07:00",
     "endsAt": "2027-07-17T10:00:00-07:00",
-    "notes": "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
     "sourceUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
     "tags": [
-      "Topps",
+      "Sports cards",
       "Soccer"
-    ]
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "waxstat-sync"
+  },
+  {
+    "id": "one-piece-trading-card-game-learn-together-luffy-zoro-and-nami-starter-deck-set--20270915",
+    "title": "One Piece Trading Card Game Learn Together Luffy, Zoro & Nami Starter Deck Set LT-01",
+    "startsAt": "2027-09-15T09:00:00-07:00",
+    "endsAt": "2027-09-15T10:00:00-07:00",
+    "notes": "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/2025-other-cards-release-calendar",
+    "tags": [
+      "TCG",
+      "One Piece"
+    ],
+    "category": "tcg",
+    "game": "One Piece",
+    "managedBy": "waxstat-sync"
   }
 ]

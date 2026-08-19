@@ -1,9 +1,26 @@
 {
-  "keywords": [
+  "categories": [
+    "sports",
+    "tcg"
+  ],
+  "sports": [
     "Basketball",
     "Football",
     "Baseball",
     "Soccer",
     "Formula 1"
+  ],
+  "tcg": [
+    "Pokemon",
+    "Magic: The Gathering",
+    "Yu-Gi-Oh!",
+    "One Piece",
+    "Disney Lorcana",
+    "Riftbound",
+    "Flesh and Blood",
+    "Star Wars: Unlimited",
+    "Digimon",
+    "Union Arena",
+    "Cardfight!! Vanguard"
   ]
 }

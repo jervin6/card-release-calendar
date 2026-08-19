@@ -1,13 +1,15 @@
 # Card Release Calendar
 
-Generate a small iCal feed that only includes trading card releases or pre-orders you subscribe to.
+Public release board and subscribable iCal feeds for sports cards and TCG drops.
 
 ## What it does
 
 - Reads release entries from `data/releases.json`
-- Filters them using `config/subscriptions.json`
-- Generates `docs/cards.ics` for calendar subscriptions
-- Generates `docs/index.html` as a simple landing page for GitHub Pages
+- Reconciles upcoming sports-card and TCG releases from approved Waxstat calendars
+- Consolidates box, pack, tin, case, and retail variants into one set-level drop
+- Filters sports and games using `config/subscriptions.json`
+- Generates combined, sports-only, and TCG-only iCal feeds
+- Generates the public release board in `docs/index.html`
 
 ## Quick start
 
@@ -15,26 +17,38 @@ Generate a small iCal feed that only includes trading card releases or pre-order
 npm run build
 ```
 
-The feed will be written to `docs/cards.ics`.
+The public files are written to `docs/`.
 
-## Subscribe in Apple Calendar
+To refresh imported releases first:
 
-1. Host the `docs/` directory with GitHub Pages.
-2. Copy the published `cards.ics` URL.
-3. In Calendar, choose File > New Calendar Subscription.
-4. Paste the URL and save.
+```bash
+npm run sync -- --no-git
+npm run build
+```
+
+## Share and subscribe
+
+Share the public board:
+
+<https://jervin6.github.io/card-release-calendar/>
+
+The page has Apple Calendar, Google Calendar, and copyable feed links for:
+
+- `cards.ics` - all drops
+- `sports.ics` - sports cards only
+- `tcg.ics` - TCG only
 
 ## Customize subscriptions
 
-Edit `config/subscriptions.json`.
+Edit `config/subscriptions.json` to change the visible sports or games.
 
 ```json
 {
-  "keywords": ["Bowman"]
+  "categories": ["sports", "tcg"],
+  "sports": ["Baseball", "Basketball"],
+  "tcg": ["Pokemon", "Magic: The Gathering"]
 }
 ```
-
-Only releases whose titles contain one of those keywords will be included.
 
 ## Add releases
 
@@ -54,6 +68,4 @@ Edit `data/releases.json` and add entries like:
 
 This repo includes a scheduled GitHub Actions workflow that rebuilds the feed and publishes `docs/`.
 
-## Next steps
-
-The current version uses a manually curated release list so the feed is stable and easy to validate. A later iteration can scrape or ingest releases automatically from approved sources.
+Imported future records are replaced from the latest source snapshot on every sync. Manual records and past release history are preserved.

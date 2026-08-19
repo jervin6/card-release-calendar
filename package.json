@@ -6,6 +6,9 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node scripts/build.mjs --check"
+    "check": "node scripts/build.mjs --check",
+    "test": "node --test scripts/*.test.mjs",
+    "sync": "node scripts/sync-topps.mjs",
+    "sync:dry": "node scripts/sync-topps.mjs --dry-run"
   }
 }

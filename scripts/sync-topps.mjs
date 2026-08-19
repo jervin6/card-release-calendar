@@ -1,23 +1,24 @@
 #!/usr/bin/env node
 /**
  * sync-topps.mjs — feed card-release-calendar's data/releases.json with
- * upcoming Topps releases.
+ * upcoming sports-card and TCG releases.
  *
- * Source: waxstat.com's Topps release calendars. They are plain server-rendered
+ * Source: waxstat.com's release calendars. They are plain server-rendered
  * HTML (no Cloudflare, no login, no JS-gating), each row carrying an exact
  * "MMM DD, YYYY" release date — so this runs as a simple daily cron with no
  * browser and no babysitting. (topps.com itself is behind a Cloudflare Turnstile
  * that blocks automation, and distributor/aggregator sources are walled, dealer-
  * gated, or stale archives — waxstat is the one reliable machine-readable feed.)
  *
- * Scope is governed by config/subscriptions.json (the same keyword match
- * build.mjs uses) so we only ingest releases that will appear in the feed.
- * Packaging variants (Hobby/Blaster/Mega/Box/Pack/Case/FDI/…) of the same set on
- * the same date collapse into one calendar entry.
+ * Scope is governed by config/subscriptions.json. Packaging variants of the
+ * same set and date collapse into one calendar entry. Future managed records
+ * are reconciled on each run so date changes and removed listings do not leave
+ * stale events behind.
  *
  * Flags:
  *   --dry-run     parse + merge, print what WOULD change, write nothing, no git
  *   --no-push     write + commit but don't push
+ *   --no-git      write only; don't commit or push
  *   --offline     read local wax_<slug>.html files (dev) instead of fetching
  *   --verbose     extra logging
  */
@@ -26,6 +27,13 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
+import {
+  canonicalReleaseTitle,
+  detectSport,
+  detectTcgGame,
+  matchesSubscriptions,
+  normalizedTitle
+} from "./release-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -35,25 +43,26 @@ const SUBSCRIPTIONS_PATH = path.join(ROOT, "config", "subscriptions.json");
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
 
-// Topps calendars. waxstat labels products by CARD-YEAR, and a given year's
-// products (esp. football/basketball) keep releasing well into the next
-// calendar year — e.g. "2025 Topps Chrome Black Football" drops Jul 2026. So we
-// scrape several year pages (calendar-year + season-spanning YYYY-YY) and let
-// the future-date filter keep only what's still upcoming. Missing slugs 404 and
-// are skipped harmlessly.
-const SOURCE_SLUGS = [
-  "2024-25-topps-cards-release-calendar",
-  "2025-topps-cards-release-calendar",
-  "2025-26-topps-cards-release-calendar",
-  "2026-topps-cards-release-calendar",
-  "2026-27-topps-cards-release-calendar",
-  "2027-topps-cards-release-calendar",
+// Waxstat labels products by card year, so last year's page can still contain
+// releases in the current calendar year. Missing slugs are skipped harmlessly.
+const SOURCES = [
+  ...["2025-topps", "2025-26-topps", "2026-topps", "2026-27-topps", "2027-topps"]
+    .map((name) => ({ slug: `${name}-cards-release-calendar`, category: "sports" })),
+  ...["2025-pokemon", "2026-pokemon", "2027-pokemon"]
+    .map((name) => ({ slug: `${name}-cards-release-calendar`, category: "tcg", game: "Pokemon" })),
+  ...["2025-magic-the-gathering", "2026-magic-the-gathering", "2027-magic-the-gathering"]
+    .map((name) => ({ slug: `${name}-cards-release-calendar`, category: "tcg", game: "Magic: The Gathering" })),
+  ...["2025-yu-gi-oh", "2026-yu-gi-oh", "2027-yu-gi-oh"]
+    .map((name) => ({ slug: `${name}-cards-release-calendar`, category: "tcg", game: "Yu-Gi-Oh!" })),
+  ...["2025-other", "2026-other", "2027-other"]
+    .map((name) => ({ slug: `${name}-cards-release-calendar`, category: "tcg" }))
 ];
 const srcUrl = (slug) => `https://www.waxstat.com/${slug}`;
 
 const args = process.argv.slice(2);
 const DRY = args.includes("--dry-run");
 const NO_PUSH = args.includes("--no-push");
+const NO_GIT = args.includes("--no-git");
 const OFFLINE = args.includes("--offline");
 const VERBOSE = args.includes("--verbose") || DRY;
 const log = (...a) => console.log(...a);
@@ -82,26 +91,6 @@ function decode(s) {
     .replace(/&quot;/g, '"')
     .replace(/&#0?39;|&apos;/g, "'");
 }
-function stripEmoji(s) {
-  return s.replace(/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2190}-\u{21FF}\u{2B00}-\u{2BFF}️]/gu, "").replace(/\s+/g, " ").trim();
-}
-
-// packaging / retail-format tokens that distinguish SKUs but not calendar
-// events. Product/edition distinctions collectors track separately (Sapphire
-// Edition, Logofractor Edition, Update Series, All-Star Game, High Number,
-// Countdown Calendar, Fanatics Fest…) are deliberately NOT stripped.
-const PACK =
-  /\b(First Day Issue|FDI|Breaker'?s Delight|Delight|Fat Pack|Hobby|Retail|Blaster|Mega|Jumbo|Value|HTA|Cello|Hanger|Blast|Choice|Super|Compact|Collector'?s Tin|\d+-?Box|Box|Pack|Case)\b/gi;
-// "🔥HOT🔥" hype tag waxstat appends — strip the leftover word after emoji removal
-const HOT = /\bHOT\b/g;
-
-function baseSetName(raw) {
-  let t = stripEmoji(decode(raw));
-  t = t.replace(/\(FDI\)/gi, "").replace(/-\s*First Day Issue.*$/i, "");
-  t = t.replace(HOT, " ").replace(PACK, " ").replace(/\s+/g, " ").replace(/[-–—]\s*$/g, "").trim();
-  return t;
-}
-
 function slug(s) {
   return s
     .toLowerCase()
@@ -111,7 +100,7 @@ function slug(s) {
     .slice(0, 80);
 }
 
-function parseWaxstat(html, sourceUrl) {
+function parseWaxstat(html, source) {
   const names = cellTexts(html, "wax-name");
   const dates = cellTexts(html, "wax-release-date");
   const n = Math.min(names.length, dates.length);
@@ -122,7 +111,15 @@ function parseWaxstat(html, sourceUrl) {
     if (!dm) continue;
     const month = MONTHS.indexOf(dm[1]) + 1;
     if (!month) continue;
-    rows.push({ rawName: names[i], y: +dm[3], m: month, d: +dm[2], sourceUrl });
+    rows.push({
+      rawName: names[i],
+      y: +dm[3],
+      m: month,
+      d: +dm[2],
+      sourceUrl: srcUrl(source.slug),
+      category: source.category,
+      game: source.game
+    });
   }
   return rows;
 }
@@ -140,46 +137,25 @@ function ptOffset(y, m, d) {
 }
 const pad = (x) => String(x).padStart(2, "0");
 
-/* --------------------------- classification ---------------------------- */
-
-const SPORTS = [
-  ["Baseball", /\bbaseball\b|\bMLB\b/i],
-  ["Basketball", /\bbasketball\b|\bNBA\b|\bWNBA\b/i],
-  ["Football", /\bfootball\b|\bNFL\b/i],
-  ["Soccer", /\bsoccer\b|\bUEFA\b|\bPremier League\b|\bChampions League\b|\bLa Liga\b|\bBundesliga\b|\bMLS\b|\bFIFA\b|\bMerlin\b|\bMatch Attax\b/i],
-  ["Formula 1", /\bformula\s*1\b|\bF1\b/i],
-  ["Hockey", /\bhockey\b|\bNHL\b/i],
-  ["WWE", /\bWWE\b|\bwrestling\b/i],
-  ["UFC", /\bUFC\b/i],
-];
-const detectSport = (t) => SPORTS.find(([, re]) => re.test(t))?.[0] || null;
-
-function matchesKeywords(title, tags, keywords) {
-  const hay = [title, ...tags].join(" ").toLowerCase();
-  return keywords.some((k) => hay.includes(k.toLowerCase()));
-}
-
 /* ------------------------------ sources -------------------------------- */
 
-async function loadSource(slug) {
+async function loadSource(source) {
   if (OFFLINE) {
     try {
-      return await readFile(`wax_${slug}.html`, "utf8");
+      return await readFile(`wax_${source.slug}.html`, "utf8");
     } catch {
       return null;
     }
   }
-  const res = await fetch(srcUrl(slug), { headers: { "user-agent": UA, accept: "text/html" } });
+  const res = await fetch(srcUrl(source.slug), { headers: { "user-agent": UA, accept: "text/html" } });
   if (!res.ok) {
-    log(`  ! ${slug}: HTTP ${res.status}`);
+    vlog(`  ! ${source.slug}: HTTP ${res.status}`);
     return null;
   }
   return res.text();
 }
 
 /* ------------------------------- merge --------------------------------- */
-
-const normTitle = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
 /* -------------------------------- main --------------------------------- */
 
@@ -188,17 +164,19 @@ async function main() {
   today.setHours(0, 0, 0, 0);
 
   const existing = JSON.parse(await readFile(RELEASES_PATH, "utf8"));
-  const keywords = JSON.parse(await readFile(SUBSCRIPTIONS_PATH, "utf8")).keywords || [];
-  log(`Scope keywords: ${keywords.join(", ")}`);
+  const subscriptions = JSON.parse(await readFile(SUBSCRIPTIONS_PATH, "utf8"));
+  log(`Scope: ${(subscriptions.categories ?? ["sports"]).join(" + ")}`);
   log(`Existing releases: ${existing.length}`);
 
   // gather + parse all source pages
   const rawRows = [];
-  for (const slug of SOURCE_SLUGS) {
-    const html = await loadSource(slug);
+  const reconciledSourceUrls = new Set();
+  for (const source of SOURCES) {
+    const html = await loadSource(source);
     if (!html) continue;
-    const rows = parseWaxstat(html, srcUrl(slug));
-    vlog(`  ${slug}: ${rows.length} dated rows`);
+    const rows = parseWaxstat(html, source);
+    vlog(`  ${source.slug}: ${rows.length} dated rows`);
+    if (rows.length > 0) reconciledSourceUrls.add(srcUrl(source.slug));
     rawRows.push(...rows);
   }
   if (rawRows.length === 0) {
@@ -209,48 +187,70 @@ async function main() {
   // collapse variants -> one candidate per (baseName + date), in scope + future
   const candidates = new Map(); // key -> release
   for (const r of rawRows) {
-    const title = baseSetName(r.rawName);
+    const title = canonicalReleaseTitle(decode(r.rawName));
     if (!title) continue;
     if (r.m === 12 && r.d === 31) continue; // waxstat parks "date TBD" on Dec 31
     const startsAtDate = new Date(`${r.y}-${pad(r.m)}-${pad(r.d)}T12:00:00`);
     if (startsAtDate < today) continue; // future only
-    const sport = detectSport(title);
-    const tags = ["Topps", ...(sport ? [sport] : [])];
-    if (!matchesKeywords(title, tags, keywords)) continue; // scope = subscriptions
+    const game = r.game ?? detectTcgGame(title);
+    if (r.category === "tcg" && !game) continue;
+    const sport = r.category === "sports" ? detectSport(title) : null;
+    const tags = r.category === "tcg"
+      ? ["TCG", game]
+      : ["Sports cards", ...(sport ? [sport] : [])];
     const off = ptOffset(r.y, r.m, r.d);
     const dateISO = `${r.y}-${pad(r.m)}-${pad(r.d)}`;
-    const key = `${normTitle(title)}::${dateISO}`;
+    const key = `${r.category}:${normalizedTitle(title)}:${dateISO}`;
     if (candidates.has(key)) continue;
-    candidates.set(key, {
+    const release = {
       id: `${slug(title)}-${r.y}${pad(r.m)}${pad(r.d)}`,
       title,
       startsAt: `${dateISO}T09:00:00${off}`,
       endsAt: `${dateISO}T10:00:00${off}`,
-      notes: "Drop time assumed 9:00 AM PT; verify exact time on the Topps product page.",
+      notes: "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
       location: "Online",
       status: "TENTATIVE",
       sourceName: "waxstat.com",
       sourceUrl: r.sourceUrl,
       tags,
-    });
+      category: r.category,
+      ...(game ? { game } : {}),
+      ...(sport ? { sport } : {}),
+      managedBy: "waxstat-sync"
+    };
+    if (!matchesSubscriptions(release, subscriptions)) continue;
+    candidates.set(key, release);
   }
 
-  // dedup against existing (by id, or normalized title+date)
-  const haveId = new Set(existing.map((r) => r.id));
-  const haveTd = new Set(existing.map((r) => `${normTitle(r.title)}::${(r.startsAt || "").slice(0, 10)}`));
-  const added = [];
-  for (const r of candidates.values()) {
-    const td = `${normTitle(r.title)}::${r.startsAt.slice(0, 10)}`;
-    if (haveId.has(r.id) || haveTd.has(td)) continue;
-    added.push(r);
-  }
-  added.sort((a, b) => a.startsAt.localeCompare(b.startsAt));
+  // Manual records win. Past imported records remain as history; all future
+  // imported records are replaced by the current source snapshot.
+  const todayIso = today.toISOString().slice(0, 10);
+  const preserved = existing.filter((release) => {
+    const managed = release.managedBy === "waxstat-sync" || release.sourceName === "waxstat.com";
+    const sourceWasRead = reconciledSourceUrls.has(release.sourceUrl);
+    return !managed || !sourceWasRead || String(release.startsAt).slice(0, 10) < todayIso;
+  });
+  const manualKeys = new Set(preserved.map((release) =>
+    `${release.category ?? "sports"}:${normalizedTitle(release.title)}:${String(release.startsAt).slice(0, 10)}`));
+  const managed = [...candidates.entries()]
+    .filter(([key]) => !manualKeys.has(key))
+    .map(([, release]) => release);
+  const merged = [...preserved, ...managed]
+    .sort((a, b) => (a.startsAt || "").localeCompare(b.startsAt || ""));
 
-  log(`\nIn-scope upcoming candidates: ${candidates.size} — new after dedup: ${added.length}`);
-  for (const r of added) log(`  + ${r.startsAt.slice(0, 10)}  ${r.title}  [${r.tags.join(", ")}]`);
+  const beforeIds = new Set(existing.map((release) => release.id));
+  const afterIds = new Set(merged.map((release) => release.id));
+  const added = merged.filter((release) => !beforeIds.has(release.id));
+  const removed = existing.filter((release) => !afterIds.has(release.id));
+  const changed = JSON.stringify(existing) !== JSON.stringify(merged);
 
-  if (added.length === 0) {
-    log("\nNothing new. Done.");
+  log(`\nIn-scope upcoming releases: ${managed.length}`);
+  log(`Changes: +${added.length} / -${removed.length}`);
+  for (const release of added) vlog(`  + ${release.startsAt.slice(0, 10)}  ${release.title}`);
+  for (const release of removed) vlog(`  - ${release.startsAt.slice(0, 10)}  ${release.title}`);
+
+  if (!changed) {
+    log("Nothing changed. Done.");
     return;
   }
   if (DRY) {
@@ -258,15 +258,19 @@ async function main() {
     return;
   }
 
-  const merged = [...existing, ...added].sort((a, b) => (a.startsAt || "").localeCompare(b.startsAt || ""));
   await writeFile(RELEASES_PATH, JSON.stringify(merged, null, 2) + "\n", "utf8");
   log(`\nWrote ${merged.length} releases to data/releases.json`);
+
+  if (NO_GIT) {
+    log("--no-git: file updated without a commit.");
+    return;
+  }
 
   try {
     const git = (a) => execFileSync("git", ["-C", ROOT, ...a], { stdio: "pipe" }).toString();
     git(["add", "data/releases.json"]);
-    git(["commit", "-m", `data: add ${added.length} upcoming Topps release(s) [auto]`]);
-    log(`Committed ${added.length} release(s).`);
+    git(["commit", "-m", `data: reconcile sports and TCG releases [auto]`]);
+    log("Committed reconciled releases.");
     if (!NO_PUSH) {
       // CI pushes its own "Rebuild calendar feed" commits to main, so this
       // branch is routinely behind by the time we get here. Rebase onto the
