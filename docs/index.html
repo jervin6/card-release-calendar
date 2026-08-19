@@ -3,165 +3,734 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Card Release Calendar</title>
+    <title>Card Release Calendar | Sports cards + TCG drops</title>
+    <meta name="description" content="A shareable calendar of upcoming sports-card and TCG releases.">
+    <link rel="canonical" href="https://jervin6.github.io/card-release-calendar/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Card Release Calendar">
+    <meta property="og:description" content="Sports cards + TCG drops, in one calendar.">
+    <meta property="og:url" content="https://jervin6.github.io/card-release-calendar/">
+    <meta property="og:image" content="https://jervin6.github.io/card-release-calendar/og.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Card Release Calendar">
+    <meta name="twitter:description" content="Sports cards + TCG drops, in one calendar.">
+    <meta name="twitter:image" content="https://jervin6.github.io/card-release-calendar/og.png">
     <style>
       :root {
         color-scheme: light;
-        --bg: #f6f5ef;
-        --card: #fffef8;
-        --ink: #171717;
-        --accent: #0a7a57;
-        --border: #d8d1c2;
+        --card-stock: #f1eee5;
+        --sheet: #fffdf7;
+        --ink: #1e1d1a;
+        --ink-secondary: #5b5952;
+        --ink-tertiary: #77736a;
+        --ink-muted: #9d988e;
+        --line: rgba(30, 29, 26, .16);
+        --line-soft: rgba(30, 29, 26, .09);
+        --line-strong: rgba(30, 29, 26, .32);
+        --collector-red: #b83427;
+        --felt-green: #24684f;
+        --sticker-yellow: #e0b83e;
+        --control: #ebe7dd;
+        --control-hover: #e2ddd1;
+        --focus: #1e1d1a;
       }
-      body {
-        margin: 0;
-        font-family: Georgia, "Times New Roman", serif;
-        background:
-          radial-gradient(circle at top left, rgba(10, 122, 87, 0.14), transparent 35%),
-          linear-gradient(180deg, #fbfaf5 0%, var(--bg) 100%);
-        color: var(--ink);
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--card-stock); color: var(--ink); font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      button, a { -webkit-tap-highlight-color: transparent; }
+      button { font: inherit; }
+      a { color: inherit; }
+      .topbar { min-height: 52px; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; border-bottom: 1px solid var(--line); }
+      .wordmark { display: flex; align-items: center; gap: 10px; font-weight: 760; font-size: 14px; }
+      .wordmark-mark { width: 24px; height: 32px; border: 2px solid var(--ink); background: var(--sheet); position: relative; }
+      .wordmark-mark::after { content: ""; position: absolute; inset: 4px; border: 1px solid var(--collector-red); }
+      .freshness { color: var(--ink-tertiary); font-size: 12px; }
+      main { width: min(1040px, calc(100% - 40px)); margin: 0 auto; padding: 48px 0 72px; }
+      .calendar-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 28px; padding-bottom: 28px; border-bottom: 1px solid var(--line-strong); }
+      .kicker { margin: 0 0 8px; color: var(--collector-red); font-size: 12px; font-weight: 800; text-transform: uppercase; }
+      h1 { max-width: 650px; margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 42px; line-height: 1.04; font-weight: 700; letter-spacing: 0; }
+      .subhead { margin: 10px 0 0; color: var(--ink-secondary); font-size: 16px; }
+      .actions { display: flex; align-items: center; gap: 8px; flex: none; }
+      .command, .subscribe > summary { min-height: 40px; display: inline-flex; align-items: center; justify-content: center; padding: 0 14px; border: 1px solid var(--line-strong); border-radius: 6px; background: var(--sheet); color: var(--ink); font-weight: 720; font-size: 13px; cursor: pointer; }
+      .command:hover, .subscribe > summary:hover { background: var(--control); }
+      .command:focus-visible, .subscribe > summary:focus-visible, .filter button:focus-visible, .feed-choice button:focus-visible, a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+      .subscribe { position: relative; }
+      .subscribe > summary { list-style: none; }
+      .subscribe > summary::-webkit-details-marker { display: none; }
+      .subscribe[open] > summary { background: var(--ink); color: var(--sheet); }
+      .feed-menu { position: absolute; z-index: 4; top: 48px; right: 0; width: 296px; padding: 8px 12px; background: var(--sheet); border: 1px solid var(--line-strong); border-radius: 6px; }
+      .feed-choice { padding: 10px 0; border-bottom: 1px solid var(--line-soft); }
+      .feed-choice:last-child { border-bottom: 0; }
+      .feed-choice strong { display: block; margin-bottom: 7px; font-size: 13px; }
+      .feed-choice span { display: flex; gap: 14px; align-items: center; }
+      .feed-choice a, .feed-choice button { border: 0; padding: 0; background: none; color: var(--felt-green); font-size: 12px; font-weight: 750; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+      .viewbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0; border-bottom: 1px solid var(--line); }
+      .filter { display: inline-grid; grid-template-columns: repeat(3, minmax(88px, auto)); padding: 3px; border: 1px solid var(--line); border-radius: 6px; background: var(--control); }
+      .filter button { min-height: 34px; border: 0; border-radius: 4px; padding: 0 12px; background: transparent; color: var(--ink-secondary); font-size: 13px; font-weight: 720; cursor: pointer; }
+      .filter button[aria-pressed="true"] { background: var(--sheet); color: var(--ink); border: 1px solid var(--line); }
+      .result-count { color: var(--ink-tertiary); font-size: 12px; }
+      .drop-board { min-height: 240px; }
+      .day-group { display: grid; grid-template-columns: 156px minmax(0, 1fr); gap: 24px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+      .day-label time { display: block; font-family: Georgia, "Times New Roman", serif; font-size: 17px; font-weight: 700; }
+      .day-label span { display: block; margin-top: 5px; color: var(--ink-tertiary); font-size: 11px; text-transform: uppercase; }
+      .day-drops { display: grid; gap: 8px; }
+      .drop { min-height: 86px; display: grid; grid-template-columns: 5px 1fr; background: var(--sheet); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+      .edge { background: var(--collector-red); }
+      .drop[data-category="tcg"] .edge { background: var(--felt-green); }
+      .drop-copy { min-width: 0; padding: 14px 16px; }
+      .drop-meta { display: flex; align-items: center; gap: 8px; min-height: 16px; color: var(--ink-tertiary); font-size: 10px; font-weight: 820; text-transform: uppercase; }
+      .status { padding-left: 8px; border-left: 1px solid var(--line); color: #82650d; }
+      .drop h3 { margin: 4px 0 6px; font-family: Georgia, "Times New Roman", serif; font-size: 17px; line-height: 1.25; letter-spacing: 0; overflow-wrap: anywhere; }
+      .drop p { margin: 0; color: var(--ink-tertiary); font-size: 12px; }
+      .drop p span { padding: 0 4px; color: var(--ink-muted); }
+      .source { color: var(--felt-green); text-underline-offset: 3px; }
+      .empty { display: none; padding: 64px 0; color: var(--ink-secondary); font-family: Georgia, "Times New Roman", serif; font-size: 20px; text-align: center; }
+      .empty[data-visible="true"] { display: block; }
+      footer { display: flex; justify-content: space-between; gap: 24px; padding-top: 28px; color: var(--ink-tertiary); font-size: 11px; }
+      .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); min-width: 180px; padding: 10px 14px; background: var(--ink); color: var(--sheet); border-radius: 4px; font-size: 12px; text-align: center; opacity: 0; pointer-events: none; transition: opacity .16s ease; }
+      .toast[data-visible="true"] { opacity: 1; }
+      [hidden] { display: none !important; }
+      @media (max-width: 720px) {
+        .topbar { padding: 0 16px; }
+        main { width: min(100% - 28px, 1040px); padding-top: 32px; }
+        .calendar-head { display: block; }
+        h1 { font-size: 34px; }
+        .actions { margin-top: 20px; }
+        .actions > * { flex: 1; }
+        .command, .subscribe > summary { width: 100%; }
+        .feed-menu { left: auto; right: 0; width: min(296px, calc(100vw - 28px)); }
+        .viewbar { align-items: flex-start; flex-direction: column; }
+        .filter { width: 100%; grid-template-columns: repeat(3, 1fr); }
+        .day-group { grid-template-columns: 1fr; gap: 12px; }
+        .day-label { display: flex; align-items: baseline; justify-content: space-between; }
+        footer { flex-direction: column; }
       }
-      main {
-        max-width: 760px;
-        margin: 0 auto;
-        padding: 48px 20px 72px;
-      }
-      .card {
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: 20px;
-        padding: 28px;
-        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
-      }
-      a {
-        color: var(--accent);
-      }
-      .pill {
-        display: inline-block;
-        margin-right: 8px;
-        margin-bottom: 8px;
-        padding: 6px 10px;
-        border-radius: 999px;
-        background: rgba(10, 122, 87, 0.12);
-        color: var(--accent);
-      }
-      ul {
-        padding-left: 20px;
-      }
+      @media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
     </style>
   </head>
   <body>
+    <nav class="topbar" aria-label="Primary">
+      <div class="wordmark"><span class="wordmark-mark" aria-hidden="true"></span><span>Card Release Calendar</span></div>
+      <span class="freshness">Public calendar</span>
+    </nav>
     <main>
-      <div class="card">
-        <p>Filtered iCal feed for subscribed card releases.</p>
-        <h1>Card Release Calendar</h1>
-        <p><a href="./cards.ics">Subscribe to cards.ics</a></p>
-        <p>Current filters:</p>
-        <div><span class="pill">Basketball</span><span class="pill">Football</span><span class="pill">Baseball</span><span class="pill">Soccer</span><span class="pill">Formula 1</span></div>
-        <p>Upcoming matches:</p>
-        <ul>
-          <li><strong>2025 Topps Chrome® Football Mega Boxes</strong><br>Thursday, May 1, 2025 at 4:00 PM UTC</li>
-<li><strong>2026 Bowman Baseball pre-order</strong><br>Monday, April 13, 2026 at 4:00 PM UTC</li>
-<li><strong>2025 Topps Finest Football pre-order (EQL)</strong><br>Monday, April 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Bowman University Best Basketball pre-order</strong><br>Tuesday, April 21, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Bowman Basketball (Hobby EQL + Value Boxes)</strong><br>Wednesday, April 22, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps Signature Class Basketball - Pre-Order</strong><br>Tuesday, April 28, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps Merlin Basketball</strong><br>Tuesday, April 28, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Chrome Black Baseball</strong><br>Wednesday, April 29, 2026 at 4:00 PM UTC</li>
-<li><strong>2025 Topps Definitive Baseball (EQL)</strong><br>Wednesday, April 29, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps Cosmic Chrome Basketball</strong><br>Wednesday, April 29, 2026 at 4:00 PM UTC</li>
-<li><strong>2025 Topps Chrome Football (Mega Boxes)</strong><br>Friday, May 1, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Bowman Basketball (Mega Boxes)</strong><br>Thursday, May 7, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Finest Baseball</strong><br>Wednesday, July 8, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Series 2 Baseball All-Star Game</strong><br>Wednesday, July 8, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps Motif Basketball</strong><br>Thursday, July 9, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps Chrome Basketball Update Mega Boxes</strong><br>Friday, July 10, 2026 at 4:00 PM UTC</li>
-<li><strong>2025 Topps Chrome Black Football</strong><br>Friday, July 10, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Dynamic Duals Baseball</strong><br>Wednesday, July 15, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Series 2 Baseball Fanatics Fest NYC Edition (Fanatics Fest Refractors)</strong><br>Thursday, July 16, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps Chrome UEFA Club Competitions Soccer Fanatics Fest NYC Edition (Fanatics Fest Refractors)</strong><br>Thursday, July 16, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps Pristine Premier League Soccer</strong><br>Thursday, July 16, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Chrome x Cactus Jack Fanatics Fest NYC Travis Scott Edition Baseball</strong><br>Thursday, July 16, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Baseball x KAWS</strong><br>Monday, July 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Chrome Baseball</strong><br>Wednesday, July 22, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps Inception Basketball</strong><br>Thursday, July 23, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Dynamic Duals Baseball</strong><br>Wednesday, July 29, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Tribute Baseball</strong><br>Wednesday, July 29, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps Inception UEFA Club Competitions Soccer</strong><br>Thursday, July 30, 2026 at 4:00 PM UTC</li>
-<li><strong>2025 Topps Resurgence Football</strong><br>Friday, July 31, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps UEFA Women's Champions League Chrome Soccer Sapphire Edition</strong><br>Friday, July 31, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Chrome Baseball</strong><br>Wednesday, August 5, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps Chrome Update Series Basketball</strong><br>Thursday, August 6, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Pristine Baseball</strong><br>Wednesday, August 12, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps UEFA Club Competitions Museum Collection Soccer Hat Trick</strong><br>Thursday, August 13, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps UEFA Club Competitions Museum Collection Soccer</strong><br>Thursday, August 13, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Chrome Baseball Logofractor Edition</strong><br>Wednesday, August 19, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps Motif Basketball</strong><br>Thursday, August 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer 30-Multipack</strong><br>Thursday, August 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer Multipack</strong><br>Thursday, August 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer Tin</strong><br>Thursday, August 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer Youth</strong><br>Thursday, August 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer</strong><br>Thursday, August 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer Display</strong><br>Thursday, August 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer Eco 40</strong><br>Thursday, August 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer Eco</strong><br>Thursday, August 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer Starter 30</strong><br>Thursday, August 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer Starter</strong><br>Thursday, August 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer 24-Tin</strong><br>Thursday, August 20, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Football</strong><br>Friday, August 21, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Football 108</strong><br>Friday, August 21, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Football Kids</strong><br>Friday, August 21, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Football London Games</strong><br>Friday, August 21, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Football (Walmart Exclusive)</strong><br>Friday, August 21, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Football Fanatics</strong><br>Friday, August 21, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps Chrome Black Basketball</strong><br>Thursday, August 27, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Bowman Chrome Baseball</strong><br>Wednesday, September 9, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Bowman Chrome Baseball</strong><br>Thursday, September 10, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps MLS Chrome Soccer</strong><br>Thursday, September 10, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps MLS Chrome Soccer Mania</strong><br>Thursday, September 10, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Chrome MLS Soccer</strong><br>Thursday, September 10, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Bowman Chrome Baseball</strong><br>Friday, September 11, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Baseball x KAWS</strong><br>Saturday, September 12, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer</strong><br>Wednesday, September 16, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps UEFA Club Competitions Museum Collection Soccer Hat Trick</strong><br>Friday, September 18, 2026 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps UEFA Club Competitions Museum Collection Soccer</strong><br>Friday, September 18, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Bowman Chrome Baseball</strong><br>Wednesday, September 23, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Five Star Baseball</strong><br>Saturday, September 26, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Pro Debut Baseball</strong><br>Saturday, September 26, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Baseball x KAWS</strong><br>Monday, September 28, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Bowman Chrome Baseball Sapphire Edition</strong><br>Wednesday, September 30, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer</strong><br>Wednesday, September 30, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Update Series Baseball</strong><br>Friday, October 16, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Holiday Baseball</strong><br>Thursday, October 22, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps Basketball</strong><br>Friday, October 23, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps Holiday Basketball Countdown Calendar</strong><br>Friday, October 30, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer Golden Boot 4-Tin Tray</strong><br>Friday, October 30, 2026 at 4:00 PM UTC</li>
-<li><strong>2026-27 Topps English Premier League Soccer Golden Boot Tin</strong><br>Friday, October 30, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Bowman Sterling Baseball</strong><br>Saturday, October 31, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Bowman University Chrome Football</strong><br>Saturday, October 31, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Update Series Baseball</strong><br>Saturday, October 31, 2026 at 4:00 PM UTC</li>
-<li><strong>2026 Topps Stadium Club Baseball</strong><br>Friday, November 6, 2026 at 5:00 PM UTC</li>
-<li><strong>2026 Topps Stadium Club Baseball</strong><br>Sunday, November 8, 2026 at 5:00 PM UTC</li>
-<li><strong>2026 Topps Chrome Update Series Baseball</strong><br>Friday, November 13, 2026 at 5:00 PM UTC</li>
-<li><strong>2026 Topps Gilded Collection Baseball</strong><br>Sunday, November 22, 2026 at 5:00 PM UTC</li>
-<li><strong>2026-27 Topps Chrome Basketball</strong><br>Friday, December 4, 2026 at 5:00 PM UTC</li>
-<li><strong>2026 Topps Chrome Update Series Baseball</strong><br>Thursday, December 10, 2026 at 5:00 PM UTC</li>
-<li><strong>2026 Topps Archives Baseball</strong><br>Saturday, December 12, 2026 at 5:00 PM UTC</li>
-<li><strong>2026 Topps Heritage High Number Baseball</strong><br>Thursday, December 17, 2026 at 5:00 PM UTC</li>
-<li><strong>2026-27 Topps Chrome Basketball</strong><br>Friday, December 18, 2026 at 5:00 PM UTC</li>
-<li><strong>2026 Topps Triple Threads Baseball</strong><br>Saturday, December 19, 2026 at 5:00 PM UTC</li>
-<li><strong>2026 Topps Chrome Update Series Baseball Sapphire Edition</strong><br>Thursday, January 7, 2027 at 5:00 PM UTC</li>
-<li><strong>2026 Bowman Draft Baseball</strong><br>Thursday, January 14, 2027 at 5:00 PM UTC</li>
-<li><strong>2026-27 Topps UEFA Club Competitions Soccer</strong><br>Friday, January 15, 2027 at 5:00 PM UTC</li>
-<li><strong>2026-27 Topps Midnight Basketball</strong><br>Friday, January 29, 2027 at 5:00 PM UTC</li>
-<li><strong>2026 Topps MLS Chrome Soccer</strong><br>Saturday, February 6, 2027 at 5:00 PM UTC</li>
-<li><strong>2026 Topps MLS Chrome Soccer Mania</strong><br>Saturday, February 6, 2027 at 5:00 PM UTC</li>
-<li><strong>2026-27 Topps Finest Basketball</strong><br>Friday, March 5, 2027 at 5:00 PM UTC</li>
-<li><strong>2026 Bowman's Best Baseball</strong><br>Thursday, March 11, 2027 at 5:00 PM UTC</li>
-<li><strong>2026-27 Topps Cosmic Chrome Basketball</strong><br>Saturday, May 1, 2027 at 4:00 PM UTC</li>
-<li><strong>2025-26 Topps Inception UEFA Club Competitions Soccer</strong><br>Saturday, July 17, 2027 at 4:00 PM UTC</li>
-        </ul>
+      <header class="calendar-head">
+        <div>
+          <p class="kicker">Upcoming release board</p>
+          <h1>Sports cards + TCG drops</h1>
+          <p class="subhead">One calendar for the next set, box, or chase.</p>
+        </div>
+        <div class="actions">
+          <button class="command" type="button" data-share>Share</button>
+          <details class="subscribe">
+            <summary>Subscribe</summary>
+            <div class="feed-menu"><div class="feed-choice">
+      <strong>All drops</strong>
+      <span><a href="webcal://jervin6.github.io/card-release-calendar/cards.ics">Apple</a><a href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fjervin6.github.io%2Fcard-release-calendar%2Fcards.ics" target="_blank" rel="noopener">Google</a><button type="button" data-copy="https://jervin6.github.io/card-release-calendar/cards.ics">Copy URL</button></span>
+    </div><div class="feed-choice">
+      <strong>Sports cards</strong>
+      <span><a href="webcal://jervin6.github.io/card-release-calendar/sports.ics">Apple</a><a href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fjervin6.github.io%2Fcard-release-calendar%2Fsports.ics" target="_blank" rel="noopener">Google</a><button type="button" data-copy="https://jervin6.github.io/card-release-calendar/sports.ics">Copy URL</button></span>
+    </div><div class="feed-choice">
+      <strong>TCG</strong>
+      <span><a href="webcal://jervin6.github.io/card-release-calendar/tcg.ics">Apple</a><a href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fjervin6.github.io%2Fcard-release-calendar%2Ftcg.ics" target="_blank" rel="noopener">Google</a><button type="button" data-copy="https://jervin6.github.io/card-release-calendar/tcg.ics">Copy URL</button></span>
+    </div></div>
+          </details>
+        </div>
+      </header>
+      <div class="viewbar">
+        <div class="filter" role="group" aria-label="Release category">
+          <button type="button" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="sports" aria-pressed="false">Sports 42</button>
+          <button type="button" data-filter="tcg" aria-pressed="false">TCG 16</button>
+        </div>
+        <span class="result-count" aria-live="polite"></span>
       </div>
+      <div class="drop-board"><section class="day-group" data-day="2026-08-19">
+      <header class="day-label"><time datetime="2026-08-19">Wednesday, Aug 19</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span></div>
+      <h3>2026 Topps Chrome Baseball Logofractor Edition</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.topps.com/pages/topps-chrome-baseball-logofractor-edition" target="_blank" rel="noopener">topps.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-08-20">
+      <header class="day-label"><time datetime="2026-08-20">Thursday, Aug 20</time><span data-day-count>2 drops</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Basketball</span><span class="status">Tentative</span></div>
+      <h3>2025-26 Topps Motif Basketball</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2025-26-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Soccer</span><span class="status">Tentative</span></div>
+      <h3>2026-27 Topps English Premier League Soccer</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-27-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-08-21">
+      <header class="day-label"><time datetime="2026-08-21">Friday, Aug 21</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Football</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Football</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-08-26">
+      <header class="day-label"><time datetime="2026-08-26">Wednesday, Aug 26</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Chrome Baseball Sapphire Edition</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-08-27">
+      <header class="day-label"><time datetime="2026-08-27">Thursday, Aug 27</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Basketball</span><span class="status">Tentative</span></div>
+      <h3>2025-26 Topps Chrome Black Basketball</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2025-26-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-08-28">
+      <header class="day-label"><time datetime="2026-08-28">Friday, Aug 28</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Pokemon</span><span class="status">Tentative</span></div>
+      <h3>Pokemon Mega Evolution Ascended Heroes</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-pokemon-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-08-31">
+      <header class="day-label"><time datetime="2026-08-31">Monday, Aug 31</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Magic: The Gathering</span><span class="status">Tentative</span></div>
+      <h3>Magic The Gathering The Hobbit</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-09-04">
+      <header class="day-label"><time datetime="2026-09-04">Friday, Sep 4</time><span data-day-count>3 drops</span></header>
+      <div class="day-drops"><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Magic: The Gathering</span><span class="status">Tentative</span></div>
+      <h3>Magic the Gathering The Hobbit</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Yu-Gi-Oh!</span><span class="status">Tentative</span></div>
+      <h3>Yu-Gi-Oh! Magnificent Monsters</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Digimon</span><span class="status">Tentative</span></div>
+      <h3>Digimon Card Game: Timeless Bonds</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-other-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-09-09">
+      <header class="day-label"><time datetime="2026-09-09">Wednesday, Sep 9</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Bowman Chrome Baseball</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-09-10">
+      <header class="day-label"><time datetime="2026-09-10">Thursday, Sep 10</time><span data-day-count>3 drops</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Soccer</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Chrome MLS Soccer</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Soccer</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps MLS Chrome Soccer</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Soccer</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps MLS Chrome Soccer Mania</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-09-12">
+      <header class="day-label"><time datetime="2026-09-12">Saturday, Sep 12</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Baseball x KAWS</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-09-16">
+      <header class="day-label"><time datetime="2026-09-16">Wednesday, Sep 16</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Pokemon</span><span class="status">Tentative</span></div>
+      <h3>Pokemon 30th Celebration</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-pokemon-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-09-18">
+      <header class="day-label"><time datetime="2026-09-18">Friday, Sep 18</time><span data-day-count>2 drops</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Soccer</span><span class="status">Tentative</span></div>
+      <h3>2025-26 Topps UEFA Club Competitions Museum Collection Soccer Hat Trick</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2025-26-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Soccer</span><span class="status">Tentative</span></div>
+      <h3>2025-26 Topps UEFA Club Competitions Museum Collection Soccer</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2025-26-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-09-23">
+      <header class="day-label"><time datetime="2026-09-23">Wednesday, Sep 23</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Bowman Chrome Baseball</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-09-30">
+      <header class="day-label"><time datetime="2026-09-30">Wednesday, Sep 30</time><span data-day-count>3 drops</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Bowman Chrome Baseball Sapphire Edition</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Soccer</span><span class="status">Tentative</span></div>
+      <h3>2026-27 Topps English Premier League Soccer</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-27-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Pokemon</span><span class="status">Tentative</span></div>
+      <h3>Pokemon Mega Forces</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-pokemon-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-10-02">
+      <header class="day-label"><time datetime="2026-10-02">Friday, Oct 2</time><span data-day-count>2 drops</span></header>
+      <div class="day-drops"><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Pokemon</span><span class="status">Tentative</span></div>
+      <h3>Pokemon 30th Celebration</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-pokemon-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Magic: The Gathering</span><span class="status">Tentative</span></div>
+      <h3>Magic the Gathering Reality Fracture</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-10-09">
+      <header class="day-label"><time datetime="2026-10-09">Friday, Oct 9</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Yu-Gi-Oh!</span><span class="status">Tentative</span></div>
+      <h3>Yu-Gi-Oh! Beyond the Brave</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-10-22">
+      <header class="day-label"><time datetime="2026-10-22">Thursday, Oct 22</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Holiday Baseball</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-10-23">
+      <header class="day-label"><time datetime="2026-10-23">Friday, Oct 23</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Basketball</span><span class="status">Tentative</span></div>
+      <h3>2026-27 Topps Basketball</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-27-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-10-30">
+      <header class="day-label"><time datetime="2026-10-30">Friday, Oct 30</time><span data-day-count>4 drops</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Soccer</span><span class="status">Tentative</span></div>
+      <h3>2026-27 Topps English Premier League Soccer Golden Boot 4-Tin Tray</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-27-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Soccer</span><span class="status">Tentative</span></div>
+      <h3>2026-27 Topps English Premier League Soccer Golden Boot</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-27-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Basketball</span><span class="status">Tentative</span></div>
+      <h3>2026-27 Topps Holiday Basketball Countdown Calendar</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-27-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Pokemon</span><span class="status">Tentative</span></div>
+      <h3>Pokemon 30th Celebration</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-pokemon-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-10-31">
+      <header class="day-label"><time datetime="2026-10-31">Saturday, Oct 31</time><span data-day-count>3 drops</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Bowman Sterling Baseball</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Football</span><span class="status">Tentative</span></div>
+      <h3>2026 Bowman University Chrome Football</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Update Series Baseball</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-11-06">
+      <header class="day-label"><time datetime="2026-11-06">Friday, Nov 6</time><span data-day-count>2 drops</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Stadium Club Baseball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Pokemon</span><span class="status">Tentative</span></div>
+      <h3>Pokemon 30th Celebration</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-pokemon-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-11-07">
+      <header class="day-label"><time datetime="2026-11-07">Saturday, Nov 7</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Pokemon</span><span class="status">Tentative</span></div>
+      <h3>Pokemon 30th Celebration</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-pokemon-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-11-08">
+      <header class="day-label"><time datetime="2026-11-08">Sunday, Nov 8</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Stadium Club Baseball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-11-13">
+      <header class="day-label"><time datetime="2026-11-13">Friday, Nov 13</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Chrome Update Series Baseball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-11-22">
+      <header class="day-label"><time datetime="2026-11-22">Sunday, Nov 22</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Gilded Collection Baseball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-12-04">
+      <header class="day-label"><time datetime="2026-12-04">Friday, Dec 4</time><span data-day-count>3 drops</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Basketball</span><span class="status">Tentative</span></div>
+      <h3>2026-27 Topps Chrome Basketball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-27-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Pokemon</span><span class="status">Tentative</span></div>
+      <h3>Pokemon 30th Celebration</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-pokemon-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Yu-Gi-Oh!</span><span class="status">Tentative</span></div>
+      <h3>Yu-Gi-Oh! Glorious Victors</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-12-10">
+      <header class="day-label"><time datetime="2026-12-10">Thursday, Dec 10</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Chrome Update Series Baseball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-12-12">
+      <header class="day-label"><time datetime="2026-12-12">Saturday, Dec 12</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Archives Baseball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-12-17">
+      <header class="day-label"><time datetime="2026-12-17">Thursday, Dec 17</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Heritage High Number Baseball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-12-18">
+      <header class="day-label"><time datetime="2026-12-18">Friday, Dec 18</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Basketball</span><span class="status">Tentative</span></div>
+      <h3>2026-27 Topps Chrome Basketball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-27-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2026-12-19">
+      <header class="day-label"><time datetime="2026-12-19">Saturday, Dec 19</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Triple Threads Baseball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2027-01-07">
+      <header class="day-label"><time datetime="2027-01-07">Thursday, Jan 7</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Topps Chrome Update Series Baseball Sapphire Edition</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2027-01-14">
+      <header class="day-label"><time datetime="2027-01-14">Thursday, Jan 14</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Bowman Draft Baseball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2027-01-15">
+      <header class="day-label"><time datetime="2027-01-15">Friday, Jan 15</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Soccer</span><span class="status">Tentative</span></div>
+      <h3>2026-27 Topps UEFA Club Competitions Soccer</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-27-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2027-01-29">
+      <header class="day-label"><time datetime="2027-01-29">Friday, Jan 29</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Basketball</span><span class="status">Tentative</span></div>
+      <h3>2026-27 Topps Midnight Basketball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2027-03-05">
+      <header class="day-label"><time datetime="2027-03-05">Friday, Mar 5</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Basketball</span><span class="status">Tentative</span></div>
+      <h3>2026-27 Topps Finest Basketball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-27-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2027-03-11">
+      <header class="day-label"><time datetime="2027-03-11">Thursday, Mar 11</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Baseball</span><span class="status">Tentative</span></div>
+      <h3>2026 Bowman's Best Baseball</h3>
+      <p>9:00 AM PST <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2027-05-01">
+      <header class="day-label"><time datetime="2027-05-01">Saturday, May 1</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Basketball</span><span class="status">Tentative</span></div>
+      <h3>2026-27 Topps Cosmic Chrome Basketball</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2026-27-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2027-07-17">
+      <header class="day-label"><time datetime="2027-07-17">Saturday, Jul 17</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="sports">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>Soccer</span><span class="status">Tentative</span></div>
+      <h3>2025-26 Topps Inception UEFA Club Competitions Soccer</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2025-26-topps-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section><section class="day-group" data-day="2027-09-15">
+      <header class="day-label"><time datetime="2027-09-15">Wednesday, Sep 15</time><span data-day-count>1 drop</span></header>
+      <div class="day-drops"><article class="drop" data-category="tcg">
+    <span class="edge" aria-hidden="true"></span>
+    <div class="drop-copy">
+      <div class="drop-meta"><span>One Piece</span><span class="status">Tentative</span></div>
+      <h3>One Piece Trading Card Game Learn Together Luffy, Zoro &amp; Nami Starter Deck Set LT-01</h3>
+      <p>9:00 AM PDT <span aria-hidden="true">/</span> <a class="source" href="https://www.waxstat.com/2025-other-cards-release-calendar" target="_blank" rel="noopener">waxstat.com</a></p>
+    </div>
+  </article></div>
+    </section></div>
+      <p class="empty" data-empty>No upcoming drops in this view.</p>
+      <footer><span>Times shown in Pacific Time.</span><span>Tentative dates come from release calendars and can move.</span></footer>
     </main>
+    <div class="toast" role="status" aria-live="polite"></div>
+    <script>
+      const filterButtons = [...document.querySelectorAll('[data-filter]')];
+      const drops = [...document.querySelectorAll('.drop')];
+      const groups = [...document.querySelectorAll('.day-group')];
+      const resultCount = document.querySelector('.result-count');
+      const empty = document.querySelector('[data-empty]');
+      const toast = document.querySelector('.toast');
+      let toastTimer;
+
+      function showToast(message) {
+        toast.textContent = message;
+        toast.dataset.visible = 'true';
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => { toast.dataset.visible = 'false'; }, 1800);
+      }
+
+      function applyFilter(view, updateUrl = true) {
+        if (!['all', 'sports', 'tcg'].includes(view)) view = 'all';
+        filterButtons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.filter === view)));
+        drops.forEach((drop) => { drop.hidden = view !== 'all' && drop.dataset.category !== view; });
+        groups.forEach((group) => {
+          const dayCount = group.querySelectorAll('.drop:not([hidden])').length;
+          group.hidden = dayCount === 0;
+          group.querySelector('[data-day-count]').textContent = dayCount + (dayCount === 1 ? ' drop' : ' drops');
+        });
+        const visible = drops.filter((drop) => !drop.hidden).length;
+        resultCount.textContent = visible + (visible === 1 ? ' upcoming drop' : ' upcoming drops');
+        empty.dataset.visible = String(visible === 0);
+        if (updateUrl) {
+          const url = new URL(location.href);
+          if (view === 'all') url.searchParams.delete('view'); else url.searchParams.set('view', view);
+          history.replaceState(null, '', url);
+        }
+      }
+
+      async function copyText(value, message) {
+        try { await navigator.clipboard.writeText(value); showToast(message); }
+        catch { showToast('Copy was blocked'); }
+      }
+
+      filterButtons.forEach((button) => button.addEventListener('click', () => applyFilter(button.dataset.filter)));
+      document.querySelectorAll('[data-copy]').forEach((button) => button.addEventListener('click', () => copyText(button.dataset.copy, 'Calendar URL copied')));
+      document.querySelector('[data-share]').addEventListener('click', async () => {
+        const shareData = { title: 'Card Release Calendar', text: 'Sports cards + TCG drops', url: location.href };
+        if (navigator.share) {
+          try { await navigator.share(shareData); }
+          catch (error) { if (error.name !== 'AbortError') showToast('Share was blocked'); }
+        } else {
+          await copyText(location.href, 'Share link copied');
+        }
+      });
+
+      applyFilter(new URLSearchParams(location.search).get('view') || 'all', false);
+    </script>
   </body>
 </html>

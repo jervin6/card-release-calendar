@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Jordan Ervin//Card Release Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Card Drops
+X-WR-CALNAME:Sports Card Drops
 X-WR-TIMEZONE:UTC
 X-PUBLISHED-TTL:PT1H
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
@@ -631,81 +631,6 @@ TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/2025-26-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:pokemon-mega-evolution-ascended-heroes-20260828@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20260828T160000Z
-DTEND:20260828T170000Z
-SUMMARY:Pokemon Mega Evolution Ascended Heroes
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-pokemon-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-pokemon-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:magic-the-gathering-the-hobbit-20260831@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20260831T160000Z
-DTEND:20260831T170000Z
-SUMMARY:Magic The Gathering The Hobbit
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:magic-the-gathering-the-hobbit-20260904@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20260904T160000Z
-DTEND:20260904T170000Z
-SUMMARY:Magic the Gathering The Hobbit
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:yu-gi-oh-magnificent-monsters-20260904@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20260904T160000Z
-DTEND:20260904T170000Z
-SUMMARY:Yu-Gi-Oh! Magnificent Monsters
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:digimon-card-game-timeless-bonds-20260904@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20260904T160000Z
-DTEND:20260904T170000Z
-SUMMARY:Digimon Card Game: Timeless Bonds
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-other-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-other-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-bowman-chrome-baseball-20260909@card-release-calendar
 DTSTAMP:20260819T033409Z
 DTSTART:20260909T160000Z
@@ -779,21 +704,6 @@ LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/2026-topps-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:pokemon-30th-celebration-20260916@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20260916T160000Z
-DTEND:20260916T170000Z
-SUMMARY:Pokemon 30th Celebration
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-pokemon-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-pokemon-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-uefa-club-competitions-museum-collection-soccer-hat-trick
@@ -876,66 +786,6 @@ TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/2026-27-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:pokemon-mega-forces-20260930@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20260930T160000Z
-DTEND:20260930T170000Z
-SUMMARY:Pokemon Mega Forces
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-pokemon-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-pokemon-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:pokemon-30th-celebration-20261002@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20261002T160000Z
-DTEND:20261002T170000Z
-SUMMARY:Pokemon 30th Celebration
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-pokemon-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-pokemon-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:magic-the-gathering-reality-fracture-20261002@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20261002T160000Z
-DTEND:20261002T170000Z
-SUMMARY:Magic the Gathering Reality Fracture
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:yu-gi-oh-beyond-the-brave-20261009@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20261009T160000Z
-DTEND:20261009T170000Z
-SUMMARY:Yu-Gi-Oh! Beyond the Brave
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-topps-holiday-baseball-20261022@card-release-calendar
 DTSTAMP:20260819T033409Z
 DTSTART:20261022T160000Z
@@ -1014,21 +864,6 @@ TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/2026-27-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:pokemon-30th-celebration-20261030@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20261030T160000Z
-DTEND:20261030T170000Z
-SUMMARY:Pokemon 30th Celebration
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-pokemon-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-pokemon-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-bowman-sterling-baseball-20261031@card-release-calendar
 DTSTAMP:20260819T033409Z
 DTSTART:20261031T160000Z
@@ -1089,36 +924,6 @@ TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/2026-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:pokemon-30th-celebration-20261106@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20261106T170000Z
-DTEND:20261106T180000Z
-SUMMARY:Pokemon 30th Celebration
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-pokemon-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-pokemon-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:pokemon-30th-celebration-20261107@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20261107T170000Z
-DTEND:20261107T180000Z
-SUMMARY:Pokemon 30th Celebration
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-pokemon-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-pokemon-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-topps-stadium-club-baseball-20261108@card-release-calendar
 DTSTAMP:20260819T033409Z
 DTSTART:20261108T170000Z
@@ -1177,36 +982,6 @@ LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/2026-27-topps-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:pokemon-30th-celebration-20261204@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20261204T170000Z
-DTEND:20261204T180000Z
-SUMMARY:Pokemon 30th Celebration
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-pokemon-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-pokemon-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:yu-gi-oh-glorious-victors-20261204@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20261204T170000Z
-DTEND:20261204T180000Z
-SUMMARY:Yu-Gi-Oh! Glorious Victors
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-update-series-baseball-20261210@card-release-calendar
@@ -1405,22 +1180,5 @@ LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/2025-26-topps-cards-release-calendar
-END:VEVENT
-BEGIN:VEVENT
-UID:one-piece-trading-card-game-learn-together-luffy-zoro-and-nami-starter-
- deck-set--20270915@card-release-calendar
-DTSTAMP:20260819T033409Z
-DTSTART:20270915T160000Z
-DTEND:20270915T170000Z
-SUMMARY:One Piece Trading Card Game Learn Together Luffy\, Zoro & Nami Star
- ter Deck Set LT-01
-DESCRIPTION:Release date imported from Waxstat. Time is a 9:00 AM PT placeh
- older\; verify with the publisher before the drop.\nSource: waxstat.com - h
- ttps://www.waxstat.com/2025-other-cards-release-calendar
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/2025-other-cards-release-calendar
 END:VEVENT
 END:VCALENDAR
