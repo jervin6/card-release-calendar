@@ -5,7 +5,8 @@ Public release board and subscribable iCal feeds for sports cards and TCG drops.
 ## What it does
 
 - Reads release entries from `data/releases.json`
-- Reconciles upcoming sports-card and TCG releases from approved Waxstat calendars
+- Reconciles official publisher calendars with Hobby Monitor and Waxstat
+- Treats official Topps calendar dates and links as authoritative for Topps products
 - Consolidates box, pack, tin, case, and retail variants into one set-level drop
 - Filters sports and games using `config/subscriptions.json`
 - Generates combined, sports-only, and TCG-only iCal feeds
@@ -68,4 +69,16 @@ Edit `data/releases.json` and add entries like:
 
 This repo includes a scheduled GitHub Actions workflow that rebuilds the feed and publishes `docs/`.
 
-Imported future records are replaced from the latest source snapshot on every sync. Manual records and past release history are preserved.
+Imported future records are replaced from the latest source snapshot on every sync. Past release history is preserved; future manual records remain unless a higher-authority official source matches the same product.
+
+## Source authority
+
+Release conflicts are resolved by source authority instead of fetch order:
+
+1. Official publisher calendars (`100`) - Topps, Magic, and Disney Lorcana
+2. Hobby Monitor and Waxstat (`70`)
+3. Beckett (`50`)
+
+The sync also uses expanded Waxstat calendars for Pokemon, Magic, Yu-Gi-Oh!, Disney Lorcana, and other configured TCGs. Publishers without a stable structured release calendar remain covered by Hobby Monitor and Waxstat.
+
+Every generated iCal event places the preferred direct product or drop page in the standard `URL` field and repeats it as `Drop link` in the description. Secondary references are retained in the event description when multiple sources corroborate a release.

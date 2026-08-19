@@ -100,9 +100,12 @@ function eventLines(release, revisionStamp) {
     ? toDate(release.endsAt)
     : new Date(startsAt.getTime() + 60 * 60 * 1000);
   const details = [release.notes];
-  if (release.sourceName || release.sourceUrl) {
-    details.push(`Source: ${[release.sourceName, release.sourceUrl].filter(Boolean).join(" - ")}`);
-  }
+  if (release.sourceUrl) details.push(`Drop link: ${release.sourceUrl}`);
+  const references = (release.sources ?? [])
+    .filter((source) => source.url && source.url !== release.sourceUrl)
+    .map((source) => [source.name, source.url].filter(Boolean).join(" - "));
+  if (references.length > 0) details.push(`Also sourced from: ${references.join("; ")}`);
+  else if (release.sourceName && !release.sourceUrl) details.push(`Source: ${release.sourceName}`);
   const category = release.category === "tcg" ? "TCG" : "SPORTS CARDS";
   const lines = [
     "BEGIN:VEVENT",

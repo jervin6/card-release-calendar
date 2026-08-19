@@ -1,14 +1,11 @@
 #!/usr/bin/env node
 /**
- * sync-topps.mjs — feed card-release-calendar's data/releases.json with
- * upcoming sports-card and TCG releases.
+ * sync-topps.mjs — reconcile upcoming sports-card and TCG releases from
+ * official publisher calendars and trusted secondary sources.
  *
- * Source: waxstat.com's release calendars. They are plain server-rendered
- * HTML (no Cloudflare, no login, no JS-gating), each row carrying an exact
- * "MMM DD, YYYY" release date — so this runs as a simple daily cron with no
- * browser and no babysitting. (topps.com itself is behind a Cloudflare Turnstile
- * that blocks automation, and distributor/aggregator sources are walled, dealer-
- * gated, or stale archives — waxstat is the one reliable machine-readable feed.)
+ * Authority: official publisher sources win, then Hobby Monitor, then Waxstat.
+ * Topps' official calendar is always authoritative for Topps products. Each
+ * provider is isolated so a temporary outage does not erase its last snapshot.
  *
  * Scope is governed by config/subscriptions.json. Packaging variants of the
  * same set and date collapse into one calendar entry. Future managed records
@@ -32,8 +29,17 @@ import {
   detectSport,
   detectTcgGame,
   matchesSubscriptions,
-  normalizedTitle
+  releaseFamilyIdentity,
+  releaseIdentity,
+  sourceAuthority
 } from "./release-utils.mjs";
+import {
+  parseHobbyMonitorHtml,
+  parseLorcanaMarkdown,
+  parseMagicMarkdown,
+  parseToppsMarkdown,
+  parseWaxstatHtml
+} from "./source-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -43,9 +49,18 @@ const SUBSCRIPTIONS_PATH = path.join(ROOT, "config", "subscriptions.json");
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
 
+const TOPPS_CALENDAR = "https://www.topps.com/release-calendar";
+const HOBBY_MONITOR = "https://www.hobbymonitor.com/releases";
+const MAGIC_PRODUCTS = "https://magic.wizards.com/en/products";
+const LORCANA_PRODUCTS = [
+  "https://www.disneylorcana.com/en-US/product/hyperia-city",
+  "https://www.disneylorcana.com/en-US/product/great-hunny-rescue"
+];
+const readerUrl = (url) => `https://r.jina.ai/${url}`;
+
 // Waxstat labels products by card year, so last year's page can still contain
 // releases in the current calendar year. Missing slugs are skipped harmlessly.
-const SOURCES = [
+const WAXSTAT_SOURCES = [
   ...["2025-topps", "2025-26-topps", "2026-topps", "2026-27-topps", "2027-topps"]
     .map((name) => ({ slug: `${name}-cards-release-calendar`, category: "sports" })),
   ...["2025-pokemon", "2026-pokemon", "2027-pokemon"]
@@ -55,10 +70,14 @@ const SOURCES = [
   ...["2025-yu-gi-oh", "2026-yu-gi-oh", "2027-yu-gi-oh"]
     .map((name) => ({ slug: `${name}-cards-release-calendar`, category: "tcg", game: "Yu-Gi-Oh!" })),
   ...["2025-other", "2026-other", "2027-other"]
-    .map((name) => ({ slug: `${name}-cards-release-calendar`, category: "tcg" }))
-];
-const srcUrl = (slug) => `https://www.waxstat.com/${slug}`;
-
+    .map((name) => ({ slug: `${name}-cards-release-calendar`, category: "tcg" })),
+  ...["2025-disney", "2026-disney", "2027-disney"]
+    .map((name) => ({ slug: `${name}-cards-release-calendar`, category: "tcg", game: "Disney Lorcana" }))
+].map((source) => ({
+  ...source,
+  id: `waxstat:${source.slug}`,
+  url: `https://www.waxstat.com/${source.slug}`
+}));
 const args = process.argv.slice(2);
 const DRY = args.includes("--dry-run");
 const NO_PUSH = args.includes("--no-push");
@@ -68,18 +87,8 @@ const VERBOSE = args.includes("--verbose") || DRY;
 const log = (...a) => console.log(...a);
 const vlog = (...a) => VERBOSE && console.log(...a);
 
-const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
 /* ------------------------------ parsing -------------------------------- */
 
-function cellTexts(html, cls) {
-  // each waxstat cell is: <div class="… wax-x …"><div…>TEXT</div>…
-  const re = new RegExp(`class="[^"]*${cls}[^"]*"[^>]*>\\s*<div[^>]*>([\\s\\S]*?)</div>`, "g");
-  const out = [];
-  let m;
-  while ((m = re.exec(html))) out.push(decode(m[1].replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim());
-  return out;
-}
 function decode(s) {
   return s
     .replace(/&amp;/g, "&")
@@ -100,30 +109,6 @@ function slug(s) {
     .slice(0, 80);
 }
 
-function parseWaxstat(html, source) {
-  const names = cellTexts(html, "wax-name");
-  const dates = cellTexts(html, "wax-release-date");
-  const n = Math.min(names.length, dates.length);
-  const rows = [];
-  for (let i = 0; i < n; i++) {
-    if (dates[i].toLowerCase() === "release date") continue; // header
-    const dm = dates[i].match(/^([A-Z][a-z]{2})\s+(\d{1,2}),\s+(\d{4})$/);
-    if (!dm) continue;
-    const month = MONTHS.indexOf(dm[1]) + 1;
-    if (!month) continue;
-    rows.push({
-      rawName: names[i],
-      y: +dm[3],
-      m: month,
-      d: +dm[2],
-      sourceUrl: srcUrl(source.slug),
-      category: source.category,
-      game: source.game
-    });
-  }
-  return rows;
-}
-
 /* ---------------------------- date / offset ---------------------------- */
 
 function ptOffset(y, m, d) {
@@ -137,9 +122,32 @@ function ptOffset(y, m, d) {
 }
 const pad = (x) => String(x).padStart(2, "0");
 
+function pacificDateKey(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/Los_Angeles",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(date);
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
 /* ------------------------------ sources -------------------------------- */
 
-async function loadSource(source) {
+async function fetchText(url) {
+  const reader = url.startsWith("https://r.jina.ai/");
+  const response = await fetch(url, {
+    headers: reader
+      ? { accept: "text/plain" }
+      : { "user-agent": UA, accept: "text/html, text/markdown" },
+    signal: AbortSignal.timeout(25_000)
+  });
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  return response.text();
+}
+
+async function loadWaxstatSource(source) {
   if (OFFLINE) {
     try {
       return await readFile(`wax_${source.slug}.html`, "utf8");
@@ -147,12 +155,32 @@ async function loadSource(source) {
       return null;
     }
   }
-  const res = await fetch(srcUrl(source.slug), { headers: { "user-agent": UA, accept: "text/html" } });
-  if (!res.ok) {
-    vlog(`  ! ${source.slug}: HTTP ${res.status}`);
+  try {
+    return await fetchText(source.url);
+  } catch (error) {
+    vlog(`  ! ${source.slug}: ${error.message}`);
     return null;
   }
-  return res.text();
+}
+
+async function loadLorcanaRows() {
+  const seedUrl = LORCANA_PRODUCTS[0];
+  const seedMarkdown = await fetchText(readerUrl(seedUrl));
+  const discovered = [...seedMarkdown.matchAll(/\]\((https:\/\/www\.disneylorcana\.com\/en-US\/product\/[^)]+)\)/g)]
+    .map((match) => match[1]);
+  const urls = [...new Set([...LORCANA_PRODUCTS, ...discovered])].slice(0, 12);
+  const results = await Promise.allSettled(urls.map(async (url) => {
+    const markdown = url === seedUrl ? seedMarkdown : await fetchText(readerUrl(url));
+    return { id: `lorcana-official:${new URL(url).pathname.split("/").filter(Boolean).at(-1)}`, rows: parseLorcanaMarkdown(markdown, url) };
+  }));
+  const rows = [];
+  const succeeded = new Set();
+  for (const result of results) {
+    if (result.status !== "fulfilled") continue;
+    succeeded.add(result.value.id);
+    rows.push(...result.value.rows);
+  }
+  return { rows, succeeded };
 }
 
 /* ------------------------------- merge --------------------------------- */
@@ -160,23 +188,47 @@ async function loadSource(source) {
 /* -------------------------------- main --------------------------------- */
 
 async function main() {
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-
   const existing = JSON.parse(await readFile(RELEASES_PATH, "utf8"));
   const subscriptions = JSON.parse(await readFile(SUBSCRIPTIONS_PATH, "utf8"));
   log(`Scope: ${(subscriptions.categories ?? ["sports"]).join(" + ")}`);
   log(`Existing releases: ${existing.length}`);
 
-  // gather + parse all source pages
+  // Gather official publishers first, then trusted secondary sources. The
+  // resolver below uses explicit authority, so completion order cannot change
+  // which date or link wins.
   const rawRows = [];
-  const reconciledSourceUrls = new Set();
-  for (const source of SOURCES) {
-    const html = await loadSource(source);
+  const successfulSourceIds = new Set();
+  const successfulWaxstatCalendars = new Set();
+
+  if (!OFFLINE) {
+    const providers = await Promise.allSettled([
+      fetchText(readerUrl(TOPPS_CALENDAR)).then((body) => ({ id: "topps-official", label: "Topps official", rows: parseToppsMarkdown(body) })),
+      fetchText(HOBBY_MONITOR).then((body) => ({ id: "hobby-monitor", label: "Hobby Monitor", rows: parseHobbyMonitorHtml(body) })),
+      fetchText(readerUrl(MAGIC_PRODUCTS)).then((body) => ({ id: "magic-official", label: "Magic official", rows: parseMagicMarkdown(body) })),
+      loadLorcanaRows().then((result) => ({ id: null, label: "Disney Lorcana official", ...result }))
+    ]);
+    for (const result of providers) {
+      if (result.status !== "fulfilled") {
+        vlog(`  ! provider: ${result.reason?.message ?? result.reason}`);
+        continue;
+      }
+      const { id, label, rows, succeeded } = result.value;
+      vlog(`  ${label}: ${rows.length} dated rows`);
+      if (id && rows.length > 0) successfulSourceIds.add(id);
+      for (const sourceId of succeeded ?? []) successfulSourceIds.add(sourceId);
+      rawRows.push(...rows);
+    }
+  }
+
+  for (const source of WAXSTAT_SOURCES) {
+    const html = await loadWaxstatSource(source);
     if (!html) continue;
-    const rows = parseWaxstat(html, source);
+    const rows = parseWaxstatHtml(html, source);
     vlog(`  ${source.slug}: ${rows.length} dated rows`);
-    if (rows.length > 0) reconciledSourceUrls.add(srcUrl(source.slug));
+    if (rows.length > 0) {
+      successfulSourceIds.add(source.id);
+      successfulWaxstatCalendars.add(source.url);
+    }
     rawRows.push(...rows);
   }
   if (rawRows.length === 0) {
@@ -184,58 +236,161 @@ async function main() {
     return;
   }
 
-  // collapse variants -> one candidate per (baseName + date), in scope + future
-  const candidates = new Map(); // key -> release
+  const todayIso = pacificDateKey();
+  const candidates = new Map();
+
+  function reference(release) {
+    return {
+      id: release.sourceName === "waxstat.com" ? "waxstat" : release.sourceId ?? release.sourceName,
+      name: release.sourceName,
+      url: release.sourceUrl,
+      priority: sourceAuthority(release),
+      quality: linkQuality(release)
+    };
+  }
+
+  function linkQuality(release) {
+    const url = release.sourceUrl ?? "";
+    let score = /\/boxes\/|\/pages\/|\/products?\/|\/release\//.test(url) ? 2 : 0;
+    if (/\bcase\b/i.test(release.originalTitle ?? "")) score -= 2;
+    else if (/\bbox\b/i.test(release.originalTitle ?? "")) score += 1;
+    return score;
+  }
+
+  function addCandidate(release) {
+    let key = releaseIdentity(release);
+    const familyKey = releaseFamilyIdentity(release);
+    if (!candidates.has(key)) {
+      for (const [candidateKey, candidate] of candidates) {
+        const officialPair = sourceAuthority(release) >= 100 || sourceAuthority(candidate) >= 100;
+        if (officialPair && releaseFamilyIdentity(candidate) === familyKey) {
+          key = candidateKey;
+          break;
+        }
+      }
+    }
+    const existingRelease = candidates.get(key);
+    if (!existingRelease) {
+      const { quality, ...initialReference } = reference(release);
+      candidates.set(key, {
+        ...release,
+        sources: [initialReference]
+      });
+      return;
+    }
+
+    const existingAuthority = sourceAuthority(existingRelease);
+    const incomingAuthority = sourceAuthority(release);
+    const existingDate = String(existingRelease.startsAt).slice(0, 10);
+    const incomingDate = String(release.startsAt).slice(0, 10);
+    const existingFuture = existingDate >= todayIso;
+    const incomingFuture = incomingDate >= todayIso;
+    const incomingDateWins = incomingFuture !== existingFuture
+      ? incomingFuture
+      : incomingFuture ? incomingDate < existingDate : incomingDate > existingDate;
+    const secondaryDateOverride = incomingFuture !== existingFuture
+      && Math.max(incomingAuthority, existingAuthority) < 100;
+    const incomingWins = secondaryDateOverride
+      ? incomingFuture
+      : incomingAuthority > existingAuthority
+        || (incomingAuthority === existingAuthority
+          && release.status === "CONFIRMED" && existingRelease.status !== "CONFIRMED")
+        || (incomingAuthority === existingAuthority
+          && release.status === existingRelease.status
+          && linkQuality(release) > linkQuality(existingRelease))
+        || (incomingAuthority === existingAuthority
+          && release.status === existingRelease.status
+          && linkQuality(release) === linkQuality(existingRelease)
+          && incomingDateWins);
+    const preferred = incomingWins ? release : existingRelease;
+    const allSources = [...(existingRelease.sources ?? []), reference(existingRelease), reference(release)]
+      .filter((source) => source.name || source.url);
+    const uniqueSources = new Map();
+    for (const source of allSources) {
+      const sourceKey = source.id ?? source.name ?? source.url ?? "source";
+      const current = uniqueSources.get(sourceKey);
+      if (!current || (source.quality ?? 0) > (current.quality ?? 0)) uniqueSources.set(sourceKey, source);
+    }
+    candidates.set(key, {
+      ...preferred,
+      tags: [...new Set([...(existingRelease.tags ?? []), ...(release.tags ?? [])])],
+      sources: [...uniqueSources.values()]
+        .sort((left, right) => (right.priority ?? 0) - (left.priority ?? 0))
+        .map(({ quality, ...source }) => source)
+    });
+  }
+
   for (const r of rawRows) {
-    const title = canonicalReleaseTitle(decode(r.rawName));
+    const canonicalTitle = canonicalReleaseTitle(decode(r.rawName));
+    const title = r.releaseKind === "prerelease" ? `${canonicalTitle} Prerelease` : canonicalTitle;
     if (!title) continue;
     if (r.m === 12 && r.d === 31) continue; // waxstat parks "date TBD" on Dec 31
-    const startsAtDate = new Date(`${r.y}-${pad(r.m)}-${pad(r.d)}T12:00:00`);
-    if (startsAtDate < today) continue; // future only
+    const dateISO = `${r.y}-${pad(r.m)}-${pad(r.d)}`;
     const game = r.game ?? detectTcgGame(title);
     if (r.category === "tcg" && !game) continue;
     const sport = r.category === "sports" ? detectSport(title) : null;
     const tags = r.category === "tcg"
       ? ["TCG", game]
       : ["Sports cards", ...(sport ? [sport] : [])];
-    const off = ptOffset(r.y, r.m, r.d);
-    const dateISO = `${r.y}-${pad(r.m)}-${pad(r.d)}`;
-    const key = `${r.category}:${normalizedTitle(title)}:${dateISO}`;
-    if (candidates.has(key)) continue;
+    let startsAt;
+    let endsAt;
+    if (Number.isInteger(r.utcHour)) {
+      const start = new Date(Date.UTC(r.y, r.m - 1, r.d, r.utcHour, r.utcMinute ?? 0));
+      startsAt = start.toISOString();
+      endsAt = new Date(start.getTime() + 60 * 60 * 1000).toISOString();
+    } else {
+      const off = ptOffset(r.y, r.m, r.d);
+      startsAt = `${dateISO}T09:00:00${off}`;
+      endsAt = `${dateISO}T10:00:00${off}`;
+    }
+    const official = Number(r.sourcePriority) >= 100;
     const release = {
-      id: `${slug(title)}-${r.y}${pad(r.m)}${pad(r.d)}`,
+      id: `${slug(title)}-${r.category}`,
       title,
-      startsAt: `${dateISO}T09:00:00${off}`,
-      endsAt: `${dateISO}T10:00:00${off}`,
-      notes: "Release date imported from Waxstat. Time is a 9:00 AM PT placeholder; verify with the publisher before the drop.",
+      startsAt,
+      endsAt,
+      notes: Number.isInteger(r.utcHour)
+        ? `Official drop time from ${r.sourceName}.`
+        : `Release date from ${r.sourceName}. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.`,
       location: "Online",
-      status: "TENTATIVE",
-      sourceName: "waxstat.com",
+      status: r.status ?? (official ? "CONFIRMED" : "TENTATIVE"),
+      sourceName: r.sourceName,
       sourceUrl: r.sourceUrl,
+      sourceCalendarUrl: r.sourceCalendarUrl,
+      sourceId: r.sourceId,
+      sourcePriority: r.sourcePriority,
+      ...(r.releaseKind ? { releaseKind: r.releaseKind } : {}),
       tags,
       category: r.category,
       ...(game ? { game } : {}),
       ...(sport ? { sport } : {}),
-      managedBy: "waxstat-sync"
+      managedBy: "release-sync",
+      originalTitle: r.rawName
     };
     if (!matchesSubscriptions(release, subscriptions)) continue;
-    candidates.set(key, release);
+    addCandidate(release);
   }
 
-  // Manual records win. Past imported records remain as history; all future
-  // imported records are replaced by the current source snapshot.
-  const todayIso = today.toISOString().slice(0, 10);
-  const preserved = existing.filter((release) => {
-    const managed = release.managedBy === "waxstat-sync" || release.sourceName === "waxstat.com";
-    const sourceWasRead = reconciledSourceUrls.has(release.sourceUrl);
-    return !managed || !sourceWasRead || String(release.startsAt).slice(0, 10) < todayIso;
-  });
-  const manualKeys = new Set(preserved.map((release) =>
-    `${release.category ?? "sports"}:${normalizedTitle(release.title)}:${String(release.startsAt).slice(0, 10)}`));
-  const managed = [...candidates.entries()]
-    .filter(([key]) => !manualKeys.has(key))
-    .map(([, release]) => release);
-  const merged = [...preserved, ...managed]
+  // Past releases remain history. Future manual entries participate at their
+  // default authority (80), while snapshots from a provider are replaced only
+  // when that provider was successfully read in this run.
+  const preserved = existing.filter((release) => String(release.startsAt).slice(0, 10) < todayIso);
+  for (const release of existing.filter((item) => String(item.startsAt).slice(0, 10) >= todayIso)) {
+    const legacyWaxstat = release.managedBy === "waxstat-sync" || release.sourceName === "waxstat.com";
+    const managed = legacyWaxstat || release.managedBy === "release-sync";
+    const refreshed = legacyWaxstat
+      ? successfulWaxstatCalendars.has(release.sourceCalendarUrl ?? release.sourceUrl)
+      : successfulSourceIds.has(release.sourceId);
+    if (!managed || !refreshed) addCandidate(release);
+  }
+
+  const upcoming = [...candidates.values()]
+    .filter((release) => String(release.startsAt).slice(0, 10) >= todayIso)
+    .map((release) => {
+      const { originalTitle, ...clean } = release;
+      return clean;
+    });
+  const merged = [...preserved, ...upcoming]
     .sort((a, b) => (a.startsAt || "").localeCompare(b.startsAt || ""));
 
   const beforeIds = new Set(existing.map((release) => release.id));
@@ -244,7 +399,7 @@ async function main() {
   const removed = existing.filter((release) => !afterIds.has(release.id));
   const changed = JSON.stringify(existing) !== JSON.stringify(merged);
 
-  log(`\nIn-scope upcoming releases: ${managed.length}`);
+  log(`\nIn-scope upcoming releases: ${upcoming.length}`);
   log(`Changes: +${added.length} / -${removed.length}`);
   for (const release of added) vlog(`  + ${release.startsAt.slice(0, 10)}  ${release.title}`);
   for (const release of removed) vlog(`  - ${release.startsAt.slice(0, 10)}  ${release.title}`);

@@ -98,10 +98,66 @@ export function inferRelease(release) {
 
 export function releaseKey(release) {
   const inferred = inferRelease(release);
-  const title = release.sourceName === "waxstat.com"
+  const title = release.managedBy || release.sourceName === "waxstat.com"
     ? normalizedTitle(release.title)
     : String(release.title).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
   return `${inferred.category}:${title}:${String(release.startsAt).slice(0, 10)}`;
+}
+
+export function sourceAuthority(release) {
+  const explicit = Number(release.sourcePriority);
+  if (Number.isFinite(explicit)) return explicit;
+
+  const source = `${release.sourceName ?? ""} ${release.sourceUrl ?? ""}`.toLowerCase();
+  if (/topps\.com|magic\.wizards\.com|disneylorcana\.com|pokemon\.com|yugioh-card\.com|onepiece-cardgame\.com|digimoncard\.com|starwarsunlimited\.com|fabtcg\.com/.test(source)) return 100;
+  if (/hobby\s*monitor|hobbymonitor\.com/.test(source)) return 70;
+  if (/waxstat/.test(source)) return 70;
+  if (/beckett/.test(source)) return 50;
+  return 80;
+}
+
+export function releaseIdentity(release) {
+  const inferred = inferRelease(release);
+  const ignored = new Set(["card", "cards", "edition", "game", "tcg", "trading"]);
+  let rawTokens = normalizedTitle(release.title).split(" ").filter(Boolean);
+  if (inferred.category === "tcg") {
+    if (/^20\d{2}$/.test(rawTokens[0])) rawTokens = rawTokens.slice(1);
+  }
+  if (rawTokens.includes("mls")) ignored.add("soccer");
+  const tokens = rawTokens.filter((token) => !ignored.has(token));
+  if (release.releaseKind === "prerelease") tokens.push("prerelease");
+  tokens.sort();
+  return `${inferred.category}:${tokens.join(" ")}`;
+}
+
+export function releaseFamilyIdentity(release) {
+  const inferred = inferRelease(release);
+  const ignored = new Set(["card", "cards", "edition", "flagship", "game", "tcg", "trading"]);
+  let tokens = normalizedTitle(release.title).split(" ").filter(Boolean);
+  const toppsProduct = tokens.includes("topps") || tokens.includes("bowman");
+  if (inferred.category === "tcg" || toppsProduct) {
+    if (/^20\d{2}$/.test(tokens[0])) tokens = tokens.slice(1);
+    if (toppsProduct && /^\d{2}$/.test(tokens[0])) tokens = tokens.slice(1);
+  }
+  if (tokens.includes("mls")) ignored.add("soccer");
+  const familyTokens = tokens.filter((token) => !ignored.has(token));
+  if (release.releaseKind === "prerelease") familyTokens.push("prerelease");
+  return `${inferred.category}:${familyTokens.sort().join(" ")}`;
+}
+
+function mergeSources(left, right) {
+  const sources = [...(left.sources ?? []), ...(right.sources ?? [])];
+  for (const release of [left, right]) {
+    if (release.sourceName || release.sourceUrl) {
+      sources.push({ name: release.sourceName, url: release.sourceUrl });
+    }
+  }
+  const unique = new Map();
+  for (const source of sources) {
+    const key = source.id ?? source.name ?? source.url ?? "source";
+    if (!unique.has(key)) unique.set(key, source);
+  }
+  return [...unique.values()];
 }
 
 export function collapseReleaseVariants(releases) {
@@ -119,14 +175,21 @@ export function collapseReleaseVariants(releases) {
       continue;
     }
 
-    const preferred = existing.status === "CONFIRMED" ? existing : release;
+    const existingAuthority = sourceAuthority(existing);
+    const releaseAuthority = sourceAuthority(release);
+    const preferred = existingAuthority > releaseAuthority
+      ? existing
+      : releaseAuthority > existingAuthority
+        ? release
+        : existing.status === "CONFIRMED" ? existing : release;
     byKey.set(key, {
       ...existing,
       ...preferred,
       title: existing.sourceName === "waxstat.com"
         ? canonicalReleaseTitle(existing.title)
         : existing.title,
-      tags: [...new Set([...(existing.tags ?? []), ...(release.tags ?? [])])]
+      tags: [...new Set([...(existing.tags ?? []), ...(release.tags ?? [])])],
+      sources: mergeSources(existing, release)
     });
   }
 

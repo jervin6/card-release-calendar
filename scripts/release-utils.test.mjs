@@ -4,7 +4,10 @@ import {
   canonicalReleaseTitle,
   collapseReleaseVariants,
   inferRelease,
-  matchesSubscriptions
+  matchesSubscriptions,
+  releaseFamilyIdentity,
+  releaseIdentity,
+  sourceAuthority
 } from "./release-utils.mjs";
 
 test("collapses sports-card packaging variants to the set name", () => {
@@ -55,4 +58,49 @@ test("applies independent sports and TCG subscriptions", () => {
   assert.equal(matchesSubscriptions(inferRelease({ title: "2026 Topps Hockey" }), subscriptions), false);
   assert.equal(matchesSubscriptions(inferRelease({ title: "Pokemon Mega Evolution" }), subscriptions), true);
   assert.equal(matchesSubscriptions(inferRelease({ title: "Magic: The Gathering Star Trek" }), subscriptions), false);
+});
+
+test("ranks official publishers above secondary release calendars", () => {
+  assert.equal(sourceAuthority({ sourceUrl: "https://www.topps.com/release-calendar" }), 100);
+  assert.equal(sourceAuthority({ sourceName: "Hobby Monitor" }), 70);
+  assert.equal(sourceAuthority({ sourceName: "waxstat.com" }), 70);
+});
+
+test("matches reordered product names across sources", () => {
+  const official = {
+    title: "2026 Topps Chrome Baseball Sapphire Edition",
+    category: "sports"
+  };
+  const secondary = {
+    title: "2026 Topps Chrome Sapphire Baseball",
+    category: "sports"
+  };
+  assert.equal(releaseIdentity(official), releaseIdentity(secondary));
+  assert.equal(
+    releaseFamilyIdentity(official),
+    releaseFamilyIdentity({ ...secondary, title: "2025/26 Topps Chrome Sapphire Baseball" })
+  );
+});
+
+test("official Topps data wins a same-day collapse", () => {
+  const collapsed = collapseReleaseVariants([
+    {
+      id: "secondary",
+      title: "2026 Topps Chrome Baseball",
+      startsAt: "2026-08-19T09:00:00-07:00",
+      sourceName: "Hobby Monitor",
+      sourceUrl: "https://www.hobbymonitor.com/release/topps-chrome",
+      status: "TENTATIVE"
+    },
+    {
+      id: "official",
+      title: "2026 Topps Chrome Baseball",
+      startsAt: "2026-08-19T16:00:00Z",
+      sourceName: "Topps",
+      sourceUrl: "https://www.topps.com/pages/topps-chrome-baseball",
+      status: "CONFIRMED"
+    }
+  ]);
+  assert.equal(collapsed[0].sourceName, "Topps");
+  assert.equal(collapsed[0].sourceUrl, "https://www.topps.com/pages/topps-chrome-baseball");
 });
