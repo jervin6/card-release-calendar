@@ -692,7 +692,7 @@ DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
  ages/topps-chrome-baseball-sapphire-edition\nAlso sourced from: Hobby Monit
  or - https://www.hobbymonitor.com/release/2026-topps-chrome-sapphire-baseba
  ll\; waxstat.com - https://www.waxstat.com/boxes/2026-topps-chrome-baseball
- -sapphire-edition-box
+ -sapphire-edition-pack
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
@@ -766,6 +766,22 @@ CATEGORIES:TCG
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/pokemon-mega-evolution-ascended-heroes-ti
  n-6-tin-case
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-mega-evolution-pitch-black-zarude-tcg@card-release-calendar
+DTSTAMP:20260819T041321Z
+DTSTART:20260831T160000Z
+DTEND:20260831T170000Z
+SUMMARY:Pokemon Mega Evolution Pitch Black Zarude
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/pokemon-mega-evolution-pitch-black-zarude-2-pack-blister
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/pokemon-mega-evolution-pitch-black-zarude
+ -2-pack-blister
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-three-and-two-baseball-sports@card-release-calendar

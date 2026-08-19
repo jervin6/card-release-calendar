@@ -894,7 +894,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-baseball-sapphire-edition-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-baseball-sapphire-edition-pack",
         "priority": 70
       }
     ]
@@ -1020,6 +1020,35 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/pokemon-mega-evolution-ascended-heroes-booster-bundle-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "pokemon-mega-evolution-pitch-black-zarude-tcg",
+    "title": "Pokemon Mega Evolution Pitch Black Zarude",
+    "startsAt": "2026-08-31T09:00:00-07:00",
+    "endsAt": "2026-08-31T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-evolution-pitch-black-zarude-2-pack-blister",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/pokemon-mega-evolution-pitch-black-zarude-2-pack-blister",
         "priority": 70
       }
     ]
