@@ -555,6 +555,22 @@ TRANSP:TRANSPARENT
 URL:https://www.topps.com/pages/topps-chrome-baseball-logofractor-edition
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-topps-mint-marvel-tcg@card-release-calendar
+DTSTAMP:20260819T040757Z
+DTSTART:20260819T170000Z
+DTEND:20260819T180000Z
+SUMMARY:2026 Topps Mint Marvel
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
+ m/pages/topps-mint-marvel\nAlso sourced from: Hobby Monitor - https://www.h
+ obbymonitor.com/release/2026-topps-mint-marvel\; waxstat.com - https://www.
+ waxstat.com/boxes/2026-topps-mint-marvel-hobby-box
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-mint-marvel
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-27-topps-english-premier-league-soccer-sports@card-release-calenda
  r
 DTSTAMP:20260819T040757Z
@@ -587,6 +603,20 @@ LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.topps.com/pages/topps-motif-basketball
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-topps-chrome-x-jennie-tcg@card-release-calendar
+DTSTAMP:20260819T040757Z
+DTSTART:20260820T170000Z
+DTEND:20260820T180000Z
+SUMMARY:2026 Topps Chrome® x Jennie
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
+ m/pages/topps-chrome-jennie
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-chrome-jennie
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-pristine-basketball-sports@card-release-calendar
@@ -633,6 +663,22 @@ LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.topps.com/pages/topps-museum-collection-baseball
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-topps-chrome-star-wars-tcg@card-release-calendar
+DTSTAMP:20260819T040757Z
+DTSTART:20260825T160000Z
+DTEND:20260825T170000Z
+SUMMARY:2026 Topps Chrome® Star Wars
+DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
+ ify the exact drop time before release.\nDrop link: https://www.topps.com/p
+ ages/topps-chrome-star-wars\nAlso sourced from: waxstat.com - https://www.w
+ axstat.com/boxes/2025-topps-star-wars-chrome-blaster-box
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-chrome-star-wars
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-baseball-sapphire-edition-sports@card-release-calenda
@@ -998,6 +1044,23 @@ CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/202526-panini-national-treasures-r
  oad-to-world-cup-soccer-checklist
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-topps-marvel-vault-tcg@card-release-calendar
+DTSTAMP:20260819T040757Z
+DTSTART:20260923T160000Z
+DTEND:20260923T170000Z
+SUMMARY:2026 Topps Marvel Vault
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-topps-marvel-vault-hobby-box\nAlso sourced from: Hobby Mo
+ nitor - https://www.hobbymonitor.com/release/2026-topps-vault-marvel-checkl
+ ist
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-prizm-wnba-basketball-sports@card-release-calendar
@@ -1459,6 +1522,22 @@ CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/2026-topps-triple-threads-baseball-hobby-
  box
+END:VEVENT
+BEGIN:VEVENT
+UID:2025-26-topps-chrome-marvel-studios-tcg@card-release-calendar
+DTSTAMP:20260819T040757Z
+DTSTART:20261223T170000Z
+DTEND:20261223T180000Z
+SUMMARY:2025-26 Topps Chrome Marvel Studios
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2025-26-topps-chrome-marvel-studios-blaster-box
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2025-26-topps-chrome-marvel-studios-blast
+ er-box
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-update-series-baseball-sapphire-edition-sports@card-r

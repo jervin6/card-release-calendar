@@ -60,6 +60,20 @@ test("applies independent sports and TCG subscriptions", () => {
   assert.equal(matchesSubscriptions(inferRelease({ title: "Magic: The Gathering Star Trek" }), subscriptions), false);
 });
 
+test("classifies Topps entertainment cards on the TCG side", () => {
+  const examples = [
+    ["2026 Topps Chrome Star Wars", "Star Wars"],
+    ["2026 Topps Mint Marvel", "Marvel"],
+    ["2026 Topps Chrome x Jennie", "Jennie"]
+  ];
+
+  for (const [title, game] of examples) {
+    const release = inferRelease({ title, category: "sports" });
+    assert.equal(release.category, "tcg");
+    assert.equal(release.game, game);
+  }
+});
+
 test("ranks official publishers above secondary release calendars", () => {
   assert.equal(sourceAuthority({ sourceUrl: "https://www.topps.com/release-calendar" }), 100);
   assert.equal(sourceAuthority({ sourceName: "Hobby Monitor" }), 70);

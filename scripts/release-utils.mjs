@@ -18,6 +18,9 @@ const TCG_GAMES = [
   ["Riftbound", /\briftbound\b/i],
   ["Flesh and Blood", /\bflesh\s+(?:and|&)\s+blood\b/i],
   ["Star Wars: Unlimited", /\bstar wars:? unlimited\b/i],
+  ["Star Wars", /\bstar wars\b/i],
+  ["Marvel", /\bmarvel\b/i],
+  ["Jennie", /\bjennie\b/i],
   ["Digimon", /\bdigimon\b/i],
   ["Union Arena", /\bunion arena\b/i],
   ["Cardfight!! Vanguard", /\bcardfight\b|\bvanguard\b/i]
@@ -92,7 +95,7 @@ export function inferRelease(release) {
     .join(" ");
   const game = release.game ?? detectTcgGame(text);
   const sport = release.sport ?? (!game ? detectSport(text) : null);
-  const category = release.category ?? (game ? "tcg" : "sports");
+  const category = game ? "tcg" : (release.category ?? "sports");
   return { ...release, category, ...(game ? { game } : {}), ...(sport ? { sport } : {}) };
 }
 

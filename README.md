@@ -8,7 +8,7 @@ Public release board and subscribable iCal feeds for sports cards and TCG drops.
 - Reconciles official publisher calendars with Hobby Monitor and Waxstat
 - Treats official Topps calendar dates and links as authoritative for Topps products
 - Consolidates box, pack, tin, case, and retail variants into one set-level drop
-- Filters sports and games using `config/subscriptions.json`
+- Filters sports and games using `config/subscriptions.json`, with Topps Star Wars, Marvel, and Jennie collector releases grouped into TCG
 - Generates combined, sports-only, and TCG-only iCal feeds
 - Generates the public release board in `docs/index.html`
 

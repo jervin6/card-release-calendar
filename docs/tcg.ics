@@ -8,6 +8,52 @@ X-WR-TIMEZONE:UTC
 X-PUBLISHED-TTL:PT1H
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 BEGIN:VEVENT
+UID:2026-topps-mint-marvel-tcg@card-release-calendar
+DTSTAMP:20260819T040757Z
+DTSTART:20260819T170000Z
+DTEND:20260819T180000Z
+SUMMARY:2026 Topps Mint Marvel
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
+ m/pages/topps-mint-marvel\nAlso sourced from: Hobby Monitor - https://www.h
+ obbymonitor.com/release/2026-topps-mint-marvel\; waxstat.com - https://www.
+ waxstat.com/boxes/2026-topps-mint-marvel-hobby-box
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-mint-marvel
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-topps-chrome-x-jennie-tcg@card-release-calendar
+DTSTAMP:20260819T040757Z
+DTSTART:20260820T170000Z
+DTEND:20260820T180000Z
+SUMMARY:2026 Topps Chrome® x Jennie
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
+ m/pages/topps-chrome-jennie
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-chrome-jennie
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-topps-chrome-star-wars-tcg@card-release-calendar
+DTSTAMP:20260819T040757Z
+DTSTART:20260825T160000Z
+DTEND:20260825T170000Z
+SUMMARY:2026 Topps Chrome® Star Wars
+DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
+ ify the exact drop time before release.\nDrop link: https://www.topps.com/p
+ ages/topps-chrome-star-wars\nAlso sourced from: waxstat.com - https://www.w
+ axstat.com/boxes/2025-topps-star-wars-chrome-blaster-box
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-chrome-star-wars
+END:VEVENT
+BEGIN:VEVENT
 UID:pokemon-mega-evolution-ascended-heroes-tcg@card-release-calendar
 DTSTAMP:20260819T040757Z
 DTSTART:20260828T160000Z
@@ -73,6 +119,23 @@ CATEGORIES:TCG
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/pokemon-30th-celebration-elite-trainer-bo
  x
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-topps-marvel-vault-tcg@card-release-calendar
+DTSTAMP:20260819T040757Z
+DTSTART:20260923T160000Z
+DTEND:20260923T170000Z
+SUMMARY:2026 Topps Marvel Vault
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-topps-marvel-vault-hobby-box\nAlso sourced from: Hobby Mo
+ nitor - https://www.hobbymonitor.com/release/2026-topps-vault-marvel-checkl
+ ist
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-mega-forces-tcg@card-release-calendar
@@ -195,6 +258,22 @@ LOCATION:Online
 CATEGORIES:TCG
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/yu-gi-oh-glorious-victors-booster-box
+END:VEVENT
+BEGIN:VEVENT
+UID:2025-26-topps-chrome-marvel-studios-tcg@card-release-calendar
+DTSTAMP:20260819T040757Z
+DTSTART:20261223T170000Z
+DTEND:20261223T180000Z
+SUMMARY:2025-26 Topps Chrome Marvel Studios
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2025-26-topps-chrome-marvel-studios-blaster-box
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2025-26-topps-chrome-marvel-studios-blast
+ er-box
 END:VEVENT
 BEGIN:VEVENT
 UID:one-piece-trading-card-game-learn-together-luffy-zoro-and-nami-starter-

@@ -327,9 +327,10 @@ async function main() {
     if (r.m === 12 && r.d === 31) continue; // waxstat parks "date TBD" on Dec 31
     const dateISO = `${r.y}-${pad(r.m)}-${pad(r.d)}`;
     const game = r.game ?? detectTcgGame(title);
-    if (r.category === "tcg" && !game) continue;
-    const sport = r.category === "sports" ? detectSport(title) : null;
-    const tags = r.category === "tcg"
+    const category = game ? "tcg" : r.category;
+    if (category === "tcg" && !game) continue;
+    const sport = category === "sports" ? detectSport(title) : null;
+    const tags = category === "tcg"
       ? ["TCG", game]
       : ["Sports cards", ...(sport ? [sport] : [])];
     let startsAt;
@@ -345,7 +346,7 @@ async function main() {
     }
     const official = Number(r.sourcePriority) >= 100;
     const release = {
-      id: `${slug(title)}-${r.category}`,
+      id: `${slug(title)}-${category}`,
       title,
       startsAt,
       endsAt,
@@ -361,7 +362,7 @@ async function main() {
       sourcePriority: r.sourcePriority,
       ...(r.releaseKind ? { releaseKind: r.releaseKind } : {}),
       tags,
-      category: r.category,
+      category,
       ...(game ? { game } : {}),
       ...(sport ? { sport } : {}),
       managedBy: "release-sync",
