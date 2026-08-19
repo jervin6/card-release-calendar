@@ -1,4 +1,4 @@
-name: Build calendar feed
+name: Sync and build calendar feed
 
 on:
   workflow_dispatch:
@@ -38,15 +38,18 @@ jobs:
         with:
           node-version: 20
 
+      - name: Sync release sources
+        run: npm run sync -- --no-git
+
       - name: Build feed
         run: npm run build
 
-      - name: Commit rebuilt docs
+      - name: Commit synchronized calendar
         run: |
-          if [ -n "$(git status --porcelain docs)" ]; then
+          if [ -n "$(git status --porcelain data docs)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add docs
-            git commit -m "Rebuild calendar feed"
+            git add data docs
+            git commit -m "Sync release calendar"
             git push
           fi

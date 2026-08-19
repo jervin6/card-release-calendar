@@ -67,9 +67,11 @@ Edit `data/releases.json` and add entries like:
 
 ## Deploy with GitHub Pages
 
-This repo includes a scheduled GitHub Actions workflow that rebuilds the feed and publishes `docs/`.
+At 15 minutes past every hour, the GitHub Actions workflow fetches all configured release sources, reconciles `data/releases.json`, rebuilds the feeds and site, and publishes `docs/`. It can also be started manually from GitHub Actions.
 
 Imported future records are replaced from the latest source snapshot on every sync. Past release history is preserved; future manual records remain unless a higher-authority official source matches the same product.
+
+A temporary provider failure preserves that provider's last successful snapshot instead of deleting its releases. Calendar apps poll subscribed iCal URLs on their own schedules, so a published change can take additional time to appear in Apple Calendar or Google Calendar.
 
 ## Source authority
 
