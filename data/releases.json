@@ -610,6 +610,41 @@
     ]
   },
   {
+    "id": "2025-26-topps-motif-basketball-sports",
+    "title": "2025-26 Topps Motif Basketball",
+    "startsAt": "2026-08-20T09:00:00-07:00",
+    "endsAt": "2026-08-20T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-motif-basketball-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2025-26-topps-motif-basketball",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-motif-basketball-hobby-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-27-topps-english-premier-league-soccer-sports",
     "title": "2026-27 Topps English Premier League Soccer",
     "startsAt": "2026-08-20T09:00:00-07:00",
@@ -635,102 +670,6 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-27-topps-english-premier-league-soccer-display-box",
         "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2025-26-topps-motif-basketball-sports",
-    "title": "2025-26 Topps Motif Basketball",
-    "startsAt": "2026-08-20T16:00:00.000Z",
-    "endsAt": "2026-08-20T17:00:00.000Z",
-    "notes": "Official drop time from Topps.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-motif-basketball",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Basketball"
-    ],
-    "category": "sports",
-    "sport": "Basketball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-motif-basketball",
-        "priority": 100
-      },
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2025-26-topps-motif-basketball",
-        "priority": 70
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-motif-basketball-hobby-box-first-day-issue-fdi",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-chrome-x-jennie-tcg",
-    "title": "2026 Topps Chrome® x Jennie",
-    "startsAt": "2026-08-20T17:00:00.000Z",
-    "endsAt": "2026-08-20T18:00:00.000Z",
-    "notes": "Official drop time from Topps.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-chrome-jennie",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Jennie"
-    ],
-    "category": "tcg",
-    "game": "Jennie",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-chrome-jennie",
-        "priority": 100
-      }
-    ]
-  },
-  {
-    "id": "2025-26-topps-pristine-basketball-sports",
-    "title": "2025-26 Topps Pristine Basketball",
-    "startsAt": "2026-08-21T16:00:00.000Z",
-    "endsAt": "2026-08-21T17:00:00.000Z",
-    "notes": "Official drop time from Topps.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-pristine-basketball",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Basketball"
-    ],
-    "category": "sports",
-    "sport": "Basketball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-pristine-basketball",
-        "priority": 100
       }
     ]
   },
@@ -1208,17 +1147,16 @@
   },
   {
     "id": "2026-bowman-chrome-baseball-sports",
-    "title": "2026 Bowman Chrome Baseball",
+    "title": "2026 Bowman Chrome® Baseball",
     "startsAt": "2026-09-09T09:00:00-07:00",
     "endsAt": "2026-09-09T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-delight-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-topps-cards-release-calendar",
-    "sourcePriority": 70,
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/bowman-chrome-baseball",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
     "tags": [
       "Sports cards",
       "Baseball"
@@ -1228,6 +1166,12 @@
     "managedBy": "release-sync",
     "sources": [
       {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/bowman-chrome-baseball",
+        "priority": 100
+      },
+      {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-bowman-chrome-baseball",
@@ -1236,7 +1180,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-delight-box",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-mega-pack",
         "priority": 70
       }
     ]
