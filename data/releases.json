@@ -674,6 +674,35 @@
     ]
   },
   {
+    "id": "2026-topps-football-sports",
+    "title": "2026 Topps Football",
+    "startsAt": "2026-08-21T09:00:00-07:00",
+    "endsAt": "2026-08-21T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-football-blaster-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-football-blaster-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-topps-flagship-football-sports",
     "title": "2026 Topps Flagship Football",
     "startsAt": "2026-08-21T17:00:00.000Z",
@@ -703,12 +732,6 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-topps-football",
-        "priority": 70
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-football-mega-pack",
         "priority": 70
       }
     ]
@@ -742,7 +765,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-topps-museum-collection-baseball-hobby-pack",
+        "url": "https://www.waxstat.com/boxes/2025-topps-museum-collection-baseball-hobby-box",
         "priority": 70
       }
     ]
@@ -816,7 +839,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-baseball-sapphire-edition-pack",
+        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-baseball-sapphire-edition-box",
         "priority": 70
       }
     ]
@@ -1209,7 +1232,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-mega-pack",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-delight-box",
         "priority": 70
       }
     ]
