@@ -1032,6 +1032,35 @@
     ]
   },
   {
+    "id": "2025-26-topps-chrome-update-series-basketball-sapphire-edition-sports",
+    "title": "2025-26 Topps Chrome Update Series Basketball Sapphire Edition",
+    "startsAt": "2026-09-03T09:00:00-07:00",
+    "endsAt": "2026-09-03T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-chrome-update-series-basketball-sapphire-edition-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-chrome-update-series-basketball-sapphire-edition-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-panini-prizm-baseball-sports",
     "title": "2026 Panini Prizm Baseball",
     "startsAt": "2026-09-04T09:00:00-07:00",
