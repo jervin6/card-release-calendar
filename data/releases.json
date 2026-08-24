@@ -1050,34 +1050,6 @@
     ]
   },
   {
-    "id": "2026-panini-three-and-two-baseball-sports",
-    "title": "2026 Panini Three & Two Baseball",
-    "startsAt": "2026-09-02T09:00:00-07:00",
-    "endsAt": "2026-09-02T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-panini-impeccable-wnba-sports",
     "title": "2026 Panini Impeccable WNBA",
     "startsAt": "2026-09-02T09:00:00-07:00",
@@ -1106,6 +1078,34 @@
     ]
   },
   {
+    "id": "2026-panini-three-and-two-baseball-sports",
+    "title": "2026 Panini Three & Two Baseball",
+    "startsAt": "2026-09-02T09:00:00-07:00",
+    "endsAt": "2026-09-02T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2025-26-topps-chrome-update-series-basketball-sapphire-edition-sports",
     "title": "2025-26 Topps Chrome Update Series Basketball Sapphire Edition",
     "startsAt": "2026-09-03T09:00:00-07:00",
@@ -1127,37 +1127,15 @@
     "managedBy": "release-sync",
     "sources": [
       {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2025-26-topps-chrome-update-series-basketball-sapphire",
+        "priority": 70
+      },
+      {
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2025-26-topps-chrome-update-series-basketball-sapphire-edition-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-panini-prizm-baseball-sports",
-    "title": "2026 Panini Prizm Baseball",
-    "startsAt": "2026-09-04T09:00:00-07:00",
-    "endsAt": "2026-09-04T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-prizm-baseball",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-prizm-baseball",
         "priority": 70
       }
     ]
@@ -1186,6 +1164,34 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-wnba-basketball-checklist",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-prizm-baseball-sports",
+    "title": "2026 Panini Prizm Baseball",
+    "startsAt": "2026-09-04T09:00:00-07:00",
+    "endsAt": "2026-09-04T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-prizm-baseball",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-prizm-baseball",
         "priority": 70
       }
     ]
@@ -1446,15 +1452,43 @@
     ]
   },
   {
-    "id": "2025-26-topps-museum-uefa-club-competitions-sports",
-    "title": "2025/26 Topps Museum UEFA Club Competitions",
-    "startsAt": "2026-09-18T09:00:00-07:00",
-    "endsAt": "2026-09-18T10:00:00-07:00",
+    "id": "2025-26-topps-definitive-basketball-sports",
+    "title": "2025/26 Topps Definitive Basketball",
+    "startsAt": "2026-09-17T09:00:00-07:00",
+    "endsAt": "2026-09-17T10:00:00-07:00",
     "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/202526-topps-museum-uefa-club-competitions-checklist",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2025-26-topps-definitive-basketball",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2025-26-topps-definitive-basketball",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-27-topps-royalty-premier-league-soccer-sports",
+    "title": "2026/27 Topps Royalty Premier League Soccer",
+    "startsAt": "2026-09-17T09:00:00-07:00",
+    "endsAt": "2026-09-17T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-27-topps-royalty-premier-league-soccer",
     "sourceId": "hobby-monitor",
     "sourcePriority": 70,
     "tags": [
@@ -1468,7 +1502,7 @@
       {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/202526-topps-museum-uefa-club-competitions-checklist",
+        "url": "https://www.hobbymonitor.com/release/2026-27-topps-royalty-premier-league-soccer",
         "priority": 70
       }
     ]
@@ -1497,6 +1531,34 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/202526-panini-noir-basketball-checklist",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2025-26-topps-museum-uefa-club-competitions-sports",
+    "title": "2025/26 Topps Museum UEFA Club Competitions",
+    "startsAt": "2026-09-18T09:00:00-07:00",
+    "endsAt": "2026-09-18T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/202526-topps-museum-uefa-club-competitions-checklist",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/202526-topps-museum-uefa-club-competitions-checklist",
         "priority": 70
       }
     ]
@@ -1712,34 +1774,6 @@
     ]
   },
   {
-    "id": "2026-panini-donruss-football-sports",
-    "title": "2026 Panini Donruss Football",
-    "startsAt": "2026-09-30T09:00:00-07:00",
-    "endsAt": "2026-09-30T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-27-topps-flagship-premier-league-soccer-sports",
     "title": "2026/27 Topps Flagship Premier League Soccer",
     "startsAt": "2026-09-30T09:00:00-07:00",
@@ -1763,6 +1797,34 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-27-topps-flagship-premier-league-soccer",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-donruss-football-sports",
+    "title": "2026 Panini Donruss Football",
+    "startsAt": "2026-09-30T09:00:00-07:00",
+    "endsAt": "2026-09-30T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
         "priority": 70
       }
     ]
