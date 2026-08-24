@@ -1859,34 +1859,6 @@
     ]
   },
   {
-    "id": "reality-fracture-tcg",
-    "title": "Reality Fracture",
-    "startsAt": "2026-10-02T09:00:00-07:00",
-    "endsAt": "2026-10-02T10:00:00-07:00",
-    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Magic: The Gathering",
-    "sourceUrl": "https://magic.wizards.com/en/products/reality-fracture",
-    "sourceId": "magic-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Magic: The Gathering"
-    ],
-    "category": "tcg",
-    "game": "Magic: The Gathering",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "magic-official",
-        "name": "Magic: The Gathering",
-        "url": "https://magic.wizards.com/en/products/reality-fracture",
-        "priority": 100
-      }
-    ]
-  },
-  {
     "id": "disney-lorcana-illumineer-s-quest-the-great-hunny-rescue-tcg",
     "title": "Disney Lorcana: Illumineer's Quest: The Great Hunny Rescue",
     "startsAt": "2026-10-02T09:00:00-07:00",
