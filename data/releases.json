@@ -731,6 +731,34 @@
     ]
   },
   {
+    "id": "2025-26-topps-pristine-basketball-sports",
+    "title": "2025-26 Topps Pristine Basketball",
+    "startsAt": "2026-08-25T16:00:00.000Z",
+    "endsAt": "2026-08-25T17:00:00.000Z",
+    "notes": "Official drop time from Topps.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-pristine-basketball",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-pristine-basketball",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-topps-chrome-star-wars-tcg",
     "title": "2026 Topps Chrome® Star Wars",
     "startsAt": "2026-08-25T17:00:00.000Z",
@@ -799,7 +827,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-baseball-sapphire-edition-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-baseball-sapphire-edition-pack",
         "priority": 70
       }
     ]
@@ -835,8 +863,8 @@
   {
     "id": "2026-topps-chrome-black-basketball-sports",
     "title": "2026 Topps Chrome® Black Basketball",
-    "startsAt": "2026-08-27T17:00:00.000Z",
-    "endsAt": "2026-08-27T18:00:00.000Z",
+    "startsAt": "2026-08-27T16:00:00.000Z",
+    "endsAt": "2026-08-27T17:00:00.000Z",
     "notes": "Official drop time from Topps.",
     "location": "Online",
     "status": "CONFIRMED",
@@ -873,29 +901,29 @@
     ]
   },
   {
-    "id": "2025-26-panini-origins-basketball-sports",
-    "title": "2025/26 Panini Origins Basketball",
+    "id": "2026-one-piece-op-17-the-world-s-strongest-warriors-tcg",
+    "title": "2026 One Piece OP-17: The World's Strongest Warriors",
     "startsAt": "2026-08-28T09:00:00-07:00",
     "endsAt": "2026-08-28T10:00:00-07:00",
     "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2025-26-panini-origins-basketball",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-one-piece-op-17-the-worlds-strongest-warriors",
     "sourceId": "hobby-monitor",
     "sourcePriority": 70,
     "tags": [
-      "Sports cards",
-      "Basketball"
+      "TCG",
+      "One Piece"
     ],
-    "category": "sports",
-    "sport": "Basketball",
+    "category": "tcg",
+    "game": "One Piece",
     "managedBy": "release-sync",
     "sources": [
       {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2025-26-panini-origins-basketball",
+        "url": "https://www.hobbymonitor.com/release/2026-one-piece-op-17-the-worlds-strongest-warriors",
         "priority": 70
       }
     ]
@@ -987,7 +1015,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-topps-museum-collection-baseball-hobby-box",
+        "url": "https://www.waxstat.com/boxes/2025-topps-museum-collection-baseball-hobby-pack",
         "priority": 70
       }
     ]
@@ -1022,45 +1050,46 @@
     ]
   },
   {
-    "id": "2026-topps-chrome-formula-1-sports",
-    "title": "2026 Topps Chrome Formula 1®",
-    "startsAt": "2026-09-01T09:00:00-07:00",
-    "endsAt": "2026-09-01T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "id": "magic-the-gathering-the-hobbit-tcg",
+    "title": "Magic The Gathering The Hobbit",
+    "startsAt": "2026-08-31T09:00:00-07:00",
+    "endsAt": "2026-08-31T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-chrome-formula-1",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/magic-the-gathering-the-hobbit-draft-night-bundle",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar",
+    "sourceId": "waxstat:2026-magic-the-gathering-cards-release-calendar",
+    "sourcePriority": 70,
     "tags": [
-      "Sports cards",
-      "Formula 1"
+      "TCG",
+      "Magic: The Gathering"
     ],
-    "category": "sports",
-    "sport": "Formula 1",
+    "category": "tcg",
+    "game": "Magic: The Gathering",
     "managedBy": "release-sync",
     "sources": [
       {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-chrome-formula-1",
-        "priority": 100
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/magic-the-gathering-the-hobbit-draft-night-bundle",
+        "priority": 70
       }
     ]
   },
   {
-    "id": "2026-panini-impeccable-wnba-sports",
-    "title": "2026 Panini Impeccable WNBA",
-    "startsAt": "2026-09-02T09:00:00-07:00",
-    "endsAt": "2026-09-02T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "id": "2025-26-topps-chrome-updates-basketball-sapphire-edition-sports",
+    "title": "2025-26 Topps Chrome® Updates Basketball Sapphire Edition",
+    "startsAt": "2026-09-03T09:00:00-07:00",
+    "endsAt": "2026-09-03T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-chrome-updates-basketball-sapphire-edition",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
     "tags": [
       "Sports cards",
       "Basketball"
@@ -1070,38 +1099,10 @@
     "managedBy": "release-sync",
     "sources": [
       {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-panini-three-and-two-baseball-sports",
-    "title": "2026 Panini Three & Two Baseball",
-    "startsAt": "2026-09-02T09:00:00-07:00",
-    "endsAt": "2026-09-02T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball",
-        "priority": 70
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-chrome-updates-basketball-sapphire-edition",
+        "priority": 100
       }
     ]
   },
@@ -1136,34 +1137,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2025-26-topps-chrome-update-series-basketball-sapphire-edition-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-panini-donruss-wnba-basketball-sports",
-    "title": "2026 Panini Donruss WNBA Basketball",
-    "startsAt": "2026-09-04T09:00:00-07:00",
-    "endsAt": "2026-09-04T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-donruss-wnba-basketball-checklist",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Basketball"
-    ],
-    "category": "sports",
-    "sport": "Basketball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-wnba-basketball-checklist",
         "priority": 70
       }
     ]
@@ -1256,16 +1229,17 @@
   },
   {
     "id": "2026-bowman-chrome-baseball-sports",
-    "title": "2026 Bowman Chrome® Baseball",
+    "title": "2026 Bowman Chrome Baseball",
     "startsAt": "2026-09-09T09:00:00-07:00",
     "endsAt": "2026-09-09T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/bowman-chrome-baseball",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-delight-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
     "tags": [
       "Sports cards",
       "Baseball"
@@ -1274,12 +1248,6 @@
     "sport": "Baseball",
     "managedBy": "release-sync",
     "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/bowman-chrome-baseball",
-        "priority": 100
-      },
       {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
@@ -1650,45 +1618,18 @@
     ]
   },
   {
-    "id": "2025-26-panini-national-treasures-fifa-road-to-world-cup-soccer-sports",
-    "title": "2025/26 Panini National Treasures FIFA Road to World Cup Soccer",
+    "id": "2026-topps-marvel-vault-tcg",
+    "title": "2026 Topps Marvel Vault",
     "startsAt": "2026-09-23T09:00:00-07:00",
     "endsAt": "2026-09-23T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/202526-panini-national-treasures-road-to-world-cup-soccer-checklist",
-    "sourceId": "hobby-monitor",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/202526-panini-national-treasures-road-to-world-cup-soccer-checklist",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-vault-marvel-tcg",
-    "title": "2026 Topps Vault Marvel",
-    "startsAt": "2026-09-23T09:00:00-07:00",
-    "endsAt": "2026-09-23T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-vault-marvel",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
     "tags": [
       "TCG",
       "Marvel"
@@ -1697,12 +1638,6 @@
     "game": "Marvel",
     "managedBy": "release-sync",
     "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-vault-marvel",
-        "priority": 100
-      },
       {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
@@ -1802,29 +1737,29 @@
     ]
   },
   {
-    "id": "2026-panini-donruss-football-sports",
-    "title": "2026 Panini Donruss Football",
+    "id": "2026-panini-three-and-two-baseball-sports",
+    "title": "2026 Panini Three & Two Baseball",
     "startsAt": "2026-09-30T09:00:00-07:00",
     "endsAt": "2026-09-30T10:00:00-07:00",
     "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball",
     "sourceId": "hobby-monitor",
     "sourcePriority": 70,
     "tags": [
       "Sports cards",
-      "Football"
+      "Baseball"
     ],
     "category": "sports",
-    "sport": "Football",
+    "sport": "Baseball",
     "managedBy": "release-sync",
     "sources": [
       {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball",
         "priority": 70
       }
     ]
@@ -1916,6 +1851,34 @@
     ]
   },
   {
+    "id": "2026-panini-impeccable-wnba-sports",
+    "title": "2026 Panini Impeccable WNBA",
+    "startsAt": "2026-10-09T09:00:00-07:00",
+    "endsAt": "2026-10-09T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "yu-gi-oh-beyond-the-brave-tcg",
     "title": "Yu-Gi-Oh! Beyond the Brave",
     "startsAt": "2026-10-09T09:00:00-07:00",
@@ -1940,6 +1903,34 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/yu-gi-oh-beyond-the-brave-booster-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-donruss-optic-nwsl-soccer-sports",
+    "title": "2026 Panini Donruss Optic NWSL Soccer",
+    "startsAt": "2026-10-14T09:00:00-07:00",
+    "endsAt": "2026-10-14T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-donruss-optic-nwsl-soccer",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-optic-nwsl-soccer",
         "priority": 70
       }
     ]
@@ -2055,6 +2046,34 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/magic-the-gathering-reality-fracture-secret-lair-bundle",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-donruss-football-sports",
+    "title": "2026 Panini Donruss Football",
+    "startsAt": "2026-10-28T09:00:00-07:00",
+    "endsAt": "2026-10-28T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
         "priority": 70
       }
     ]
@@ -2262,6 +2281,34 @@
     ]
   },
   {
+    "id": "2025-26-panini-national-treasures-fifa-road-to-world-cup-soccer-sports",
+    "title": "2025/26 Panini National Treasures FIFA Road to World Cup Soccer",
+    "startsAt": "2026-11-04T09:00:00-08:00",
+    "endsAt": "2026-11-04T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/202526-panini-national-treasures-road-to-world-cup-soccer-checklist",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/202526-panini-national-treasures-road-to-world-cup-soccer-checklist",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-topps-stadium-club-baseball-sports",
     "title": "2026 Topps Stadium Club Baseball",
     "startsAt": "2026-11-06T09:00:00-08:00",
@@ -2287,34 +2334,6 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-hobby-compact-box",
         "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "magic-the-gathering-star-trek-tcg",
-    "title": "Magic: The Gathering | Star Trek",
-    "startsAt": "2026-11-13T09:00:00-08:00",
-    "endsAt": "2026-11-13T10:00:00-08:00",
-    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Magic: The Gathering",
-    "sourceUrl": "https://magic.wizards.com/en/products/star-trek",
-    "sourceId": "magic-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Magic: The Gathering"
-    ],
-    "category": "tcg",
-    "game": "Magic: The Gathering",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "magic-official",
-        "name": "Magic: The Gathering",
-        "url": "https://magic.wizards.com/en/products/star-trek",
-        "priority": 100
       }
     ]
   },
