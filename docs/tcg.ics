@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT1H
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 BEGIN:VEVENT
 UID:2026-topps-mint-marvel-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260819T160000Z
 DTEND:20260819T170000Z
 SUMMARY:2026 Topps Mint Marvel
@@ -26,7 +26,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-one-piece-op-17-the-world-s-strongest-warriors-tcg@card-release-ca
  lendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260828T160000Z
 DTEND:20260828T170000Z
 SUMMARY:2026 One Piece OP-17: The World's Strongest Warriors
@@ -42,7 +42,7 @@ URL:https://www.hobbymonitor.com/release/2026-one-piece-op-17-the-worlds-st
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-mega-evolution-ascended-heroes-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260828T160000Z
 DTEND:20260828T170000Z
 SUMMARY:Pokemon Mega Evolution Ascended Heroes
@@ -60,7 +60,7 @@ URL:https://www.waxstat.com/boxes/pokemon-mega-evolution-ascended-heroes-ti
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-mega-forces-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260828T160000Z
 DTEND:20260828T170000Z
 SUMMARY:Pokemon Mega Forces
@@ -75,7 +75,7 @@ URL:https://www.waxstat.com/boxes/pokemon-mega-forces-3-tin-lot
 END:VEVENT
 BEGIN:VEVENT
 UID:one-piece-the-world-s-strongest-warriors-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260828T160000Z
 DTEND:20260828T170000Z
 SUMMARY:One Piece The World's Strongest Warriors
@@ -91,7 +91,7 @@ URL:https://www.waxstat.com/boxes/one-piece-the-world-s-strongest-warriors-
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-mega-evolution-pitch-black-zarude-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260831T160000Z
 DTEND:20260831T170000Z
 SUMMARY:Pokemon Mega Evolution Pitch Black Zarude
@@ -106,24 +106,8 @@ URL:https://www.waxstat.com/boxes/pokemon-mega-evolution-pitch-black-zarude
  -2-pack-blister
 END:VEVENT
 BEGIN:VEVENT
-UID:magic-the-gathering-the-hobbit-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
-DTSTART:20260831T160000Z
-DTEND:20260831T170000Z
-SUMMARY:Magic The Gathering The Hobbit
-DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
- \; verify the exact drop time before release.\nDrop link: https://www.waxst
- at.com/boxes/magic-the-gathering-the-hobbit-draft-night-bundle
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/boxes/magic-the-gathering-the-hobbit-draft-nigh
- t-bundle
-END:VEVENT
-BEGIN:VEVENT
 UID:yu-gi-oh-magnificent-monsters-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260904T160000Z
 DTEND:20260904T170000Z
 SUMMARY:Yu-Gi-Oh! Magnificent Monsters
@@ -138,7 +122,7 @@ URL:https://www.waxstat.com/boxes/yu-gi-oh-magnificent-monsters-display
 END:VEVENT
 BEGIN:VEVENT
 UID:digimon-card-game-timeless-bonds-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260904T160000Z
 DTEND:20260904T170000Z
 SUMMARY:Digimon Card Game: Timeless Bonds
@@ -154,7 +138,7 @@ URL:https://www.waxstat.com/boxes/digimon-card-game-timeless-bonds-booster-
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-30th-celebration-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260916T160000Z
 DTEND:20260916T170000Z
 SUMMARY:Pokemon 30th Celebration
@@ -171,26 +155,26 @@ URL:https://www.waxstat.com/boxes/pokemon-30th-celebration-elite-trainer-bo
  x
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-topps-vault-marvel-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+UID:2026-topps-marvel-vault-tcg@card-release-calendar
+DTSTAMP:20260826T131808Z
 DTSTART:20260923T160000Z
 DTEND:20260923T170000Z
-SUMMARY:2026 Topps Vault Marvel
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-vault-marvel\nAlso sourced from: Hobby Monitor - https://www.hob
- bymonitor.com/release/2026-topps-vault-marvel-checklist\; waxstat.com - htt
- ps://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box
-STATUS:CONFIRMED
+SUMMARY:2026 Topps Marvel Vault
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-topps-marvel-vault-hobby-box\nAlso sourced from: Hobby Mo
+ nitor - https://www.hobbymonitor.com/release/2026-topps-vault-marvel-checkl
+ ist
+STATUS:TENTATIVE
 LOCATION:Online
 CATEGORIES:TCG
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-vault-marvel
+URL:https://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-lorcana-illumineer-s-quest-the-great-hunny-rescue-tcg@card-relea
  se-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261002T160000Z
 DTEND:20261002T170000Z
 SUMMARY:Disney Lorcana: Illumineer's Quest: The Great Hunny Rescue
@@ -205,7 +189,7 @@ URL:https://www.disneylorcana.com/en-US/product/great-hunny-rescue
 END:VEVENT
 BEGIN:VEVENT
 UID:magic-the-gathering-reality-fracture-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261002T160000Z
 DTEND:20261002T170000Z
 SUMMARY:Magic the Gathering Reality Fracture
@@ -221,7 +205,7 @@ URL:https://www.waxstat.com/boxes/magic-the-gathering-reality-fracture-bund
 END:VEVENT
 BEGIN:VEVENT
 UID:yu-gi-oh-beyond-the-brave-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261009T160000Z
 DTEND:20261009T170000Z
 SUMMARY:Yu-Gi-Oh! Beyond the Brave
@@ -236,7 +220,7 @@ URL:https://www.waxstat.com/boxes/yu-gi-oh-beyond-the-brave-booster-box
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-lorcana-hyperia-city-prerelease-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261016T160000Z
 DTEND:20261016T170000Z
 SUMMARY:Disney Lorcana: Hyperia City Prerelease
@@ -251,7 +235,7 @@ URL:https://www.disneylorcana.com/en-US/product/hyperia-city
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-x-jennie-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261020T160000Z
 DTEND:20261020T170000Z
 SUMMARY:2026 Topps Chrome x Jennie
@@ -266,7 +250,7 @@ URL:https://www.waxstat.com/boxes/2026-topps-chrome-x-jennie-box
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-lorcana-hyperia-city-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261023T160000Z
 DTEND:20261023T170000Z
 SUMMARY:Disney Lorcana: Hyperia City
@@ -281,7 +265,7 @@ URL:https://www.disneylorcana.com/en-US/product/hyperia-city
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-2026-deck-crafter-s-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261023T160000Z
 DTEND:20261023T170000Z
 SUMMARY:Pokemon 2026 Deck Crafter's
@@ -298,7 +282,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:magic-the-gathering-reality-fracture-secret-lair-tcg@card-release-calen
  dar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261023T160000Z
 DTEND:20261023T170000Z
 SUMMARY:Magic the Gathering Reality Fracture Secret Lair
@@ -314,7 +298,7 @@ URL:https://www.waxstat.com/boxes/magic-the-gathering-reality-fracture-secr
 END:VEVENT
 BEGIN:VEVENT
 UID:magic-the-gathering-star-trek-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261113T170000Z
 DTEND:20261113T180000Z
 SUMMARY:Magic: The Gathering | Star Trek
@@ -329,7 +313,7 @@ URL:https://magic.wizards.com/en/products/star-trek
 END:VEVENT
 BEGIN:VEVENT
 UID:yu-gi-oh-glorious-victors-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261204T170000Z
 DTEND:20261204T180000Z
 SUMMARY:Yu-Gi-Oh! Glorious Victors
@@ -344,7 +328,7 @@ URL:https://www.waxstat.com/boxes/yu-gi-oh-glorious-victors-booster-box
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-chrome-marvel-studios-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261223T170000Z
 DTEND:20261223T180000Z
 SUMMARY:2025-26 Topps Chrome Marvel Studios
@@ -361,7 +345,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:one-piece-trading-card-game-learn-together-luffy-zoro-and-nami-starter-
  deck-set--tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20270915T160000Z
 DTEND:20270915T170000Z
 SUMMARY:One Piece Trading Card Game Learn Together Luffy\, Zoro & Nami Star

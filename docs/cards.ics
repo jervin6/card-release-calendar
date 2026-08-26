@@ -9,7 +9,7 @@ X-PUBLISHED-TTL:PT1H
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 BEGIN:VEVENT
 UID:2025-topps-chrome-football-mega-box@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20250501T160000Z
 DTEND:20250501T170000Z
 SUMMARY:2025 Topps Chrome® Football Mega Boxes
@@ -23,7 +23,7 @@ URL:https://thetoppscompany.sjv.io/Jkqbyr
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-bowman-baseball-preorder@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260413T160000Z
 DTEND:20260413T170000Z
 SUMMARY:2026 Bowman Baseball pre-order
@@ -37,7 +37,7 @@ URL:https://x.com/CardPurchaser
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-topps-finest-football-preorder-eql@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260420T160000Z
 DTEND:20260420T170000Z
 SUMMARY:2025 Topps Finest Football pre-order (EQL)
@@ -52,7 +52,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-bowman-university-best-basketball-preorder@card-release-calenda
  r
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260421T160000Z
 DTEND:20260421T170000Z
 SUMMARY:2025-26 Bowman University Best Basketball pre-order
@@ -66,7 +66,7 @@ URL:https://thetoppscompany.sjv.io/POBY7z
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-bowman-basketball-hobby-eql@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260422T160000Z
 DTEND:20260422T170000Z
 SUMMARY:2025-26 Bowman Basketball (Hobby EQL + Value Boxes)
@@ -81,7 +81,7 @@ URL:https://thetoppscompany.sjv.io/QYjGD6
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-signature-class-basketball-preorder@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260428T160000Z
 DTEND:20260428T170000Z
 SUMMARY:2025-26 Topps Signature Class Basketball - Pre-Order
@@ -94,7 +94,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-merlin-basketball@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260428T160000Z
 DTEND:20260428T170000Z
 SUMMARY:2025-26 Topps Merlin Basketball
@@ -106,7 +106,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-black-baseball@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260429T160000Z
 DTEND:20260429T170000Z
 SUMMARY:2026 Topps Chrome Black Baseball
@@ -120,7 +120,7 @@ URL:https://thetoppscompany.sjv.io/1G9v4x
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-topps-definitive-baseball-eql@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260429T160000Z
 DTEND:20260429T170000Z
 SUMMARY:2025 Topps Definitive Baseball (EQL)
@@ -134,7 +134,7 @@ URL:https://thetoppscompany.sjv.io/QYYZX9
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-cosmic-chrome-basketball@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260429T160000Z
 DTEND:20260429T170000Z
 SUMMARY:2025-26 Topps Cosmic Chrome Basketball
@@ -148,7 +148,7 @@ URL:https://thetoppscompany.sjv.io/5kkY72
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-topps-chrome-football-mega@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260501T160000Z
 DTEND:20260501T170000Z
 SUMMARY:2025 Topps Chrome Football (Mega Boxes)
@@ -162,7 +162,7 @@ URL:https://thetoppscompany.sjv.io/Jkqbyr
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-bowman-basketball-mega@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260507T160000Z
 DTEND:20260507T170000Z
 SUMMARY:2025-26 Bowman Basketball (Mega Boxes)
@@ -176,7 +176,7 @@ URL:https://thetoppscompany.sjv.io/QYjGD6
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-finest-baseball-20260708@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260708T160000Z
 DTEND:20260708T170000Z
 SUMMARY:2026 Topps Finest Baseball
@@ -192,7 +192,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-series-2-baseball-all-star-game-20260708@card-release-calend
  ar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260708T160000Z
 DTEND:20260708T170000Z
 SUMMARY:2026 Topps Series 2 Baseball All-Star Game
@@ -207,7 +207,7 @@ URL:https://www.waxstat.com/2026-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-motif-basketball-20260709@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260709T160000Z
 DTEND:20260709T170000Z
 SUMMARY:2025-26 Topps Motif Basketball
@@ -223,7 +223,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-chrome-basketball-update-mega-20260710@card-release-calen
  dar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260710T160000Z
 DTEND:20260710T170000Z
 SUMMARY:2025-26 Topps Chrome Basketball Update Mega Boxes
@@ -240,7 +240,7 @@ URL:https://www.threads.com/@topps/post/DaiRc7AlLCj?xmt=AQG0C_5fbTOwbs_xv1D
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-topps-chrome-black-football-20260710@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260710T160000Z
 DTEND:20260710T170000Z
 SUMMARY:2025 Topps Chrome Black Football
@@ -255,7 +255,7 @@ URL:https://www.waxstat.com/2025-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-dynamic-duals-baseball-20260715@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260715T160000Z
 DTEND:20260715T170000Z
 SUMMARY:2026 Topps Dynamic Duals Baseball
@@ -271,7 +271,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-series-2-baseball-fanatics-fest-nyc-edition-fanatics-fest-re
  fractors-20260716@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260716T160000Z
 DTEND:20260716T170000Z
 SUMMARY:2026 Topps Series 2 Baseball Fanatics Fest NYC Edition
@@ -287,7 +287,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-chrome-uefa-club-competitions-soccer-fanatics-fest-nyc-ed
  ition-fan-20260716@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260716T160000Z
 DTEND:20260716T170000Z
 SUMMARY:2025-26 Topps Chrome UEFA Club Competitions Soccer Fanatics Fest NY
@@ -304,7 +304,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-pristine-premier-league-soccer-20260716@card-release-cale
  ndar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260716T160000Z
 DTEND:20260716T170000Z
 SUMMARY:2025-26 Topps Pristine Premier League Soccer
@@ -320,7 +320,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-x-cactus-jack-fanatics-fest-nyc-travis-scott-edition-
  baseball-20260716@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260716T160000Z
 DTEND:20260716T170000Z
 SUMMARY:2026 Topps Chrome x Cactus Jack Fanatics Fest NYC Travis Scott Edit
@@ -336,7 +336,7 @@ URL:https://www.waxstat.com/2026-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-baseball-x-kaws-20260720@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260720T160000Z
 DTEND:20260720T170000Z
 SUMMARY:2026 Topps Baseball x KAWS
@@ -351,7 +351,7 @@ URL:https://www.waxstat.com/2026-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-baseball-20260722@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260722T160000Z
 DTEND:20260722T170000Z
 SUMMARY:2026 Topps Chrome Baseball
@@ -366,7 +366,7 @@ URL:https://www.waxstat.com/2026-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-inception-basketball-20260723@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260723T160000Z
 DTEND:20260723T170000Z
 SUMMARY:2025-26 Topps Inception Basketball
@@ -381,7 +381,7 @@ URL:https://www.waxstat.com/2025-26-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-dynamic-duals-baseball-20260729@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260729T160000Z
 DTEND:20260729T170000Z
 SUMMARY:2026 Topps Dynamic Duals Baseball
@@ -396,7 +396,7 @@ URL:https://www.waxstat.com/2026-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-tribute-baseball-20260729@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260729T160000Z
 DTEND:20260729T170000Z
 SUMMARY:2026 Topps Tribute Baseball
@@ -412,7 +412,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-inception-uefa-club-competitions-soccer-20260730@card-rel
  ease-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260730T160000Z
 DTEND:20260730T170000Z
 SUMMARY:2025-26 Topps Inception UEFA Club Competitions Soccer
@@ -427,7 +427,7 @@ URL:https://www.waxstat.com/2025-26-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-topps-resurgence-football-20260731@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260731T160000Z
 DTEND:20260731T170000Z
 SUMMARY:2025 Topps Resurgence Football
@@ -443,7 +443,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-uefa-women-s-champions-league-chrome-soccer-sapphire-edit
  ion-20260731@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260731T160000Z
 DTEND:20260731T170000Z
 SUMMARY:2025-26 Topps UEFA Women's Champions League Chrome Soccer Sapphire 
@@ -459,7 +459,7 @@ URL:https://www.waxstat.com/2025-26-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-baseball-20260805@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260805T160000Z
 DTEND:20260805T170000Z
 SUMMARY:2026 Topps Chrome Baseball
@@ -475,7 +475,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-chrome-update-series-basketball-20260806@card-release-cal
  endar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260806T160000Z
 DTEND:20260806T170000Z
 SUMMARY:2025-26 Topps Chrome Update Series Basketball
@@ -490,7 +490,7 @@ URL:https://www.waxstat.com/2025-26-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-pristine-baseball-20260812@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260812T160000Z
 DTEND:20260812T170000Z
 SUMMARY:2026 Topps Pristine Baseball
@@ -506,7 +506,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-uefa-club-competitions-museum-collection-soccer-hat-trick
  -20260813@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260813T160000Z
 DTEND:20260813T170000Z
 SUMMARY:2025-26 Topps UEFA Club Competitions Museum Collection Soccer Hat T
@@ -523,7 +523,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-uefa-club-competitions-museum-collection-soccer-20260813@
  card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260813T160000Z
 DTEND:20260813T170000Z
 SUMMARY:2025-26 Topps UEFA Club Competitions Museum Collection Soccer
@@ -538,7 +538,7 @@ URL:https://www.waxstat.com/2025-26-topps-cards-release-calendar
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-mint-marvel-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260819T160000Z
 DTEND:20260819T170000Z
 SUMMARY:2026 Topps Mint Marvel
@@ -554,7 +554,7 @@ URL:https://www.waxstat.com/boxes/2026-topps-mint-marvel-hobby-box
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-logofractor-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260819T160000Z
 DTEND:20260819T170000Z
 SUMMARY:2026 Topps Chrome Logofractor Baseball
@@ -570,7 +570,7 @@ URL:https://www.hobbymonitor.com/release/2026-topps-chrome-logofractor-base
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-motif-basketball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260820T160000Z
 DTEND:20260820T170000Z
 SUMMARY:2025-26 Topps Motif Basketball
@@ -588,7 +588,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-english-premier-league-soccer-sports@card-release-calenda
  r
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260820T160000Z
 DTEND:20260820T170000Z
 SUMMARY:2026-27 Topps English Premier League Soccer
@@ -604,7 +604,7 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-english-premier-league-socc
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-flagship-football-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260821T160000Z
 DTEND:20260821T170000Z
 SUMMARY:2026 Topps Flagship Football
@@ -619,7 +619,7 @@ URL:https://www.hobbymonitor.com/release/2026-topps-football
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-football-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260821T160000Z
 DTEND:20260821T170000Z
 SUMMARY:2026 Topps Football
@@ -635,7 +635,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-baseball-sapphire-edition-sports@card-release-calenda
  r
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260826T160000Z
 DTEND:20260826T170000Z
 SUMMARY:2026 Topps Chrome Baseball Sapphire Edition
@@ -652,9 +652,26 @@ URL:https://www.waxstat.com/boxes/2026-topps-chrome-baseball-sapphire-editi
  on-box
 END:VEVENT
 BEGIN:VEVENT
+UID:2025-26-topps-chrome-black-basketball-sports@card-release-calendar
+DTSTAMP:20260826T131808Z
+DTSTART:20260827T160000Z
+DTEND:20260827T170000Z
+SUMMARY:2025-26 Topps Chrome® Black Basketball
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
+ m/pages/topps-chrome-black-basketball\nAlso sourced from: Hobby Monitor - h
+ ttps://www.hobbymonitor.com/release/2025-26-topps-chrome-black-basketball\;
+  waxstat.com - https://www.waxstat.com/boxes/2025-26-topps-chrome-black-bas
+ ketball-hobby-box
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-chrome-black-basketball
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-one-piece-op-17-the-world-s-strongest-warriors-tcg@card-release-ca
  lendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260828T160000Z
 DTEND:20260828T170000Z
 SUMMARY:2026 One Piece OP-17: The World's Strongest Warriors
@@ -670,7 +687,7 @@ URL:https://www.hobbymonitor.com/release/2026-one-piece-op-17-the-worlds-st
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-mega-evolution-ascended-heroes-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260828T160000Z
 DTEND:20260828T170000Z
 SUMMARY:Pokemon Mega Evolution Ascended Heroes
@@ -688,7 +705,7 @@ URL:https://www.waxstat.com/boxes/pokemon-mega-evolution-ascended-heroes-ti
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-mega-forces-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260828T160000Z
 DTEND:20260828T170000Z
 SUMMARY:Pokemon Mega Forces
@@ -703,7 +720,7 @@ URL:https://www.waxstat.com/boxes/pokemon-mega-forces-3-tin-lot
 END:VEVENT
 BEGIN:VEVENT
 UID:one-piece-the-world-s-strongest-warriors-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260828T160000Z
 DTEND:20260828T170000Z
 SUMMARY:One Piece The World's Strongest Warriors
@@ -718,24 +735,8 @@ URL:https://www.waxstat.com/boxes/one-piece-the-world-s-strongest-warriors-
  booster-box
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-topps-museum-collection-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
-DTSTART:20260831T160000Z
-DTEND:20260831T170000Z
-SUMMARY:2026 Topps Museum Collection Baseball
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-museum-collection-baseball\nAlso sourced from: waxstat.com - htt
- ps://www.waxstat.com/boxes/2025-topps-museum-collection-baseball-hobby-pack
-STATUS:CONFIRMED
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-museum-collection-baseball
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-mega-evolution-pitch-black-zarude-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260831T160000Z
 DTEND:20260831T170000Z
 SUMMARY:Pokemon Mega Evolution Pitch Black Zarude
@@ -750,25 +751,9 @@ URL:https://www.waxstat.com/boxes/pokemon-mega-evolution-pitch-black-zarude
  -2-pack-blister
 END:VEVENT
 BEGIN:VEVENT
-UID:magic-the-gathering-the-hobbit-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
-DTSTART:20260831T160000Z
-DTEND:20260831T170000Z
-SUMMARY:Magic The Gathering The Hobbit
-DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
- \; verify the exact drop time before release.\nDrop link: https://www.waxst
- at.com/boxes/magic-the-gathering-the-hobbit-draft-night-bundle
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/boxes/magic-the-gathering-the-hobbit-draft-nigh
- t-bundle
-END:VEVENT
-BEGIN:VEVENT
 UID:2025-26-topps-chrome-update-series-basketball-sapphire-edition-sports@c
  ard-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260903T160000Z
 DTEND:20260903T170000Z
 SUMMARY:2025-26 Topps Chrome Update Series Basketball Sapphire Edition
@@ -785,8 +770,24 @@ URL:https://www.waxstat.com/boxes/2025-26-topps-chrome-update-series-basket
  ball-sapphire-edition-box
 END:VEVENT
 BEGIN:VEVENT
+UID:2025-26-topps-chrome-updates-basketball-sapphire-edition-sports@card-re
+ lease-calendar
+DTSTAMP:20260826T131808Z
+DTSTART:20260903T160000Z
+DTEND:20260903T170000Z
+SUMMARY:2025-26 Topps Chrome® Updates Basketball Sapphire Edition
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
+ m/pages/topps-chrome-updates-basketball-sapphire-edition
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-chrome-updates-basketball-sapphire-ed
+ ition
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-panini-prizm-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260904T160000Z
 DTEND:20260904T170000Z
 SUMMARY:2026 Panini Prizm Baseball
@@ -801,7 +802,7 @@ URL:https://www.hobbymonitor.com/release/2026-panini-prizm-baseball
 END:VEVENT
 BEGIN:VEVENT
 UID:yu-gi-oh-magnificent-monsters-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260904T160000Z
 DTEND:20260904T170000Z
 SUMMARY:Yu-Gi-Oh! Magnificent Monsters
@@ -816,7 +817,7 @@ URL:https://www.waxstat.com/boxes/yu-gi-oh-magnificent-monsters-display
 END:VEVENT
 BEGIN:VEVENT
 UID:digimon-card-game-timeless-bonds-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260904T160000Z
 DTEND:20260904T170000Z
 SUMMARY:Digimon Card Game: Timeless Bonds
@@ -831,8 +832,24 @@ URL:https://www.waxstat.com/boxes/digimon-card-game-timeless-bonds-booster-
  display
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-topps-museum-collection-baseball-sports@card-release-calendar
+DTSTAMP:20260826T131808Z
+DTSTART:20260908T160000Z
+DTEND:20260908T170000Z
+SUMMARY:2026 Topps Museum Collection Baseball
+DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
+ ify the exact drop time before release.\nDrop link: https://www.topps.com/p
+ ages/topps-museum-collection-baseball\nAlso sourced from: waxstat.com - htt
+ ps://www.waxstat.com/boxes/2025-topps-museum-collection-baseball-hobby-pack
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-museum-collection-baseball
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-bowman-football-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260908T160000Z
 DTEND:20260908T170000Z
 SUMMARY:2026 Bowman Football
@@ -847,7 +864,7 @@ URL:https://www.topps.com/pages/bowman-football
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-allen-and-ginter-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260908T160000Z
 DTEND:20260908T170000Z
 SUMMARY:2026 Topps Allen & Ginter Baseball
@@ -863,7 +880,7 @@ URL:https://www.topps.com/pages/topps-allen-ginter-baseball
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-bowman-chrome-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260909T160000Z
 DTEND:20260909T170000Z
 SUMMARY:2026 Bowman Chrome® Baseball
@@ -881,7 +898,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-bowman-chrome-baseball-sapphire-edition-sports@card-release-calend
  ar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260909T160000Z
 DTEND:20260909T170000Z
 SUMMARY:2026 Bowman Chrome Baseball Sapphire Edition
@@ -897,7 +914,7 @@ URL:https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-sapphire-edit
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-mls-chrome-soccer-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260910T160000Z
 DTEND:20260910T170000Z
 SUMMARY:2026 Topps MLS Chrome Soccer
@@ -914,7 +931,7 @@ URL:https://www.waxstat.com/boxes/2026-topps-mls-chrome-soccer-blaster-box
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-mls-chrome-soccer-mania-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260910T160000Z
 DTEND:20260910T170000Z
 SUMMARY:2026 Topps MLS Chrome Soccer Mania
@@ -930,7 +947,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-uefa-champions-league-match-attax-soccer-countdown-calend
  ar-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260910T160000Z
 DTEND:20260910T170000Z
 SUMMARY:2026-27 Topps UEFA Champions League Match Attax Soccer Countdown Ca
@@ -949,7 +966,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-uefa-champions-league-match-attax-soccer-hanger-box-eco-p
  ack-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260910T160000Z
 DTEND:20260910T170000Z
 SUMMARY:2026-27 Topps UEFA Champions League Match Attax Soccer Hanger Box (
@@ -968,7 +985,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-uefa-champions-league-match-attax-soccer-sports@card-rele
  ase-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260910T160000Z
 DTEND:20260910T170000Z
 SUMMARY:2026-27 Topps UEFA Champions League Match Attax Soccer
@@ -985,7 +1002,7 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-uefa-champions-league-match
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-baseball-x-kaws-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260912T160000Z
 DTEND:20260912T170000Z
 SUMMARY:2026 Topps Baseball x KAWS
@@ -1000,7 +1017,7 @@ URL:https://www.waxstat.com/boxes/2026-topps-baseball-x-kaws-box
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-30th-celebration-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260916T160000Z
 DTEND:20260916T170000Z
 SUMMARY:Pokemon 30th Celebration
@@ -1019,7 +1036,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-royalty-premier-league-soccer-sports@card-release-calenda
  r
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260917T160000Z
 DTEND:20260917T170000Z
 SUMMARY:2026/27 Topps Royalty Premier League Soccer
@@ -1035,7 +1052,7 @@ URL:https://www.hobbymonitor.com/release/2026-27-topps-royalty-premier-leag
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-definitive-basketball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260917T160000Z
 DTEND:20260917T170000Z
 SUMMARY:2025-26 Topps Definitive Basketball
@@ -1054,7 +1071,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-english-premier-league-soccer-sports@card-release-calenda
  r
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260917T160000Z
 DTEND:20260917T170000Z
 SUMMARY:2026-27 Topps English Premier League Soccer
@@ -1070,7 +1087,7 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-english-premier-league-socc
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-soccer-chelsea-fc-club-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260917T160000Z
 DTEND:20260917T170000Z
 SUMMARY:2026-27 Topps Soccer Chelsea FC Club
@@ -1087,7 +1104,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-soccer-manchester-city-fc-club-sports@card-release-calend
  ar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260917T160000Z
 DTEND:20260917T170000Z
 SUMMARY:2026-27 Topps Soccer Manchester City FC Club
@@ -1104,7 +1121,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-soccer-manchester-united-fc-club-sports@card-release-cale
  ndar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260917T160000Z
 DTEND:20260917T170000Z
 SUMMARY:2026-27 Topps Soccer Manchester United FC Club
@@ -1120,7 +1137,7 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-soccer-manchester-united-fc
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-panini-noir-basketball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260918T160000Z
 DTEND:20260918T170000Z
 SUMMARY:2025/26 Panini Noir Basketball
@@ -1137,7 +1154,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-museum-uefa-club-competitions-sports@card-release-calenda
  r
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260918T160000Z
 DTEND:20260918T170000Z
 SUMMARY:2025/26 Topps Museum UEFA Club Competitions
@@ -1154,7 +1171,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-uefa-club-competitions-museum-collection-soccer-hat-trick
  -sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260918T160000Z
 DTEND:20260918T170000Z
 SUMMARY:2025-26 Topps UEFA Club Competitions Museum Collection Soccer Hat T
@@ -1173,7 +1190,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-uefa-club-competitions-museum-collection-soccer-sports@ca
  rd-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260918T160000Z
 DTEND:20260918T170000Z
 SUMMARY:2025-26 Topps UEFA Club Competitions Museum Collection Soccer
@@ -1189,25 +1206,8 @@ URL:https://www.waxstat.com/boxes/2025-26-topps-uefa-club-competitions-muse
  um-collection-soccer-hobby-box
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-topps-vault-marvel-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
-DTSTART:20260923T160000Z
-DTEND:20260923T170000Z
-SUMMARY:2026 Topps Vault Marvel
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-vault-marvel\nAlso sourced from: Hobby Monitor - https://www.hob
- bymonitor.com/release/2026-topps-vault-marvel-checklist\; waxstat.com - htt
- ps://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box
-STATUS:CONFIRMED
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-vault-marvel
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-bowman-chrome-mega-box-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260923T160000Z
 DTEND:20260923T170000Z
 SUMMARY:2026 Bowman Chrome Mega Box Baseball
@@ -1222,9 +1222,26 @@ URL:https://www.hobbymonitor.com/release/2026-bowman-chrome-mega-box-baseba
  ll-checklist
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-topps-marvel-vault-tcg@card-release-calendar
+DTSTAMP:20260826T131808Z
+DTSTART:20260923T160000Z
+DTEND:20260923T170000Z
+SUMMARY:2026 Topps Marvel Vault
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-topps-marvel-vault-hobby-box\nAlso sourced from: Hobby Mo
+ nitor - https://www.hobbymonitor.com/release/2026-topps-vault-marvel-checkl
+ ist
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box
+END:VEVENT
+BEGIN:VEVENT
 UID:2025-26-topps-royalty-premier-league-soccer-sports@card-release-calenda
  r
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260924T160000Z
 DTEND:20260924T170000Z
 SUMMARY:2025-26 Topps Royalty Premier League Soccer
@@ -1240,7 +1257,7 @@ URL:https://www.waxstat.com/boxes/2025-26-topps-royalty-premier-league-socc
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-prizm-wnba-basketball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260925T160000Z
 DTEND:20260925T170000Z
 SUMMARY:2026 Panini Prizm WNBA Basketball
@@ -1256,7 +1273,7 @@ URL:https://www.hobbymonitor.com/release/2026-panini-prizm-wnba-basketball-
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-mlb-x-kaws-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260928T160000Z
 DTEND:20260928T170000Z
 SUMMARY:2026 Topps MLB x KAWS
@@ -1272,7 +1289,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-flagship-premier-league-soccer-sports@card-release-calend
  ar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260930T160000Z
 DTEND:20260930T170000Z
 SUMMARY:2026/27 Topps Flagship Premier League Soccer
@@ -1288,7 +1305,7 @@ URL:https://www.hobbymonitor.com/release/2026-27-topps-flagship-premier-lea
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-three-and-two-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20260930T160000Z
 DTEND:20260930T170000Z
 SUMMARY:2026 Panini Three & Two Baseball
@@ -1304,7 +1321,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:disney-lorcana-illumineer-s-quest-the-great-hunny-rescue-tcg@card-relea
  se-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261002T160000Z
 DTEND:20261002T170000Z
 SUMMARY:Disney Lorcana: Illumineer's Quest: The Great Hunny Rescue
@@ -1319,7 +1336,7 @@ URL:https://www.disneylorcana.com/en-US/product/great-hunny-rescue
 END:VEVENT
 BEGIN:VEVENT
 UID:magic-the-gathering-reality-fracture-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261002T160000Z
 DTEND:20261002T170000Z
 SUMMARY:Magic the Gathering Reality Fracture
@@ -1335,7 +1352,7 @@ URL:https://www.waxstat.com/boxes/magic-the-gathering-reality-fracture-bund
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-soccer-arsenal-fc-club-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261006T160000Z
 DTEND:20261006T170000Z
 SUMMARY:2026-27 Topps Soccer Arsenal FC Club
@@ -1351,7 +1368,7 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-soccer-arsenal-fc-club-coll
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-impeccable-wnba-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261009T160000Z
 DTEND:20261009T170000Z
 SUMMARY:2026 Panini Impeccable WNBA
@@ -1366,7 +1383,7 @@ URL:https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba
 END:VEVENT
 BEGIN:VEVENT
 UID:yu-gi-oh-beyond-the-brave-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261009T160000Z
 DTEND:20261009T170000Z
 SUMMARY:Yu-Gi-Oh! Beyond the Brave
@@ -1381,7 +1398,7 @@ URL:https://www.waxstat.com/boxes/yu-gi-oh-beyond-the-brave-booster-box
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-donruss-optic-nwsl-soccer-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261014T160000Z
 DTEND:20261014T170000Z
 SUMMARY:2026 Panini Donruss Optic NWSL Soccer
@@ -1397,7 +1414,7 @@ URL:https://www.hobbymonitor.com/release/2026-panini-donruss-optic-nwsl-soc
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-lorcana-hyperia-city-prerelease-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261016T160000Z
 DTEND:20261016T170000Z
 SUMMARY:Disney Lorcana: Hyperia City Prerelease
@@ -1412,7 +1429,7 @@ URL:https://www.disneylorcana.com/en-US/product/hyperia-city
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-x-jennie-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261020T160000Z
 DTEND:20261020T170000Z
 SUMMARY:2026 Topps Chrome x Jennie
@@ -1427,7 +1444,7 @@ URL:https://www.waxstat.com/boxes/2026-topps-chrome-x-jennie-box
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-lorcana-hyperia-city-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261023T160000Z
 DTEND:20261023T170000Z
 SUMMARY:Disney Lorcana: Hyperia City
@@ -1442,7 +1459,7 @@ URL:https://www.disneylorcana.com/en-US/product/hyperia-city
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-2026-deck-crafter-s-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261023T160000Z
 DTEND:20261023T170000Z
 SUMMARY:Pokemon 2026 Deck Crafter's
@@ -1459,7 +1476,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:magic-the-gathering-reality-fracture-secret-lair-tcg@card-release-calen
  dar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261023T160000Z
 DTEND:20261023T170000Z
 SUMMARY:Magic the Gathering Reality Fracture Secret Lair
@@ -1476,7 +1493,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-absolute-football-kaboom-countdown-calendar-sports@card-rel
  ease-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261028T160000Z
 DTEND:20261028T170000Z
 SUMMARY:2026 Panini Absolute Football KABOOM! Countdown Calendar
@@ -1493,7 +1510,7 @@ URL:https://www.hobbymonitor.com/release/2026-panini-absolute-football-kabo
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-donruss-football-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261028T160000Z
 DTEND:20261028T170000Z
 SUMMARY:2026 Panini Donruss Football
@@ -1509,7 +1526,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-english-premier-league-soccer-golden-boot-4-tin-tray-spor
  ts@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261030T160000Z
 DTEND:20261030T170000Z
 SUMMARY:2026-27 Topps English Premier League Soccer Golden Boot 4-Tin Tray
@@ -1527,7 +1544,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-english-premier-league-soccer-golden-boot-sports@card-rel
  ease-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261030T160000Z
 DTEND:20261030T170000Z
 SUMMARY:2026-27 Topps English Premier League Soccer Golden Boot
@@ -1544,7 +1561,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-holiday-basketball-countdown-calendar-sports@card-release
  -calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261030T160000Z
 DTEND:20261030T170000Z
 SUMMARY:2026-27 Topps Holiday Basketball Countdown Calendar
@@ -1560,7 +1577,7 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-holiday-basketball-countdow
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-bowman-sterling-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261031T160000Z
 DTEND:20261031T170000Z
 SUMMARY:2026 Bowman Sterling Baseball
@@ -1575,7 +1592,7 @@ URL:https://www.waxstat.com/boxes/2026-bowman-sterling-baseball-hobby-box
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-bowman-university-chrome-football-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261031T160000Z
 DTEND:20261031T170000Z
 SUMMARY:2026 Bowman University Chrome Football
@@ -1591,7 +1608,7 @@ URL:https://www.waxstat.com/boxes/2026-bowman-university-chrome-football-br
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-update-series-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261031T160000Z
 DTEND:20261031T170000Z
 SUMMARY:2026 Topps Update Series Baseball
@@ -1608,7 +1625,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-panini-national-treasures-fifa-road-to-world-cup-soccer-sports@
  card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261104T170000Z
 DTEND:20261104T180000Z
 SUMMARY:2025/26 Panini National Treasures FIFA Road to World Cup Soccer
@@ -1625,7 +1642,7 @@ URL:https://www.hobbymonitor.com/release/202526-panini-national-treasures-r
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-stadium-club-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261106T170000Z
 DTEND:20261106T180000Z
 SUMMARY:2026 Topps Stadium Club Baseball
@@ -1640,8 +1657,23 @@ URL:https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-hobby-co
  mpact-box
 END:VEVENT
 BEGIN:VEVENT
+UID:magic-the-gathering-star-trek-tcg@card-release-calendar
+DTSTAMP:20260826T131808Z
+DTSTART:20261113T170000Z
+DTEND:20261113T180000Z
+SUMMARY:Magic: The Gathering | Star Trek
+DESCRIPTION:Release date from Magic: The Gathering. Time is a 9:00 AM PT pl
+ aceholder\; verify the exact drop time before release.\nDrop link: https://
+ magic.wizards.com/en/products/star-trek
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://magic.wizards.com/en/products/star-trek
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-topps-chrome-update-series-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261113T170000Z
 DTEND:20261113T180000Z
 SUMMARY:2026 Topps Chrome Update Series Baseball
@@ -1656,23 +1688,8 @@ URL:https://www.waxstat.com/boxes/2026-topps-chrome-update-series-baseball-
  jumbo-box
 END:VEVENT
 BEGIN:VEVENT
-UID:magic-the-gathering-star-trek-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
-DTSTART:20261113T170000Z
-DTEND:20261113T180000Z
-SUMMARY:Magic: The Gathering | Star Trek
-DESCRIPTION:Release date from Magic: The Gathering. Time is a 9:00 AM PT pl
- aceholder\; verify the exact drop time before release.\nDrop link: https://
- magic.wizards.com/en/products/star-trek
-STATUS:CONFIRMED
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://magic.wizards.com/en/products/star-trek
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-topps-gilded-collection-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261122T170000Z
 DTEND:20261122T180000Z
 SUMMARY:2026 Topps Gilded Collection Baseball
@@ -1688,7 +1705,7 @@ URL:https://www.waxstat.com/boxes/2026-topps-gilded-collection-baseball-hob
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-chrome-basketball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261204T170000Z
 DTEND:20261204T180000Z
 SUMMARY:2026-27 Topps Chrome Basketball
@@ -1704,7 +1721,7 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-chrome-basketball-blaster-b
 END:VEVENT
 BEGIN:VEVENT
 UID:yu-gi-oh-glorious-victors-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261204T170000Z
 DTEND:20261204T180000Z
 SUMMARY:Yu-Gi-Oh! Glorious Victors
@@ -1719,7 +1736,7 @@ URL:https://www.waxstat.com/boxes/yu-gi-oh-glorious-victors-booster-box
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-archives-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261212T170000Z
 DTEND:20261212T180000Z
 SUMMARY:2026 Topps Archives Baseball
@@ -1734,7 +1751,7 @@ URL:https://www.waxstat.com/boxes/2026-topps-archives-baseball-blaster-box
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-heritage-high-number-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261217T170000Z
 DTEND:20261217T180000Z
 SUMMARY:2026 Topps Heritage High Number Baseball
@@ -1750,7 +1767,7 @@ URL:https://www.waxstat.com/boxes/2026-topps-heritage-high-number-baseball-
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-triple-threads-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261219T170000Z
 DTEND:20261219T180000Z
 SUMMARY:2026 Topps Triple Threads Baseball
@@ -1766,7 +1783,7 @@ URL:https://www.waxstat.com/boxes/2026-topps-triple-threads-baseball-hobby-
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-chrome-marvel-studios-tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20261223T170000Z
 DTEND:20261223T180000Z
 SUMMARY:2025-26 Topps Chrome Marvel Studios
@@ -1783,7 +1800,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-update-series-baseball-sapphire-edition-sports@card-r
  elease-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20270107T170000Z
 DTEND:20270107T180000Z
 SUMMARY:2026 Topps Chrome Update Series Baseball Sapphire Edition
@@ -1799,7 +1816,7 @@ URL:https://www.waxstat.com/boxes/2026-topps-chrome-update-series-baseball-
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-bowman-draft-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20270114T170000Z
 DTEND:20270114T180000Z
 SUMMARY:2026 Bowman Draft Baseball
@@ -1816,7 +1833,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-uefa-club-competitions-soccer-sports@card-release-calenda
  r
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20270115T170000Z
 DTEND:20270115T180000Z
 SUMMARY:2026-27 Topps UEFA Club Competitions Soccer
@@ -1832,7 +1849,7 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-uefa-club-competitions-socc
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-midnight-basketball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20270129T170000Z
 DTEND:20270129T180000Z
 SUMMARY:2026-27 Topps Midnight Basketball
@@ -1848,7 +1865,7 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-midnight-basketball-hobby-b
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-finest-basketball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20270305T170000Z
 DTEND:20270305T180000Z
 SUMMARY:2026-27 Topps Finest Basketball
@@ -1863,7 +1880,7 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-finest-basketball-hobby-box
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-bowman-s-best-baseball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20270311T170000Z
 DTEND:20270311T180000Z
 SUMMARY:2026 Bowman's Best Baseball
@@ -1878,7 +1895,7 @@ URL:https://www.waxstat.com/boxes/2026-bowman-s-best-baseball-hobby-box
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-cosmic-chrome-basketball-sports@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20270501T160000Z
 DTEND:20270501T170000Z
 SUMMARY:2026-27 Topps Cosmic Chrome Basketball
@@ -1895,7 +1912,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-inception-uefa-club-competitions-soccer-sports@card-relea
  se-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20270717T160000Z
 DTEND:20270717T170000Z
 SUMMARY:2025-26 Topps Inception UEFA Club Competitions Soccer
@@ -1914,7 +1931,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:one-piece-trading-card-game-learn-together-luffy-zoro-and-nami-starter-
  deck-set--tcg@card-release-calendar
-DTSTAMP:20260826T071018Z
+DTSTAMP:20260826T131808Z
 DTSTART:20270915T160000Z
 DTEND:20270915T170000Z
 SUMMARY:One Piece Trading Card Game Learn Together Luffy\, Zoro & Nami Star

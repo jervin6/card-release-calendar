@@ -766,6 +766,46 @@
     ]
   },
   {
+    "id": "2025-26-topps-chrome-black-basketball-sports",
+    "title": "2025-26 Topps Chrome® Black Basketball",
+    "startsAt": "2026-08-27T16:00:00.000Z",
+    "endsAt": "2026-08-27T17:00:00.000Z",
+    "notes": "Official drop time from Topps.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-chrome-black-basketball",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-chrome-black-basketball",
+        "priority": 100
+      },
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2025-26-topps-chrome-black-basketball",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-chrome-black-basketball-hobby-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-one-piece-op-17-the-world-s-strongest-warriors-tcg",
     "title": "2026 One Piece OP-17: The World's Strongest Warriors",
     "startsAt": "2026-08-28T09:00:00-07:00",
@@ -881,40 +921,6 @@
     ]
   },
   {
-    "id": "2026-topps-museum-collection-baseball-sports",
-    "title": "2026 Topps Museum Collection Baseball",
-    "startsAt": "2026-08-31T09:00:00-07:00",
-    "endsAt": "2026-08-31T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-museum-collection-baseball",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-museum-collection-baseball",
-        "priority": 100
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-topps-museum-collection-baseball-hobby-pack",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "pokemon-mega-evolution-pitch-black-zarude-tcg",
     "title": "Pokemon Mega Evolution Pitch Black Zarude",
     "startsAt": "2026-08-31T09:00:00-07:00",
@@ -939,35 +945,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/pokemon-mega-evolution-pitch-black-zarude-2-pack-blister",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "magic-the-gathering-the-hobbit-tcg",
-    "title": "Magic The Gathering The Hobbit",
-    "startsAt": "2026-08-31T09:00:00-07:00",
-    "endsAt": "2026-08-31T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/magic-the-gathering-the-hobbit-draft-night-bundle",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar",
-    "sourceId": "waxstat:2026-magic-the-gathering-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "TCG",
-      "Magic: The Gathering"
-    ],
-    "category": "tcg",
-    "game": "Magic: The Gathering",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/magic-the-gathering-the-hobbit-draft-night-bundle",
         "priority": 70
       }
     ]
@@ -1004,6 +981,34 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2025-26-topps-chrome-update-series-basketball-sapphire-edition-box",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2025-26-topps-chrome-updates-basketball-sapphire-edition-sports",
+    "title": "2025-26 Topps Chrome® Updates Basketball Sapphire Edition",
+    "startsAt": "2026-09-03T16:00:00.000Z",
+    "endsAt": "2026-09-03T17:00:00.000Z",
+    "notes": "Official drop time from Topps.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-chrome-updates-basketball-sapphire-edition",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-chrome-updates-basketball-sapphire-edition",
+        "priority": 100
       }
     ]
   },
@@ -1089,6 +1094,40 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/digimon-card-game-timeless-bonds-booster-display",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-museum-collection-baseball-sports",
+    "title": "2026 Topps Museum Collection Baseball",
+    "startsAt": "2026-09-08T09:00:00-07:00",
+    "endsAt": "2026-09-08T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-museum-collection-baseball",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-museum-collection-baseball",
+        "priority": 100
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-topps-museum-collection-baseball-hobby-pack",
         "priority": 70
       }
     ]
@@ -1733,46 +1772,6 @@
     ]
   },
   {
-    "id": "2026-topps-vault-marvel-tcg",
-    "title": "2026 Topps Vault Marvel",
-    "startsAt": "2026-09-23T09:00:00-07:00",
-    "endsAt": "2026-09-23T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-vault-marvel",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Marvel"
-    ],
-    "category": "tcg",
-    "game": "Marvel",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-vault-marvel",
-        "priority": 100
-      },
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-vault-marvel-checklist",
-        "priority": 70
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-bowman-chrome-mega-box-baseball-sports",
     "title": "2026 Bowman Chrome Mega Box Baseball",
     "startsAt": "2026-09-23T09:00:00-07:00",
@@ -1796,6 +1795,41 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-bowman-chrome-mega-box-baseball-checklist",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-marvel-vault-tcg",
+    "title": "2026 Topps Marvel Vault",
+    "startsAt": "2026-09-23T09:00:00-07:00",
+    "endsAt": "2026-09-23T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Marvel"
+    ],
+    "category": "tcg",
+    "game": "Marvel",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-vault-marvel-checklist",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box",
         "priority": 70
       }
     ]
@@ -2544,6 +2578,34 @@
     ]
   },
   {
+    "id": "magic-the-gathering-star-trek-tcg",
+    "title": "Magic: The Gathering | Star Trek",
+    "startsAt": "2026-11-13T09:00:00-08:00",
+    "endsAt": "2026-11-13T10:00:00-08:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/star-trek",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/star-trek",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-topps-chrome-update-series-baseball-sports",
     "title": "2026 Topps Chrome Update Series Baseball",
     "startsAt": "2026-11-13T09:00:00-08:00",
@@ -2569,34 +2631,6 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-chrome-update-series-baseball-jumbo-box",
         "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "magic-the-gathering-star-trek-tcg",
-    "title": "Magic: The Gathering | Star Trek",
-    "startsAt": "2026-11-13T09:00:00-08:00",
-    "endsAt": "2026-11-13T10:00:00-08:00",
-    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Magic: The Gathering",
-    "sourceUrl": "https://magic.wizards.com/en/products/star-trek",
-    "sourceId": "magic-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Magic: The Gathering"
-    ],
-    "category": "tcg",
-    "game": "Magic: The Gathering",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "magic-official",
-        "name": "Magic: The Gathering",
-        "url": "https://magic.wizards.com/en/products/star-trek",
-        "priority": 100
       }
     ]
   },
