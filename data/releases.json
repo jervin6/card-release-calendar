@@ -1099,6 +1099,40 @@
     ]
   },
   {
+    "id": "2026-topps-allen-and-ginter-baseball-sports",
+    "title": "2026 Topps Allen & Ginter Baseball",
+    "startsAt": "2026-09-08T09:00:00-07:00",
+    "endsAt": "2026-09-08T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-allen-ginter-baseball",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-allen-ginter-baseball",
+        "priority": 100
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-topps-allen-ginter-baseball-blaster-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-topps-museum-collection-baseball-sports",
     "title": "2026 Topps Museum Collection Baseball",
     "startsAt": "2026-09-08T09:00:00-07:00",
@@ -1127,7 +1161,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-topps-museum-collection-baseball-hobby-pack",
+        "url": "https://www.waxstat.com/boxes/2025-topps-museum-collection-baseball-hobby-box",
         "priority": 70
       }
     ]
@@ -1157,40 +1191,6 @@
         "name": "Topps",
         "url": "https://www.topps.com/pages/bowman-football",
         "priority": 100
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-allen-and-ginter-baseball-sports",
-    "title": "2026 Topps Allen & Ginter Baseball",
-    "startsAt": "2026-09-08T09:00:00-07:00",
-    "endsAt": "2026-09-08T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-allen-ginter-baseball",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-allen-ginter-baseball",
-        "priority": 100
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-topps-allen-ginter-baseball-fat-pack-12-pack-lot",
-        "priority": 70
       }
     ]
   },
@@ -1229,7 +1229,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-mega-pack",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-delight-box",
         "priority": 70
       }
     ]
@@ -2147,6 +2147,34 @@
     ]
   },
   {
+    "id": "2026-topps-chrome-team-samurai-japan-baseball-sports",
+    "title": "2026 Topps Chrome Team Samurai Japan Baseball",
+    "startsAt": "2026-10-16T09:00:00-07:00",
+    "endsAt": "2026-10-16T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-topps-chrome-team-samurai-japan-baseball",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-chrome-team-samurai-japan-baseball",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "disney-lorcana-hyperia-city-prerelease-tcg",
     "title": "Disney Lorcana: Hyperia City Prerelease",
     "startsAt": "2026-10-16T09:00:00-07:00",
@@ -2291,34 +2319,6 @@
     ]
   },
   {
-    "id": "2026-panini-absolute-football-kaboom-countdown-calendar-sports",
-    "title": "2026 Panini Absolute Football KABOOM! Countdown Calendar",
-    "startsAt": "2026-10-28T09:00:00-07:00",
-    "endsAt": "2026-10-28T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-panini-donruss-football-sports",
     "title": "2026 Panini Donruss Football",
     "startsAt": "2026-10-28T09:00:00-07:00",
@@ -2342,6 +2342,34 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-absolute-football-kaboom-countdown-calendar-sports",
+    "title": "2026 Panini Absolute Football KABOOM! Countdown Calendar",
+    "startsAt": "2026-10-28T09:00:00-07:00",
+    "endsAt": "2026-10-28T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
         "priority": 70
       }
     ]
