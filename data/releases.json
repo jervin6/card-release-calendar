@@ -1095,36 +1095,30 @@
     ]
   },
   {
-    "id": "2026-topps-allen-and-ginter-baseball-sports",
-    "title": "2026 Topps Allen & Ginter Baseball",
+    "id": "2026-bowman-football-sports",
+    "title": "2026 Bowman Football",
     "startsAt": "2026-09-08T09:00:00-07:00",
     "endsAt": "2026-09-08T10:00:00-07:00",
     "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-allen-ginter-baseball",
+    "sourceUrl": "https://www.topps.com/pages/bowman-football",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
       "Sports cards",
-      "Baseball"
+      "Football"
     ],
     "category": "sports",
-    "sport": "Baseball",
+    "sport": "Football",
     "managedBy": "release-sync",
     "sources": [
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-allen-ginter-baseball",
+        "url": "https://www.topps.com/pages/bowman-football",
         "priority": 100
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-topps-allen-ginter-baseball-blaster-box",
-        "priority": 70
       }
     ]
   },
@@ -1157,36 +1151,42 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-topps-museum-collection-baseball-hobby-box",
+        "url": "https://www.waxstat.com/boxes/2025-topps-museum-collection-baseball-hobby-pack",
         "priority": 70
       }
     ]
   },
   {
-    "id": "2026-bowman-football-sports",
-    "title": "2026 Bowman Football",
+    "id": "2026-topps-allen-and-ginter-baseball-sports",
+    "title": "2026 Topps Allen & Ginter Baseball",
     "startsAt": "2026-09-08T09:00:00-07:00",
     "endsAt": "2026-09-08T10:00:00-07:00",
     "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/bowman-football",
+    "sourceUrl": "https://www.topps.com/pages/topps-allen-ginter-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
       "Sports cards",
-      "Football"
+      "Baseball"
     ],
     "category": "sports",
-    "sport": "Football",
+    "sport": "Baseball",
     "managedBy": "release-sync",
     "sources": [
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/bowman-football",
+        "url": "https://www.topps.com/pages/topps-allen-ginter-baseball",
         "priority": 100
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-topps-allen-ginter-baseball-fat-pack-12-pack-lot",
+        "priority": 70
       }
     ]
   },
@@ -1225,7 +1225,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-delight-box",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-mega-pack",
         "priority": 70
       }
     ]
@@ -1256,6 +1256,34 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-sapphire-edition-box",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "topps-chrome-major-league-soccer-sports",
+    "title": "Topps Chrome® Major League Soccer",
+    "startsAt": "2026-09-10T09:00:00-07:00",
+    "endsAt": "2026-09-10T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-mls-chrome",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-mls-chrome",
+        "priority": 100
       }
     ]
   },
@@ -1411,34 +1439,6 @@
     ]
   },
   {
-    "id": "topps-chrome-major-league-soccer-sports",
-    "title": "Topps Chrome® Major League Soccer",
-    "startsAt": "2026-09-10T09:00:00-07:00",
-    "endsAt": "2026-09-10T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-mls-chrome",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-mls-chrome",
-        "priority": 100
-      }
-    ]
-  },
-  {
     "id": "pokemon-30th-celebration-tcg",
     "title": "Pokemon 30th Celebration",
     "startsAt": "2026-09-16T09:00:00-07:00",
@@ -1474,6 +1474,34 @@
     ]
   },
   {
+    "id": "2026-27-topps-flagship-premier-league-sports",
+    "title": "2026-27 Topps Flagship Premier League",
+    "startsAt": "2026-09-17T09:00:00-07:00",
+    "endsAt": "2026-09-17T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-flagship-premier-league",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-flagship-premier-league",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-27-topps-royalty-premier-league-soccer-sports",
     "title": "2026/27 Topps Royalty Premier League Soccer",
     "startsAt": "2026-09-17T09:00:00-07:00",
@@ -1497,41 +1525,6 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-27-topps-royalty-premier-league-soccer",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2025-26-topps-definitive-basketball-sports",
-    "title": "2025-26 Topps Definitive Basketball",
-    "startsAt": "2026-09-17T09:00:00-07:00",
-    "endsAt": "2026-09-17T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-definitive-basketball-hobby-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
-    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Basketball"
-    ],
-    "category": "sports",
-    "sport": "Basketball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2025-26-topps-definitive-basketball",
-        "priority": 70
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-definitive-basketball-hobby-box",
         "priority": 70
       }
     ]
@@ -1653,34 +1646,6 @@
     ]
   },
   {
-    "id": "2026-27-topps-flagship-premier-league-sports",
-    "title": "2026-27 Topps Flagship Premier League",
-    "startsAt": "2026-09-17T09:00:00-07:00",
-    "endsAt": "2026-09-17T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-flagship-premier-league",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-flagship-premier-league",
-        "priority": 100
-      }
-    ]
-  },
-  {
     "id": "2025-26-panini-noir-basketball-sports",
     "title": "2025/26 Panini Noir Basketball",
     "startsAt": "2026-09-18T09:00:00-07:00",
@@ -1795,34 +1760,6 @@
     ]
   },
   {
-    "id": "2026-bowman-chrome-mega-box-baseball-sports",
-    "title": "2026 Bowman Chrome Mega Box Baseball",
-    "startsAt": "2026-09-23T09:00:00-07:00",
-    "endsAt": "2026-09-23T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-bowman-chrome-mega-box-baseball-checklist",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-bowman-chrome-mega-box-baseball-checklist",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-topps-vault-marvel-tcg",
     "title": "2026 Topps Vault Marvel",
     "startsAt": "2026-09-23T09:00:00-07:00",
@@ -1858,6 +1795,34 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-bowman-chrome-mega-box-baseball-sports",
+    "title": "2026 Bowman Chrome Mega Box Baseball",
+    "startsAt": "2026-09-23T09:00:00-07:00",
+    "endsAt": "2026-09-23T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-bowman-chrome-mega-box-baseball-checklist",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-bowman-chrome-mega-box-baseball-checklist",
         "priority": 70
       }
     ]
@@ -1977,6 +1942,40 @@
     ]
   },
   {
+    "id": "2026-topps-chrome-star-wars-tcg",
+    "title": "2026 Topps Chrome® Star Wars",
+    "startsAt": "2026-09-30T09:00:00-07:00",
+    "endsAt": "2026-09-30T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-chrome-star-wars",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Star Wars"
+    ],
+    "category": "tcg",
+    "game": "Star Wars",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-chrome-star-wars",
+        "priority": 100
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-topps-star-wars-chrome-blaster-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-27-topps-flagship-premier-league-soccer-sports",
     "title": "2026/27 Topps Flagship Premier League Soccer",
     "startsAt": "2026-09-30T09:00:00-07:00",
@@ -2033,36 +2032,30 @@
     ]
   },
   {
-    "id": "2026-topps-chrome-star-wars-tcg",
-    "title": "2026 Topps Chrome® Star Wars",
-    "startsAt": "2026-09-30T09:00:00-07:00",
-    "endsAt": "2026-09-30T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "id": "reality-fracture-tcg",
+    "title": "Reality Fracture",
+    "startsAt": "2026-10-02T09:00:00-07:00",
+    "endsAt": "2026-10-02T10:00:00-07:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-chrome-star-wars",
-    "sourceId": "topps-official",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/reality-fracture",
+    "sourceId": "magic-official",
     "sourcePriority": 100,
     "tags": [
       "TCG",
-      "Star Wars"
+      "Magic: The Gathering"
     ],
     "category": "tcg",
-    "game": "Star Wars",
+    "game": "Magic: The Gathering",
     "managedBy": "release-sync",
     "sources": [
       {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-chrome-star-wars",
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/reality-fracture",
         "priority": 100
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-topps-star-wars-chrome-blaster-box",
-        "priority": 70
       }
     ]
   },
