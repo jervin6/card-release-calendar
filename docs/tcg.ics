@@ -122,22 +122,6 @@ URL:https://www.waxstat.com/boxes/pokemon-mega-evolution-pitch-black-zarude
  -2-pack-blister
 END:VEVENT
 BEGIN:VEVENT
-UID:magic-the-gathering-the-hobbit-tcg@card-release-calendar
-DTSTAMP:20260830T052705Z
-DTSTART:20260831T160000Z
-DTEND:20260831T170000Z
-SUMMARY:Magic The Gathering The Hobbit
-DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
- \; verify the exact drop time before release.\nDrop link: https://www.waxst
- at.com/boxes/magic-the-gathering-the-hobbit-draft-night-bundle
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/boxes/magic-the-gathering-the-hobbit-draft-nigh
- t-bundle
-END:VEVENT
-BEGIN:VEVENT
 UID:yu-gi-oh-magnificent-monsters-tcg@card-release-calendar
 DTSTAMP:20260830T052705Z
 DTSTART:20260904T160000Z
@@ -359,21 +343,6 @@ CATEGORIES:TCG
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/magic-the-gathering-reality-fracture-secr
  et-lair-bundle
-END:VEVENT
-BEGIN:VEVENT
-UID:magic-the-gathering-star-trek-tcg@card-release-calendar
-DTSTAMP:20260830T052705Z
-DTSTART:20261113T170000Z
-DTEND:20261113T180000Z
-SUMMARY:Magic: The Gathering | Star Trek
-DESCRIPTION:Release date from Magic: The Gathering. Time is a 9:00 AM PT pl
- aceholder\; verify the exact drop time before release.\nDrop link: https://
- magic.wizards.com/en/products/star-trek
-STATUS:CONFIRMED
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://magic.wizards.com/en/products/star-trek
 END:VEVENT
 BEGIN:VEVENT
 UID:yu-gi-oh-glorious-victors-tcg@card-release-calendar
