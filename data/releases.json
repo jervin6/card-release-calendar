@@ -2575,6 +2575,34 @@
     ]
   },
   {
+    "id": "magic-the-gathering-star-trek-tcg",
+    "title": "Magic: The Gathering | Star Trek",
+    "startsAt": "2026-11-13T09:00:00-08:00",
+    "endsAt": "2026-11-13T10:00:00-08:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/star-trek",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/star-trek",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-topps-chrome-update-series-baseball-sports",
     "title": "2026 Topps Chrome Update Series Baseball",
     "startsAt": "2026-11-13T09:00:00-08:00",
