@@ -1074,7 +1074,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-monsters-display",
+    "sourceUrl": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-monsters-bundle",
     "sourceCalendarUrl": "https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar",
     "sourceId": "waxstat:2026-yu-gi-oh-cards-release-calendar",
     "sourcePriority": 70,
@@ -1089,7 +1089,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-monsters-display",
+        "url": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-monsters-bundle",
         "priority": 70
       }
     ]
