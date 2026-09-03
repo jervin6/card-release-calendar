@@ -1180,6 +1180,40 @@
     ]
   },
   {
+    "id": "2026-topps-allen-and-ginter-baseball-sports",
+    "title": "2026 Topps Allen & Ginter Baseball",
+    "startsAt": "2026-09-08T09:00:00-07:00",
+    "endsAt": "2026-09-08T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-allen-ginter-baseball",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-allen-ginter-baseball",
+        "priority": 100
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-topps-allen-ginter-baseball-fat-pack-12-pack-lot",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-topps-museum-collection-baseball-sports",
     "title": "2026 Topps Museum Collection Baseball",
     "startsAt": "2026-09-08T09:00:00-07:00",
@@ -1210,39 +1244,11 @@
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-topps-museum-collection-baseball",
         "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-allen-and-ginter-baseball-sports",
-    "title": "2026 Topps Allen & Ginter Baseball",
-    "startsAt": "2026-09-08T09:00:00-07:00",
-    "endsAt": "2026-09-08T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-allen-ginter-baseball",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-allen-ginter-baseball",
-        "priority": 100
       },
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-topps-allen-ginter-baseball-blaster-box",
+        "url": "https://www.waxstat.com/boxes/2025-topps-museum-collection-baseball-hobby-pack",
         "priority": 70
       }
     ]
@@ -1282,7 +1288,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-delight-box",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-mega-pack",
         "priority": 70
       }
     ]
@@ -1313,6 +1319,34 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-sapphire-edition-box",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "topps-chrome-major-league-soccer-sports",
+    "title": "Topps Chrome® Major League Soccer",
+    "startsAt": "2026-09-10T09:00:00-07:00",
+    "endsAt": "2026-09-10T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-mls-chrome",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-mls-chrome",
+        "priority": 100
       }
     ]
   },
@@ -1468,34 +1502,6 @@
     ]
   },
   {
-    "id": "topps-chrome-major-league-soccer-sports",
-    "title": "Topps Chrome® Major League Soccer",
-    "startsAt": "2026-09-10T09:00:00-07:00",
-    "endsAt": "2026-09-10T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-mls-chrome",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-mls-chrome",
-        "priority": 100
-      }
-    ]
-  },
-  {
     "id": "2026-topps-baseball-x-kaws-sports",
     "title": "2026 Topps Baseball x KAWS",
     "startsAt": "2026-09-12T09:00:00-07:00",
@@ -1553,7 +1559,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-topps-update-series-baseball-retail-box",
+        "url": "https://www.waxstat.com/boxes/2025-topps-update-series-baseball-retail-pack",
         "priority": 70
       }
     ]
@@ -1622,6 +1628,74 @@
     ]
   },
   {
+    "id": "topps-flagship-premier-league-2026-27-sports",
+    "title": "Topps Flagship Premier League 2026/27",
+    "startsAt": "2026-09-17T09:00:00-07:00",
+    "endsAt": "2026-09-17T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-flagship-premier-league",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-flagship-premier-league",
+        "priority": 100
+      }
+    ]
+  },
+  {
+    "id": "2025-26-topps-definitive-basketball-sports",
+    "title": "2025-26 Topps Definitive Basketball",
+    "startsAt": "2026-09-17T09:00:00-07:00",
+    "endsAt": "2026-09-17T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-definitive-basketball",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-definitive-basketball",
+        "priority": 100
+      },
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2025-26-topps-definitive-basketball",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-definitive-basketball-hobby-box-first-day-issue-fdi",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-27-topps-flagship-premier-league-soccer-sports",
     "title": "2026/27 Topps Flagship Premier League Soccer",
     "startsAt": "2026-09-17T09:00:00-07:00",
@@ -1673,41 +1747,6 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-27-topps-royalty-premier-league-soccer",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2025-26-topps-definitive-basketball-sports",
-    "title": "2025-26 Topps Definitive Basketball",
-    "startsAt": "2026-09-17T09:00:00-07:00",
-    "endsAt": "2026-09-17T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-definitive-basketball-hobby-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
-    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Basketball"
-    ],
-    "category": "sports",
-    "sport": "Basketball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2025-26-topps-definitive-basketball",
-        "priority": 70
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-definitive-basketball-hobby-box",
         "priority": 70
       }
     ]
