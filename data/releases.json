@@ -1066,30 +1066,30 @@
     ]
   },
   {
-    "id": "magic-the-gathering-the-hobbit-tcg",
-    "title": "Magic the Gathering The Hobbit",
+    "id": "2026-topps-football-sports",
+    "title": "2026 Topps Football",
     "startsAt": "2026-09-04T09:00:00-07:00",
     "endsAt": "2026-09-04T10:00:00-07:00",
     "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/magic-the-gathering-the-hobbit-gift-bundle",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar",
-    "sourceId": "waxstat:2026-magic-the-gathering-cards-release-calendar",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-football-super-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
     "tags": [
-      "TCG",
-      "Magic: The Gathering"
+      "Sports cards",
+      "Football"
     ],
-    "category": "tcg",
-    "game": "Magic: The Gathering",
+    "category": "sports",
+    "sport": "Football",
     "managedBy": "release-sync",
     "sources": [
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/magic-the-gathering-the-hobbit-collector-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-football-super-box",
         "priority": 70
       }
     ]
@@ -1149,34 +1149,6 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/digimon-card-game-timeless-bonds-booster-display",
         "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-bowman-football-sports",
-    "title": "2026 Bowman Football",
-    "startsAt": "2026-09-04T16:00:00.000Z",
-    "endsAt": "2026-09-04T17:00:00.000Z",
-    "notes": "Official drop time from Topps.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/bowman-football",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/bowman-football",
-        "priority": 100
       }
     ]
   },
@@ -2040,6 +2012,35 @@
     ]
   },
   {
+    "id": "pokemon-mega-forces-tcg",
+    "title": "Pokemon Mega Forces",
+    "startsAt": "2026-09-25T09:00:00-07:00",
+    "endsAt": "2026-09-25T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-forces-tin",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/pokemon-mega-forces-tin",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "magic-the-gathering-reality-fracture-tcg",
     "title": "Magic the Gathering Reality Fracture",
     "startsAt": "2026-09-25T09:00:00-07:00",
@@ -2160,35 +2161,6 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "pokemon-mega-forces-tcg",
-    "title": "Pokemon Mega Forces",
-    "startsAt": "2026-09-30T09:00:00-07:00",
-    "endsAt": "2026-09-30T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-forces-tin-6-tin-case",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
-    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "TCG",
-      "Pokemon"
-    ],
-    "category": "tcg",
-    "game": "Pokemon",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/pokemon-mega-forces-3-tin-lot",
         "priority": 70
       }
     ]
@@ -2478,15 +2450,15 @@
     ]
   },
   {
-    "id": "pokemon-2026-deck-crafter-s-tcg",
-    "title": "Pokemon 2026 Deck Crafter's",
+    "id": "pokemon-deck-crafter-s-tcg",
+    "title": "Pokemon Deck Crafter's",
     "startsAt": "2026-10-23T09:00:00-07:00",
     "endsAt": "2026-10-23T10:00:00-07:00",
     "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-2026-deck-crafter-s-collection-12-box-case",
+    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-deck-crafter-s-collection-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
     "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
     "sourcePriority": 70,
@@ -2501,7 +2473,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/pokemon-2026-deck-crafter-s-collection-12-box-case",
+        "url": "https://www.waxstat.com/boxes/pokemon-deck-crafter-s-collection-box",
         "priority": 70
       }
     ]
@@ -2707,6 +2679,34 @@
     ]
   },
   {
+    "id": "magic-the-gathering-star-trek-tcg",
+    "title": "Magic: The Gathering | Star Trek",
+    "startsAt": "2026-11-13T09:00:00-08:00",
+    "endsAt": "2026-11-13T10:00:00-08:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/star-trek",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/star-trek",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-topps-chrome-update-series-baseball-sports",
     "title": "2026 Topps Chrome Update Series Baseball",
     "startsAt": "2026-11-13T09:00:00-08:00",
@@ -2761,34 +2761,6 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/pokemon-mega-greninja-ex-league-battle-deck-box",
         "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "magic-the-gathering-star-trek-tcg",
-    "title": "Magic: The Gathering | Star Trek",
-    "startsAt": "2026-11-13T09:00:00-08:00",
-    "endsAt": "2026-11-13T10:00:00-08:00",
-    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Magic: The Gathering",
-    "sourceUrl": "https://magic.wizards.com/en/products/star-trek",
-    "sourceId": "magic-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Magic: The Gathering"
-    ],
-    "category": "tcg",
-    "game": "Magic: The Gathering",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "magic-official",
-        "name": "Magic: The Gathering",
-        "url": "https://magic.wizards.com/en/products/star-trek",
-        "priority": 100
       }
     ]
   },
