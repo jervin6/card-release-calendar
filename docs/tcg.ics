@@ -202,21 +202,21 @@ URL:https://www.waxstat.com/boxes/pokemon-30th-celebration-elite-trainer-bo
  x
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-topps-vault-marvel-tcg@card-release-calendar
+UID:2026-topps-marvel-vault-tcg@card-release-calendar
 DTSTAMP:20260904T112054Z
 DTSTART:20260923T160000Z
 DTEND:20260923T170000Z
-SUMMARY:2026 Topps Vault Marvel
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-vault-marvel\nAlso sourced from: Hobby Monitor - https://www.hob
- bymonitor.com/release/2026-topps-vault-marvel-checklist\; waxstat.com - htt
- ps://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box
-STATUS:CONFIRMED
+SUMMARY:2026 Topps Marvel Vault
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-topps-marvel-vault-hobby-box\nAlso sourced from: Hobby Mo
+ nitor - https://www.hobbymonitor.com/release/2026-topps-vault-marvel-checkl
+ ist
+STATUS:TENTATIVE
 LOCATION:Online
 CATEGORIES:TCG
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-vault-marvel
+URL:https://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-mega-forces-tcg@card-release-calendar
@@ -250,21 +250,21 @@ URL:https://www.waxstat.com/boxes/magic-the-gathering-reality-fracture-bund
  le-box
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-topps-chrome-star-wars-tcg@card-release-calendar
+UID:2026-topps-star-wars-chrome-tcg@card-release-calendar
 DTSTAMP:20260904T112054Z
 DTSTART:20260930T160000Z
 DTEND:20260930T170000Z
-SUMMARY:2026 Topps Chrome® Star Wars
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-chrome-star-wars\nAlso sourced from: Hobby Monitor - https://www
- .hobbymonitor.com/release/2026-topps-chrome-star-wars\; waxstat.com - https
- ://www.waxstat.com/boxes/2026-topps-star-wars-chrome-hobby-pack
-STATUS:CONFIRMED
+SUMMARY:2026 Topps Star Wars Chrome
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-topps-star-wars-chrome-blaster-box\nAlso sourced from: Ho
+ bby Monitor - https://www.hobbymonitor.com/release/2026-topps-chrome-star-w
+ ars
+STATUS:TENTATIVE
 LOCATION:Online
 CATEGORIES:TCG
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-chrome-star-wars
+URL:https://www.waxstat.com/boxes/2026-topps-star-wars-chrome-blaster-box
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-lorcana-illumineer-s-quest-the-great-hunny-rescue-tcg@card-relea

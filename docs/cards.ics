@@ -869,10 +869,10 @@ DTSTAMP:20260904T112054Z
 DTSTART:20260908T160000Z
 DTEND:20260908T170000Z
 SUMMARY:2026 Topps Allen & Ginter Baseball
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-allen-ginter-baseball\nAlso sourced from: waxstat.com - https://
- www.waxstat.com/boxes/2025-topps-allen-ginter-baseball-fat-pack-12-pack-lot
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
+ m/pages/topps-allen-ginter-baseball\nAlso sourced from: waxstat.com - https
+ ://www.waxstat.com/boxes/2025-topps-allen-ginter-baseball-fat-pack-12-pack-
+ lot
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
@@ -880,39 +880,35 @@ TRANSP:TRANSPARENT
 URL:https://www.topps.com/pages/topps-allen-ginter-baseball
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-bowman-football-sports@card-release-calendar
+DTSTAMP:20260904T112054Z
+DTSTART:20260908T170000Z
+DTEND:20260908T180000Z
+SUMMARY:2026 Bowman Football
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
+ m/pages/bowman-football
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/bowman-football
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-topps-museum-collection-baseball-sports@card-release-calendar
 DTSTAMP:20260904T112054Z
-DTSTART:20260908T160000Z
-DTEND:20260908T170000Z
+DTSTART:20260908T180000Z
+DTEND:20260908T190000Z
 SUMMARY:2026 Topps Museum Collection Baseball
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-museum-collection-baseball\nAlso sourced from: Hobby Monitor - h
- ttps://www.hobbymonitor.com/release/2026-topps-museum-collection-baseball\;
-  waxstat.com - https://www.waxstat.com/boxes/2025-topps-museum-collection-b
- aseball-hobby-pack
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
+ m/pages/topps-museum-collection-baseball\nAlso sourced from: Hobby Monitor 
+ - https://www.hobbymonitor.com/release/2026-topps-museum-collection-basebal
+ l\; waxstat.com - https://www.waxstat.com/boxes/2025-topps-museum-collectio
+ n-baseball-hobby-pack
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.topps.com/pages/topps-museum-collection-baseball
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-bowman-chrome-baseball-sports@card-release-calendar
-DTSTAMP:20260904T112054Z
-DTSTART:20260909T160000Z
-DTEND:20260909T170000Z
-SUMMARY:2026 Bowman Chrome® Baseball
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/bowman-chrome-baseball\nAlso sourced from: Hobby Monitor - https://www
- .hobbymonitor.com/release/2026-bowman-chrome-baseball\; waxstat.com - https
- ://www.waxstat.com/boxes/2026-bowman-chrome-baseball-mega-pack
-STATUS:CONFIRMED
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/bowman-chrome-baseball
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-bowman-chrome-baseball-sapphire-edition-sports@card-release-calend
@@ -932,19 +928,20 @@ URL:https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-sapphire-edit
  ion-box
 END:VEVENT
 BEGIN:VEVENT
-UID:topps-chrome-major-league-soccer-sports@card-release-calendar
+UID:2026-bowman-chrome-baseball-sports@card-release-calendar
 DTSTAMP:20260904T112054Z
-DTSTART:20260910T160000Z
-DTEND:20260910T170000Z
-SUMMARY:Topps Chrome® Major League Soccer
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-mls-chrome
+DTSTART:20260909T160000Z
+DTEND:20260909T170000Z
+SUMMARY:2026 Bowman Chrome® Baseball
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
+ m/pages/bowman-chrome-baseball\nAlso sourced from: Hobby Monitor - https://
+ www.hobbymonitor.com/release/2026-bowman-chrome-baseball\; waxstat.com - ht
+ tps://www.waxstat.com/boxes/2026-bowman-chrome-baseball-mega-pack
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-mls-chrome
+URL:https://www.topps.com/pages/bowman-chrome-baseball
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-mls-chrome-soccer-sports@card-release-calendar
@@ -1035,6 +1032,20 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-uefa-champions-league-match
  -attax-soccer-retail-box
 END:VEVENT
 BEGIN:VEVENT
+UID:topps-chrome-major-league-soccer-sports@card-release-calendar
+DTSTAMP:20260904T112054Z
+DTSTART:20260910T150000Z
+DTEND:20260910T160000Z
+SUMMARY:Topps Chrome® Major League Soccer
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
+ m/pages/topps-mls-chrome
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-mls-chrome
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-topps-baseball-x-kaws-sports@card-release-calendar
 DTSTAMP:20260904T112054Z
 DTSTART:20260912T160000Z
@@ -1112,6 +1123,24 @@ LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.topps.com/pages/topps-flagship-premier-league
+END:VEVENT
+BEGIN:VEVENT
+UID:2025-26-topps-definitive-basketball-sports@card-release-calendar
+DTSTAMP:20260904T112054Z
+DTSTART:20260917T160000Z
+DTEND:20260917T170000Z
+SUMMARY:2025-26 Topps Definitive Basketball
+DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
+ ify the exact drop time before release.\nDrop link: https://www.topps.com/p
+ ages/topps-definitive-basketball\nAlso sourced from: Hobby Monitor - https:
+ //www.hobbymonitor.com/release/2025-26-topps-definitive-basketball\; waxsta
+ t.com - https://www.waxstat.com/boxes/2025-26-topps-definitive-basketball-h
+ obby-box
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-definitive-basketball
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-flagship-premier-league-soccer-sports@card-release-calend
@@ -1215,6 +1244,23 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-soccer-manchester-united-fc
  -club-collector-tin
 END:VEVENT
 BEGIN:VEVENT
+UID:topps-museum-uefa-club-competitions-2025-26-sports@card-release-calenda
+ r
+DTSTAMP:20260904T112054Z
+DTSTART:20260918T160000Z
+DTEND:20260918T170000Z
+SUMMARY:Topps® Museum UEFA Club Competitions 2025/26
+DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
+ ify the exact drop time before release.\nDrop link: https://www.topps.com/p
+ ages/topps-museum-ucc\nAlso sourced from: Hobby Monitor - https://www.hobby
+ monitor.com/release/202526-topps-museum-uefa-club-competitions-checklist
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-museum-ucc
+END:VEVENT
+BEGIN:VEVENT
 UID:2025-26-panini-noir-basketball-sports@card-release-calendar
 DTSTAMP:20260904T112054Z
 DTSTART:20260918T160000Z
@@ -1268,23 +1314,6 @@ URL:https://www.waxstat.com/boxes/2025-26-topps-uefa-club-competitions-muse
  um-collection-soccer-hobby-box
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-topps-vault-marvel-tcg@card-release-calendar
-DTSTAMP:20260904T112054Z
-DTSTART:20260923T160000Z
-DTEND:20260923T170000Z
-SUMMARY:2026 Topps Vault Marvel
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-vault-marvel\nAlso sourced from: Hobby Monitor - https://www.hob
- bymonitor.com/release/2026-topps-vault-marvel-checklist\; waxstat.com - htt
- ps://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box
-STATUS:CONFIRMED
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-vault-marvel
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-bowman-chrome-mega-box-baseball-sports@card-release-calendar
 DTSTAMP:20260904T112054Z
 DTSTART:20260923T160000Z
@@ -1299,6 +1328,41 @@ CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/2026-bowman-chrome-mega-box-baseba
  ll-checklist
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-topps-marvel-vault-tcg@card-release-calendar
+DTSTAMP:20260904T112054Z
+DTSTART:20260923T160000Z
+DTEND:20260923T170000Z
+SUMMARY:2026 Topps Marvel Vault
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-topps-marvel-vault-hobby-box\nAlso sourced from: Hobby Mo
+ nitor - https://www.hobbymonitor.com/release/2026-topps-vault-marvel-checkl
+ ist
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box
+END:VEVENT
+BEGIN:VEVENT
+UID:2025-26-topps-pristine-basketball-sports@card-release-calendar
+DTSTAMP:20260904T112054Z
+DTSTART:20260924T160000Z
+DTEND:20260924T170000Z
+SUMMARY:2025-26 Topps Pristine Basketball
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2025-26-topps-pristine-basketball-hobby-box\nAlso sourced from
+ : Hobby Monitor - https://www.hobbymonitor.com/release/2025-26-topps-pristi
+ ne-basketball
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2025-26-topps-pristine-basketball-hobby-b
+ ox
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-topps-royalty-premier-league-soccer-sports@card-release-calenda
@@ -1380,23 +1444,6 @@ TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/2026-topps-mlb-x-kaws
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-topps-chrome-star-wars-tcg@card-release-calendar
-DTSTAMP:20260904T112054Z
-DTSTART:20260930T160000Z
-DTEND:20260930T170000Z
-SUMMARY:2026 Topps Chrome® Star Wars
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-chrome-star-wars\nAlso sourced from: Hobby Monitor - https://www
- .hobbymonitor.com/release/2026-topps-chrome-star-wars\; waxstat.com - https
- ://www.waxstat.com/boxes/2026-topps-star-wars-chrome-hobby-pack
-STATUS:CONFIRMED
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-chrome-star-wars
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-panini-three-and-two-baseball-sports@card-release-calendar
 DTSTAMP:20260904T112054Z
 DTSTART:20260930T160000Z
@@ -1410,6 +1457,23 @@ LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-topps-star-wars-chrome-tcg@card-release-calendar
+DTSTAMP:20260904T112054Z
+DTSTART:20260930T160000Z
+DTEND:20260930T170000Z
+SUMMARY:2026 Topps Star Wars Chrome
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-topps-star-wars-chrome-blaster-box\nAlso sourced from: Ho
+ bby Monitor - https://www.hobbymonitor.com/release/2026-topps-chrome-star-w
+ ars
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2026-topps-star-wars-chrome-blaster-box
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-lorcana-illumineer-s-quest-the-great-hunny-rescue-tcg@card-relea
