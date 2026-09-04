@@ -688,6 +688,20 @@ URL:https://www.waxstat.com/boxes/2025-26-topps-chrome-update-series-basket
  ball-sapphire-edition-box
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-bowman-football-sports@card-release-calendar
+DTSTAMP:20260903T162734Z
+DTSTART:20260904T160000Z
+DTEND:20260904T170000Z
+SUMMARY:2026 Bowman Football
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
+ m/pages/bowman-football
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/bowman-football
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-topps-allen-and-ginter-baseball-sports@card-release-calendar
 DTSTAMP:20260903T162734Z
 DTSTART:20260908T160000Z
@@ -1006,23 +1020,6 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-soccer-manchester-united-fc
  -club-collector-tin
 END:VEVENT
 BEGIN:VEVENT
-UID:2025-26-topps-museum-uefa-club-competitions-sports@card-release-calenda
- r
-DTSTAMP:20260903T162734Z
-DTSTART:20260918T160000Z
-DTEND:20260918T170000Z
-SUMMARY:2025/26 Topps Museum UEFA Club Competitions
-DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
- er\; verify the exact drop time before release.\nDrop link: https://www.hob
- bymonitor.com/release/202526-topps-museum-uefa-club-competitions-checklist
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.hobbymonitor.com/release/202526-topps-museum-uefa-club-comp
- etitions-checklist
-END:VEVENT
-BEGIN:VEVENT
 UID:2025-26-panini-noir-basketball-sports@card-release-calendar
 DTSTAMP:20260903T162734Z
 DTSTART:20260918T160000Z
@@ -1322,18 +1319,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-stadium-club-baseball-sports@card-release-calendar
 DTSTAMP:20260903T162734Z
-DTSTART:20261106T170000Z
-DTEND:20261106T180000Z
+DTSTART:20261108T170000Z
+DTEND:20261108T180000Z
 SUMMARY:2026 Topps Stadium Club Baseball
 DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
  \; verify the exact drop time before release.\nDrop link: https://www.waxst
- at.com/boxes/2026-topps-stadium-club-baseball-hobby-compact-box
+ at.com/boxes/2026-topps-stadium-club-baseball-blaster-40-box-case\nAlso sou
+ rced from: waxstat.com - https://www.waxstat.com/boxes/2026-topps-stadium-c
+ lub-baseball-hobby-box
 STATUS:TENTATIVE
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-hobby-co
- mpact-box
+URL:https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-blaster-
+ 40-box-case
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-update-series-baseball-sports@card-release-calendar

@@ -1066,6 +1066,35 @@
     ]
   },
   {
+    "id": "magic-the-gathering-the-hobbit-tcg",
+    "title": "Magic the Gathering The Hobbit",
+    "startsAt": "2026-09-04T09:00:00-07:00",
+    "endsAt": "2026-09-04T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/magic-the-gathering-the-hobbit-gift-bundle",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-magic-the-gathering-cards-release-calendar",
+    "sourceId": "waxstat:2026-magic-the-gathering-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/magic-the-gathering-the-hobbit-collector-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "yu-gi-oh-magnificent-monsters-tcg",
     "title": "Yu-Gi-Oh! Magnificent Monsters",
     "startsAt": "2026-09-04T09:00:00-07:00",
@@ -1120,6 +1149,34 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/digimon-card-game-timeless-bonds-booster-display",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-bowman-football-sports",
+    "title": "2026 Bowman Football",
+    "startsAt": "2026-09-04T16:00:00.000Z",
+    "endsAt": "2026-09-04T17:00:00.000Z",
+    "notes": "Official drop time from Topps.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/bowman-football",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/bowman-football",
+        "priority": 100
       }
     ]
   },
@@ -1767,34 +1824,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-27-topps-soccer-manchester-united-fc-club-collector-tin",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2025-26-topps-museum-uefa-club-competitions-sports",
-    "title": "2025/26 Topps Museum UEFA Club Competitions",
-    "startsAt": "2026-09-18T09:00:00-07:00",
-    "endsAt": "2026-09-18T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/202526-topps-museum-uefa-club-competitions-checklist",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/202526-topps-museum-uefa-club-competitions-checklist",
         "priority": 70
       }
     ]
@@ -2651,13 +2680,13 @@
   {
     "id": "2026-topps-stadium-club-baseball-sports",
     "title": "2026 Topps Stadium Club Baseball",
-    "startsAt": "2026-11-06T09:00:00-08:00",
-    "endsAt": "2026-11-06T10:00:00-08:00",
+    "startsAt": "2026-11-08T09:00:00-08:00",
+    "endsAt": "2026-11-08T10:00:00-08:00",
     "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-hobby-compact-box",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-blaster-40-box-case",
     "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -2672,36 +2701,8 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-hobby-compact-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-hobby-box",
         "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "magic-the-gathering-star-trek-tcg",
-    "title": "Magic: The Gathering | Star Trek",
-    "startsAt": "2026-11-13T09:00:00-08:00",
-    "endsAt": "2026-11-13T10:00:00-08:00",
-    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Magic: The Gathering",
-    "sourceUrl": "https://magic.wizards.com/en/products/star-trek",
-    "sourceId": "magic-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Magic: The Gathering"
-    ],
-    "category": "tcg",
-    "game": "Magic: The Gathering",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "magic-official",
-        "name": "Magic: The Gathering",
-        "url": "https://magic.wizards.com/en/products/star-trek",
-        "priority": 100
       }
     ]
   },
@@ -2760,6 +2761,34 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/pokemon-mega-greninja-ex-league-battle-deck-box",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "magic-the-gathering-star-trek-tcg",
+    "title": "Magic: The Gathering | Star Trek",
+    "startsAt": "2026-11-13T09:00:00-08:00",
+    "endsAt": "2026-11-13T10:00:00-08:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/star-trek",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/star-trek",
+        "priority": 100
       }
     ]
   },
