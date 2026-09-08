@@ -1182,40 +1182,6 @@
     ]
   },
   {
-    "id": "2026-topps-allen-and-ginter-baseball-sports",
-    "title": "2026 Topps Allen & Ginter Baseball",
-    "startsAt": "2026-09-08T16:00:00.000Z",
-    "endsAt": "2026-09-08T17:00:00.000Z",
-    "notes": "Official drop time from Topps.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-allen-ginter-baseball",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://topps.com/pages/topps-allen-ginter-baseball",
-        "priority": 100
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-topps-allen-ginter-baseball-fat-pack-12-pack-lot",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-bowman-football-sports",
     "title": "2026 Bowman Football",
     "startsAt": "2026-09-08T17:00:00.000Z",
@@ -1224,7 +1190,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/bowman-football",
+    "sourceUrl": "https://www.topps.com/pages/bowman-football",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -1238,7 +1204,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/bowman-football",
+        "url": "https://www.topps.com/pages/bowman-football",
         "priority": 100
       }
     ]
@@ -1252,7 +1218,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-museum-collection-baseball",
+    "sourceUrl": "https://www.topps.com/pages/topps-museum-collection-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -1266,7 +1232,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-museum-collection-baseball",
+        "url": "https://www.topps.com/pages/topps-museum-collection-baseball",
         "priority": 100
       },
       {
@@ -1321,7 +1287,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/bowman-chrome-baseball",
+    "sourceUrl": "https://www.topps.com/pages/bowman-chrome-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -1335,7 +1301,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/bowman-chrome-baseball",
+        "url": "https://www.topps.com/pages/bowman-chrome-baseball",
         "priority": 100
       },
       {
@@ -1512,7 +1478,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-mls-chrome",
+    "sourceUrl": "https://www.topps.com/pages/topps-mls-chrome",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -1526,7 +1492,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-mls-chrome",
+        "url": "https://www.topps.com/pages/topps-mls-chrome",
         "priority": 100
       }
     ]
@@ -1540,7 +1506,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-universe-wwe",
+    "sourceUrl": "https://www.topps.com/pages/topps-universe-wwe",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -1554,7 +1520,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-universe-wwe",
+        "url": "https://www.topps.com/pages/topps-universe-wwe",
         "priority": 100
       },
       {
@@ -1572,15 +1538,15 @@
     ]
   },
   {
-    "id": "2026-topps-baseball-update-series-sports",
-    "title": "2026 Topps Baseball Update Series",
+    "id": "2026-topps-update-series-baseball-sports",
+    "title": "2026 Topps Update Series Baseball",
     "startsAt": "2026-09-14T09:00:00-07:00",
     "endsAt": "2026-09-14T10:00:00-07:00",
     "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-updates-baseball",
+    "sourceUrl": "https://www.topps.com/pages/topps-updates-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -1594,7 +1560,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-updates-baseball",
+        "url": "https://www.topps.com/pages/topps-updates-baseball",
         "priority": 100
       },
       {
@@ -1614,7 +1580,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/2026-topps-neon-marvel",
+    "sourceUrl": "https://www.topps.com/pages/2026-topps-neon-marvel",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -1628,7 +1594,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/2026-topps-neon-marvel",
+        "url": "https://www.topps.com/pages/2026-topps-neon-marvel",
         "priority": 100
       }
     ]
@@ -1677,7 +1643,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-flagship-premier-league",
+    "sourceUrl": "https://www.topps.com/pages/topps-flagship-premier-league",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -1691,7 +1657,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-flagship-premier-league",
+        "url": "https://www.topps.com/pages/topps-flagship-premier-league",
         "priority": 100
       }
     ]
@@ -1705,7 +1671,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-definitive-basketball",
+    "sourceUrl": "https://www.topps.com/pages/topps-definitive-basketball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -1719,7 +1685,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-definitive-basketball",
+        "url": "https://www.topps.com/pages/topps-definitive-basketball",
         "priority": 100
       },
       {
@@ -1889,7 +1855,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-triumphant-tennis",
+    "sourceUrl": "https://www.topps.com/pages/topps-triumphant-tennis",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -1903,7 +1869,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-triumphant-tennis",
+        "url": "https://www.topps.com/pages/topps-triumphant-tennis",
         "priority": 100
       },
       {
@@ -1923,7 +1889,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-museum-ucc",
+    "sourceUrl": "https://www.topps.com/pages/topps-museum-ucc",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -1937,7 +1903,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-museum-ucc",
+        "url": "https://www.topps.com/pages/topps-museum-ucc",
         "priority": 100
       },
       {
@@ -2035,35 +2001,63 @@
     ]
   },
   {
-    "id": "2026-topps-holiday-basketball-sports",
-    "title": "2026 Topps Holiday Basketball",
+    "id": "2026-topps-heritage-football-sports",
+    "title": "2026 Topps Heritage Football",
     "startsAt": "2026-09-21T09:00:00-07:00",
     "endsAt": "2026-09-21T10:00:00-07:00",
     "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-holiday-basketball",
+    "sourceUrl": "https://www.topps.com/pages/topps-heritage-football",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
       "Sports cards",
-      "Basketball"
+      "Football"
     ],
     "category": "sports",
-    "sport": "Basketball",
+    "sport": "Football",
     "managedBy": "release-sync",
     "sources": [
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-holiday-basketball",
+        "url": "https://www.topps.com/pages/topps-heritage-football",
+        "priority": 100
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-holiday-baseball-sports",
+    "title": "2026 Topps Holiday Baseball",
+    "startsAt": "2026-09-21T09:00:00-07:00",
+    "endsAt": "2026-09-21T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-holiday-baseball",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-holiday-baseball",
         "priority": 100
       },
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-holiday-basketball-mega-pack",
+        "url": "https://www.waxstat.com/boxes/2025-topps-holiday-baseball-retail-tin-box",
         "priority": 70
       }
     ]
@@ -2077,7 +2071,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-vault-marvel",
+    "sourceUrl": "https://www.topps.com/pages/topps-vault-marvel",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -2091,7 +2085,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-vault-marvel",
+        "url": "https://www.topps.com/pages/topps-vault-marvel",
         "priority": 100
       },
       {
@@ -2145,7 +2139,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-pristine-basketball",
+    "sourceUrl": "https://www.topps.com/pages/topps-pristine-basketball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -2159,7 +2153,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-pristine-basketball",
+        "url": "https://www.topps.com/pages/topps-pristine-basketball",
         "priority": 100
       },
       {
@@ -2385,7 +2379,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-chrome-star-wars",
+    "sourceUrl": "https://www.topps.com/pages/topps-chrome-star-wars",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -2399,7 +2393,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-chrome-star-wars",
+        "url": "https://www.topps.com/pages/topps-chrome-star-wars",
         "priority": 100
       },
       {
@@ -2503,6 +2497,34 @@
         "id": "lorcana-official:great-hunny-rescue",
         "name": "Disney Lorcana",
         "url": "https://www.disneylorcana.com/en-US/product/great-hunny-rescue",
+        "priority": 100
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-mars-attacks-christmas-tcg",
+    "title": "2026 Topps Mars Attacks Christmas",
+    "startsAt": "2026-10-06T09:00:00-07:00",
+    "endsAt": "2026-10-06T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-mars-attacks-christmas",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Mars Attacks"
+    ],
+    "category": "tcg",
+    "game": "Mars Attacks",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-mars-attacks-christmas",
         "priority": 100
       }
     ]
