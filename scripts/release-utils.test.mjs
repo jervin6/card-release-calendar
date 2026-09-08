@@ -64,7 +64,8 @@ test("classifies Topps entertainment cards on the TCG side", () => {
   const examples = [
     ["2026 Topps Chrome Star Wars", "Star Wars"],
     ["2026 Topps Mint Marvel", "Marvel"],
-    ["2026 Topps Chrome x Jennie", "Jennie"]
+    ["2026 Topps Chrome x Jennie", "Jennie"],
+    ["2026 Topps Mars Attacks Christmas", "Mars Attacks"]
   ];
 
   for (const [title, game] of examples) {
@@ -93,6 +94,13 @@ test("matches reordered product names across sources", () => {
   assert.equal(
     releaseFamilyIdentity(official),
     releaseFamilyIdentity({ ...secondary, title: "2025/26 Topps Chrome Sapphire Baseball" })
+  );
+});
+
+test("matches WWE titles with a redundant wrestling suffix", () => {
+  assert.equal(
+    releaseFamilyIdentity({ title: "2026 Topps Universe WWE", category: "sports" }),
+    releaseFamilyIdentity({ title: "2026 Topps WWE Universe Wrestling", category: "sports" })
   );
 });
 

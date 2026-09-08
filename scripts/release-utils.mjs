@@ -4,6 +4,7 @@ const SPORTS = [
   ["Football", /\bfootball\b|\bNFL\b/i],
   ["Soccer", /\bsoccer\b|\bUEFA\b|\bPremier League\b|\bChampions League\b|\bLa Liga\b|\bBundesliga\b|\bMLS\b|\bFIFA\b|\bMerlin\b|\bMatch Attax\b/i],
   ["Formula 1", /\bformula\s*1\b|\bF1\b/i],
+  ["Tennis", /\btennis\b/i],
   ["Hockey", /\bhockey\b|\bNHL\b/i],
   ["WWE", /\bWWE\b|\bwrestling\b/i],
   ["UFC", /\bUFC\b/i]
@@ -21,6 +22,7 @@ const TCG_GAMES = [
   ["Star Wars", /\bstar wars\b/i],
   ["Marvel", /\bmarvel\b/i],
   ["Jennie", /\bjennie\b/i],
+  ["Mars Attacks", /\bmars attacks\b/i],
   ["Digimon", /\bdigimon\b/i],
   ["Union Arena", /\bunion arena\b/i],
   ["Cardfight!! Vanguard", /\bcardfight\b|\bvanguard\b/i]
@@ -127,6 +129,7 @@ export function releaseIdentity(release) {
     if (/^20\d{2}$/.test(rawTokens[0])) rawTokens = rawTokens.slice(1);
   }
   if (rawTokens.includes("mls")) ignored.add("soccer");
+  if (inferred.sport === "WWE") ignored.add("wrestling");
   const tokens = rawTokens.filter((token) => !ignored.has(token));
   if (release.releaseKind === "prerelease") tokens.push("prerelease");
   tokens.sort();
@@ -143,6 +146,7 @@ export function releaseFamilyIdentity(release) {
     if (toppsProduct && /^\d{2}$/.test(tokens[0])) tokens = tokens.slice(1);
   }
   if (tokens.includes("mls")) ignored.add("soccer");
+  if (inferred.sport === "WWE") ignored.add("wrestling");
   const familyTokens = tokens.filter((token) => !ignored.has(token));
   if (release.releaseKind === "prerelease") familyTokens.push("prerelease");
   return `${inferred.category}:${familyTokens.sort().join(" ")}`;

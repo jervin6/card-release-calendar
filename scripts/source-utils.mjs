@@ -35,10 +35,13 @@ function sourceRow(parts, values) {
   return parts ? { ...parts, ...values } : null;
 }
 
-export function parseToppsMarkdown(markdown) {
+export function parseToppsMarkdown(markdown, now = new Date()) {
   const rows = [];
-  const pageYear = Number(markdown.match(/^\s*(20\d{2})\s*$/m)?.[1]);
-  const linePattern = /^\[(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+([A-Z][a-z]{2})\s+(\d{1,2})(?:\s+at\s+(\d{1,2}):(\d{2})\s+(AM|PM)\s+UTC)?\s+(.+?)\]\((https:\/\/www\.topps\.com\/[^)]+)\)$/gm;
+  const pageYear = Number(
+    markdown.match(/^[A-Z][a-z]{2}\s+\d{1,2}\s+[–-]\s+[A-Z][a-z]{2}\s+\d{1,2}\s+(20\d{2})\s*$/m)?.[1]
+      ?? markdown.match(/^\s*(20\d{2})\s*$/m)?.[1]
+  );
+  const linePattern = /^\[(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+([A-Z][a-z]{2})\s+(\d{1,2})(?:\s+at\s+(\d{1,2}):(\d{2})\s+(AM|PM)\s+UTC)?\s+(.+?)\]\((https?:\/\/(?:www\.)?topps\.com\/[^)]+)\)$/gm;
   let match;
   while ((match = linePattern.exec(markdown))) {
     let utcHour = null;
@@ -58,6 +61,33 @@ export function parseToppsMarkdown(markdown) {
       category: "sports",
       status: "CONFIRMED",
       ...(utcHour === null ? {} : { utcHour, utcMinute: Number(match[4]) })
+    });
+  }
+
+  // On release day Topps replaces the absolute timestamp with a live
+  // countdown. Preserve those imminent drops by resolving the countdown
+  // against the fetch time and rounding away crawl/cache latency.
+  const countdownPattern = /^\[Drops in\s+(?:(\d+)d\s+)?(?:(\d+)h\s+)?(?:(\d+)m\s+)?(?:(\d+)s\s+)?(.+?)\]\((https?:\/\/(?:www\.)?topps\.com\/[^)]+)\)$/gm;
+  while ((match = countdownPattern.exec(markdown))) {
+    const seconds = Number(match[1] ?? 0) * 86_400
+      + Number(match[2] ?? 0) * 3_600
+      + Number(match[3] ?? 0) * 60
+      + Number(match[4] ?? 0);
+    if (seconds <= 0) continue;
+    const target = new Date(Math.round((now.getTime() + seconds * 1_000) / 60_000) * 60_000);
+    rows.push({
+      y: target.getUTCFullYear(),
+      m: target.getUTCMonth() + 1,
+      d: target.getUTCDate(),
+      rawName: text(match[5]),
+      sourceName: "Topps",
+      sourceUrl: match[6],
+      sourceId: "topps-official",
+      sourcePriority: 100,
+      category: "sports",
+      status: "CONFIRMED",
+      utcHour: target.getUTCHours(),
+      utcMinute: target.getUTCMinutes()
     });
   }
   return rows.filter((row) => row.y && row.m > 0);

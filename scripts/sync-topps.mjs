@@ -49,7 +49,10 @@ const SUBSCRIPTIONS_PATH = path.join(ROOT, "config", "subscriptions.json");
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
 
-const TOPPS_CALENDAR = "https://www.topps.com/release-calendar";
+// Jina currently follows www.topps.com through an advertising redirect and
+// returns a tracking pixel instead of the calendar. The apex URL resolves to
+// the same canonical page without that redirect and produces the release data.
+const TOPPS_CALENDAR = "https://topps.com/release-calendar";
 const HOBBY_MONITOR = "https://www.hobbymonitor.com/releases";
 const MAGIC_PRODUCTS = "https://magic.wizards.com/en/products";
 const LORCANA_PRODUCTS = [
@@ -135,12 +138,12 @@ function pacificDateKey(date = new Date()) {
 
 /* ------------------------------ sources -------------------------------- */
 
-async function fetchText(url) {
+async function fetchText(url, extraHeaders = {}) {
   const reader = url.startsWith("https://r.jina.ai/");
   const response = await fetch(url, {
     headers: reader
-      ? { accept: "text/plain" }
-      : { "user-agent": UA, accept: "text/html, text/markdown" },
+      ? { accept: "text/plain", ...extraHeaders }
+      : { "user-agent": UA, accept: "text/html, text/markdown", ...extraHeaders },
     signal: AbortSignal.timeout(25_000)
   });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -202,14 +205,26 @@ async function main() {
 
   if (!OFFLINE) {
     const providers = await Promise.allSettled([
-      fetchText(readerUrl(TOPPS_CALENDAR)).then((body) => ({ id: "topps-official", label: "Topps official", rows: parseToppsMarkdown(body) })),
+      fetchText(readerUrl(TOPPS_CALENDAR), {
+        "x-respond-with": "markdown",
+        "x-engine": "browser",
+        "x-no-cache": "true",
+        "x-timeout": "20",
+        "x-wait-for-selector": '[data-page-type="release-calendar"]'
+      }).then((body) => {
+        const rows = parseToppsMarkdown(body);
+        if (rows.length === 0) {
+          throw new Error("Topps official calendar returned no dated releases");
+        }
+        return { id: "topps-official", label: "Topps official", rows };
+      }),
       fetchText(HOBBY_MONITOR).then((body) => ({ id: "hobby-monitor", label: "Hobby Monitor", rows: parseHobbyMonitorHtml(body) })),
       fetchText(readerUrl(MAGIC_PRODUCTS)).then((body) => ({ id: "magic-official", label: "Magic official", rows: parseMagicMarkdown(body) })),
       loadLorcanaRows().then((result) => ({ id: null, label: "Disney Lorcana official", ...result }))
     ]);
     for (const result of providers) {
       if (result.status !== "fulfilled") {
-        vlog(`  ! provider: ${result.reason?.message ?? result.reason}`);
+        log(`  ! provider: ${result.reason?.message ?? result.reason}`);
         continue;
       }
       const { id, label, rows, succeeded } = result.value;

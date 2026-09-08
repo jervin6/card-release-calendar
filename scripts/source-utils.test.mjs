@@ -21,6 +21,21 @@ test("parses official Topps dates, times, and direct product links", () => {
   assert.equal(season[0].rawName, "2025-26 Topps Motif Basketball");
 });
 
+test("parses apex Topps links and release-day countdowns", () => {
+  const markdown = [
+    "Sep 8 – Sep 22 2026",
+    "[Wednesday, Sep 9 at 4:00 PM UTC 2026 Bowman Chrome® Baseball](https://topps.com/pages/bowman-chrome-baseball)",
+    "[Thursday, Sep 17 2025-26 Topps Definitive Basketball](https://topps.com/pages/topps-definitive-basketball)",
+    "[Drops in 1h 54m 56s 2026 Bowman Football](https://topps.com/pages/bowman-football)"
+  ].join("\n\n");
+  const rows = parseToppsMarkdown(markdown, new Date("2026-09-08T15:05:04Z"));
+  assert.deepEqual(rows.map((row) => [row.rawName, row.y, row.m, row.d, row.utcHour, row.utcMinute]), [
+    ["2026 Bowman Chrome® Baseball", 2026, 9, 9, 16, 0],
+    ["2025-26 Topps Definitive Basketball", 2026, 9, 17, undefined, undefined],
+    ["2026 Bowman Football", 2026, 9, 8, 17, 0]
+  ]);
+});
+
 test("parses official Magic products", () => {
   const rows = parseMagicMarkdown("November 13, 2026\n\n### Magic: The Gathering | Star Trek\n\n[Learn More](https://magic.wizards.com/en/products/star-trek)");
   assert.equal(rows[0].rawName, "Magic: The Gathering | Star Trek");
