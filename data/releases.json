@@ -1532,35 +1532,6 @@
     ]
   },
   {
-    "id": "2026-topps-baseball-x-kaws-sports",
-    "title": "2026 Topps Baseball x KAWS",
-    "startsAt": "2026-09-12T09:00:00-07:00",
-    "endsAt": "2026-09-12T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-baseball-x-kaws-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-topps-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-baseball-x-kaws-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-topps-baseball-update-series-sports",
     "title": "2026 Topps Baseball Update Series",
     "startsAt": "2026-09-14T09:00:00-07:00",
@@ -1749,34 +1720,6 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-27-topps-flagship-premier-league-soccer",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-27-topps-royalty-premier-league-soccer-sports",
-    "title": "2026/27 Topps Royalty Premier League Soccer",
-    "startsAt": "2026-09-17T09:00:00-07:00",
-    "endsAt": "2026-09-17T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-27-topps-royalty-premier-league-soccer",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-27-topps-royalty-premier-league-soccer",
         "priority": 70
       }
     ]
@@ -2081,6 +2024,34 @@
     ]
   },
   {
+    "id": "2026-27-topps-royalty-premier-league-soccer-sports",
+    "title": "2026/27 Topps Royalty Premier League Soccer",
+    "startsAt": "2026-09-24T09:00:00-07:00",
+    "endsAt": "2026-09-24T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-27-topps-royalty-premier-league-soccer",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-27-topps-royalty-premier-league-soccer",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2025-26-topps-pristine-basketball-sports",
     "title": "2025-26 Topps Pristine Basketball",
     "startsAt": "2026-09-24T09:00:00-07:00",
@@ -2254,6 +2225,35 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-topps-mlb-x-kaws",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-baseball-x-kaws-sports",
+    "title": "2026 Topps Baseball x KAWS",
+    "startsAt": "2026-09-28T09:00:00-07:00",
+    "endsAt": "2026-09-28T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-baseball-x-kaws-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-baseball-x-kaws-box",
         "priority": 70
       }
     ]
@@ -2578,6 +2578,34 @@
     ]
   },
   {
+    "id": "2026-panini-crown-royale-wnba-basketball-sports",
+    "title": "2026 Panini Crown Royale WNBA Basketball",
+    "startsAt": "2026-10-23T09:00:00-07:00",
+    "endsAt": "2026-10-23T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-wnba-basketball",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-wnba-basketball",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "disney-lorcana-hyperia-city-tcg",
     "title": "Disney Lorcana: Hyperia City",
     "startsAt": "2026-10-23T09:00:00-07:00",
@@ -2659,6 +2687,34 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/magic-the-gathering-reality-fracture-secret-lair-bundle",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-crown-royale-nwsl-soccer-sports",
+    "title": "2026 Panini Crown Royale NWSL Soccer",
+    "startsAt": "2026-10-28T09:00:00-07:00",
+    "endsAt": "2026-10-28T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-nwsl-soccer",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-nwsl-soccer",
         "priority": 70
       }
     ]

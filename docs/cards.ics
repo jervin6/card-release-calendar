@@ -1064,21 +1064,6 @@ TRANSP:TRANSPARENT
 URL:https://www.topps.com/pages/topps-mls-chrome
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-topps-baseball-x-kaws-sports@card-release-calendar
-DTSTAMP:20260907T044505Z
-DTSTART:20260912T160000Z
-DTEND:20260912T170000Z
-SUMMARY:2026 Topps Baseball x KAWS
-DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
- \; verify the exact drop time before release.\nDrop link: https://www.waxst
- at.com/boxes/2026-topps-baseball-x-kaws-box
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/boxes/2026-topps-baseball-x-kaws-box
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-topps-baseball-update-series-sports@card-release-calendar
 DTSTAMP:20260907T044505Z
 DTSTART:20260914T160000Z
@@ -1176,23 +1161,6 @@ CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/2026-27-topps-flagship-premier-lea
  gue-soccer
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-27-topps-royalty-premier-league-soccer-sports@card-release-calenda
- r
-DTSTAMP:20260907T044505Z
-DTSTART:20260917T160000Z
-DTEND:20260917T170000Z
-SUMMARY:2026/27 Topps Royalty Premier League Soccer
-DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
- er\; verify the exact drop time before release.\nDrop link: https://www.hob
- bymonitor.com/release/2026-27-topps-royalty-premier-league-soccer
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.hobbymonitor.com/release/2026-27-topps-royalty-premier-leag
- ue-soccer
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-english-premier-league-soccer-sports@card-release-calenda
@@ -1365,6 +1333,23 @@ TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-27-topps-royalty-premier-league-soccer-sports@card-release-calenda
+ r
+DTSTAMP:20260907T044505Z
+DTSTART:20260924T160000Z
+DTEND:20260924T170000Z
+SUMMARY:2026/27 Topps Royalty Premier League Soccer
+DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
+ er\; verify the exact drop time before release.\nDrop link: https://www.hob
+ bymonitor.com/release/2026-27-topps-royalty-premier-league-soccer
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.hobbymonitor.com/release/2026-27-topps-royalty-premier-leag
+ ue-soccer
+END:VEVENT
+BEGIN:VEVENT
 UID:2025-26-topps-pristine-basketball-sports@card-release-calendar
 DTSTAMP:20260907T044505Z
 DTSTART:20260924T160000Z
@@ -1460,6 +1445,21 @@ LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/2026-topps-mlb-x-kaws
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-topps-baseball-x-kaws-sports@card-release-calendar
+DTSTAMP:20260907T044505Z
+DTSTART:20260928T160000Z
+DTEND:20260928T170000Z
+SUMMARY:2026 Topps Baseball x KAWS
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-topps-baseball-x-kaws-box
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2026-topps-baseball-x-kaws-box
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-three-and-two-baseball-sports@card-release-calendar
@@ -1634,6 +1634,22 @@ TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/2026-topps-chrome-x-jennie-box
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-panini-crown-royale-wnba-basketball-sports@card-release-calendar
+DTSTAMP:20260907T044505Z
+DTSTART:20261023T160000Z
+DTEND:20261023T170000Z
+SUMMARY:2026 Panini Crown Royale WNBA Basketball
+DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
+ er\; verify the exact drop time before release.\nDrop link: https://www.hob
+ bymonitor.com/release/2026-panini-crown-royale-wnba-basketball
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.hobbymonitor.com/release/2026-panini-crown-royale-wnba-bask
+ etball
+END:VEVENT
+BEGIN:VEVENT
 UID:disney-lorcana-hyperia-city-tcg@card-release-calendar
 DTSTAMP:20260907T044505Z
 DTSTART:20261023T160000Z
@@ -1679,6 +1695,22 @@ CATEGORIES:TCG
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/magic-the-gathering-reality-fracture-secr
  et-lair-bundle
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-panini-crown-royale-nwsl-soccer-sports@card-release-calendar
+DTSTAMP:20260907T044505Z
+DTSTART:20261028T160000Z
+DTEND:20261028T170000Z
+SUMMARY:2026 Panini Crown Royale NWSL Soccer
+DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
+ er\; verify the exact drop time before release.\nDrop link: https://www.hob
+ bymonitor.com/release/2026-panini-crown-royale-nwsl-soccer
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.hobbymonitor.com/release/2026-panini-crown-royale-nwsl-socc
+ er
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-absolute-football-kaboom-countdown-calendar-sports@card-rel
