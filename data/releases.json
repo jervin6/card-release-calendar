@@ -2553,6 +2553,34 @@
     ]
   },
   {
+    "id": "2026-topps-museum-collection-baseball-sports",
+    "title": "2026 Topps Museum Collection Baseball",
+    "startsAt": "2026-10-07T09:00:00-07:00",
+    "endsAt": "2026-10-07T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-topps-museum-collection-baseball",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-museum-collection-baseball",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-panini-impeccable-wnba-sports",
     "title": "2026 Panini Impeccable WNBA",
     "startsAt": "2026-10-09T09:00:00-07:00",
