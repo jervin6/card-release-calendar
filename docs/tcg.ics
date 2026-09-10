@@ -301,6 +301,22 @@ TRANSP:TRANSPARENT
 URL:https://www.disneylorcana.com/en-US/product/great-hunny-rescue
 END:VEVENT
 BEGIN:VEVENT
+UID:pokemon-2026-tcg@card-release-calendar
+DTSTAMP:20260909T164040Z
+DTSTART:20261002T160000Z
+DTEND:20261002T170000Z
+SUMMARY:Pokemon
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/pokemon-2026-mini-portfolio-fall-q4-display
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/pokemon-2026-mini-portfolio-fall-q4-displ
+ ay
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-topps-mars-attacks-christmas-tcg@card-release-calendar
 DTSTAMP:20260909T164040Z
 DTSTART:20261006T160000Z

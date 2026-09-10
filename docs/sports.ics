@@ -1150,6 +1150,22 @@ URL:https://www.hobbymonitor.com/release/2026-bowman-chrome-mega-box-baseba
  ll-checklist
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-bowman-chrome-baseball-sports@card-release-calendar
+DTSTAMP:20260909T164040Z
+DTSTART:20260923T160000Z
+DTEND:20260923T170000Z
+SUMMARY:2026 Bowman Chrome Baseball
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-bowman-chrome-baseball-mega-box\nAlso sourced from: Hobby
+  Monitor - https://www.hobbymonitor.com/release/2026-bowman-chrome-baseball
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-mega-box
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-27-topps-royalty-premier-league-soccer-sports@card-release-calenda
  r
 DTSTAMP:20260909T164040Z
