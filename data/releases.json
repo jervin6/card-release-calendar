@@ -1754,6 +1754,35 @@
     ]
   },
   {
+    "id": "2026-27-topps-flagship-english-premier-league-sports",
+    "title": "2026-27 Topps Flagship English Premier League",
+    "startsAt": "2026-09-17T09:00:00-07:00",
+    "endsAt": "2026-09-17T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-27-topps-flagship-english-premier-league-value-40-box-case",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-27-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-27-topps-flagship-english-premier-league-value-40-box-case",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-27-topps-soccer-chelsea-fc-club-sports",
     "title": "2026-27 Topps Soccer Chelsea FC Club",
     "startsAt": "2026-09-17T09:00:00-07:00",
@@ -2566,34 +2595,6 @@
     ]
   },
   {
-    "id": "reality-fracture-tcg",
-    "title": "Reality Fracture",
-    "startsAt": "2026-10-02T09:00:00-07:00",
-    "endsAt": "2026-10-02T10:00:00-07:00",
-    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Magic: The Gathering",
-    "sourceUrl": "https://magic.wizards.com/en/products/reality-fracture",
-    "sourceId": "magic-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Magic: The Gathering"
-    ],
-    "category": "tcg",
-    "game": "Magic: The Gathering",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "magic-official",
-        "name": "Magic: The Gathering",
-        "url": "https://magic.wizards.com/en/products/reality-fracture",
-        "priority": 100
-      }
-    ]
-  },
-  {
     "id": "disney-lorcana-illumineer-s-quest-the-great-hunny-rescue-tcg",
     "title": "Disney Lorcana: Illumineer's Quest: The Great Hunny Rescue",
     "startsAt": "2026-10-02T09:00:00-07:00",
@@ -2746,12 +2747,13 @@
     "title": "2026 Topps Museum Collection Baseball",
     "startsAt": "2026-10-07T09:00:00-07:00",
     "endsAt": "2026-10-07T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-topps-museum-collection-baseball",
-    "sourceId": "hobby-monitor",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-museum-collection-baseball-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
     "tags": [
       "Sports cards",
@@ -2765,6 +2767,12 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-topps-museum-collection-baseball",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-museum-collection-baseball-hobby-box",
         "priority": 70
       }
     ]
