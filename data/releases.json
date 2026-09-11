@@ -1348,6 +1348,34 @@
     ]
   },
   {
+    "id": "2026-fanatics-under-wraps-emanate-autographed-photo-baseball-sports",
+    "title": "2026 Fanatics Under Wraps Emanate Autographed Photo Baseball",
+    "startsAt": "2026-09-10T09:00:00-07:00",
+    "endsAt": "2026-09-10T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-fanatics-under-wraps-emanate-autographed-photo-baseball",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-fanatics-under-wraps-emanate-autographed-photo-baseball",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-topps-mls-chrome-soccer-mania-sports",
     "title": "2026 Topps MLS Chrome Soccer Mania",
     "startsAt": "2026-09-10T09:00:00-07:00",
@@ -1629,6 +1657,34 @@
     ]
   },
   {
+    "id": "2026-27-topps-flagship-premier-league-soccer-sports",
+    "title": "2026/27 Topps Flagship Premier League Soccer",
+    "startsAt": "2026-09-17T09:00:00-07:00",
+    "endsAt": "2026-09-17T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-27-topps-flagship-premier-league-soccer",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-27-topps-flagship-premier-league-soccer",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2025-26-topps-definitive-basketball-sports",
     "title": "2025-26 Topps Definitive Basketball",
     "startsAt": "2026-09-17T09:00:00-07:00",
@@ -1664,34 +1720,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2025-26-topps-definitive-basketball-hobby-box-first-day-issue-fdi",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-27-topps-flagship-premier-league-soccer-sports",
-    "title": "2026/27 Topps Flagship Premier League Soccer",
-    "startsAt": "2026-09-17T09:00:00-07:00",
-    "endsAt": "2026-09-17T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-27-topps-flagship-premier-league-soccer",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-27-topps-flagship-premier-league-soccer",
         "priority": 70
       }
     ]
@@ -1841,6 +1869,34 @@
     ]
   },
   {
+    "id": "2025-26-panini-noir-basketball-sports",
+    "title": "2025/26 Panini Noir Basketball",
+    "startsAt": "2026-09-18T09:00:00-07:00",
+    "endsAt": "2026-09-18T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/202526-panini-noir-basketball-checklist",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/202526-panini-noir-basketball-checklist",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "topps-museum-uefa-club-competitions-2025-26-sports",
     "title": "Topps® Museum UEFA Club Competitions 2025/26",
     "startsAt": "2026-09-18T09:00:00-07:00",
@@ -1870,34 +1926,6 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/202526-topps-museum-uefa-club-competitions-checklist",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2025-26-panini-noir-basketball-sports",
-    "title": "2025/26 Panini Noir Basketball",
-    "startsAt": "2026-09-18T09:00:00-07:00",
-    "endsAt": "2026-09-18T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/202526-panini-noir-basketball-checklist",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Basketball"
-    ],
-    "category": "sports",
-    "sport": "Basketball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/202526-panini-noir-basketball-checklist",
         "priority": 70
       }
     ]
@@ -2503,6 +2531,69 @@
     ]
   },
   {
+    "id": "2026-bowman-football-sports",
+    "title": "2026 Bowman Football",
+    "startsAt": "2026-10-02T09:00:00-07:00",
+    "endsAt": "2026-10-02T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-bowman-football-hobby-box-first-day-issue-fdi",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-bowman-football",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-football-hobby-box-first-day-issue-fdi",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "reality-fracture-tcg",
+    "title": "Reality Fracture",
+    "startsAt": "2026-10-02T09:00:00-07:00",
+    "endsAt": "2026-10-02T10:00:00-07:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/reality-fracture",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/reality-fracture",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "disney-lorcana-illumineer-s-quest-the-great-hunny-rescue-tcg",
     "title": "Disney Lorcana: Illumineer's Quest: The Great Hunny Rescue",
     "startsAt": "2026-10-02T09:00:00-07:00",
@@ -2531,35 +2622,6 @@
     ]
   },
   {
-    "id": "2026-bowman-football-sports",
-    "title": "2026 Bowman Football",
-    "startsAt": "2026-10-02T09:00:00-07:00",
-    "endsAt": "2026-10-02T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-bowman-football-hobby-box-first-day-issue-fdi",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-topps-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-bowman-football-hobby-box-first-day-issue-fdi",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "pokemon-2026-tcg",
     "title": "Pokemon 2026",
     "startsAt": "2026-10-02T09:00:00-07:00",
@@ -2584,6 +2646,40 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/pokemon-2026-mini-portfolio-fall-q4-display",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-mars-attacks-christmas-tcg",
+    "title": "2026 Topps Mars Attacks Christmas",
+    "startsAt": "2026-10-06T09:00:00-07:00",
+    "endsAt": "2026-10-06T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/topps-mars-attacks-christmas",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Mars Attacks"
+    ],
+    "category": "tcg",
+    "game": "Mars Attacks",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://www.topps.com/pages/topps-mars-attacks-christmas",
+        "priority": 100
+      },
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-mars-attacks-christmas",
         "priority": 70
       }
     ]
@@ -2618,30 +2714,30 @@
     ]
   },
   {
-    "id": "2026-topps-mars-attacks-christmas-tcg",
-    "title": "2026 Topps Mars Attacks Christmas",
-    "startsAt": "2026-10-06T09:00:00-07:00",
-    "endsAt": "2026-10-06T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "id": "2026-topps-allen-and-ginter-baseball-sports",
+    "title": "2026 Topps Allen & Ginter Baseball",
+    "startsAt": "2026-10-07T09:00:00-07:00",
+    "endsAt": "2026-10-07T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-mars-attacks-christmas",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-topps-allen-and-ginter-baseball",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
     "tags": [
-      "TCG",
-      "Mars Attacks"
+      "Sports cards",
+      "Baseball"
     ],
-    "category": "tcg",
-    "game": "Mars Attacks",
+    "category": "sports",
+    "sport": "Baseball",
     "managedBy": "release-sync",
     "sources": [
       {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-mars-attacks-christmas",
-        "priority": 100
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-allen-and-ginter-baseball",
+        "priority": 70
       }
     ]
   },
@@ -2731,6 +2827,34 @@
     ]
   },
   {
+    "id": "2026-panini-donruss-optic-nwsl-soccer-sports",
+    "title": "2026 Panini Donruss Optic NWSL Soccer",
+    "startsAt": "2026-10-14T09:00:00-07:00",
+    "endsAt": "2026-10-14T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-donruss-optic-nwsl-soccer",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-optic-nwsl-soccer",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2025-26-panini-select-basketball-sports",
     "title": "2025/26 Panini Select Basketball",
     "startsAt": "2026-10-14T09:00:00-07:00",
@@ -2759,29 +2883,29 @@
     ]
   },
   {
-    "id": "2026-panini-donruss-optic-nwsl-soccer-sports",
-    "title": "2026 Panini Donruss Optic NWSL Soccer",
-    "startsAt": "2026-10-14T09:00:00-07:00",
-    "endsAt": "2026-10-14T10:00:00-07:00",
+    "id": "2026-topps-chrome-formula-1-racing-sports",
+    "title": "2026 Topps Chrome Formula 1 Racing",
+    "startsAt": "2026-10-15T09:00:00-07:00",
+    "endsAt": "2026-10-15T10:00:00-07:00",
     "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-donruss-optic-nwsl-soccer",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-topps-chrome-formula-1-racing",
     "sourceId": "hobby-monitor",
     "sourcePriority": 70,
     "tags": [
       "Sports cards",
-      "Soccer"
+      "Formula 1"
     ],
     "category": "sports",
-    "sport": "Soccer",
+    "sport": "Formula 1",
     "managedBy": "release-sync",
     "sources": [
       {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-optic-nwsl-soccer",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-chrome-formula-1-racing",
         "priority": 70
       }
     ]
@@ -2865,9 +2989,43 @@
     "managedBy": "release-sync",
     "sources": [
       {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-chrome-jennie",
+        "priority": 70
+      },
+      {
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-chrome-x-jennie-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-obsidian-football-sports",
+    "title": "2026 Panini Obsidian Football",
+    "startsAt": "2026-10-21T09:00:00-07:00",
+    "endsAt": "2026-10-21T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-obsidian-football",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-obsidian-football",
         "priority": 70
       }
     ]
@@ -2987,6 +3145,34 @@
     ]
   },
   {
+    "id": "2026-panini-donruss-football-sports",
+    "title": "2026 Panini Donruss Football",
+    "startsAt": "2026-10-28T09:00:00-07:00",
+    "endsAt": "2026-10-28T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-panini-crown-royale-nwsl-soccer-sports",
     "title": "2026 Panini Crown Royale NWSL Soccer",
     "startsAt": "2026-10-28T09:00:00-07:00",
@@ -3038,34 +3224,6 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-panini-donruss-football-sports",
-    "title": "2026 Panini Donruss Football",
-    "startsAt": "2026-10-28T09:00:00-07:00",
-    "endsAt": "2026-10-28T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
         "priority": 70
       }
     ]
