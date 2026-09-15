@@ -3210,34 +3210,6 @@
     ]
   },
   {
-    "id": "2026-panini-crown-royale-wnba-basketball-sports",
-    "title": "2026 Panini Crown Royale WNBA Basketball",
-    "startsAt": "2026-10-23T09:00:00-07:00",
-    "endsAt": "2026-10-23T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-wnba-basketball",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Basketball"
-    ],
-    "category": "sports",
-    "sport": "Basketball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-wnba-basketball",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "disney-lorcana-hyperia-city-tcg",
     "title": "Disney Lorcana: Hyperia City",
     "startsAt": "2026-10-23T09:00:00-07:00",
@@ -3324,34 +3296,6 @@
     ]
   },
   {
-    "id": "2026-panini-crown-royale-nwsl-soccer-sports",
-    "title": "2026 Panini Crown Royale NWSL Soccer",
-    "startsAt": "2026-10-28T09:00:00-07:00",
-    "endsAt": "2026-10-28T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-nwsl-soccer",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-nwsl-soccer",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-panini-donruss-football-sports",
     "title": "2026 Panini Donruss Football",
     "startsAt": "2026-10-28T09:00:00-07:00",
@@ -3403,6 +3347,34 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-crown-royale-nwsl-soccer-sports",
+    "title": "2026 Panini Crown Royale NWSL Soccer",
+    "startsAt": "2026-10-28T09:00:00-07:00",
+    "endsAt": "2026-10-28T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-nwsl-soccer",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-nwsl-soccer",
         "priority": 70
       }
     ]
@@ -3494,30 +3466,30 @@
     ]
   },
   {
-    "id": "2026-topps-stadium-club-baseball-sports",
-    "title": "2026 Topps Stadium Club Baseball",
-    "startsAt": "2026-11-08T09:00:00-08:00",
-    "endsAt": "2026-11-08T10:00:00-08:00",
+    "id": "pokemon-mega-greninja-ex-league-battle-deck-tcg",
+    "title": "Pokemon Mega Greninja EX League Battle Deck",
+    "startsAt": "2026-11-13T09:00:00-08:00",
+    "endsAt": "2026-11-13T10:00:00-08:00",
     "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-blaster-40-box-case",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-greninja-ex-league-battle-deck-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
     "sourcePriority": 70,
     "tags": [
-      "Sports cards",
-      "Baseball"
+      "TCG",
+      "Pokemon"
     ],
-    "category": "sports",
-    "sport": "Baseball",
+    "category": "tcg",
+    "game": "Pokemon",
     "managedBy": "release-sync",
     "sources": [
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-hobby-box",
+        "url": "https://www.waxstat.com/boxes/pokemon-mega-greninja-ex-league-battle-deck-box",
         "priority": 70
       }
     ]
@@ -3551,59 +3523,29 @@
     ]
   },
   {
-    "id": "2026-topps-chrome-update-series-baseball-sports",
-    "title": "2026 Topps Chrome Update Series Baseball",
-    "startsAt": "2026-11-13T09:00:00-08:00",
-    "endsAt": "2026-11-13T10:00:00-08:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "id": "2026-panini-crown-royale-wnba-basketball-sports",
+    "title": "2026 Panini Crown Royale WNBA Basketball",
+    "startsAt": "2026-11-18T09:00:00-08:00",
+    "endsAt": "2026-11-18T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-chrome-update-series-baseball-jumbo-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-wnba-basketball",
+    "sourceId": "hobby-monitor",
     "sourcePriority": 70,
     "tags": [
       "Sports cards",
-      "Baseball"
+      "Basketball"
     ],
     "category": "sports",
-    "sport": "Baseball",
+    "sport": "Basketball",
     "managedBy": "release-sync",
     "sources": [
       {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-update-series-baseball-jumbo-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "pokemon-mega-greninja-ex-league-battle-deck-tcg",
-    "title": "Pokemon Mega Greninja EX League Battle Deck",
-    "startsAt": "2026-11-13T09:00:00-08:00",
-    "endsAt": "2026-11-13T10:00:00-08:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-greninja-ex-league-battle-deck-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
-    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "TCG",
-      "Pokemon"
-    ],
-    "category": "tcg",
-    "game": "Pokemon",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/pokemon-mega-greninja-ex-league-battle-deck-box",
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-wnba-basketball",
         "priority": 70
       }
     ]
@@ -3691,6 +3633,35 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/yu-gi-oh-glorious-victors-booster-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-chrome-update-series-baseball-sports",
+    "title": "2026 Topps Chrome Update Series Baseball",
+    "startsAt": "2026-12-10T09:00:00-08:00",
+    "endsAt": "2026-12-10T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-chrome-update-series-baseball-breaker-s-delight-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-update-series-baseball-breaker-s-delight-box",
         "priority": 70
       }
     ]
