@@ -3530,6 +3530,64 @@
     ]
   },
   {
+    "id": "pokemon-mega-evolution-delta-reign-tcg",
+    "title": "Pokemon Mega Evolution Delta Reign",
+    "startsAt": "2026-11-06T09:00:00-08:00",
+    "endsAt": "2026-11-06T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-evolution-delta-reign-booster-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/pokemon-mega-evolution-delta-reign-booster-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "pokemon-mega-evolution-delta-reign-checklane-tcg",
+    "title": "Pokemon Mega Evolution Delta Reign Checklane",
+    "startsAt": "2026-11-06T09:00:00-08:00",
+    "endsAt": "2026-11-06T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-evolution-delta-reign-checklane-blister-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/pokemon-mega-evolution-delta-reign-checklane-blister-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "magic-the-gathering-star-trek-tcg",
     "title": "Magic: The Gathering | Star Trek",
     "startsAt": "2026-11-13T09:00:00-08:00",
@@ -3610,6 +3668,35 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-wnba-basketball",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "pokemon-mega-evolution-delta-reign-build-and-battle-deck-tcg",
+    "title": "Pokemon Mega Evolution Delta Reign Build & Battle Deck",
+    "startsAt": "2026-11-20T09:00:00-08:00",
+    "endsAt": "2026-11-20T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-evolution-delta-reign-build-battle-deck-display",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/pokemon-mega-evolution-delta-reign-build-battle-deck-display",
         "priority": 70
       }
     ]
