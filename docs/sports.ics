@@ -1371,6 +1371,22 @@ TRANSP:TRANSPARENT
 URL:https://topps.com/pages/topps-holiday-football
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-bowman-football-sports@card-release-calendar
+DTSTAMP:20260917T114450Z
+DTSTART:20260930T160000Z
+DTEND:20260930T170000Z
+SUMMARY:2026 Bowman Football
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-bowman-football-blaster-box\nAlso sourced from: Hobby Mon
+ itor - https://www.hobbymonitor.com/release/2026-bowman-football
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2026-bowman-football-blaster-box
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-topps-chrome-tennis-sports@card-release-calendar
 DTSTAMP:20260917T114450Z
 DTSTART:20260930T160000Z
@@ -1401,22 +1417,6 @@ LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-bowman-football-sports@card-release-calendar
-DTSTAMP:20260917T114450Z
-DTSTART:20260930T160000Z
-DTEND:20260930T170000Z
-SUMMARY:2026 Bowman Football
-DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
- \; verify the exact drop time before release.\nDrop link: https://www.waxst
- at.com/boxes/2026-bowman-football-blaster-box\nAlso sourced from: Hobby Mon
- itor - https://www.hobbymonitor.com/release/2026-bowman-football
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/boxes/2026-bowman-football-blaster-box
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-soccer-arsenal-fc-club-sports@card-release-calendar
@@ -1600,21 +1600,6 @@ URL:https://www.hobbymonitor.com/release/2026-panini-absolute-football-kabo
  om-countdown-calendar
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-panini-donruss-football-sports@card-release-calendar
-DTSTAMP:20260917T114450Z
-DTSTART:20261028T160000Z
-DTEND:20261028T170000Z
-SUMMARY:2026 Panini Donruss Football
-DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
- er\; verify the exact drop time before release.\nDrop link: https://www.hob
- bymonitor.com/release/2026-panini-donruss-football
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.hobbymonitor.com/release/2026-panini-donruss-football
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-panini-crown-royale-nwsl-soccer-sports@card-release-calendar
 DTSTAMP:20260917T114450Z
 DTSTART:20261028T160000Z
@@ -1629,6 +1614,21 @@ CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/2026-panini-crown-royale-nwsl-socc
  er
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-panini-donruss-football-sports@card-release-calendar
+DTSTAMP:20260917T114450Z
+DTSTART:20261028T160000Z
+DTEND:20261028T170000Z
+SUMMARY:2026 Panini Donruss Football
+DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
+ er\; verify the exact drop time before release.\nDrop link: https://www.hob
+ bymonitor.com/release/2026-panini-donruss-football
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.hobbymonitor.com/release/2026-panini-donruss-football
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-27-topps-english-premier-league-soccer-golden-boot-4-tin-tray-spor
