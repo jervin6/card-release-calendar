@@ -207,14 +207,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-vault-marvel-tcg@card-release-calendar
 DTSTAMP:20260919T155432Z
-DTSTART:20260923T160000Z
-DTEND:20260923T170000Z
+DTSTART:20260923T170000Z
+DTEND:20260923T180000Z
 SUMMARY:2026 Topps Vault Marvel
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://topps.com/pages
- /topps-vault-marvel\nAlso sourced from: Hobby Monitor - https://www.hobbymo
- nitor.com/release/2026-topps-vault-marvel-checklist\; waxstat.com - https:/
- /www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://topps.com/pa
+ ges/topps-vault-marvel\nAlso sourced from: Hobby Monitor - https://www.hobb
+ ymonitor.com/release/2026-topps-vault-marvel-checklist\; waxstat.com - http
+ s://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:TCG
@@ -262,7 +261,7 @@ DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
  ify the exact drop time before release.\nDrop link: https://topps.com/pages
  /topps-chrome-star-wars\nAlso sourced from: Hobby Monitor - https://www.hob
  bymonitor.com/release/2026-topps-chrome-star-wars\; waxstat.com - https://w
- ww.waxstat.com/boxes/2026-topps-star-wars-chrome-blaster-box
+ ww.waxstat.com/boxes/2026-topps-star-wars-chrome-value-box
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:TCG
@@ -329,8 +328,8 @@ DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
  ify the exact drop time before release.\nDrop link: https://topps.com/pages
  /topps-mars-attacks-christmas\nAlso sourced from: Hobby Monitor - https://w
  ww.hobbymonitor.com/release/2026-topps-mars-attacks-christmas\; waxstat.com
-  - https://www.waxstat.com/boxes/2026-topps-mars-attacks-christmas-hobby-bo
- x
+  - https://www.waxstat.com/boxes/2026-topps-mars-attacks-christmas-hobby-pa
+ ck
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:TCG
@@ -358,14 +357,15 @@ DTSTAMP:20260919T155432Z
 DTSTART:20261014T160000Z
 DTEND:20261014T170000Z
 SUMMARY:2026 Topps Neon Marvel
-DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
- er\; verify the exact drop time before release.\nDrop link: https://www.hob
- bymonitor.com/release/2026-topps-neon-marvel
-STATUS:TENTATIVE
+DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /topps-neon-marvel\nAlso sourced from: Hobby Monitor - https://www.hobbymon
+ itor.com/release/2026-topps-neon-marvel
+STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:TCG
 TRANSP:TRANSPARENT
-URL:https://www.hobbymonitor.com/release/2026-topps-neon-marvel
+URL:https://topps.com/pages/topps-neon-marvel
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-lorcana-hyperia-city-prerelease-tcg@card-release-calendar

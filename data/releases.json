@@ -2077,11 +2077,39 @@
     ]
   },
   {
+    "id": "2026-topps-stadium-club-wwe-sports",
+    "title": "2026 Topps Stadium Club WWE",
+    "startsAt": "2026-09-21T15:00:00.000Z",
+    "endsAt": "2026-09-21T16:00:00.000Z",
+    "notes": "Official drop time from Topps.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://topps.com/pages/topps-stadium-club-wwe",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "WWE"
+    ],
+    "category": "sports",
+    "sport": "WWE",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://topps.com/pages/topps-stadium-club-wwe",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-topps-holiday-baseball-sports",
     "title": "2026 Topps Holiday Baseball",
-    "startsAt": "2026-09-21T09:00:00-07:00",
-    "endsAt": "2026-09-21T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "startsAt": "2026-09-21T16:00:00.000Z",
+    "endsAt": "2026-09-21T17:00:00.000Z",
+    "notes": "Official drop time from Topps.",
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
@@ -2107,15 +2135,21 @@
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-topps-holiday-baseball",
         "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-topps-holiday-baseball-retail-tin-box",
+        "priority": 70
       }
     ]
   },
   {
     "id": "2026-topps-heritage-football-sports",
     "title": "2026 Topps Heritage Football",
-    "startsAt": "2026-09-21T09:00:00-07:00",
-    "endsAt": "2026-09-21T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "startsAt": "2026-09-21T17:00:00.000Z",
+    "endsAt": "2026-09-21T18:00:00.000Z",
+    "notes": "Official drop time from Topps.",
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
@@ -2134,34 +2168,6 @@
         "id": "topps-official",
         "name": "Topps",
         "url": "https://topps.com/pages/topps-heritage-football",
-        "priority": 100
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-stadium-club-wwe-sports",
-    "title": "2026 Topps Stadium Club WWE",
-    "startsAt": "2026-09-21T09:00:00-07:00",
-    "endsAt": "2026-09-21T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-stadium-club-wwe",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "WWE"
-    ],
-    "category": "sports",
-    "sport": "WWE",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://topps.com/pages/topps-stadium-club-wwe",
         "priority": 100
       }
     ]
@@ -2195,11 +2201,51 @@
     ]
   },
   {
+    "id": "2026-bowman-chrome-baseball-sports",
+    "title": "2026 Bowman Chrome® Baseball",
+    "startsAt": "2026-09-23T16:00:00.000Z",
+    "endsAt": "2026-09-23T17:00:00.000Z",
+    "notes": "Official drop time from Topps.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://topps.com/pages/bowman-chrome-baseball",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://topps.com/pages/bowman-chrome-baseball",
+        "priority": 100
+      },
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-bowman-chrome-baseball",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-mega-pack",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-topps-vault-marvel-tcg",
     "title": "2026 Topps Vault Marvel",
-    "startsAt": "2026-09-23T09:00:00-07:00",
-    "endsAt": "2026-09-23T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "startsAt": "2026-09-23T17:00:00.000Z",
+    "endsAt": "2026-09-23T18:00:00.000Z",
+    "notes": "Official drop time from Topps.",
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
@@ -2230,86 +2276,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-marvel-vault-hobby-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-bowman-chrome-baseball-sports",
-    "title": "2026 Bowman Chrome® Baseball",
-    "startsAt": "2026-09-23T09:00:00-07:00",
-    "endsAt": "2026-09-23T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/bowman-chrome-baseball",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://topps.com/pages/bowman-chrome-baseball",
-        "priority": 100
-      },
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-bowman-chrome-baseball",
-        "priority": 70
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-mega-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2025-26-topps-pristine-basketball-sports",
-    "title": "2025-26 Topps Pristine Basketball",
-    "startsAt": "2026-09-24T09:00:00-07:00",
-    "endsAt": "2026-09-24T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-pristine-basketball",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Basketball"
-    ],
-    "category": "sports",
-    "sport": "Basketball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://topps.com/pages/topps-pristine-basketball",
-        "priority": 100
-      },
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2025-26-topps-pristine-basketball",
-        "priority": 70
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-pristine-basketball-hobby-box",
         "priority": 70
       }
     ]
@@ -2374,9 +2340,9 @@
   {
     "id": "topps-royalty-premier-league-sports",
     "title": "Topps Royalty Premier League",
-    "startsAt": "2026-09-24T09:00:00-07:00",
-    "endsAt": "2026-09-24T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "startsAt": "2026-09-24T15:00:00.000Z",
+    "endsAt": "2026-09-24T16:00:00.000Z",
+    "notes": "Official drop time from Topps.",
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
@@ -2396,6 +2362,46 @@
         "name": "Topps",
         "url": "https://topps.com/pages/topps-royalty-premier-league",
         "priority": 100
+      }
+    ]
+  },
+  {
+    "id": "2025-26-topps-pristine-basketball-sports",
+    "title": "2025-26 Topps Pristine Basketball",
+    "startsAt": "2026-09-24T16:00:00.000Z",
+    "endsAt": "2026-09-24T17:00:00.000Z",
+    "notes": "Official drop time from Topps.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://topps.com/pages/topps-pristine-basketball",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://topps.com/pages/topps-pristine-basketball",
+        "priority": 100
+      },
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2025-26-topps-pristine-basketball",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-pristine-basketball-hobby-pack",
+        "priority": 70
       }
     ]
   },
@@ -2486,6 +2492,34 @@
     ]
   },
   {
+    "id": "2026-topps-holiday-football-sports",
+    "title": "2026 Topps Holiday Football",
+    "startsAt": "2026-09-28T09:00:00-07:00",
+    "endsAt": "2026-09-28T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://topps.com/pages/topps-holiday-football",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://topps.com/pages/topps-holiday-football",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-topps-mlb-x-kaws-sports",
     "title": "2026 Topps MLB x KAWS",
     "startsAt": "2026-09-28T09:00:00-07:00",
@@ -2543,64 +2577,41 @@
     ]
   },
   {
-    "id": "2026-topps-holiday-football-sports",
-    "title": "2026 Topps Holiday Football",
-    "startsAt": "2026-09-28T09:00:00-07:00",
-    "endsAt": "2026-09-28T10:00:00-07:00",
+    "id": "2026-topps-chrome-star-wars-tcg",
+    "title": "2026 Topps Chrome® Star Wars",
+    "startsAt": "2026-09-30T09:00:00-07:00",
+    "endsAt": "2026-09-30T10:00:00-07:00",
     "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-holiday-football",
+    "sourceUrl": "https://topps.com/pages/topps-chrome-star-wars",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
-      "Sports cards",
-      "Football"
+      "TCG",
+      "Star Wars"
     ],
-    "category": "sports",
-    "sport": "Football",
+    "category": "tcg",
+    "game": "Star Wars",
     "managedBy": "release-sync",
     "sources": [
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-holiday-football",
+        "url": "https://topps.com/pages/topps-chrome-star-wars",
         "priority": 100
-      }
-    ]
-  },
-  {
-    "id": "2026-bowman-football-sports",
-    "title": "2026 Bowman Football",
-    "startsAt": "2026-09-30T09:00:00-07:00",
-    "endsAt": "2026-09-30T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-bowman-football-blaster-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-topps-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
+      },
       {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-bowman-football",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-chrome-star-wars",
         "priority": 70
       },
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-bowman-football-blaster-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-star-wars-chrome-value-box",
         "priority": 70
       }
     ]
@@ -2640,47 +2651,42 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-tennis-blaster-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-tennis-value-box",
         "priority": 70
       }
     ]
   },
   {
-    "id": "2026-topps-chrome-star-wars-tcg",
-    "title": "2026 Topps Chrome® Star Wars",
+    "id": "2026-bowman-football-sports",
+    "title": "2026 Bowman Football",
     "startsAt": "2026-09-30T09:00:00-07:00",
     "endsAt": "2026-09-30T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-chrome-star-wars",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-bowman-football-blaster-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
     "tags": [
-      "TCG",
-      "Star Wars"
+      "Sports cards",
+      "Football"
     ],
-    "category": "tcg",
-    "game": "Star Wars",
+    "category": "sports",
+    "sport": "Football",
     "managedBy": "release-sync",
     "sources": [
       {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://topps.com/pages/topps-chrome-star-wars",
-        "priority": 100
-      },
-      {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-chrome-star-wars",
+        "url": "https://www.hobbymonitor.com/release/2026-bowman-football",
         "priority": 70
       },
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-star-wars-chrome-blaster-box",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-football-blaster-box",
         "priority": 70
       }
     ]
@@ -2840,7 +2846,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-mars-attacks-christmas-hobby-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-mars-attacks-christmas-hobby-pack",
         "priority": 70
       }
     ]
@@ -2919,14 +2925,13 @@
     "title": "2026 Topps Allen & Ginter Baseball",
     "startsAt": "2026-10-07T09:00:00-07:00",
     "endsAt": "2026-10-07T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-allen-ginter-baseball-blaster-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-topps-cards-release-calendar",
-    "sourcePriority": 70,
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://topps.com/pages/topps-allen-ginter-baseball",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
     "tags": [
       "Sports cards",
       "Baseball"
@@ -2936,6 +2941,12 @@
     "managedBy": "release-sync",
     "sources": [
       {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://topps.com/pages/topps-allen-ginter-baseball",
+        "priority": 100
+      },
+      {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-topps-allen-and-ginter-baseball",
@@ -2944,7 +2955,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-allen-ginter-baseball-blaster-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-allen-ginter-baseball-hobby-pack",
         "priority": 70
       }
     ]
@@ -3002,6 +3013,40 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/yu-gi-oh-beyond-the-brave-booster-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-neon-marvel-tcg",
+    "title": "2026 Topps Neon Marvel",
+    "startsAt": "2026-10-14T09:00:00-07:00",
+    "endsAt": "2026-10-14T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://topps.com/pages/topps-neon-marvel",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Marvel"
+    ],
+    "category": "tcg",
+    "game": "Marvel",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://topps.com/pages/topps-neon-marvel",
+        "priority": 100
+      },
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-neon-marvel",
         "priority": 70
       }
     ]
@@ -3093,34 +3138,6 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-optic-nwsl-soccer",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-neon-marvel-tcg",
-    "title": "2026 Topps Neon Marvel",
-    "startsAt": "2026-10-14T09:00:00-07:00",
-    "endsAt": "2026-10-14T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-topps-neon-marvel",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "TCG",
-      "Marvel"
-    ],
-    "category": "tcg",
-    "game": "Marvel",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-neon-marvel",
         "priority": 70
       }
     ]
