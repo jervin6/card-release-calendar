@@ -2139,7 +2139,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-mega-pack",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-mega-box",
         "priority": 70
       }
     ]
@@ -2304,7 +2304,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-pristine-basketball-hobby-pack",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-pristine-basketball-hobby-box",
         "priority": 70
       }
     ]
@@ -2366,35 +2366,6 @@
     ]
   },
   {
-    "id": "pokemon-mega-forces-tcg",
-    "title": "Pokemon Mega Forces",
-    "startsAt": "2026-09-25T09:00:00-07:00",
-    "endsAt": "2026-09-25T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-forces-tin",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
-    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "TCG",
-      "Pokemon"
-    ],
-    "category": "tcg",
-    "game": "Pokemon",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/pokemon-mega-forces-tin",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "magic-the-gathering-reality-fracture-tcg",
     "title": "Magic the Gathering Reality Fracture",
     "startsAt": "2026-09-25T09:00:00-07:00",
@@ -2420,34 +2391,6 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/magic-the-gathering-reality-fracture-bundle-box",
         "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-holiday-football-sports",
-    "title": "2026 Topps Holiday Football",
-    "startsAt": "2026-09-28T09:00:00-07:00",
-    "endsAt": "2026-09-28T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-holiday-football",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://topps.com/pages/topps-holiday-football",
-        "priority": 100
       }
     ]
   },
@@ -2509,42 +2452,30 @@
     ]
   },
   {
-    "id": "2026-topps-chrome-star-wars-tcg",
-    "title": "2026 Topps Chrome® Star Wars",
-    "startsAt": "2026-09-30T09:00:00-07:00",
-    "endsAt": "2026-09-30T10:00:00-07:00",
+    "id": "2026-topps-holiday-football-sports",
+    "title": "2026 Topps Holiday Football",
+    "startsAt": "2026-09-28T09:00:00-07:00",
+    "endsAt": "2026-09-28T10:00:00-07:00",
     "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-chrome-star-wars",
+    "sourceUrl": "https://topps.com/pages/topps-holiday-football",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
-      "TCG",
-      "Star Wars"
+      "Sports cards",
+      "Football"
     ],
-    "category": "tcg",
-    "game": "Star Wars",
+    "category": "sports",
+    "sport": "Football",
     "managedBy": "release-sync",
     "sources": [
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-chrome-star-wars",
+        "url": "https://topps.com/pages/topps-holiday-football",
         "priority": 100
-      },
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-chrome-star-wars",
-        "priority": 70
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-star-wars-chrome-value-box",
-        "priority": 70
       }
     ]
   },
@@ -2583,7 +2514,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-tennis-value-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-tennis-blaster-box",
         "priority": 70
       }
     ]
@@ -2647,6 +2578,46 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-bowman-football-blaster-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-chrome-star-wars-tcg",
+    "title": "2026 Topps Chrome® Star Wars",
+    "startsAt": "2026-09-30T09:00:00-07:00",
+    "endsAt": "2026-09-30T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://topps.com/pages/topps-chrome-star-wars",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Star Wars"
+    ],
+    "category": "tcg",
+    "game": "Star Wars",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://topps.com/pages/topps-chrome-star-wars",
+        "priority": 100
+      },
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-chrome-star-wars",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-star-wars-chrome-blaster-box",
         "priority": 70
       }
     ]
@@ -2772,7 +2743,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-topps-cosmic-chrome-baseball-hobby-pack",
+        "url": "https://www.waxstat.com/boxes/2025-topps-cosmic-chrome-baseball-hobby-box",
         "priority": 70
       }
     ]
@@ -2812,7 +2783,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-mars-attacks-christmas-hobby-pack",
+        "url": "https://www.waxstat.com/boxes/2026-topps-mars-attacks-christmas-hobby-box",
         "priority": 70
       }
     ]
@@ -2921,7 +2892,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-allen-ginter-baseball-hobby-pack",
+        "url": "https://www.waxstat.com/boxes/2026-topps-allen-ginter-baseball-blaster-box",
         "priority": 70
       }
     ]
@@ -3013,46 +2984,6 @@
     ]
   },
   {
-    "id": "2026-topps-neon-marvel-tcg",
-    "title": "2026 Topps Neon Marvel",
-    "startsAt": "2026-10-14T09:00:00-07:00",
-    "endsAt": "2026-10-14T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-neon-marvel",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Marvel"
-    ],
-    "category": "tcg",
-    "game": "Marvel",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://topps.com/pages/topps-neon-marvel",
-        "priority": 100
-      },
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-neon-marvel",
-        "priority": 70
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-marvel-neon-mega-pack",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-topps-update-series-baseball-sports",
     "title": "2026 Topps Update Series Baseball",
     "startsAt": "2026-10-14T09:00:00-07:00",
@@ -3139,6 +3070,104 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-optic-nwsl-soccer",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-neon-marvel-tcg",
+    "title": "2026 Topps Neon Marvel",
+    "startsAt": "2026-10-14T09:00:00-07:00",
+    "endsAt": "2026-10-14T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://topps.com/pages/topps-neon-marvel",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Marvel"
+    ],
+    "category": "tcg",
+    "game": "Marvel",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://topps.com/pages/topps-neon-marvel",
+        "priority": 100
+      },
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-neon-marvel",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-marvel-neon-blaster-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-update-series-baseball-hobby-box-japan-edition-sports",
+    "title": "2026 Topps Update Series Baseball Hobby Box (Japan Edition)",
+    "startsAt": "2026-10-14T09:00:00-07:00",
+    "endsAt": "2026-10-14T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-update-series-baseball-hobby-box-japan-edition",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-update-series-baseball-hobby-box-japan-edition",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-update-series-baseball-rip-night-sports",
+    "title": "2026 Topps Update Series Baseball Rip Night",
+    "startsAt": "2026-10-14T09:00:00-07:00",
+    "endsAt": "2026-10-14T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-update-series-baseball-rip-night-pack",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-update-series-baseball-rip-night-pack",
         "priority": 70
       }
     ]
@@ -3575,6 +3604,35 @@
     ]
   },
   {
+    "id": "2026-bowman-chrome-baseball-sapphire-edition-sports",
+    "title": "2026 Bowman Chrome Baseball Sapphire Edition",
+    "startsAt": "2026-10-30T09:00:00-07:00",
+    "endsAt": "2026-10-30T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-sapphire-edition-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-chrome-baseball-sapphire-edition-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-27-topps-english-premier-league-soccer-golden-boot-4-tin-tray-sports",
     "title": "2026-27 Topps English Premier League Soccer Golden Boot 4-Tin Tray",
     "startsAt": "2026-10-30T09:00:00-07:00",
@@ -3628,6 +3686,64 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-27-topps-english-premier-league-soccer-golden-boot-tin",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "pokemon-mega-forces-tcg",
+    "title": "Pokemon Mega Forces",
+    "startsAt": "2026-10-30T09:00:00-07:00",
+    "endsAt": "2026-10-30T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-forces-3-tin-lot",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/pokemon-mega-forces-3-tin-lot",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "riftbound-league-of-legends-radiance-tcg",
+    "title": "Riftbound League of Legends Radiance",
+    "startsAt": "2026-10-31T09:00:00-07:00",
+    "endsAt": "2026-10-31T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/riftbound-league-of-legends-radiance-booster-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-other-cards-release-calendar",
+    "sourceId": "waxstat:2026-other-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Riftbound"
+    ],
+    "category": "tcg",
+    "game": "Riftbound",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/riftbound-league-of-legends-radiance-booster-box",
         "priority": 70
       }
     ]

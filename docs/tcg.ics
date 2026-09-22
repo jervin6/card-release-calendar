@@ -221,21 +221,6 @@ TRANSP:TRANSPARENT
 URL:https://topps.com/pages/topps-vault-marvel
 END:VEVENT
 BEGIN:VEVENT
-UID:pokemon-mega-forces-tcg@card-release-calendar
-DTSTAMP:20260922T045937Z
-DTSTART:20260925T160000Z
-DTEND:20260925T170000Z
-SUMMARY:Pokemon Mega Forces
-DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
- \; verify the exact drop time before release.\nDrop link: https://www.waxst
- at.com/boxes/pokemon-mega-forces-tin
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/boxes/pokemon-mega-forces-tin
-END:VEVENT
-BEGIN:VEVENT
 UID:magic-the-gathering-reality-fracture-tcg@card-release-calendar
 DTSTAMP:20260922T045937Z
 DTSTART:20260925T160000Z
@@ -261,7 +246,7 @@ DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
  ify the exact drop time before release.\nDrop link: https://topps.com/pages
  /topps-chrome-star-wars\nAlso sourced from: Hobby Monitor - https://www.hob
  bymonitor.com/release/2026-topps-chrome-star-wars\; waxstat.com - https://w
- ww.waxstat.com/boxes/2026-topps-star-wars-chrome-value-box
+ ww.waxstat.com/boxes/2026-topps-star-wars-chrome-blaster-box
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:TCG
@@ -328,8 +313,8 @@ DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
  ify the exact drop time before release.\nDrop link: https://topps.com/pages
  /topps-mars-attacks-christmas\nAlso sourced from: Hobby Monitor - https://w
  ww.hobbymonitor.com/release/2026-topps-mars-attacks-christmas\; waxstat.com
-  - https://www.waxstat.com/boxes/2026-topps-mars-attacks-christmas-hobby-pa
- ck
+  - https://www.waxstat.com/boxes/2026-topps-mars-attacks-christmas-hobby-bo
+ x
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:TCG
@@ -361,7 +346,7 @@ DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
  ify the exact drop time before release.\nDrop link: https://topps.com/pages
  /topps-neon-marvel\nAlso sourced from: Hobby Monitor - https://www.hobbymon
  itor.com/release/2026-topps-neon-marvel\; waxstat.com - https://www.waxstat
- .com/boxes/2026-topps-marvel-neon-mega-pack
+ .com/boxes/2026-topps-marvel-neon-blaster-box
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:TCG
@@ -445,6 +430,37 @@ CATEGORIES:TCG
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/magic-the-gathering-reality-fracture-secr
  et-lair-bundle
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-mega-forces-tcg@card-release-calendar
+DTSTAMP:20260922T045937Z
+DTSTART:20261030T160000Z
+DTEND:20261030T170000Z
+SUMMARY:Pokemon Mega Forces
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/pokemon-mega-forces-3-tin-lot
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/pokemon-mega-forces-3-tin-lot
+END:VEVENT
+BEGIN:VEVENT
+UID:riftbound-league-of-legends-radiance-tcg@card-release-calendar
+DTSTAMP:20260922T045937Z
+DTSTART:20261031T160000Z
+DTEND:20261031T170000Z
+SUMMARY:Riftbound League of Legends Radiance
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/riftbound-league-of-legends-radiance-booster-box
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/riftbound-league-of-legends-radiance-boos
+ ter-box
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-mega-evolution-delta-reign-tcg@card-release-calendar
