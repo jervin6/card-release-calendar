@@ -3322,6 +3322,70 @@
     ]
   },
   {
+    "id": "2026-topps-triumphant-tennis-sports",
+    "title": "2026 Topps Triumphant Tennis",
+    "startsAt": "2026-10-16T09:00:00-07:00",
+    "endsAt": "2026-10-16T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-triumphant-tennis-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Tennis"
+    ],
+    "category": "sports",
+    "sport": "Tennis",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-triumphant-tennis",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-triumphant-tennis-hobby-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "disney-lorcana-hyperia-city-prerelease-tcg",
+    "title": "Disney Lorcana: Hyperia City Prerelease",
+    "startsAt": "2026-10-16T09:00:00-07:00",
+    "endsAt": "2026-10-16T10:00:00-07:00",
+    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Disney Lorcana",
+    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+    "sourceId": "lorcana-official:hyperia-city",
+    "sourcePriority": 100,
+    "releaseKind": "prerelease",
+    "tags": [
+      "TCG",
+      "Disney Lorcana"
+    ],
+    "category": "tcg",
+    "game": "Disney Lorcana",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "lorcana-official:hyperia-city",
+        "name": "Disney Lorcana",
+        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-topps-chrome-x-jennie-tcg",
     "title": "2026 Topps Chrome x Jennie",
     "startsAt": "2026-10-20T09:00:00-07:00",
@@ -3543,6 +3607,34 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-wwe-wrestling-blaster-box",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "disney-lorcana-hyperia-city-tcg",
+    "title": "Disney Lorcana: Hyperia City",
+    "startsAt": "2026-10-23T09:00:00-07:00",
+    "endsAt": "2026-10-23T10:00:00-07:00",
+    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Disney Lorcana",
+    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+    "sourceId": "lorcana-official:hyperia-city",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Disney Lorcana"
+    ],
+    "category": "tcg",
+    "game": "Disney Lorcana",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "lorcana-official:hyperia-city",
+        "name": "Disney Lorcana",
+        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+        "priority": 100
       }
     ]
   },
@@ -3982,34 +4074,6 @@
     ]
   },
   {
-    "id": "2026-topps-triumphant-tennis-sports",
-    "title": "2026 Topps Triumphant Tennis",
-    "startsAt": "2026-11-17T09:00:00-08:00",
-    "endsAt": "2026-11-17T10:00:00-08:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-topps-triumphant-tennis",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Tennis"
-    ],
-    "category": "sports",
-    "sport": "Tennis",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-triumphant-tennis",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-panini-crown-royale-wnba-basketball-sports",
     "title": "2026 Panini Crown Royale WNBA Basketball",
     "startsAt": "2026-11-18T09:00:00-08:00",
@@ -4090,35 +4154,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/pokemon-mega-evolution-delta-reign-build-battle-deck-display",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-gilded-collection-baseball-sports",
-    "title": "2026 Topps Gilded Collection Baseball",
-    "startsAt": "2026-11-22T09:00:00-08:00",
-    "endsAt": "2026-11-22T10:00:00-08:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-gilded-collection-baseball-hobby-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-topps-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-gilded-collection-baseball-hobby-box",
         "priority": 70
       }
     ]
