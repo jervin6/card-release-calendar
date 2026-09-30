@@ -2801,6 +2801,24 @@
     ]
   },
   {
+    "id": "2026-bowman-u-best-football-sports",
+    "title": "2026 Bowman U Best Football",
+    "startsAt": "2026-10-05T09:00:00-07:00",
+    "endsAt": "2026-10-05T10:00:00-07:00",
+    "notes": "Pre-order date from Topps. Time is a 9:00 AM PT placeholder; verify the exact opening time before pre-order.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Topps",
+    "sourceUrl": "https://www.topps.com/pages/bowman-u-best-football",
+    "sourcePriority": 80,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football"
+  },
+  {
     "id": "2026-topps-mlb-x-kaws-sports",
     "title": "2026 Topps MLB x KAWS",
     "startsAt": "2026-10-05T09:00:00-07:00",
