@@ -385,21 +385,6 @@ TRANSP:TRANSPARENT
 URL:https://topps.com/pages/topps-neon-marvel
 END:VEVENT
 BEGIN:VEVENT
-UID:disney-lorcana-hyperia-city-prerelease-tcg@card-release-calendar
-DTSTAMP:20261003T211842Z
-DTSTART:20261016T160000Z
-DTEND:20261016T170000Z
-SUMMARY:Disney Lorcana: Hyperia City Prerelease
-DESCRIPTION:Release date from Disney Lorcana. Time is a 9:00 AM PT placehol
- der\; verify the exact drop time before release.\nDrop link: https://www.di
- sneylorcana.com/en-US/product/hyperia-city
-STATUS:CONFIRMED
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.disneylorcana.com/en-US/product/hyperia-city
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-topps-chrome-x-jennie-tcg@card-release-calendar
 DTSTAMP:20261003T211842Z
 DTSTART:20261020T160000Z
@@ -414,21 +399,6 @@ LOCATION:Online
 CATEGORIES:TCG
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/2026-topps-chrome-x-jennie-box
-END:VEVENT
-BEGIN:VEVENT
-UID:disney-lorcana-hyperia-city-tcg@card-release-calendar
-DTSTAMP:20261003T211842Z
-DTSTART:20261023T160000Z
-DTEND:20261023T170000Z
-SUMMARY:Disney Lorcana: Hyperia City
-DESCRIPTION:Release date from Disney Lorcana. Time is a 9:00 AM PT placehol
- der\; verify the exact drop time before release.\nDrop link: https://www.di
- sneylorcana.com/en-US/product/hyperia-city
-STATUS:CONFIRMED
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.disneylorcana.com/en-US/product/hyperia-city
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-deck-crafter-s-tcg@card-release-calendar
