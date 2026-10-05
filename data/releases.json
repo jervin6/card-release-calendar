@@ -3239,41 +3239,57 @@
     ]
   },
   {
-    "id": "2026-topps-neon-marvel-tcg",
-    "title": "2026 Topps Neon Marvel",
+    "id": "2025-26-panini-select-basketball-sports",
+    "title": "2025/26 Panini Select Basketball",
     "startsAt": "2026-10-14T09:00:00-07:00",
     "endsAt": "2026-10-14T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-neon-marvel",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2025-26-panini-select-basketball",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
     "tags": [
-      "TCG",
-      "Marvel"
+      "Sports cards",
+      "Basketball"
     ],
-    "category": "tcg",
-    "game": "Marvel",
+    "category": "sports",
+    "sport": "Basketball",
     "managedBy": "release-sync",
     "sources": [
       {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://topps.com/pages/topps-neon-marvel",
-        "priority": 100
-      },
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2025-26-panini-select-basketball",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-obsidian-k-league-soccer-sports",
+    "title": "2026 Panini Obsidian K League Soccer",
+    "startsAt": "2026-10-14T09:00:00-07:00",
+    "endsAt": "2026-10-14T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-obsidian-k-league-soccer-checklist",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
       {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-neon-marvel",
-        "priority": 70
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-marvel-neon-blaster-box",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-obsidian-k-league-soccer-checklist",
         "priority": 70
       }
     ]
@@ -3347,57 +3363,41 @@
     ]
   },
   {
-    "id": "2025-26-panini-select-basketball-sports",
-    "title": "2025/26 Panini Select Basketball",
+    "id": "2026-topps-neon-marvel-tcg",
+    "title": "2026 Topps Neon Marvel",
     "startsAt": "2026-10-14T09:00:00-07:00",
     "endsAt": "2026-10-14T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2025-26-panini-select-basketball",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://topps.com/pages/topps-neon-marvel",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
     "tags": [
-      "Sports cards",
-      "Basketball"
+      "TCG",
+      "Marvel"
     ],
-    "category": "sports",
-    "sport": "Basketball",
+    "category": "tcg",
+    "game": "Marvel",
     "managedBy": "release-sync",
     "sources": [
       {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://topps.com/pages/topps-neon-marvel",
+        "priority": 100
+      },
+      {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2025-26-panini-select-basketball",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-neon-marvel",
         "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-panini-obsidian-k-league-soccer-sports",
-    "title": "2026 Panini Obsidian K League Soccer",
-    "startsAt": "2026-10-14T09:00:00-07:00",
-    "endsAt": "2026-10-14T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-obsidian-k-league-soccer-checklist",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
+      },
       {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-obsidian-k-league-soccer-checklist",
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-marvel-neon-blaster-box",
         "priority": 70
       }
     ]
@@ -3610,6 +3610,35 @@
     ]
   },
   {
+    "id": "disney-lorcana-hyperia-city-prerelease-tcg",
+    "title": "Disney Lorcana: Hyperia City Prerelease",
+    "startsAt": "2026-10-16T09:00:00-07:00",
+    "endsAt": "2026-10-16T10:00:00-07:00",
+    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Disney Lorcana",
+    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+    "sourceId": "lorcana-official:hyperia-city",
+    "sourcePriority": 100,
+    "releaseKind": "prerelease",
+    "tags": [
+      "TCG",
+      "Disney Lorcana"
+    ],
+    "category": "tcg",
+    "game": "Disney Lorcana",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "lorcana-official:hyperia-city",
+        "name": "Disney Lorcana",
+        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-topps-chrome-x-jennie-tcg",
     "title": "2026 Topps Chrome x Jennie",
     "startsAt": "2026-10-20T09:00:00-07:00",
@@ -3812,6 +3841,34 @@
     ]
   },
   {
+    "id": "2026-panini-impeccable-wnba-sports",
+    "title": "2026 Panini Impeccable WNBA",
+    "startsAt": "2026-10-23T09:00:00-07:00",
+    "endsAt": "2026-10-23T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-topps-stadium-club-wwe-wrestling-sports",
     "title": "2026 Topps Stadium Club WWE Wrestling",
     "startsAt": "2026-10-23T09:00:00-07:00",
@@ -3847,30 +3904,30 @@
     ]
   },
   {
-    "id": "2026-panini-impeccable-wnba-sports",
-    "title": "2026 Panini Impeccable WNBA",
+    "id": "disney-lorcana-hyperia-city-tcg",
+    "title": "Disney Lorcana: Hyperia City",
     "startsAt": "2026-10-23T09:00:00-07:00",
     "endsAt": "2026-10-23T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
+    "status": "CONFIRMED",
+    "sourceName": "Disney Lorcana",
+    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+    "sourceId": "lorcana-official:hyperia-city",
+    "sourcePriority": 100,
     "tags": [
-      "Sports cards",
-      "Basketball"
+      "TCG",
+      "Disney Lorcana"
     ],
-    "category": "sports",
-    "sport": "Basketball",
+    "category": "tcg",
+    "game": "Disney Lorcana",
     "managedBy": "release-sync",
     "sources": [
       {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
-        "priority": 70
+        "id": "lorcana-official:hyperia-city",
+        "name": "Disney Lorcana",
+        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+        "priority": 100
       }
     ]
   },
@@ -3933,34 +3990,6 @@
     ]
   },
   {
-    "id": "2026-panini-donruss-football-sports",
-    "title": "2026 Panini Donruss Football",
-    "startsAt": "2026-10-28T09:00:00-07:00",
-    "endsAt": "2026-10-28T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-panini-absolute-football-kaboom-countdown-calendar-sports",
     "title": "2026 Panini Absolute Football KABOOM! Countdown Calendar",
     "startsAt": "2026-10-28T09:00:00-07:00",
@@ -4012,6 +4041,63 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-nwsl-soccer",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-donruss-football-sports",
+    "title": "2026 Panini Donruss Football",
+    "startsAt": "2026-10-28T09:00:00-07:00",
+    "endsAt": "2026-10-28T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-donruss-football",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-five-star-baseball-sports",
+    "title": "2026 Topps Five Star Baseball",
+    "startsAt": "2026-10-28T09:00:00-07:00",
+    "endsAt": "2026-10-28T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-five-star-baseball-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-five-star-baseball-hobby-box",
         "priority": 70
       }
     ]
@@ -4550,6 +4636,64 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-crown-royale-wnba-basketball",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-mlb-x-nfl-official-collectors-kit-sports",
+    "title": "2026 Topps MLB x NFL Official Collectors Kit",
+    "startsAt": "2026-11-19T09:00:00-08:00",
+    "endsAt": "2026-11-19T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-mlb-x-nfl-official-collectors-kit",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-mlb-x-nfl-official-collectors-kit",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-mlb-x-nfl-official-collectors-kit-8-kit-sports",
+    "title": "2026 Topps MLB x NFL Official Collectors Kit 8-Kit",
+    "startsAt": "2026-11-19T09:00:00-08:00",
+    "endsAt": "2026-11-19T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-mlb-x-nfl-official-collectors-kit-8-kit-case",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-mlb-x-nfl-official-collectors-kit-8-kit-case",
         "priority": 70
       }
     ]
