@@ -2874,46 +2874,6 @@
     ]
   },
   {
-    "id": "2026-topps-mars-attacks-christmas-tcg",
-    "title": "2026 Topps Mars Attacks Christmas",
-    "startsAt": "2026-10-06T09:00:00-07:00",
-    "endsAt": "2026-10-06T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-mars-attacks-christmas",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Mars Attacks"
-    ],
-    "category": "tcg",
-    "game": "Mars Attacks",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://topps.com/pages/topps-mars-attacks-christmas",
-        "priority": 100
-      },
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-mars-attacks-christmas",
-        "priority": 70
-      },
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-mars-attacks-christmas-hobby-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-27-topps-flagship-basketball-sports",
     "title": "2026-27 Topps Flagship Basketball",
     "startsAt": "2026-10-06T09:00:00-07:00",
@@ -2943,6 +2903,40 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2025-26-topps-basketball-mega-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-mars-attacks-christmas-tcg",
+    "title": "2026 Topps Mars Attacks Christmas",
+    "startsAt": "2026-10-06T09:00:00-07:00",
+    "endsAt": "2026-10-06T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://topps.com/pages/topps-mars-attacks-christmas",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Mars Attacks"
+    ],
+    "category": "tcg",
+    "game": "Mars Attacks",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://topps.com/pages/topps-mars-attacks-christmas",
+        "priority": 100
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-mars-attacks-christmas-hobby-box",
         "priority": 70
       }
     ]
@@ -3610,6 +3604,35 @@
     ]
   },
   {
+    "id": "disney-lorcana-hyperia-city-prerelease-tcg",
+    "title": "Disney Lorcana: Hyperia City Prerelease",
+    "startsAt": "2026-10-16T09:00:00-07:00",
+    "endsAt": "2026-10-16T10:00:00-07:00",
+    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Disney Lorcana",
+    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+    "sourceId": "lorcana-official:hyperia-city",
+    "sourcePriority": 100,
+    "releaseKind": "prerelease",
+    "tags": [
+      "TCG",
+      "Disney Lorcana"
+    ],
+    "category": "tcg",
+    "game": "Disney Lorcana",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "lorcana-official:hyperia-city",
+        "name": "Disney Lorcana",
+        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-topps-chrome-x-jennie-tcg",
     "title": "2026 Topps Chrome x Jennie",
     "startsAt": "2026-10-20T09:00:00-07:00",
@@ -3640,34 +3663,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-chrome-x-jennie-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-panini-obsidian-football-sports",
-    "title": "2026 Panini Obsidian Football",
-    "startsAt": "2026-10-21T09:00:00-07:00",
-    "endsAt": "2026-10-21T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-obsidian-football",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-obsidian-football",
         "priority": 70
       }
     ]
@@ -3748,6 +3743,34 @@
     ]
   },
   {
+    "id": "2026-panini-obsidian-football-sports",
+    "title": "2026 Panini Obsidian Football",
+    "startsAt": "2026-10-21T09:00:00-07:00",
+    "endsAt": "2026-10-21T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-obsidian-football",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-obsidian-football",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-topps-holiday-baseball-advent-calendar-sports",
     "title": "2026 Topps Holiday Baseball Advent Calendar",
     "startsAt": "2026-10-21T09:00:00-07:00",
@@ -3812,34 +3835,6 @@
     ]
   },
   {
-    "id": "2026-panini-impeccable-wnba-sports",
-    "title": "2026 Panini Impeccable WNBA",
-    "startsAt": "2026-10-23T09:00:00-07:00",
-    "endsAt": "2026-10-23T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Basketball"
-    ],
-    "category": "sports",
-    "sport": "Basketball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-topps-stadium-club-wwe-wrestling-sports",
     "title": "2026 Topps Stadium Club WWE Wrestling",
     "startsAt": "2026-10-23T09:00:00-07:00",
@@ -3871,6 +3866,62 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-wwe-wrestling-blaster-box",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-impeccable-wnba-sports",
+    "title": "2026 Panini Impeccable WNBA",
+    "startsAt": "2026-10-23T09:00:00-07:00",
+    "endsAt": "2026-10-23T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "disney-lorcana-hyperia-city-tcg",
+    "title": "Disney Lorcana: Hyperia City",
+    "startsAt": "2026-10-23T09:00:00-07:00",
+    "endsAt": "2026-10-23T10:00:00-07:00",
+    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Disney Lorcana",
+    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+    "sourceId": "lorcana-official:hyperia-city",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Disney Lorcana"
+    ],
+    "category": "tcg",
+    "game": "Disney Lorcana",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "lorcana-official:hyperia-city",
+        "name": "Disney Lorcana",
+        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+        "priority": 100
       }
     ]
   },
@@ -3933,29 +3984,65 @@
     ]
   },
   {
-    "id": "2026-panini-absolute-football-kaboom-countdown-calendar-sports",
-    "title": "2026 Panini Absolute Football KABOOM! Countdown Calendar",
-    "startsAt": "2026-10-28T09:00:00-07:00",
-    "endsAt": "2026-10-28T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "id": "riftbound-league-of-legends-radiance-tcg",
+    "title": "Riftbound League of Legends Radiance",
+    "startsAt": "2026-10-23T09:00:00-07:00",
+    "endsAt": "2026-10-23T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
-    "sourceId": "hobby-monitor",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/riftbound-league-of-legends-radiance-booster-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-other-cards-release-calendar",
+    "sourceId": "waxstat:2026-other-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Riftbound"
+    ],
+    "category": "tcg",
+    "game": "Riftbound",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/riftbound-league-of-legends-radiance-booster-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-five-star-baseball-sports",
+    "title": "2026 Topps Five Star Baseball",
+    "startsAt": "2026-10-28T09:00:00-07:00",
+    "endsAt": "2026-10-28T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-five-star-baseball-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
     "tags": [
       "Sports cards",
-      "Football"
+      "Baseball"
     ],
     "category": "sports",
-    "sport": "Football",
+    "sport": "Baseball",
     "managedBy": "release-sync",
     "sources": [
       {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-five-star-baseball-checklist",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-five-star-baseball-hobby-box",
         "priority": 70
       }
     ]
@@ -4017,30 +4104,29 @@
     ]
   },
   {
-    "id": "2026-topps-five-star-baseball-sports",
-    "title": "2026 Topps Five Star Baseball",
+    "id": "2026-panini-absolute-football-kaboom-countdown-calendar-sports",
+    "title": "2026 Panini Absolute Football KABOOM! Countdown Calendar",
     "startsAt": "2026-10-28T09:00:00-07:00",
     "endsAt": "2026-10-28T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-five-star-baseball-hobby-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
+    "sourceId": "hobby-monitor",
     "sourcePriority": 70,
     "tags": [
       "Sports cards",
-      "Baseball"
+      "Football"
     ],
     "category": "sports",
-    "sport": "Baseball",
+    "sport": "Football",
     "managedBy": "release-sync",
     "sources": [
       {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-five-star-baseball-hobby-box",
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
         "priority": 70
       }
     ]
@@ -4069,6 +4155,34 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-topps-chrome-logofractor-formula-1-racing-checklist",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-bowman-university-best-football-sports",
+    "title": "2026 Bowman University Best Football",
+    "startsAt": "2026-10-30T09:00:00-07:00",
+    "endsAt": "2026-10-30T10:00:00-07:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-bowman-university-best-football-checklist",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-bowman-university-best-football-checklist",
         "priority": 70
       }
     ]
@@ -4184,64 +4298,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-27-topps-soccer-paris-saint-germain-fc-club-collector-tin",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "pokemon-mega-forces-tcg",
-    "title": "Pokemon Mega Forces",
-    "startsAt": "2026-10-30T09:00:00-07:00",
-    "endsAt": "2026-10-30T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-forces-3-tin-lot",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
-    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "TCG",
-      "Pokemon"
-    ],
-    "category": "tcg",
-    "game": "Pokemon",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/pokemon-mega-forces-3-tin-lot",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "riftbound-league-of-legends-radiance-tcg",
-    "title": "Riftbound League of Legends Radiance",
-    "startsAt": "2026-10-31T09:00:00-07:00",
-    "endsAt": "2026-10-31T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/riftbound-league-of-legends-radiance-booster-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-other-cards-release-calendar",
-    "sourceId": "waxstat:2026-other-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "TCG",
-      "Riftbound"
-    ],
-    "category": "tcg",
-    "game": "Riftbound",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/riftbound-league-of-legends-radiance-booster-box",
         "priority": 70
       }
     ]
@@ -4670,6 +4726,34 @@
     ]
   },
   {
+    "id": "2026-panini-prizm-black-nwsl-soccer-sports",
+    "title": "2026 Panini Prizm Black NWSL Soccer",
+    "startsAt": "2026-11-20T09:00:00-08:00",
+    "endsAt": "2026-11-20T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-prizm-black-nwsl-soccer-checklist",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-prizm-black-nwsl-soccer-checklist",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "pokemon-mega-evolution-delta-reign-build-and-battle-deck-tcg",
     "title": "Pokemon Mega Evolution Delta Reign Build & Battle Deck",
     "startsAt": "2026-11-20T09:00:00-08:00",
@@ -4699,30 +4783,30 @@
     ]
   },
   {
-    "id": "2026-27-topps-chrome-basketball-sports",
-    "title": "2026-27 Topps Chrome Basketball",
+    "id": "pokemon-mega-forces-tcg",
+    "title": "Pokemon Mega Forces",
     "startsAt": "2026-12-04T09:00:00-08:00",
     "endsAt": "2026-12-04T10:00:00-08:00",
     "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-27-topps-chrome-basketball-blaster-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-27-topps-cards-release-calendar",
+    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-forces-3-tin-lot",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
     "sourcePriority": 70,
     "tags": [
-      "Sports cards",
-      "Basketball"
+      "TCG",
+      "Pokemon"
     ],
-    "category": "sports",
-    "sport": "Basketball",
+    "category": "tcg",
+    "game": "Pokemon",
     "managedBy": "release-sync",
     "sources": [
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-27-topps-chrome-basketball-blaster-box",
+        "url": "https://www.waxstat.com/boxes/pokemon-mega-forces-3-tin-lot",
         "priority": 70
       }
     ]
@@ -4868,6 +4952,35 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-heritage-high-number-baseball-hobby-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-27-topps-chrome-basketball-sports",
+    "title": "2026-27 Topps Chrome Basketball",
+    "startsAt": "2026-12-18T09:00:00-08:00",
+    "endsAt": "2026-12-18T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-27-topps-chrome-basketball-jumbo-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-27-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-27-topps-chrome-basketball-jumbo-box",
         "priority": 70
       }
     ]
