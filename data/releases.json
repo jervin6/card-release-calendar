@@ -2940,7 +2940,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/bowman-chrome-sapphire",
+    "sourceUrl": "https://www.topps.com/pages/bowman-chrome-sapphire",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -2954,7 +2954,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/bowman-chrome-sapphire",
+        "url": "https://www.topps.com/pages/bowman-chrome-sapphire",
         "priority": 100
       },
       {
@@ -2980,7 +2980,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-allen-ginter-baseball",
+    "sourceUrl": "https://www.topps.com/pages/topps-allen-ginter-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -2994,7 +2994,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-allen-ginter-baseball",
+        "url": "https://www.topps.com/pages/topps-allen-ginter-baseball",
         "priority": 100
       },
       {
@@ -3049,7 +3049,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-chrome-sapphire-mls",
+    "sourceUrl": "https://www.topps.com/pages/topps-chrome-sapphire-mls",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3063,7 +3063,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-chrome-sapphire-mls",
+        "url": "https://www.topps.com/pages/topps-chrome-sapphire-mls",
         "priority": 100
       }
     ]
@@ -3135,7 +3135,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-midnight-football",
+    "sourceUrl": "https://www.topps.com/pages/topps-midnight-football",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3149,7 +3149,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-midnight-football",
+        "url": "https://www.topps.com/pages/topps-midnight-football",
         "priority": 100
       }
     ]
@@ -3163,7 +3163,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-royalty-tennis",
+    "sourceUrl": "https://www.topps.com/pages/topps-royalty-tennis",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3177,7 +3177,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-royalty-tennis",
+        "url": "https://www.topps.com/pages/topps-royalty-tennis",
         "priority": 100
       }
     ]
@@ -3191,7 +3191,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-updates-baseball",
+    "sourceUrl": "https://www.topps.com/pages/topps-updates-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3205,7 +3205,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-updates-baseball",
+        "url": "https://www.topps.com/pages/topps-updates-baseball",
         "priority": 100
       },
       {
@@ -3231,7 +3231,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-neon-marvel",
+    "sourceUrl": "https://www.topps.com/pages/topps-neon-marvel",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3245,7 +3245,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-neon-marvel",
+        "url": "https://www.topps.com/pages/topps-neon-marvel",
         "priority": 100
       },
       {
@@ -3442,7 +3442,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-chrome-formula-1",
+    "sourceUrl": "https://www.topps.com/pages/topps-chrome-formula-1",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3456,7 +3456,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-chrome-formula-1",
+        "url": "https://www.topps.com/pages/topps-chrome-formula-1",
         "priority": 100
       }
     ]
@@ -3591,7 +3591,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-pro-debut-baseball",
+    "sourceUrl": "https://www.topps.com/pages/topps-pro-debut-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3605,7 +3605,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-pro-debut-baseball",
+        "url": "https://www.topps.com/pages/topps-pro-debut-baseball",
         "priority": 100
       },
       {
@@ -3625,7 +3625,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-chrome-jennie",
+    "sourceUrl": "https://www.topps.com/pages/topps-chrome-jennie",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3639,7 +3639,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-chrome-jennie",
+        "url": "https://www.topps.com/pages/topps-chrome-jennie",
         "priority": 100
       },
       {
@@ -3665,7 +3665,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-heritage-football",
+    "sourceUrl": "https://www.topps.com/pages/topps-heritage-football",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3679,7 +3679,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-heritage-football",
+        "url": "https://www.topps.com/pages/topps-heritage-football",
         "priority": 100
       },
       {
@@ -3705,7 +3705,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-holiday-baseball",
+    "sourceUrl": "https://www.topps.com/pages/topps-holiday-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3719,7 +3719,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-holiday-baseball",
+        "url": "https://www.topps.com/pages/topps-holiday-baseball",
         "priority": 100
       },
       {
@@ -4392,7 +4392,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-cosmic-chrome-baseball",
+    "sourceUrl": "https://www.topps.com/pages/topps-cosmic-chrome-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -4406,7 +4406,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-cosmic-chrome-baseball",
+        "url": "https://www.topps.com/pages/topps-cosmic-chrome-baseball",
         "priority": 100
       },
       {
@@ -4418,7 +4418,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-cosmic-chrome-baseball-hobby-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-cosmic-chrome-baseball-hobby-pack",
         "priority": 70
       }
     ]
@@ -4516,7 +4516,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-inception-football",
+    "sourceUrl": "https://www.topps.com/pages/topps-inception-football",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -4530,13 +4530,19 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-inception-football",
+        "url": "https://www.topps.com/pages/topps-inception-football",
         "priority": 100
       },
       {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-topps-inception-football-checklist",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-inception-football-hobby-box",
         "priority": 70
       }
     ]
@@ -4643,7 +4649,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-museum-collection-baseball",
+    "sourceUrl": "https://www.topps.com/pages/topps-museum-collection-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -4657,7 +4663,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://topps.com/pages/topps-museum-collection-baseball",
+        "url": "https://www.topps.com/pages/topps-museum-collection-baseball",
         "priority": 100
       },
       {
