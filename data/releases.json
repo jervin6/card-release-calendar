@@ -3031,34 +3031,6 @@
     ]
   },
   {
-    "id": "topps-chrome-sapphire-major-league-soccer-sports",
-    "title": "Topps Chrome® Sapphire Major League Soccer",
-    "startsAt": "2026-10-08T15:00:00.000Z",
-    "endsAt": "2026-10-08T16:00:00.000Z",
-    "notes": "Official drop time from Topps.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-chrome-sapphire-mls",
-    "sourceId": "topps-official",
-    "sourcePriority": 100,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://topps.com/pages/topps-chrome-sapphire-mls",
-        "priority": 100
-      }
-    ]
-  },
-  {
     "id": "2026-topps-chrome-formula-1-f1-racing-sports",
     "title": "2026 Topps Chrome Formula 1 F1 Racing",
     "startsAt": "2026-10-09T09:00:00-07:00",
@@ -3544,6 +3516,35 @@
     ]
   },
   {
+    "id": "disney-lorcana-hyperia-city-prerelease-tcg",
+    "title": "Disney Lorcana: Hyperia City Prerelease",
+    "startsAt": "2026-10-16T09:00:00-07:00",
+    "endsAt": "2026-10-16T10:00:00-07:00",
+    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Disney Lorcana",
+    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+    "sourceId": "lorcana-official:hyperia-city",
+    "sourcePriority": 100,
+    "releaseKind": "prerelease",
+    "tags": [
+      "TCG",
+      "Disney Lorcana"
+    ],
+    "category": "tcg",
+    "game": "Disney Lorcana",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "lorcana-official:hyperia-city",
+        "name": "Disney Lorcana",
+        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-topps-pro-debut-baseball-sports",
     "title": "2026 Topps Pro Debut Baseball",
     "startsAt": "2026-10-19T09:00:00-07:00",
@@ -3849,6 +3850,34 @@
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "disney-lorcana-hyperia-city-tcg",
+    "title": "Disney Lorcana: Hyperia City",
+    "startsAt": "2026-10-23T09:00:00-07:00",
+    "endsAt": "2026-10-23T10:00:00-07:00",
+    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Disney Lorcana",
+    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+    "sourceId": "lorcana-official:hyperia-city",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Disney Lorcana"
+    ],
+    "category": "tcg",
+    "game": "Disney Lorcana",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "lorcana-official:hyperia-city",
+        "name": "Disney Lorcana",
+        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+        "priority": 100
       }
     ]
   },
