@@ -3039,7 +3039,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-chrome-sapphire-mls",
+    "sourceUrl": "https://topps.com/pages/topps-chrome-sapphire-mls",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3053,7 +3053,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-chrome-sapphire-mls",
+        "url": "https://topps.com/pages/topps-chrome-sapphire-mls",
         "priority": 100
       }
     ]
@@ -3125,7 +3125,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-midnight-football",
+    "sourceUrl": "https://topps.com/pages/topps-midnight-football",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3139,7 +3139,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-midnight-football",
+        "url": "https://topps.com/pages/topps-midnight-football",
         "priority": 100
       }
     ]
@@ -3153,7 +3153,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-royalty-tennis",
+    "sourceUrl": "https://topps.com/pages/topps-royalty-tennis",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3167,7 +3167,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-royalty-tennis",
+        "url": "https://topps.com/pages/topps-royalty-tennis",
         "priority": 100
       }
     ]
@@ -3181,7 +3181,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-updates-baseball",
+    "sourceUrl": "https://topps.com/pages/topps-updates-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3195,7 +3195,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-updates-baseball",
+        "url": "https://topps.com/pages/topps-updates-baseball",
         "priority": 100
       },
       {
@@ -3221,7 +3221,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-neon-marvel",
+    "sourceUrl": "https://topps.com/pages/topps-neon-marvel",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3235,7 +3235,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-neon-marvel",
+        "url": "https://topps.com/pages/topps-neon-marvel",
         "priority": 100
       },
       {
@@ -3432,7 +3432,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-chrome-formula-1",
+    "sourceUrl": "https://topps.com/pages/topps-chrome-formula-1",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3446,7 +3446,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-chrome-formula-1",
+        "url": "https://topps.com/pages/topps-chrome-formula-1",
         "priority": 100
       }
     ]
@@ -3544,6 +3544,35 @@
     ]
   },
   {
+    "id": "disney-lorcana-hyperia-city-prerelease-tcg",
+    "title": "Disney Lorcana: Hyperia City Prerelease",
+    "startsAt": "2026-10-16T09:00:00-07:00",
+    "endsAt": "2026-10-16T10:00:00-07:00",
+    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Disney Lorcana",
+    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+    "sourceId": "lorcana-official:hyperia-city",
+    "sourcePriority": 100,
+    "releaseKind": "prerelease",
+    "tags": [
+      "TCG",
+      "Disney Lorcana"
+    ],
+    "category": "tcg",
+    "game": "Disney Lorcana",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "lorcana-official:hyperia-city",
+        "name": "Disney Lorcana",
+        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-topps-pro-debut-baseball-sports",
     "title": "2026 Topps Pro Debut Baseball",
     "startsAt": "2026-10-19T09:00:00-07:00",
@@ -3552,7 +3581,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-pro-debut-baseball",
+    "sourceUrl": "https://topps.com/pages/topps-pro-debut-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3566,7 +3595,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-pro-debut-baseball",
+        "url": "https://topps.com/pages/topps-pro-debut-baseball",
         "priority": 100
       },
       {
@@ -3621,7 +3650,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-heritage-football",
+    "sourceUrl": "https://topps.com/pages/topps-heritage-football",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3635,7 +3664,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-heritage-football",
+        "url": "https://topps.com/pages/topps-heritage-football",
         "priority": 100
       },
       {
@@ -3661,7 +3690,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-holiday-baseball",
+    "sourceUrl": "https://topps.com/pages/topps-holiday-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3675,7 +3704,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-holiday-baseball",
+        "url": "https://topps.com/pages/topps-holiday-baseball",
         "priority": 100
       },
       {
@@ -3758,7 +3787,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-holiday-football",
+    "sourceUrl": "https://topps.com/pages/topps-holiday-football",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -3772,7 +3801,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-holiday-football",
+        "url": "https://topps.com/pages/topps-holiday-football",
         "priority": 100
       },
       {
@@ -3849,6 +3878,34 @@
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "disney-lorcana-hyperia-city-tcg",
+    "title": "Disney Lorcana: Hyperia City",
+    "startsAt": "2026-10-23T09:00:00-07:00",
+    "endsAt": "2026-10-23T10:00:00-07:00",
+    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Disney Lorcana",
+    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+    "sourceId": "lorcana-official:hyperia-city",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Disney Lorcana"
+    ],
+    "category": "tcg",
+    "game": "Disney Lorcana",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "lorcana-official:hyperia-city",
+        "name": "Disney Lorcana",
+        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+        "priority": 100
       }
     ]
   },
@@ -4153,7 +4210,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/bowman-u-best-football",
+    "sourceUrl": "https://topps.com/pages/bowman-u-best-football",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -4167,7 +4224,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/bowman-u-best-football",
+        "url": "https://topps.com/pages/bowman-u-best-football",
         "priority": 100
       }
     ]
@@ -4353,7 +4410,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-cosmic-chrome-baseball",
+    "sourceUrl": "https://topps.com/pages/topps-cosmic-chrome-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -4367,7 +4424,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-cosmic-chrome-baseball",
+        "url": "https://topps.com/pages/topps-cosmic-chrome-baseball",
         "priority": 100
       },
       {
@@ -4477,7 +4534,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-inception-football",
+    "sourceUrl": "https://topps.com/pages/topps-inception-football",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -4491,7 +4548,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-inception-football",
+        "url": "https://topps.com/pages/topps-inception-football",
         "priority": 100
       },
       {
@@ -4610,7 +4667,7 @@
     "location": "Online",
     "status": "CONFIRMED",
     "sourceName": "Topps",
-    "sourceUrl": "https://www.topps.com/pages/topps-museum-collection-baseball",
+    "sourceUrl": "https://topps.com/pages/topps-museum-collection-baseball",
     "sourceId": "topps-official",
     "sourcePriority": 100,
     "tags": [
@@ -4624,7 +4681,7 @@
       {
         "id": "topps-official",
         "name": "Topps",
-        "url": "https://www.topps.com/pages/topps-museum-collection-baseball",
+        "url": "https://topps.com/pages/topps-museum-collection-baseball",
         "priority": 100
       },
       {
