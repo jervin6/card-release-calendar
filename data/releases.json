@@ -3544,35 +3544,6 @@
     ]
   },
   {
-    "id": "disney-lorcana-hyperia-city-prerelease-tcg",
-    "title": "Disney Lorcana: Hyperia City Prerelease",
-    "startsAt": "2026-10-16T09:00:00-07:00",
-    "endsAt": "2026-10-16T10:00:00-07:00",
-    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Disney Lorcana",
-    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
-    "sourceId": "lorcana-official:hyperia-city",
-    "sourcePriority": 100,
-    "releaseKind": "prerelease",
-    "tags": [
-      "TCG",
-      "Disney Lorcana"
-    ],
-    "category": "tcg",
-    "game": "Disney Lorcana",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "lorcana-official:hyperia-city",
-        "name": "Disney Lorcana",
-        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
-        "priority": 100
-      }
-    ]
-  },
-  {
     "id": "2026-topps-pro-debut-baseball-sports",
     "title": "2026 Topps Pro Debut Baseball",
     "startsAt": "2026-10-19T09:00:00-07:00",
@@ -3878,34 +3849,6 @@
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
         "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "disney-lorcana-hyperia-city-tcg",
-    "title": "Disney Lorcana: Hyperia City",
-    "startsAt": "2026-10-23T09:00:00-07:00",
-    "endsAt": "2026-10-23T10:00:00-07:00",
-    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Disney Lorcana",
-    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
-    "sourceId": "lorcana-official:hyperia-city",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Disney Lorcana"
-    ],
-    "category": "tcg",
-    "game": "Disney Lorcana",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "lorcana-official:hyperia-city",
-        "name": "Disney Lorcana",
-        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
-        "priority": 100
       }
     ]
   },
@@ -4471,15 +4414,16 @@
   },
   {
     "id": "2025-26-topps-stadium-club-chrome-uefa-champions-league-soccer-sports",
-    "title": "2025/26 Topps Stadium Club Chrome UEFA Champions League Soccer",
+    "title": "2025-26 Topps Stadium Club Chrome UEFA Champions League Soccer",
     "startsAt": "2026-11-04T09:00:00-08:00",
     "endsAt": "2026-11-04T10:00:00-08:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2025-26-topps-stadium-club-chrome-uefa-champions-league-soccer-checklist",
-    "sourceId": "hobby-monitor",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-chrome-uefa-champions-league-soccer-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
     "sourcePriority": 70,
     "tags": [
       "Sports cards",
@@ -4493,6 +4437,12 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2025-26-topps-stadium-club-chrome-uefa-champions-league-soccer-checklist",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-chrome-uefa-champions-league-soccer-hobby-box",
         "priority": 70
       }
     ]
