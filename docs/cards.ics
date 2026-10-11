@@ -1903,14 +1903,14 @@ DTSTAMP:20261010T123511Z
 DTSTART:20261012T170000Z
 DTEND:20261012T180000Z
 SUMMARY:2026 Topps Midnight Football
-DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
- m/pages/topps-midnight-football\nAlso sourced from: Hobby Monitor - https:/
- /www.hobbymonitor.com/release/2026-topps-midnight-football-checklist
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://topps.com/pa
+ ges/topps-midnight-football\nAlso sourced from: Hobby Monitor - https://www
+ .hobbymonitor.com/release/2026-topps-midnight-football-checklist
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-midnight-football
+URL:https://topps.com/pages/topps-midnight-football
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-royalty-tennis-sports@card-release-calendar
@@ -1919,13 +1919,13 @@ DTSTART:20261013T160000Z
 DTEND:20261013T170000Z
 SUMMARY:2026 Topps Royalty Tennis
 DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-royalty-tennis
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /topps-royalty-tennis
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-royalty-tennis
+URL:https://topps.com/pages/topps-royalty-tennis
 END:VEVENT
 BEGIN:VEVENT
 UID:topps-flagship-bundesliga-2026-27-sports@card-release-calendar
@@ -1934,13 +1934,13 @@ DTSTART:20261013T160000Z
 DTEND:20261013T170000Z
 SUMMARY:Topps Flagship Bundesliga 2026/27
 DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-flagship-bundesliga
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /topps-flagship-bundesliga
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-flagship-bundesliga
+URL:https://topps.com/pages/topps-flagship-bundesliga
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-update-series-baseball-sports@card-release-calendar
@@ -1949,15 +1949,15 @@ DTSTART:20261014T160000Z
 DTEND:20261014T170000Z
 SUMMARY:2026 Topps Update Series Baseball
 DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-updates-baseball\nAlso sourced from: Hobby Monitor - https://www
- .hobbymonitor.com/release/2026-topps-update-series-baseball\; waxstat.com -
-  https://www.waxstat.com/boxes/2026-topps-update-series-baseball-value-box
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /topps-updates-baseball\nAlso sourced from: Hobby Monitor - https://www.hob
+ bymonitor.com/release/2026-topps-update-series-baseball\; waxstat.com - htt
+ ps://www.waxstat.com/boxes/2026-topps-update-series-baseball-value-box
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-updates-baseball
+URL:https://topps.com/pages/topps-updates-baseball
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-obsidian-k-league-soccer-sports@card-release-calendar
@@ -2063,15 +2063,15 @@ DTSTAMP:20261010T123511Z
 DTSTART:20261014T170000Z
 DTEND:20261014T180000Z
 SUMMARY:2026 Topps Neon Marvel
-DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
- m/pages/topps-neon-marvel\nAlso sourced from: Hobby Monitor - https://www.h
- obbymonitor.com/release/2026-topps-neon-marvel\; waxstat.com - https://www.
- waxstat.com/boxes/2026-topps-marvel-neon-mega-pack
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://topps.com/pa
+ ges/topps-neon-marvel\nAlso sourced from: Hobby Monitor - https://www.hobby
+ monitor.com/release/2026-topps-neon-marvel\; waxstat.com - https://www.waxs
+ tat.com/boxes/2026-topps-marvel-neon-mega-pack
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:TCG
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-neon-marvel
+URL:https://topps.com/pages/topps-neon-marvel
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-formula-1-sports@card-release-calendar
@@ -2080,13 +2080,13 @@ DTSTART:20261015T160000Z
 DTEND:20261015T170000Z
 SUMMARY:2026 Topps Chrome® Formula 1®
 DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-chrome-formula-1
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /topps-chrome-formula-1
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-chrome-formula-1
+URL:https://topps.com/pages/topps-chrome-formula-1
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-formula-1-racing-sports@card-release-calendar
@@ -2138,20 +2138,35 @@ URL:https://www.waxstat.com/boxes/2026-topps-chrome-baseball-team-samurai-j
  apan-collection-box
 END:VEVENT
 BEGIN:VEVENT
+UID:disney-lorcana-hyperia-city-prerelease-tcg@card-release-calendar
+DTSTAMP:20261010T123511Z
+DTSTART:20261016T160000Z
+DTEND:20261016T170000Z
+SUMMARY:Disney Lorcana: Hyperia City Prerelease
+DESCRIPTION:Release date from Disney Lorcana. Time is a 9:00 AM PT placehol
+ der\; verify the exact drop time before release.\nDrop link: https://www.di
+ sneylorcana.com/en-US/product/hyperia-city
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.disneylorcana.com/en-US/product/hyperia-city
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-topps-pro-debut-baseball-sports@card-release-calendar
 DTSTAMP:20261010T123511Z
 DTSTART:20261019T160000Z
 DTEND:20261019T170000Z
 SUMMARY:2026 Topps Pro Debut Baseball
 DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-pro-debut-baseball\nAlso sourced from: waxstat.com - https://www
- .waxstat.com/boxes/2025-topps-pro-debut-baseball-jumbo-pack
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /topps-pro-debut-baseball\nAlso sourced from: waxstat.com - https://www.wax
+ stat.com/boxes/2025-topps-pro-debut-baseball-jumbo-pack
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-pro-debut-baseball
+URL:https://topps.com/pages/topps-pro-debut-baseball
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-x-jennie-tcg@card-release-calendar
@@ -2176,15 +2191,15 @@ DTSTART:20261021T160000Z
 DTEND:20261021T170000Z
 SUMMARY:2026 Topps Heritage Football
 DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-heritage-football\nAlso sourced from: Hobby Monitor - https://ww
- w.hobbymonitor.com/release/2026-topps-heritage-football\; waxstat.com - htt
- ps://www.waxstat.com/boxes/2026-topps-heritage-football-mega-pack
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /topps-heritage-football\nAlso sourced from: Hobby Monitor - https://www.ho
+ bbymonitor.com/release/2026-topps-heritage-football\; waxstat.com - https:/
+ /www.waxstat.com/boxes/2026-topps-heritage-football-mega-pack
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-heritage-football
+URL:https://topps.com/pages/topps-heritage-football
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-holiday-baseball-sports@card-release-calendar
@@ -2193,15 +2208,15 @@ DTSTART:20261021T160000Z
 DTEND:20261021T170000Z
 SUMMARY:2026 Topps Holiday Baseball
 DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-holiday-baseball\nAlso sourced from: Hobby Monitor - https://www
- .hobbymonitor.com/release/2026-topps-holiday-baseball\; waxstat.com - https
- ://www.waxstat.com/boxes/2026-topps-holiday-baseball-mega-box
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /topps-holiday-baseball\nAlso sourced from: Hobby Monitor - https://www.hob
+ bymonitor.com/release/2026-topps-holiday-baseball\; waxstat.com - https://w
+ ww.waxstat.com/boxes/2026-topps-holiday-baseball-mega-box
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-holiday-baseball
+URL:https://topps.com/pages/topps-holiday-baseball
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-obsidian-football-sports@card-release-calendar
@@ -2242,15 +2257,15 @@ DTSTART:20261023T160000Z
 DTEND:20261023T170000Z
 SUMMARY:2026 Topps Stadium Club WWE
 DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-stadium-club-wwe\nAlso sourced from: Hobby Monitor - https://www
- .hobbymonitor.com/release/2026-topps-stadium-club-wwe\; waxstat.com - https
- ://www.waxstat.com/boxes/2026-topps-stadium-club-wwe-wrestling-mega-pack
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /topps-stadium-club-wwe\nAlso sourced from: Hobby Monitor - https://www.hob
+ bymonitor.com/release/2026-topps-stadium-club-wwe\; waxstat.com - https://w
+ ww.waxstat.com/boxes/2026-topps-stadium-club-wwe-wrestling-mega-pack
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-stadium-club-wwe
+URL:https://topps.com/pages/topps-stadium-club-wwe
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-holiday-football-sports@card-release-calendar
@@ -2259,15 +2274,15 @@ DTSTART:20261023T160000Z
 DTEND:20261023T170000Z
 SUMMARY:2026 Topps Holiday Football
 DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-holiday-football\nAlso sourced from: Hobby Monitor - https://www
- .hobbymonitor.com/release/2026-topps-holiday-football-checklist\; waxstat.c
- om - https://www.waxstat.com/boxes/2026-topps-holiday-football-mega-pack
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /topps-holiday-football\nAlso sourced from: Hobby Monitor - https://www.hob
+ bymonitor.com/release/2026-topps-holiday-football-checklist\; waxstat.com -
+  https://www.waxstat.com/boxes/2026-topps-holiday-football-mega-pack
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-holiday-football
+URL:https://topps.com/pages/topps-holiday-football
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-impeccable-wnba-sports@card-release-calendar
@@ -2283,6 +2298,21 @@ LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-lorcana-hyperia-city-tcg@card-release-calendar
+DTSTAMP:20261010T123511Z
+DTSTART:20261023T160000Z
+DTEND:20261023T170000Z
+SUMMARY:Disney Lorcana: Hyperia City
+DESCRIPTION:Release date from Disney Lorcana. Time is a 9:00 AM PT placehol
+ der\; verify the exact drop time before release.\nDrop link: https://www.di
+ sneylorcana.com/en-US/product/hyperia-city
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.disneylorcana.com/en-US/product/hyperia-city
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-deck-crafter-s-tcg@card-release-calendar
@@ -2457,13 +2487,13 @@ DTSTART:20261030T160000Z
 DTEND:20261030T170000Z
 SUMMARY:2026 Bowman U Best Football
 DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/bowman-u-best-football
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /bowman-u-best-football
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/bowman-u-best-football
+URL:https://topps.com/pages/bowman-u-best-football
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-one-piece-eb-05-one-piece-heroines-edition-vol-tcg@card-release-ca
@@ -2573,16 +2603,16 @@ DTSTART:20261104T170000Z
 DTEND:20261104T180000Z
 SUMMARY:2026 Topps Cosmic Chrome® Baseball
 DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-cosmic-chrome-baseball\nAlso sourced from: Hobby Monitor - https
- ://www.hobbymonitor.com/release/2026-topps-cosmic-chrome-baseball\; waxstat
- .com - https://www.waxstat.com/boxes/2026-topps-cosmic-chrome-baseball-hobb
- y-pack
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /topps-cosmic-chrome-baseball\nAlso sourced from: Hobby Monitor - https://w
+ ww.hobbymonitor.com/release/2026-topps-cosmic-chrome-baseball\; waxstat.com
+  - https://www.waxstat.com/boxes/2026-topps-cosmic-chrome-baseball-hobby-pa
+ ck
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-cosmic-chrome-baseball
+URL:https://topps.com/pages/topps-cosmic-chrome-baseball
 END:VEVENT
 BEGIN:VEVENT
 UID:2025-26-panini-national-treasures-fifa-road-to-world-cup-soccer-sports@
@@ -2659,16 +2689,15 @@ DTSTART:20261106T170000Z
 DTEND:20261106T180000Z
 SUMMARY:2026 Topps Inception Football
 DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-inception-football\nAlso sourced from: Hobby Monitor - https://w
- ww.hobbymonitor.com/release/2026-topps-inception-football-checklist\; waxst
- at.com - https://www.waxstat.com/boxes/2026-topps-inception-football-hobby-
- box
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /topps-inception-football\nAlso sourced from: Hobby Monitor - https://www.h
+ obbymonitor.com/release/2026-topps-inception-football-checklist\; waxstat.c
+ om - https://www.waxstat.com/boxes/2026-topps-inception-football-hobby-box
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-inception-football
+URL:https://topps.com/pages/topps-inception-football
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-mega-evolution-delta-reign-tcg@card-release-calendar
@@ -2729,16 +2758,16 @@ DTSTART:20261111T170000Z
 DTEND:20261111T180000Z
 SUMMARY:2026 Topps Museum Collection Baseball
 DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-museum-collection-baseball\nAlso sourced from: Hobby Monitor - h
- ttps://www.hobbymonitor.com/release/2026-topps-museum-collection-baseball\;
-  waxstat.com - https://www.waxstat.com/boxes/2026-topps-museum-collection-b
- aseball-hobby-box
+ ify the exact drop time before release.\nDrop link: https://topps.com/pages
+ /topps-museum-collection-baseball\nAlso sourced from: Hobby Monitor - https
+ ://www.hobbymonitor.com/release/2026-topps-museum-collection-baseball\; wax
+ stat.com - https://www.waxstat.com/boxes/2026-topps-museum-collection-baseb
+ all-hobby-box
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-museum-collection-baseball
+URL:https://topps.com/pages/topps-museum-collection-baseball
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-sapphire-formula-1-racing-sports@card-release-calenda

@@ -371,15 +371,30 @@ DTSTAMP:20261010T123511Z
 DTSTART:20261014T170000Z
 DTEND:20261014T180000Z
 SUMMARY:2026 Topps Neon Marvel
-DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
- m/pages/topps-neon-marvel\nAlso sourced from: Hobby Monitor - https://www.h
- obbymonitor.com/release/2026-topps-neon-marvel\; waxstat.com - https://www.
- waxstat.com/boxes/2026-topps-marvel-neon-mega-pack
+DESCRIPTION:Official drop time from Topps.\nDrop link: https://topps.com/pa
+ ges/topps-neon-marvel\nAlso sourced from: Hobby Monitor - https://www.hobby
+ monitor.com/release/2026-topps-neon-marvel\; waxstat.com - https://www.waxs
+ tat.com/boxes/2026-topps-marvel-neon-mega-pack
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:TCG
 TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-neon-marvel
+URL:https://topps.com/pages/topps-neon-marvel
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-lorcana-hyperia-city-prerelease-tcg@card-release-calendar
+DTSTAMP:20261010T123511Z
+DTSTART:20261016T160000Z
+DTEND:20261016T170000Z
+SUMMARY:Disney Lorcana: Hyperia City Prerelease
+DESCRIPTION:Release date from Disney Lorcana. Time is a 9:00 AM PT placehol
+ der\; verify the exact drop time before release.\nDrop link: https://www.di
+ sneylorcana.com/en-US/product/hyperia-city
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.disneylorcana.com/en-US/product/hyperia-city
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-x-jennie-tcg@card-release-calendar
@@ -396,6 +411,21 @@ LOCATION:Online
 CATEGORIES:TCG
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/2026-topps-chrome-x-jennie-box
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-lorcana-hyperia-city-tcg@card-release-calendar
+DTSTAMP:20261010T123511Z
+DTSTART:20261023T160000Z
+DTEND:20261023T170000Z
+SUMMARY:Disney Lorcana: Hyperia City
+DESCRIPTION:Release date from Disney Lorcana. Time is a 9:00 AM PT placehol
+ der\; verify the exact drop time before release.\nDrop link: https://www.di
+ sneylorcana.com/en-US/product/hyperia-city
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.disneylorcana.com/en-US/product/hyperia-city
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-deck-crafter-s-tcg@card-release-calendar
