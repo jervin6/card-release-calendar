@@ -397,6 +397,21 @@ TRANSP:TRANSPARENT
 URL:https://www.disneylorcana.com/en-US/product/hyperia-city
 END:VEVENT
 BEGIN:VEVENT
+UID:disney-lorcana-hyperia-city-tcg@card-release-calendar
+DTSTAMP:20261017T203829Z
+DTSTART:20261023T160000Z
+DTEND:20261023T170000Z
+SUMMARY:Disney Lorcana: Hyperia City
+DESCRIPTION:Release date from Disney Lorcana. Time is a 9:00 AM PT placehol
+ der\; verify the exact drop time before release.\nDrop link: https://www.di
+ sneylorcana.com/en-US/product/hyperia-city
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.disneylorcana.com/en-US/product/hyperia-city
+END:VEVENT
+BEGIN:VEVENT
 UID:pokemon-deck-crafter-s-tcg@card-release-calendar
 DTSTAMP:20261017T203829Z
 DTSTART:20261023T160000Z
