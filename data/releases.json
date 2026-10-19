@@ -3792,6 +3792,34 @@
     ]
   },
   {
+    "id": "disney-lorcana-hyperia-city-tcg",
+    "title": "Disney Lorcana: Hyperia City",
+    "startsAt": "2026-10-23T09:00:00-07:00",
+    "endsAt": "2026-10-23T10:00:00-07:00",
+    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Disney Lorcana",
+    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+    "sourceId": "lorcana-official:hyperia-city",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Disney Lorcana"
+    ],
+    "category": "tcg",
+    "game": "Disney Lorcana",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "lorcana-official:hyperia-city",
+        "name": "Disney Lorcana",
+        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-27-topps-soccer-paris-saint-germain-fc-club-sports",
     "title": "2026-27 Topps Soccer Paris Saint-Germain FC Club",
     "startsAt": "2026-10-23T09:00:00-07:00",
@@ -4061,6 +4089,35 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-star-wars-chrome-sapphire-edition-tcg",
+    "title": "2026 Topps Star Wars Chrome Sapphire Edition",
+    "startsAt": "2026-10-28T09:00:00-07:00",
+    "endsAt": "2026-10-28T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-star-wars-chrome-sapphire-edition-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Star Wars"
+    ],
+    "category": "tcg",
+    "game": "Star Wars",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-star-wars-chrome-sapphire-edition-box",
         "priority": 70
       }
     ]
@@ -4954,6 +5011,35 @@
     ]
   },
   {
+    "id": "2026-27-topps-bundesliga-soccer-sports",
+    "title": "2026-27 Topps Bundesliga Soccer",
+    "startsAt": "2026-11-12T09:00:00-08:00",
+    "endsAt": "2026-11-12T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-27-topps-bundesliga-soccer-blaster-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-27-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-27-topps-bundesliga-soccer-blaster-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-panini-three-and-two-baseball-sports",
     "title": "2026 Panini Three & Two Baseball",
     "startsAt": "2026-11-13T09:00:00-08:00",
@@ -5829,6 +5915,35 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2027-topps-heritage-baseball-blaster-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-pulse-meridian-baseball-tcg",
+    "title": "2026 Pulse Meridian Baseball",
+    "startsAt": "2027-03-26T09:00:00-07:00",
+    "endsAt": "2027-03-26T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-pulse-meridian-baseball-hobby-12-box-case",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-pulse-meridian-baseball-hobby-12-box-case",
         "priority": 70
       }
     ]
