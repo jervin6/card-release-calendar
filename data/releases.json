@@ -3792,34 +3792,6 @@
     ]
   },
   {
-    "id": "disney-lorcana-hyperia-city-tcg",
-    "title": "Disney Lorcana: Hyperia City",
-    "startsAt": "2026-10-23T09:00:00-07:00",
-    "endsAt": "2026-10-23T10:00:00-07:00",
-    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Disney Lorcana",
-    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
-    "sourceId": "lorcana-official:hyperia-city",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Disney Lorcana"
-    ],
-    "category": "tcg",
-    "game": "Disney Lorcana",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "lorcana-official:hyperia-city",
-        "name": "Disney Lorcana",
-        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
-        "priority": 100
-      }
-    ]
-  },
-  {
     "id": "2026-27-topps-soccer-paris-saint-germain-fc-club-sports",
     "title": "2026-27 Topps Soccer Paris Saint-Germain FC Club",
     "startsAt": "2026-10-23T09:00:00-07:00",
@@ -4210,16 +4182,17 @@
     ]
   },
   {
-    "id": "2026-bowman-sapphire-football-sports",
-    "title": "2026 Bowman Sapphire Football",
+    "id": "2026-bowman-football-sapphire-edition-sports",
+    "title": "2026 Bowman Football Sapphire Edition",
     "startsAt": "2026-10-29T09:00:00-07:00",
     "endsAt": "2026-10-29T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-bowman-sapphire-football-checklist",
-    "sourceId": "hobby-monitor",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-bowman-football-sapphire-edition-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
     "tags": [
       "Sports cards",
@@ -4233,6 +4206,12 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-bowman-sapphire-football-checklist",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-football-sapphire-edition-box",
         "priority": 70
       }
     ]
@@ -5475,93 +5454,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/pokemon-mega-greninja-ex-league-battle-deck-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-heritage-high-number-baseball-sports",
-    "title": "2026 Topps Heritage High Number Baseball",
-    "startsAt": "2026-12-17T09:00:00-08:00",
-    "endsAt": "2026-12-17T10:00:00-08:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-heritage-high-number-baseball-hobby-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-topps-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-heritage-high-number-baseball-hobby-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-27-topps-chrome-basketball-sports",
-    "title": "2026-27 Topps Chrome Basketball",
-    "startsAt": "2026-12-18T09:00:00-08:00",
-    "endsAt": "2026-12-18T10:00:00-08:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-27-topps-chrome-basketball-jumbo-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-27-topps-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Basketball"
-    ],
-    "category": "sports",
-    "sport": "Basketball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-27-topps-chrome-basketball-jumbo-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-triple-threads-baseball-sports",
-    "title": "2026 Topps Triple Threads Baseball",
-    "startsAt": "2026-12-19T09:00:00-08:00",
-    "endsAt": "2026-12-19T10:00:00-08:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-triple-threads-baseball-hobby-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-topps-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-triple-threads-baseball-hobby-box",
         "priority": 70
       }
     ]
