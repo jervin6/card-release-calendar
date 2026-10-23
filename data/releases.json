@@ -3673,69 +3673,35 @@
     ]
   },
   {
-    "id": "2025-26-panini-select-basketball-sports",
-    "title": "2025/26 Panini Select Basketball",
+    "id": "disney-lorcana-hyperia-city-tcg",
+    "title": "Disney Lorcana: Hyperia City",
     "startsAt": "2026-10-23T09:00:00-07:00",
     "endsAt": "2026-10-23T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2025-26-panini-select-basketball",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Basketball"
-    ],
-    "category": "sports",
-    "sport": "Basketball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2025-26-panini-select-basketball",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-stadium-club-wwe-sports",
-    "title": "2026 Topps Stadium Club WWE",
-    "startsAt": "2026-10-23T09:00:00-07:00",
-    "endsAt": "2026-10-23T10:00:00-07:00",
-    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from Disney Lorcana. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "CONFIRMED",
-    "sourceName": "Topps",
-    "sourceUrl": "https://topps.com/pages/topps-stadium-club-wwe",
-    "sourceId": "topps-official",
+    "sourceName": "Disney Lorcana",
+    "sourceUrl": "https://www.disneylorcana.com/en-US/product/hyperia-city",
+    "sourceId": "lorcana-official:hyperia-city",
     "sourcePriority": 100,
     "tags": [
-      "Sports cards",
-      "WWE"
+      "TCG",
+      "Disney Lorcana"
     ],
-    "category": "sports",
-    "sport": "WWE",
+    "category": "tcg",
+    "game": "Disney Lorcana",
     "managedBy": "release-sync",
     "sources": [
       {
-        "id": "topps-official",
-        "name": "Topps",
-        "url": "https://topps.com/pages/topps-stadium-club-wwe",
+        "id": "lorcana-official:hyperia-city",
+        "name": "Disney Lorcana",
+        "url": "https://www.disneylorcana.com/en-US/product/hyperia-city",
         "priority": 100
-      },
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-stadium-club-wwe",
-        "priority": 70
       },
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-wwe-wrestling-blaster-box",
+        "url": "https://www.waxstat.com/boxes/disney-lorcana-hyperia-city-booster-pack",
         "priority": 70
       }
     ]
@@ -3767,15 +3733,43 @@
         "priority": 100
       },
       {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-holiday-football-checklist",
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-holiday-football-mega-box",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-stadium-club-wwe-sports",
+    "title": "2026 Topps Stadium Club WWE",
+    "startsAt": "2026-10-23T09:00:00-07:00",
+    "endsAt": "2026-10-23T10:00:00-07:00",
+    "notes": "Release date from Topps. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Topps",
+    "sourceUrl": "https://topps.com/pages/topps-stadium-club-wwe",
+    "sourceId": "topps-official",
+    "sourcePriority": 100,
+    "tags": [
+      "Sports cards",
+      "WWE"
+    ],
+    "category": "sports",
+    "sport": "WWE",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "topps-official",
+        "name": "Topps",
+        "url": "https://topps.com/pages/topps-stadium-club-wwe",
+        "priority": 100
       },
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-holiday-football-mega-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-wwe-wrestling-blaster-box",
         "priority": 70
       }
     ]
@@ -3892,35 +3886,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/riftbound-league-of-legends-radiance-booster-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "disney-lorcana-hyperia-city-tcg",
-    "title": "Disney Lorcana: Hyperia City",
-    "startsAt": "2026-10-23T09:00:00-07:00",
-    "endsAt": "2026-10-23T10:00:00-07:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/disney-lorcana-hyperia-city-booster-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-disney-cards-release-calendar",
-    "sourceId": "waxstat:2026-disney-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "TCG",
-      "Disney Lorcana"
-    ],
-    "category": "tcg",
-    "game": "Disney Lorcana",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/disney-lorcana-hyperia-city-booster-box",
         "priority": 70
       }
     ]
@@ -4510,6 +4475,34 @@
     ]
   },
   {
+    "id": "2026-topps-black-and-white-mls-sports",
+    "title": "2026 Topps Black & White MLS",
+    "startsAt": "2026-11-03T09:00:00-08:00",
+    "endsAt": "2026-11-03T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-topps-black-white-mls-checklist",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-black-white-mls-checklist",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2025-26-panini-national-treasures-fifa-road-to-world-cup-soccer-sports",
     "title": "2025/26 Panini National Treasures FIFA Road to World Cup Soccer",
     "startsAt": "2026-11-04T09:00:00-08:00",
@@ -4607,15 +4600,16 @@
   },
   {
     "id": "2025-26-topps-stadium-club-chrome-uefa-champions-league-soccer-sports",
-    "title": "2025/26 Topps Stadium Club Chrome UEFA Champions League Soccer",
+    "title": "2025-26 Topps Stadium Club Chrome UEFA Champions League Soccer",
     "startsAt": "2026-11-04T09:00:00-08:00",
     "endsAt": "2026-11-04T10:00:00-08:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2025-26-topps-stadium-club-chrome-uefa-champions-league-soccer-checklist",
-    "sourceId": "hobby-monitor",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-chrome-uefa-champions-league-soccer-blaster-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
     "sourcePriority": 70,
     "tags": [
       "Sports cards",
@@ -4663,6 +4657,35 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-topps-heritage-mega-box-football-checklist",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2025-26-topps-stadium-club-chrome-uefa-club-competitions-soccer-sports",
+    "title": "2025-26 Topps Stadium Club Chrome UEFA Club Competitions Soccer",
+    "startsAt": "2026-11-04T09:00:00-08:00",
+    "endsAt": "2026-11-04T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-chrome-uefa-club-competitions-soccer-blaster-pack",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-chrome-uefa-club-competitions-soccer-blaster-pack",
         "priority": 70
       }
     ]
@@ -4721,35 +4744,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2025-topps-disney-mint-hobby-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2025-26-topps-stadium-club-chrome-uefa-club-competitions-soccer-sports",
-    "title": "2025-26 Topps Stadium Club Chrome UEFA Club Competitions Soccer",
-    "startsAt": "2026-11-04T09:00:00-08:00",
-    "endsAt": "2026-11-04T10:00:00-08:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-chrome-uefa-club-competitions-soccer-blaster-pack",
-    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
-    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-chrome-uefa-club-competitions-soccer-blaster-pack",
         "priority": 70
       }
     ]
@@ -5106,34 +5100,6 @@
     ]
   },
   {
-    "id": "2026-panini-three-and-two-baseball-sports",
-    "title": "2026 Panini Three & Two Baseball",
-    "startsAt": "2026-11-13T09:00:00-08:00",
-    "endsAt": "2026-11-13T10:00:00-08:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-topps-royalty-tennis-sports",
     "title": "2026 Topps Royalty Tennis",
     "startsAt": "2026-11-13T09:00:00-08:00",
@@ -5271,12 +5237,13 @@
     "title": "2026 Topps Pro Debut Baseball",
     "startsAt": "2026-11-18T09:00:00-08:00",
     "endsAt": "2026-11-18T10:00:00-08:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-topps-pro-debut-baseball-checklist",
-    "sourceId": "hobby-monitor",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-pro-debut-baseball-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
     "tags": [
       "Sports cards",
@@ -5290,6 +5257,12 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-topps-pro-debut-baseball-checklist",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-pro-debut-baseball-hobby-box",
         "priority": 70
       }
     ]
@@ -5586,29 +5559,29 @@
     ]
   },
   {
-    "id": "2026-panini-flawless-fifa-world-cup-soccer-sports",
-    "title": "2026 Panini Flawless FIFA World Cup Soccer",
-    "startsAt": "2026-12-09T09:00:00-08:00",
-    "endsAt": "2026-12-09T10:00:00-08:00",
+    "id": "2026-panini-three-and-two-baseball-sports",
+    "title": "2026 Panini Three & Two Baseball",
+    "startsAt": "2026-12-11T09:00:00-08:00",
+    "endsAt": "2026-12-11T10:00:00-08:00",
     "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-flawless-fifa-world-cup-soccer-checklist",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball",
     "sourceId": "hobby-monitor",
     "sourcePriority": 70,
     "tags": [
       "Sports cards",
-      "Soccer"
+      "Baseball"
     ],
     "category": "sports",
-    "sport": "Soccer",
+    "sport": "Baseball",
     "managedBy": "release-sync",
     "sources": [
       {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-flawless-fifa-world-cup-soccer-checklist",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball",
         "priority": 70
       }
     ]
@@ -5638,6 +5611,34 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/pokemon-mega-greninja-ex-league-battle-deck-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-flawless-fifa-world-cup-soccer-sports",
+    "title": "2026 Panini Flawless FIFA World Cup Soccer",
+    "startsAt": "2026-12-23T09:00:00-08:00",
+    "endsAt": "2026-12-23T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-flawless-fifa-world-cup-soccer-checklist",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-flawless-fifa-world-cup-soccer-checklist",
         "priority": 70
       }
     ]
@@ -6099,7 +6100,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-inception-uefa-club-competitions-soccer-hobby-pack",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-inception-uefa-club-competitions-soccer-hobby-box",
         "priority": 70
       }
     ]
