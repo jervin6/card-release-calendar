@@ -4607,16 +4607,15 @@
   },
   {
     "id": "2025-26-topps-stadium-club-chrome-uefa-champions-league-soccer-sports",
-    "title": "2025-26 Topps Stadium Club Chrome UEFA Champions League Soccer",
+    "title": "2025/26 Topps Stadium Club Chrome UEFA Champions League Soccer",
     "startsAt": "2026-11-04T09:00:00-08:00",
     "endsAt": "2026-11-04T10:00:00-08:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
     "location": "Online",
     "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-chrome-uefa-champions-league-soccer-blaster-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
-    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2025-26-topps-stadium-club-chrome-uefa-champions-league-soccer-checklist",
+    "sourceId": "hobby-monitor",
     "sourcePriority": 70,
     "tags": [
       "Sports cards",
@@ -4664,35 +4663,6 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-topps-heritage-mega-box-football-checklist",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2025-26-topps-stadium-club-chrome-uefa-club-competitions-soccer-sports",
-    "title": "2025-26 Topps Stadium Club Chrome UEFA Club Competitions Soccer",
-    "startsAt": "2026-11-04T09:00:00-08:00",
-    "endsAt": "2026-11-04T10:00:00-08:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-chrome-uefa-club-competitions-soccer-blaster-pack",
-    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
-    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-chrome-uefa-club-competitions-soccer-blaster-pack",
         "priority": 70
       }
     ]
@@ -4751,6 +4721,35 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2025-topps-disney-mint-hobby-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2025-26-topps-stadium-club-chrome-uefa-club-competitions-soccer-sports",
+    "title": "2025-26 Topps Stadium Club Chrome UEFA Club Competitions Soccer",
+    "startsAt": "2026-11-04T09:00:00-08:00",
+    "endsAt": "2026-11-04T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-chrome-uefa-club-competitions-soccer-blaster-pack",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-chrome-uefa-club-competitions-soccer-blaster-pack",
         "priority": 70
       }
     ]
@@ -6100,7 +6099,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-inception-uefa-club-competitions-soccer-hobby-box",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-inception-uefa-club-competitions-soccer-hobby-pack",
         "priority": 70
       }
     ]
