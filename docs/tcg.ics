@@ -780,6 +780,21 @@ TRANSP:TRANSPARENT
 URL:https://magic.wizards.com/en/products/marvel/marvel-darkhold-destiny
 END:VEVENT
 BEGIN:VEVENT
+UID:kamigawa-titanbreach-tcg@card-release-calendar
+DTSTAMP:20261024T043947Z
+DTSTART:20270604T160000Z
+DTEND:20270604T170000Z
+SUMMARY:Kamigawa: Titanbreach
+DESCRIPTION:Release date from Magic: The Gathering. Time is a 9:00 AM PT pl
+ aceholder\; verify the exact drop time before release.\nDrop link: https://
+ magic.wizards.com/en/products/kamigawa-titanbreach
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://magic.wizards.com/en/products/kamigawa-titanbreach
+END:VEVENT
+BEGIN:VEVENT
 UID:one-piece-trading-card-game-learn-together-luffy-zoro-and-nami-starter-
  deck-set--tcg@card-release-calendar
 DTSTAMP:20261024T043947Z
@@ -797,5 +812,20 @@ CATEGORIES:TCG
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/one-piece-trading-card-game-learn-togethe
  r-luffy-zoro-nami-starter-deck-set-lt-01
+END:VEVENT
+BEGIN:VEVENT
+UID:zhalfir-tcg@card-release-calendar
+DTSTAMP:20261024T043947Z
+DTSTART:20271001T160000Z
+DTEND:20271001T170000Z
+SUMMARY:Zhalfir
+DESCRIPTION:Release date from Magic: The Gathering. Time is a 9:00 AM PT pl
+ aceholder\; verify the exact drop time before release.\nDrop link: https://
+ magic.wizards.com/en/products/zhalfir
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://magic.wizards.com/en/products/zhalfir
 END:VEVENT
 END:VCALENDAR
