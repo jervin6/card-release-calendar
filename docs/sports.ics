@@ -2485,6 +2485,22 @@ URL:https://www.hobbymonitor.com/release/2026-panini-crown-royale-wnba-bask
  etball
 END:VEVENT
 BEGIN:VEVENT
+UID:2025-26-topps-five-star-basketball-sports@card-release-calendar
+DTSTAMP:20261025T113351Z
+DTSTART:20261119T170000Z
+DTEND:20261119T180000Z
+SUMMARY:2025-26 Topps Five Star Basketball
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2025-26-topps-five-star-basketball-hobby-box
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2025-26-topps-five-star-basketball-hobby-
+ box
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-panini-prizm-black-nwsl-soccer-sports@card-release-calendar
 DTSTAMP:20261025T113351Z
 DTSTART:20261120T170000Z

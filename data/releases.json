@@ -5326,6 +5326,35 @@
     ]
   },
   {
+    "id": "2025-26-topps-five-star-basketball-sports",
+    "title": "2025-26 Topps Five Star Basketball",
+    "startsAt": "2026-11-19T09:00:00-08:00",
+    "endsAt": "2026-11-19T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-five-star-basketball-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-five-star-basketball-hobby-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-one-piece-op-18-the-dominance-of-god-tcg",
     "title": "2026 One Piece OP-18: The Dominance of God",
     "startsAt": "2026-11-20T09:00:00-08:00",
