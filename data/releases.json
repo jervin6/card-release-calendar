@@ -3948,34 +3948,6 @@
     ]
   },
   {
-    "id": "2026-panini-absolute-football-kaboom-countdown-calendar-sports",
-    "title": "2026 Panini Absolute Football KABOOM! Countdown Calendar",
-    "startsAt": "2026-10-28T09:00:00-07:00",
-    "endsAt": "2026-10-28T10:00:00-07:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-panini-crown-royale-nwsl-soccer-sports",
     "title": "2026 Panini Crown Royale NWSL Soccer",
     "startsAt": "2026-10-28T09:00:00-07:00",
@@ -4465,34 +4437,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/pokemon-halloween-gengar-enhanced-2-pack-blister",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2025-26-panini-national-treasures-fifa-road-to-world-cup-soccer-sports",
-    "title": "2025/26 Panini National Treasures FIFA Road to World Cup Soccer",
-    "startsAt": "2026-11-04T09:00:00-08:00",
-    "endsAt": "2026-11-04T10:00:00-08:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/202526-panini-national-treasures-road-to-world-cup-soccer-checklist",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/202526-panini-national-treasures-road-to-world-cup-soccer-checklist",
         "priority": 70
       }
     ]
@@ -5067,6 +5011,34 @@
     ]
   },
   {
+    "id": "2026-panini-absolute-football-kaboom-countdown-calendar-sports",
+    "title": "2026 Panini Absolute Football KABOOM! Countdown Calendar",
+    "startsAt": "2026-11-13T09:00:00-08:00",
+    "endsAt": "2026-11-13T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-absolute-football-kaboom-countdown-calendar",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-topps-royalty-tennis-sports",
     "title": "2026 Topps Royalty Tennis",
     "startsAt": "2026-11-13T09:00:00-08:00",
@@ -5298,6 +5270,34 @@
     ]
   },
   {
+    "id": "2026-topps-finest-formula-1-racing-sports",
+    "title": "2026 Topps Finest Formula 1 Racing",
+    "startsAt": "2026-11-19T09:00:00-08:00",
+    "endsAt": "2026-11-19T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-topps-finest-formula-1-racing-checklist",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Formula 1"
+    ],
+    "category": "sports",
+    "sport": "Formula 1",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-finest-formula-1-racing-checklist",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2025-26-topps-five-star-basketball-sports",
     "title": "2025-26 Topps Five Star Basketball",
     "startsAt": "2026-11-19T09:00:00-08:00",
@@ -5412,6 +5412,34 @@
     ]
   },
   {
+    "id": "2025-26-panini-national-treasures-fifa-road-to-world-cup-soccer-sports",
+    "title": "2025/26 Panini National Treasures FIFA Road to World Cup Soccer",
+    "startsAt": "2026-11-25T09:00:00-08:00",
+    "endsAt": "2026-11-25T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/202526-panini-national-treasures-road-to-world-cup-soccer-checklist",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/202526-panini-national-treasures-road-to-world-cup-soccer-checklist",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-panini-mangaverse-football-sports",
     "title": "2026 Panini Mangaverse Football",
     "startsAt": "2026-11-25T09:00:00-08:00",
@@ -5463,6 +5491,34 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-topps-gilded-collection-baseball-checklist",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2025-26-topps-stadium-club-basketball-sports",
+    "title": "2025/26 Topps Stadium Club Basketball",
+    "startsAt": "2026-11-25T09:00:00-08:00",
+    "endsAt": "2026-11-25T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2025-26-topps-stadium-club-basketball-checklist",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2025-26-topps-stadium-club-basketball-checklist",
         "priority": 70
       }
     ]
