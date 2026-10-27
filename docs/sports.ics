@@ -2115,22 +2115,6 @@ TRANSP:TRANSPARENT
 URL:https://topps.com/pages/bowman-u-best-football
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-topps-black-and-white-mls-sports@card-release-calendar
-DTSTAMP:20261026T130726Z
-DTSTART:20261103T170000Z
-DTEND:20261103T180000Z
-SUMMARY:2026 Topps Black & White MLS
-DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
- er\; verify the exact drop time before release.\nDrop link: https://www.hob
- bymonitor.com/release/2026-topps-black-white-mls-checklist
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.hobbymonitor.com/release/2026-topps-black-white-mls-checkli
- st
-END:VEVENT
-BEGIN:VEVENT
 UID:2025-26-panini-national-treasures-fifa-road-to-world-cup-soccer-sports@
  card-release-calendar
 DTSTAMP:20261026T130726Z
@@ -2531,6 +2515,37 @@ CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/2026-panini-mangaverse-football-ch
  ecklist
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-topps-gilded-collection-baseball-sports@card-release-calendar
+DTSTAMP:20261026T130726Z
+DTSTART:20261125T170000Z
+DTEND:20261125T180000Z
+SUMMARY:2026 Topps Gilded Collection Baseball
+DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
+ er\; verify the exact drop time before release.\nDrop link: https://www.hob
+ bymonitor.com/release/2026-topps-gilded-collection-baseball-checklist
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.hobbymonitor.com/release/2026-topps-gilded-collection-baseb
+ all-checklist
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-panini-select-wnba-basketball-sports@card-release-calendar
+DTSTAMP:20261026T130726Z
+DTSTART:20261125T170000Z
+DTEND:20261125T180000Z
+SUMMARY:2026 Panini Select WNBA Basketball
+DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
+ er\; verify the exact drop time before release.\nDrop link: https://www.hob
+ bymonitor.com/release/2026-panini-select-wnba-basketball
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.hobbymonitor.com/release/2026-panini-select-wnba-basketball
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-mega-box-football-sports@card-release-calendar

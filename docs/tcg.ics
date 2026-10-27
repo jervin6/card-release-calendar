@@ -702,22 +702,6 @@ URL:https://www.waxstat.com/boxes/pokemon-mega-greninja-ex-league-battle-de
  ck-box
 END:VEVENT
 BEGIN:VEVENT
-UID:2025-26-topps-chrome-marvel-studios-tcg@card-release-calendar
-DTSTAMP:20261026T130726Z
-DTSTART:20261223T170000Z
-DTEND:20261223T180000Z
-SUMMARY:2025-26 Topps Chrome Marvel Studios
-DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
- \; verify the exact drop time before release.\nDrop link: https://www.waxst
- at.com/boxes/2025-26-topps-chrome-marvel-studios-blaster-box
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:TCG
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/boxes/2025-26-topps-chrome-marvel-studios-blast
- er-box
-END:VEVENT
-BEGIN:VEVENT
 UID:yu-gi-oh-immortal-phoenix-core-tcg@card-release-calendar
 DTSTAMP:20261026T130726Z
 DTSTART:20270129T170000Z
