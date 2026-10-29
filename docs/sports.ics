@@ -1868,7 +1868,9 @@ DTEND:20261028T170000Z
 SUMMARY:2026 Topps Chrome Tennis Sapphire Edition
 DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
  \; verify the exact drop time before release.\nDrop link: https://www.waxst
- at.com/boxes/2026-topps-chrome-tennis-sapphire-edition-box
+ at.com/boxes/2026-topps-chrome-tennis-sapphire-edition-box\nAlso sourced fr
+ om: Hobby Monitor - https://www.hobbymonitor.com/release/2026-topps-chrome-
+ sapphire-tennis-checklist
 STATUS:TENTATIVE
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
@@ -1934,32 +1936,12 @@ DTEND:20261029T170000Z
 SUMMARY:2026 Bowman Football Sapphire Edition
 DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
  \; verify the exact drop time before release.\nDrop link: https://www.waxst
- at.com/boxes/2026-bowman-football-sapphire-edition-box\nAlso sourced from: 
- Hobby Monitor - https://www.hobbymonitor.com/release/2026-bowman-sapphire-f
- ootball-checklist
+ at.com/boxes/2026-bowman-football-sapphire-edition-box
 STATUS:TENTATIVE
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/2026-bowman-football-sapphire-edition-box
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-topps-chrome-logofractor-formula-1-racing-sports@card-release-cale
- ndar
-DTSTAMP:20261028T054526Z
-DTSTART:20261029T160000Z
-DTEND:20261029T170000Z
-SUMMARY:2026 Topps Chrome Logofractor Formula 1 Racing
-DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
- er\; verify the exact drop time before release.\nDrop link: https://www.hob
- bymonitor.com/release/2026-topps-chrome-logofractor-formula-1-racing-checkl
- ist
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.hobbymonitor.com/release/2026-topps-chrome-logofractor-form
- ula-1-racing-checklist
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-baseball-team-samurai-japan-sports@card-release-calen
@@ -1979,6 +1961,22 @@ CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/2026-topps-chrome-baseball-team-samurai-j
  apan-collection-box
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-panini-crown-royale-nwsl-soccer-sports@card-release-calendar
+DTSTAMP:20261028T054526Z
+DTSTART:20261030T160000Z
+DTEND:20261030T170000Z
+SUMMARY:2026 Panini Crown Royale NWSL Soccer
+DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
+ er\; verify the exact drop time before release.\nDrop link: https://www.hob
+ bymonitor.com/release/2026-panini-crown-royale-nwsl-soccer
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.hobbymonitor.com/release/2026-panini-crown-royale-nwsl-socc
+ er
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-bowman-university-best-football-sports@card-release-calendar
@@ -2600,7 +2598,9 @@ DTEND:20270107T180000Z
 SUMMARY:2026 Topps Allen & Ginter X Baseball
 DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
  \; verify the exact drop time before release.\nDrop link: https://www.waxst
- at.com/boxes/2026-topps-allen-ginter-x-baseball-hobby-box
+ at.com/boxes/2026-topps-allen-ginter-x-baseball-hobby-box\nAlso sourced fro
+ m: Hobby Monitor - https://www.hobbymonitor.com/release/2026-topps-allen-gi
+ nter-x-baseball-checklist
 STATUS:TENTATIVE
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
