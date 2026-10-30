@@ -2577,6 +2577,25 @@ URL:https://www.waxstat.com/boxes/pokemon-halloween-gengar-enhanced-2-pack-
  blister
 END:VEVENT
 BEGIN:VEVENT
+UID:disney-lorcana-trading-card-game-the-great-hunny-rescue-illumineer-s-qu
+ est-tcg@card-release-calendar
+DTSTAMP:20261029T130524Z
+DTSTART:20261031T160000Z
+DTEND:20261031T170000Z
+SUMMARY:Disney Lorcana Trading Card Game The Great Hunny Rescue Illumineer'
+ s Quest
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/disney-lorcana-trading-card-game-the-great-hunny-rescue-illumi
+ neer-s-quest
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/disney-lorcana-trading-card-game-the-grea
+ t-hunny-rescue-illumineer-s-quest
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-panini-impeccable-wnba-sports@card-release-calendar
 DTSTAMP:20261029T130524Z
 DTSTART:20261104T170000Z
@@ -3505,6 +3524,21 @@ URL:https://www.waxstat.com/boxes/2026-27-topps-cosmic-chrome-basketball-ho
  bby-box
 END:VEVENT
 BEGIN:VEVENT
+UID:kamigawa-titanbreach-tcg@card-release-calendar
+DTSTAMP:20261029T130524Z
+DTSTART:20270604T160000Z
+DTEND:20270604T170000Z
+SUMMARY:Kamigawa: Titanbreach
+DESCRIPTION:Release date from Magic: The Gathering. Time is a 9:00 AM PT pl
+ aceholder\; verify the exact drop time before release.\nDrop link: https://
+ magic.wizards.com/en/products/kamigawa-titanbreach
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://magic.wizards.com/en/products/kamigawa-titanbreach
+END:VEVENT
+BEGIN:VEVENT
 UID:2025-26-topps-inception-uefa-club-competitions-soccer-sports@card-relea
  se-calendar
 DTSTAMP:20261029T130524Z
@@ -3541,5 +3575,20 @@ CATEGORIES:TCG
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/one-piece-trading-card-game-learn-togethe
  r-luffy-zoro-nami-starter-deck-set-lt-01
+END:VEVENT
+BEGIN:VEVENT
+UID:zhalfir-tcg@card-release-calendar
+DTSTAMP:20261029T130524Z
+DTSTART:20271001T160000Z
+DTEND:20271001T170000Z
+SUMMARY:Zhalfir
+DESCRIPTION:Release date from Magic: The Gathering. Time is a 9:00 AM PT pl
+ aceholder\; verify the exact drop time before release.\nDrop link: https://
+ magic.wizards.com/en/products/zhalfir
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://magic.wizards.com/en/products/zhalfir
 END:VEVENT
 END:VCALENDAR
