@@ -5190,6 +5190,12 @@
     "managedBy": "release-sync",
     "sources": [
       {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2025-26-topps-five-star-basketball",
+        "priority": 70
+      },
+      {
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2025-26-topps-five-star-basketball-hobby-box",
@@ -5604,6 +5610,34 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/pokemon-mega-greninja-ex-league-battle-deck-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-immaculate-football-sports",
+    "title": "2026 Panini Immaculate Football",
+    "startsAt": "2026-12-18T09:00:00-08:00",
+    "endsAt": "2026-12-18T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-immaculate-football",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-immaculate-football",
         "priority": 70
       }
     ]

@@ -2422,7 +2422,9 @@ DTEND:20261119T180000Z
 SUMMARY:2025-26 Topps Five Star Basketball
 DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
  \; verify the exact drop time before release.\nDrop link: https://www.waxst
- at.com/boxes/2025-26-topps-five-star-basketball-hobby-box
+ at.com/boxes/2025-26-topps-five-star-basketball-hobby-box\nAlso sourced fro
+ m: Hobby Monitor - https://www.hobbymonitor.com/release/2025-26-topps-five-
+ star-basketball
 STATUS:TENTATIVE
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
@@ -2561,6 +2563,21 @@ LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-panini-immaculate-football-sports@card-release-calendar
+DTSTAMP:20261031T123533Z
+DTSTART:20261218T170000Z
+DTEND:20261218T180000Z
+SUMMARY:2026 Panini Immaculate Football
+DESCRIPTION:Release date from Hobby Monitor. Time is a 9:00 AM PT placehold
+ er\; verify the exact drop time before release.\nDrop link: https://www.hob
+ bymonitor.com/release/2026-panini-immaculate-football
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.hobbymonitor.com/release/2026-panini-immaculate-football
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-flawless-fifa-world-cup-soccer-sports@card-release-calendar
