@@ -4588,6 +4588,35 @@
     ]
   },
   {
+    "id": "2026-27-topps-basketball-blaster-box-blackout-parallels-sports",
+    "title": "2026-27 Topps Basketball Blaster Box (Blackout Parallels)",
+    "startsAt": "2026-11-05T09:00:00-08:00",
+    "endsAt": "2026-11-05T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-27-topps-basketball-blaster-box-blackout-parallels",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-27-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-27-topps-basketball-blaster-box-blackout-parallels",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "pokemon-mega-evolution-delta-reign-tcg",
     "title": "Pokemon Mega Evolution Delta Reign",
     "startsAt": "2026-11-06T09:00:00-08:00",
@@ -5438,6 +5467,35 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-select-wnba-basketball",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-chrome-update-series-baseball-sports",
+    "title": "2026 Topps Chrome Update Series Baseball",
+    "startsAt": "2026-11-27T09:00:00-08:00",
+    "endsAt": "2026-11-27T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-chrome-update-series-baseball-jumbo-hobby-box-first-day-issue-fdi",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-update-series-baseball-jumbo-hobby-box-first-day-issue-fdi",
         "priority": 70
       }
     ]

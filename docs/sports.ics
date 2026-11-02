@@ -2178,6 +2178,23 @@ TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/2026-27-topps-basketball-blaster-box
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-27-topps-basketball-blaster-box-blackout-parallels-sports@card-rel
+ ease-calendar
+DTSTAMP:20261101T132808Z
+DTSTART:20261105T170000Z
+DTEND:20261105T180000Z
+SUMMARY:2026-27 Topps Basketball Blaster Box (Blackout Parallels)
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-27-topps-basketball-blaster-box-blackout-parallels
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2026-27-topps-basketball-blaster-box-blac
+ kout-parallels
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-topps-inception-football-sports@card-release-calendar
 DTSTAMP:20261101T132808Z
 DTSTART:20261106T170000Z
@@ -2532,6 +2549,23 @@ LOCATION:Online
 CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/2026-panini-select-wnba-basketball
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-topps-chrome-update-series-baseball-sports@card-release-calendar
+DTSTAMP:20261101T132808Z
+DTSTART:20261127T170000Z
+DTEND:20261127T180000Z
+SUMMARY:2026 Topps Chrome Update Series Baseball
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-topps-chrome-update-series-baseball-jumbo-hobby-box-first
+ -day-issue-fdi
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2026-topps-chrome-update-series-baseball-
+ jumbo-hobby-box-first-day-issue-fdi
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-chrome-mega-box-football-sports@card-release-calendar
