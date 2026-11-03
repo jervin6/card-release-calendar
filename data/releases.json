@@ -5002,6 +5002,34 @@
     ]
   },
   {
+    "id": "magic-the-gathering-star-trek-tcg",
+    "title": "Magic: The Gathering | Star Trek",
+    "startsAt": "2026-11-13T09:00:00-08:00",
+    "endsAt": "2026-11-13T10:00:00-08:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/star-trek",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/star-trek",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "yu-gi-oh-magnificent-maestros-tcg",
     "title": "Yu-Gi-Oh! Magnificent Maestros",
     "startsAt": "2026-11-13T09:00:00-08:00",
@@ -5027,34 +5055,6 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-maestros-10-box-display",
         "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "magic-the-gathering-star-trek-tcg",
-    "title": "Magic: The Gathering | Star Trek",
-    "startsAt": "2026-11-13T09:00:00-08:00",
-    "endsAt": "2026-11-13T10:00:00-08:00",
-    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Magic: The Gathering",
-    "sourceUrl": "https://magic.wizards.com/en/products/star-trek",
-    "sourceId": "magic-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Magic: The Gathering"
-    ],
-    "category": "tcg",
-    "game": "Magic: The Gathering",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "magic-official",
-        "name": "Magic: The Gathering",
-        "url": "https://magic.wizards.com/en/products/star-trek",
-        "priority": 100
       }
     ]
   },
@@ -6255,6 +6255,34 @@
     ]
   },
   {
+    "id": "kamigawa-titanbreach-tcg",
+    "title": "Kamigawa: Titanbreach",
+    "startsAt": "2027-06-04T09:00:00-07:00",
+    "endsAt": "2027-06-04T10:00:00-07:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/kamigawa-titanbreach",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/kamigawa-titanbreach",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2025-26-topps-inception-uefa-club-competitions-soccer-sports",
     "title": "2025-26 Topps Inception UEFA Club Competitions Soccer",
     "startsAt": "2027-07-17T09:00:00-07:00",
@@ -6309,6 +6337,34 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/one-piece-trading-card-game-learn-together-luffy-zoro-nami-starter-deck-set-lt-01",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "zhalfir-tcg",
+    "title": "Zhalfir",
+    "startsAt": "2027-10-01T09:00:00-07:00",
+    "endsAt": "2027-10-01T10:00:00-07:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/zhalfir",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/zhalfir",
+        "priority": 100
       }
     ]
   }
