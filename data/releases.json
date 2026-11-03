@@ -5002,6 +5002,35 @@
     ]
   },
   {
+    "id": "yu-gi-oh-magnificent-maestros-tcg",
+    "title": "Yu-Gi-Oh! Magnificent Maestros",
+    "startsAt": "2026-11-13T09:00:00-08:00",
+    "endsAt": "2026-11-13T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-maestros-10-box-display",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar",
+    "sourceId": "waxstat:2026-yu-gi-oh-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Yu-Gi-Oh!"
+    ],
+    "category": "tcg",
+    "game": "Yu-Gi-Oh!",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-maestros-10-box-display",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "magic-the-gathering-star-trek-tcg",
     "title": "Magic: The Gathering | Star Trek",
     "startsAt": "2026-11-13T09:00:00-08:00",
@@ -5472,6 +5501,35 @@
     ]
   },
   {
+    "id": "2025-26-topps-stadium-club-basketball-members-only-sports",
+    "title": "2025-26 Topps Stadium Club Basketball Members Only",
+    "startsAt": "2026-11-25T09:00:00-08:00",
+    "endsAt": "2026-11-25T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-basketball-members-only-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-basketball-members-only-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-topps-chrome-update-series-baseball-sports",
     "title": "2026 Topps Chrome Update Series Baseball",
     "startsAt": "2026-11-27T09:00:00-08:00",
@@ -5851,6 +5909,35 @@
     ]
   },
   {
+    "id": "2027-pokemon-valentine-s-day-tcg",
+    "title": "2027 Pokemon Valentine's Day",
+    "startsAt": "2027-01-15T09:00:00-08:00",
+    "endsAt": "2027-01-15T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2027-pokemon-valentine-s-day-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2027-pokemon-cards-release-calendar",
+    "sourceId": "waxstat:2027-pokemon-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2027-pokemon-valentine-s-day-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-27-topps-midnight-basketball-sports",
     "title": "2026-27 Topps Midnight Basketball",
     "startsAt": "2027-01-29T09:00:00-08:00",
@@ -6048,6 +6135,35 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2027-topps-heritage-baseball-blaster-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "yu-gi-oh-maze-of-machines-tcg",
+    "title": "Yu-Gi-Oh! Maze of Machines",
+    "startsAt": "2027-03-19T09:00:00-07:00",
+    "endsAt": "2027-03-19T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/yu-gi-oh-maze-of-machines-booster-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2027-yu-gi-oh-cards-release-calendar",
+    "sourceId": "waxstat:2027-yu-gi-oh-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Yu-Gi-Oh!"
+    ],
+    "category": "tcg",
+    "game": "Yu-Gi-Oh!",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/yu-gi-oh-maze-of-machines-booster-box",
         "priority": 70
       }
     ]
