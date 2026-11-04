@@ -4306,34 +4306,6 @@
     ]
   },
   {
-    "id": "2026-panini-impeccable-wnba-sports",
-    "title": "2026 Panini Impeccable WNBA",
-    "startsAt": "2026-11-04T09:00:00-08:00",
-    "endsAt": "2026-11-04T10:00:00-08:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Basketball"
-    ],
-    "category": "sports",
-    "sport": "Basketball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-impeccable-wnba",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-topps-cosmic-chrome-baseball-sports",
     "title": "2026 Topps Cosmic Chrome® Baseball",
     "startsAt": "2026-11-04T09:00:00-08:00",
@@ -4395,43 +4367,9 @@
     "managedBy": "release-sync",
     "sources": [
       {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2025-26-topps-stadium-club-chrome-uefa-champions-league-soccer-checklist",
-        "priority": 70
-      },
-      {
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-chrome-uefa-champions-league-soccer-blaster-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-heritage-mega-box-football-sports",
-    "title": "2026 Topps Heritage Mega Box Football",
-    "startsAt": "2026-11-04T09:00:00-08:00",
-    "endsAt": "2026-11-04T10:00:00-08:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-topps-heritage-mega-box-football-checklist",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-heritage-mega-box-football-checklist",
         "priority": 70
       }
     ]
@@ -4846,6 +4784,63 @@
     ]
   },
   {
+    "id": "2026-27-topps-mega-basketball-sports",
+    "title": "2026/27 Topps Mega Basketball",
+    "startsAt": "2026-11-12T09:00:00-08:00",
+    "endsAt": "2026-11-12T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-27-topps-mega-basketball",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-27-topps-mega-basketball",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-chrome-f1-formula-1-sapphire-edition-sports",
+    "title": "2026 Topps Chrome F1 Formula 1 Sapphire Edition",
+    "startsAt": "2026-11-12T09:00:00-08:00",
+    "endsAt": "2026-11-12T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-chrome-f1-formula-1-sapphire-edition-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Formula 1"
+    ],
+    "category": "sports",
+    "sport": "Formula 1",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-f1-formula-1-sapphire-edition-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-27-topps-bundesliga-soccer-sports",
     "title": "2026-27 Topps Bundesliga Soccer",
     "startsAt": "2026-11-12T09:00:00-08:00",
@@ -5054,6 +5049,41 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-maestros-10-box-display",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2025-26-topps-x-bob-ross-the-joy-of-basketball-sports",
+    "title": "2025-26 Topps X Bob Ross \"The Joy of Basketball\"",
+    "startsAt": "2026-11-16T09:00:00-08:00",
+    "endsAt": "2026-11-16T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-x-bob-ross-the-joy-of-basketball-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-x-bob-ross-the-joy-of-basketball-checklist",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-x-bob-ross-the-joy-of-basketball-hobby-box",
         "priority": 70
       }
     ]
@@ -5551,9 +5581,44 @@
     "managedBy": "release-sync",
     "sources": [
       {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-chrome-update-series-baseball-checklist",
+        "priority": 70
+      },
+      {
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-chrome-update-series-baseball-jumbo-hobby-box-first-day-issue-fdi",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "one-piece-trading-card-game-volume-3-tin-ts-03-tcg",
+    "title": "One Piece Trading Card Game Volume 3 Tin TS-03",
+    "startsAt": "2026-11-30T09:00:00-08:00",
+    "endsAt": "2026-11-30T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/one-piece-trading-card-game-volume-3-tin-ts-03-english",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-other-cards-release-calendar",
+    "sourceId": "waxstat:2026-other-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "One Piece"
+    ],
+    "category": "tcg",
+    "game": "One Piece",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/one-piece-trading-card-game-volume-3-tin-ts-03-english",
         "priority": 70
       }
     ]
@@ -5582,6 +5647,98 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-topps-chrome-mega-box-football-checklist",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2025-26-topps-merlin-uefa-club-competitions-soccer-sports",
+    "title": "2025/26 Topps Merlin UEFA Club Competitions Soccer",
+    "startsAt": "2026-12-03T09:00:00-08:00",
+    "endsAt": "2026-12-03T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2025-26-topps-merlin-uefa-club-competitions-soccer",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2025-26-topps-merlin-uefa-club-competitions-soccer",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2025-26-topps-uefa-champions-league-merlin-chrome-soccer-sports",
+    "title": "2025-26 Topps UEFA Champions League Merlin Chrome Soccer",
+    "startsAt": "2026-12-03T09:00:00-08:00",
+    "endsAt": "2026-12-03T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-delight-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-delight-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-bowman-university-signature-football-sports",
+    "title": "2026 Bowman University Signature Football",
+    "startsAt": "2026-12-04T09:00:00-08:00",
+    "endsAt": "2026-12-04T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-bowman-university-signature-football-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-bowman-university-signature-football",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-university-signature-football-hobby-box",
         "priority": 70
       }
     ]
@@ -6255,34 +6412,6 @@
     ]
   },
   {
-    "id": "kamigawa-titanbreach-tcg",
-    "title": "Kamigawa: Titanbreach",
-    "startsAt": "2027-06-04T09:00:00-07:00",
-    "endsAt": "2027-06-04T10:00:00-07:00",
-    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Magic: The Gathering",
-    "sourceUrl": "https://magic.wizards.com/en/products/kamigawa-titanbreach",
-    "sourceId": "magic-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Magic: The Gathering"
-    ],
-    "category": "tcg",
-    "game": "Magic: The Gathering",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "magic-official",
-        "name": "Magic: The Gathering",
-        "url": "https://magic.wizards.com/en/products/kamigawa-titanbreach",
-        "priority": 100
-      }
-    ]
-  },
-  {
     "id": "2025-26-topps-inception-uefa-club-competitions-soccer-sports",
     "title": "2025-26 Topps Inception UEFA Club Competitions Soccer",
     "startsAt": "2027-07-17T09:00:00-07:00",
@@ -6337,34 +6466,6 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/one-piece-trading-card-game-learn-together-luffy-zoro-nami-starter-deck-set-lt-01",
         "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "zhalfir-tcg",
-    "title": "Zhalfir",
-    "startsAt": "2027-10-01T09:00:00-07:00",
-    "endsAt": "2027-10-01T10:00:00-07:00",
-    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Magic: The Gathering",
-    "sourceUrl": "https://magic.wizards.com/en/products/zhalfir",
-    "sourceId": "magic-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Magic: The Gathering"
-    ],
-    "category": "tcg",
-    "game": "Magic: The Gathering",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "magic-official",
-        "name": "Magic: The Gathering",
-        "url": "https://magic.wizards.com/en/products/zhalfir",
-        "priority": 100
       }
     ]
   }
