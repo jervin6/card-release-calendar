@@ -2759,6 +2759,23 @@ TRANSP:TRANSPARENT
 URL:https://topps.com/pages/topps-museum-collection-baseball
 END:VEVENT
 BEGIN:VEVENT
+UID:pokemon-30th-celebration-tcg@card-release-calendar
+DTSTAMP:20261106T192643Z
+DTSTART:20261111T170000Z
+DTEND:20261111T180000Z
+SUMMARY:Pokemon 30th Celebration
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/pokemon-30th-celebration-mew-and-mewtwo-figure-collection-2-bo
+ x-lot
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/pokemon-30th-celebration-mew-and-mewtwo-f
+ igure-collection-2-box-lot
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-topps-chrome-sapphire-formula-1-racing-sports@card-release-calenda
  r
 DTSTAMP:20261106T192643Z
