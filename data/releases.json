@@ -4732,6 +4732,41 @@
     ]
   },
   {
+    "id": "pokemon-mega-evolution-delta-reign-tcg",
+    "title": "Pokemon Mega Evolution Delta Reign",
+    "startsAt": "2026-11-11T09:00:00-08:00",
+    "endsAt": "2026-11-11T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-evolution-delta-reign-blister-pack-144-pack-case",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-pokemon-mega-evolution-delta-reign",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/pokemon-mega-evolution-delta-reign-3-pack-blister-pack-24-pack-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "pokemon-30th-celebration-tcg",
     "title": "Pokemon 30th Celebration",
     "startsAt": "2026-11-11T09:00:00-08:00",
@@ -4756,35 +4791,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/pokemon-30th-celebration-mew-and-mewtwo-figure-collection-2-box-lot",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "pokemon-mega-evolution-delta-reign-tcg",
-    "title": "Pokemon Mega Evolution Delta Reign",
-    "startsAt": "2026-11-11T09:00:00-08:00",
-    "endsAt": "2026-11-11T10:00:00-08:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-evolution-delta-reign-blister-pack-144-pack-case",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
-    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "TCG",
-      "Pokemon"
-    ],
-    "category": "tcg",
-    "game": "Pokemon",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/pokemon-mega-evolution-delta-reign-3-pack-blister-pack-24-pack-box",
         "priority": 70
       }
     ]
@@ -5103,6 +5109,41 @@
     ]
   },
   {
+    "id": "yu-gi-oh-magnificent-maestros-tcg",
+    "title": "Yu-Gi-Oh! Magnificent Maestros",
+    "startsAt": "2026-11-13T09:00:00-08:00",
+    "endsAt": "2026-11-13T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-maestros-10-box-display",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar",
+    "sourceId": "waxstat:2026-yu-gi-oh-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Yu-Gi-Oh!"
+    ],
+    "category": "tcg",
+    "game": "Yu-Gi-Oh!",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-yu-gi-oh-magnificent-maestros",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-maestros-10-box-display",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "magic-the-gathering-star-trek-tcg",
     "title": "Magic: The Gathering | Star Trek",
     "startsAt": "2026-11-13T09:00:00-08:00",
@@ -5127,35 +5168,6 @@
         "name": "Magic: The Gathering",
         "url": "https://magic.wizards.com/en/products/star-trek",
         "priority": 100
-      }
-    ]
-  },
-  {
-    "id": "yu-gi-oh-magnificent-maestros-tcg",
-    "title": "Yu-Gi-Oh! Magnificent Maestros",
-    "startsAt": "2026-11-13T09:00:00-08:00",
-    "endsAt": "2026-11-13T10:00:00-08:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-maestros-10-box-display",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar",
-    "sourceId": "waxstat:2026-yu-gi-oh-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "TCG",
-      "Yu-Gi-Oh!"
-    ],
-    "category": "tcg",
-    "game": "Yu-Gi-Oh!",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-maestros-10-box-display",
-        "priority": 70
       }
     ]
   },
@@ -6621,6 +6633,34 @@
     ]
   },
   {
+    "id": "2027-disney-lorcana-into-the-inkdark-tcg",
+    "title": "2027 Disney Lorcana: Into the Inkdark",
+    "startsAt": "2027-02-12T09:00:00-08:00",
+    "endsAt": "2027-02-12T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2027-disney-lorcana-into-the-inkdark",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Disney Lorcana"
+    ],
+    "category": "tcg",
+    "game": "Disney Lorcana",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2027-disney-lorcana-into-the-inkdark",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-27-topps-finest-basketball-sports",
     "title": "2026-27 Topps Finest Basketball",
     "startsAt": "2027-03-05T09:00:00-08:00",
@@ -6823,6 +6863,34 @@
     ]
   },
   {
+    "id": "kamigawa-titanbreach-tcg",
+    "title": "Kamigawa: Titanbreach",
+    "startsAt": "2027-06-04T09:00:00-07:00",
+    "endsAt": "2027-06-04T10:00:00-07:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/kamigawa-titanbreach",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/kamigawa-titanbreach",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2025-26-topps-inception-uefa-club-competitions-soccer-sports",
     "title": "2025-26 Topps Inception UEFA Club Competitions Soccer",
     "startsAt": "2027-07-17T09:00:00-07:00",
@@ -6877,6 +6945,34 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/one-piece-trading-card-game-learn-together-luffy-zoro-nami-starter-deck-set-lt-01",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "zhalfir-tcg",
+    "title": "Zhalfir",
+    "startsAt": "2027-10-01T09:00:00-07:00",
+    "endsAt": "2027-10-01T10:00:00-07:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/zhalfir",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/zhalfir",
+        "priority": 100
       }
     ]
   }
