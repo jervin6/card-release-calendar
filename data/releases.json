@@ -4862,12 +4862,6 @@
         "priority": 100
       },
       {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-museum-collection-baseball",
-        "priority": 70
-      },
-      {
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-museum-collection-baseball-hobby-box",
@@ -5994,7 +5988,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-delight-box",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-blaster-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
     "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -6009,7 +6003,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-delight-box",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-blaster-box",
         "priority": 70
       }
     ]
@@ -6228,6 +6222,34 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-chrome-update-series-baseball-breaker-s-delight-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-27-topps-nba-hoops-basketball-sports",
+    "title": "2026/27 Topps NBA Hoops Basketball",
+    "startsAt": "2026-12-10T09:00:00-08:00",
+    "endsAt": "2026-12-10T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-27-topps-nba-hoops-basketball",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-27-topps-nba-hoops-basketball",
         "priority": 70
       }
     ]
@@ -6656,6 +6678,64 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2027-disney-lorcana-into-the-inkdark",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "pokemon-mega-rayquaza-ex-premium-tournament-tcg",
+    "title": "Pokemon Mega Rayquaza ex Premium Tournament",
+    "startsAt": "2027-02-12T09:00:00-08:00",
+    "endsAt": "2027-02-12T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-mega-rayquaza-ex-premium-tournament-collection-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/pokemon-mega-rayquaza-ex-premium-tournament-collection-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "yu-gi-oh-hero-force-tcg",
+    "title": "Yu-Gi-Oh! Hero Force",
+    "startsAt": "2027-02-26T09:00:00-08:00",
+    "endsAt": "2027-02-26T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/yu-gi-oh-hero-force-structure-deck-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar",
+    "sourceId": "waxstat:2026-yu-gi-oh-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Yu-Gi-Oh!"
+    ],
+    "category": "tcg",
+    "game": "Yu-Gi-Oh!",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/yu-gi-oh-hero-force-structure-deck-box",
         "priority": 70
       }
     ]
