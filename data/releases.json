@@ -5988,7 +5988,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-blaster-box",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-delight-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
     "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -6003,7 +6003,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-blaster-box",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-delight-box",
         "priority": 70
       }
     ]
