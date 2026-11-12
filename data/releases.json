@@ -5952,6 +5952,35 @@
     ]
   },
   {
+    "id": "2025-26-topps-true-soccer-bundesliga-sports",
+    "title": "2025-26 Topps True Soccer Bundesliga",
+    "startsAt": "2026-12-02T09:00:00-08:00",
+    "endsAt": "2026-12-02T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-true-soccer-bundesliga-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-true-soccer-bundesliga-hobby-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2025-26-topps-merlin-uefa-club-competitions-soccer-sports",
     "title": "2025/26 Topps Merlin UEFA Club Competitions Soccer",
     "startsAt": "2026-12-03T09:00:00-08:00",
@@ -5988,7 +6017,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-delight-box",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-hobby-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
     "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -6003,7 +6032,36 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-delight-box",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-chrome-soccer-hobby-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2025-26-topps-uefa-champions-league-merlin-soccer-sports",
+    "title": "2025-26 Topps UEFA Champions League Merlin Soccer",
+    "startsAt": "2026-12-03T09:00:00-08:00",
+    "endsAt": "2026-12-03T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-soccer-delight-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merlin-soccer-delight-box",
         "priority": 70
       }
     ]
@@ -6067,6 +6125,35 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-27-panini-donruss-elite-road-to-womens-world-cup-soccer",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "pokemon-30th-celebration-tcg",
+    "title": "Pokemon 30th Celebration",
+    "startsAt": "2026-12-04T09:00:00-08:00",
+    "endsAt": "2026-12-04T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/pokemon-30th-celebration-binder-collection-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-pokemon-cards-release-calendar",
+    "sourceId": "waxstat:2026-pokemon-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "TCG",
+      "Pokemon"
+    ],
+    "category": "tcg",
+    "game": "Pokemon",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/pokemon-30th-celebration-binder-collection-box",
         "priority": 70
       }
     ]
@@ -6263,7 +6350,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-stadium-club-football-value-box",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-stadium-club-football-hobby-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -6278,7 +6365,36 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-football-value-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-football-hobby-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-stadium-club-football-members-only-sports",
+    "title": "2026 Topps Stadium Club Football Members Only",
+    "startsAt": "2026-12-10T09:00:00-08:00",
+    "endsAt": "2026-12-10T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-stadium-club-football-members-only-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-football-members-only-box",
         "priority": 70
       }
     ]
