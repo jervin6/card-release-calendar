@@ -5111,7 +5111,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-maestros-10-box-display",
+    "sourceUrl": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-maestros-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2026-yu-gi-oh-cards-release-calendar",
     "sourceId": "waxstat:2026-yu-gi-oh-cards-release-calendar",
     "sourcePriority": 70,
@@ -5132,7 +5132,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-maestros-10-box-display",
+        "url": "https://www.waxstat.com/boxes/yu-gi-oh-magnificent-maestros-box",
         "priority": 70
       }
     ]
@@ -6250,6 +6250,35 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-27-topps-nba-hoops-basketball",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-stadium-club-football-sports",
+    "title": "2026 Topps Stadium Club Football",
+    "startsAt": "2026-12-10T09:00:00-08:00",
+    "endsAt": "2026-12-10T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-stadium-club-football-value-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-football-value-box",
         "priority": 70
       }
     ]
