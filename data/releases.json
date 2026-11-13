@@ -6431,7 +6431,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-27-topps-hoops-basketball-hobby-box",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-27-topps-hoops-basketball-hanger-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
     "sourceId": "waxstat:2026-27-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -6446,7 +6446,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-27-topps-hoops-basketball-hobby-box",
+        "url": "https://www.waxstat.com/boxes/2026-27-topps-hoops-basketball-hanger-box",
         "priority": 70
       }
     ]
