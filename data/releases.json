@@ -5758,34 +5758,6 @@
     ]
   },
   {
-    "id": "2026-panini-mangaverse-football-sports",
-    "title": "2026 Panini Mangaverse Football",
-    "startsAt": "2026-11-25T09:00:00-08:00",
-    "endsAt": "2026-11-25T10:00:00-08:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-mangaverse-football-checklist",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-mangaverse-football-checklist",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-topps-gilded-collection-baseball-sports",
     "title": "2026 Topps Gilded Collection Baseball",
     "startsAt": "2026-11-25T09:00:00-08:00",
