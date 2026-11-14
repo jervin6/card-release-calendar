@@ -5480,7 +5480,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-football-jumbo-hobby-box-first-day-issue-fdi",
+        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-football-blaster-box",
         "priority": 70
       }
     ]
@@ -6309,6 +6309,41 @@
     ]
   },
   {
+    "id": "2026-topps-stadium-club-football-sports",
+    "title": "2026 Topps Stadium Club Football",
+    "startsAt": "2026-12-10T09:00:00-08:00",
+    "endsAt": "2026-12-10T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-stadium-club-football-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Football"
+    ],
+    "category": "sports",
+    "sport": "Football",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-stadium-club-football",
+        "priority": 70
+      },
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-football-hobby-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-27-topps-nba-hoops-basketball-sports",
     "title": "2026/27 Topps NBA Hoops Basketball",
     "startsAt": "2026-12-10T09:00:00-08:00",
@@ -6332,35 +6367,6 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-27-topps-nba-hoops-basketball",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-stadium-club-football-sports",
-    "title": "2026 Topps Stadium Club Football",
-    "startsAt": "2026-12-10T09:00:00-08:00",
-    "endsAt": "2026-12-10T10:00:00-08:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-stadium-club-football-hobby-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
-    "sourceId": "waxstat:2026-topps-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-football-hobby-box",
         "priority": 70
       }
     ]
@@ -6560,6 +6566,34 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2026-panini-immaculate-football",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-panini-revolution-europe-edition-soccer-sports",
+    "title": "2026 Panini Revolution Europe Edition Soccer",
+    "startsAt": "2026-12-22T09:00:00-08:00",
+    "endsAt": "2026-12-22T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-revolution-europe-edition-soccer",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-panini-revolution-europe-edition-soccer",
         "priority": 70
       }
     ]
