@@ -5275,6 +5275,34 @@
     ]
   },
   {
+    "id": "2026-27-topps-gold-premier-league-soccer-sports",
+    "title": "2026/27 Topps Gold Premier League Soccer",
+    "startsAt": "2026-11-16T09:00:00-08:00",
+    "endsAt": "2026-11-16T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-27-topps-gold-premier-league-soccer",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Soccer"
+    ],
+    "category": "sports",
+    "sport": "Soccer",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-27-topps-gold-premier-league-soccer",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2025-26-topps-x-bob-ross-the-joy-of-basketball-sports",
     "title": "2025-26 Topps x Bob Ross: The Joy of Basketball",
     "startsAt": "2026-11-16T09:00:00-08:00",
@@ -5310,34 +5338,6 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2025-26-topps-x-bob-ross-the-joy-of-basketball-hobby-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "2026-topps-black-and-white-baseball-sports",
-    "title": "2026 Topps Black and White Baseball",
-    "startsAt": "2026-11-16T09:00:00-08:00",
-    "endsAt": "2026-11-16T10:00:00-08:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-topps-black-and-white-baseball",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Baseball"
-    ],
-    "category": "sports",
-    "sport": "Baseball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-black-and-white-baseball",
         "priority": 70
       }
     ]
@@ -7117,34 +7117,6 @@
     ]
   },
   {
-    "id": "kamigawa-titanbreach-tcg",
-    "title": "Kamigawa: Titanbreach",
-    "startsAt": "2027-06-04T09:00:00-07:00",
-    "endsAt": "2027-06-04T10:00:00-07:00",
-    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Magic: The Gathering",
-    "sourceUrl": "https://magic.wizards.com/en/products/kamigawa-titanbreach",
-    "sourceId": "magic-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Magic: The Gathering"
-    ],
-    "category": "tcg",
-    "game": "Magic: The Gathering",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "magic-official",
-        "name": "Magic: The Gathering",
-        "url": "https://magic.wizards.com/en/products/kamigawa-titanbreach",
-        "priority": 100
-      }
-    ]
-  },
-  {
     "id": "2026-topps-chrome-update-series-baseball-sapphire-edition-sports",
     "title": "2026 Topps Chrome Update Series Baseball Sapphire Edition",
     "startsAt": "2027-06-30T09:00:00-07:00",
@@ -7228,34 +7200,6 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/one-piece-trading-card-game-learn-together-luffy-zoro-nami-starter-deck-set-lt-01",
         "priority": 70
-      }
-    ]
-  },
-  {
-    "id": "zhalfir-tcg",
-    "title": "Zhalfir",
-    "startsAt": "2027-10-01T09:00:00-07:00",
-    "endsAt": "2027-10-01T10:00:00-07:00",
-    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "CONFIRMED",
-    "sourceName": "Magic: The Gathering",
-    "sourceUrl": "https://magic.wizards.com/en/products/zhalfir",
-    "sourceId": "magic-official",
-    "sourcePriority": 100,
-    "tags": [
-      "TCG",
-      "Magic: The Gathering"
-    ],
-    "category": "tcg",
-    "game": "Magic: The Gathering",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "magic-official",
-        "name": "Magic: The Gathering",
-        "url": "https://magic.wizards.com/en/products/zhalfir",
-        "priority": 100
       }
     ]
   }
