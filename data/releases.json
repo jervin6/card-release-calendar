@@ -5806,7 +5806,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-basketball-blaster-box",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-basketball-hobby-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
     "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -5827,7 +5827,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-basketball-blaster-box",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-basketball-hobby-box",
         "priority": 70
       }
     ]
@@ -6664,7 +6664,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-27-topps-uefa-club-competitions-soccer-blaster-box",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-27-topps-uefa-club-competitions-soccer-value-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2026-27-topps-cards-release-calendar",
     "sourceId": "waxstat:2026-27-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -6679,7 +6679,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-27-topps-uefa-club-competitions-soccer-blaster-box",
+        "url": "https://www.waxstat.com/boxes/2026-27-topps-uefa-club-competitions-soccer-value-box",
         "priority": 70
       }
     ]
@@ -6780,7 +6780,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-wwe-universe-blaster-box",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-wwe-universe-value-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -6795,7 +6795,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-wwe-universe-blaster-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-wwe-universe-value-box",
         "priority": 70
       }
     ]
@@ -6981,7 +6981,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2027-topps-heritage-baseball-blaster-box",
+    "sourceUrl": "https://www.waxstat.com/boxes/2027-topps-heritage-baseball-value-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2027-topps-cards-release-calendar",
     "sourceId": "waxstat:2027-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -6996,7 +6996,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2027-topps-heritage-baseball-blaster-box",
+        "url": "https://www.waxstat.com/boxes/2027-topps-heritage-baseball-value-box",
         "priority": 70
       }
     ]
@@ -7117,6 +7117,34 @@
     ]
   },
   {
+    "id": "kamigawa-titanbreach-tcg",
+    "title": "Kamigawa: Titanbreach",
+    "startsAt": "2027-06-04T09:00:00-07:00",
+    "endsAt": "2027-06-04T10:00:00-07:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/kamigawa-titanbreach",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/kamigawa-titanbreach",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-topps-chrome-update-series-baseball-sapphire-edition-sports",
     "title": "2026 Topps Chrome Update Series Baseball Sapphire Edition",
     "startsAt": "2027-06-30T09:00:00-07:00",
@@ -7200,6 +7228,34 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/one-piece-trading-card-game-learn-together-luffy-zoro-nami-starter-deck-set-lt-01",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "zhalfir-tcg",
+    "title": "Zhalfir",
+    "startsAt": "2027-10-01T09:00:00-07:00",
+    "endsAt": "2027-10-01T10:00:00-07:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/zhalfir",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/zhalfir",
+        "priority": 100
       }
     ]
   }
