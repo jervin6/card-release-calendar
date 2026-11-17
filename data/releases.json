@@ -5833,35 +5833,6 @@
     ]
   },
   {
-    "id": "2025-26-topps-stadium-club-basketball-members-only-sports",
-    "title": "2025-26 Topps Stadium Club Basketball Members Only",
-    "startsAt": "2026-11-25T09:00:00-08:00",
-    "endsAt": "2026-11-25T10:00:00-08:00",
-    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-basketball-members-only-box",
-    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
-    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Basketball"
-    ],
-    "category": "sports",
-    "sport": "Basketball",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "waxstat",
-        "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-basketball-members-only-box",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "one-piece-trading-card-game-volume-3-tin-ts-03-tcg",
     "title": "One Piece Trading Card Game Volume 3 Tin TS-03",
     "startsAt": "2026-11-30T09:00:00-08:00",
@@ -5999,6 +5970,35 @@
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
         "url": "https://www.hobbymonitor.com/release/2025-26-topps-merlin-uefa-club-competitions-soccer",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2025-26-topps-stadium-club-basketball-members-only-sports",
+    "title": "2025-26 Topps Stadium Club Basketball Members Only",
+    "startsAt": "2026-12-03T09:00:00-08:00",
+    "endsAt": "2026-12-03T10:00:00-08:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-basketball-members-only-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-topps-stadium-club-basketball-members-only-box",
         "priority": 70
       }
     ]
