@@ -5343,34 +5343,6 @@
     ]
   },
   {
-    "id": "2026-panini-absolute-football-sports",
-    "title": "2026 Panini Absolute Football",
-    "startsAt": "2026-11-18T09:00:00-08:00",
-    "endsAt": "2026-11-18T10:00:00-08:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-panini-absolute-football",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Football"
-    ],
-    "category": "sports",
-    "sport": "Football",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-panini-absolute-football",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "2026-topps-pro-debut-baseball-sports",
     "title": "2026 Topps Pro Debut Baseball",
     "startsAt": "2026-11-18T17:00:00.000Z",
@@ -5395,12 +5367,6 @@
         "name": "Topps",
         "url": "https://www.topps.com/pages/topps-pro-debut-baseball",
         "priority": 100
-      },
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-pro-debut-baseball-checklist",
-        "priority": 70
       },
       {
         "id": "waxstat",
@@ -5439,7 +5405,7 @@
       {
         "id": "hobby-monitor",
         "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-chrome-football-checklist",
+        "url": "https://www.hobbymonitor.com/release/2024-topps-chrome-football2025",
         "priority": 70
       },
       {
@@ -6157,34 +6123,6 @@
     ]
   },
   {
-    "id": "2026-27-panini-donruss-elite-road-to-women-s-world-cup-soccer-sports",
-    "title": "2026/27 Panini Donruss Elite Road To Women's World Cup Soccer",
-    "startsAt": "2026-12-04T09:00:00-08:00",
-    "endsAt": "2026-12-04T10:00:00-08:00",
-    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
-    "location": "Online",
-    "status": "TENTATIVE",
-    "sourceName": "Hobby Monitor",
-    "sourceUrl": "https://www.hobbymonitor.com/release/2026-27-panini-donruss-elite-road-to-womens-world-cup-soccer",
-    "sourceId": "hobby-monitor",
-    "sourcePriority": 70,
-    "tags": [
-      "Sports cards",
-      "Soccer"
-    ],
-    "category": "sports",
-    "sport": "Soccer",
-    "managedBy": "release-sync",
-    "sources": [
-      {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-27-panini-donruss-elite-road-to-womens-world-cup-soccer",
-        "priority": 70
-      }
-    ]
-  },
-  {
     "id": "pokemon-30th-celebration-tcg",
     "title": "Pokemon 30th Celebration",
     "startsAt": "2026-12-04T09:00:00-08:00",
@@ -6583,6 +6521,12 @@
         "name": "Topps",
         "url": "https://www.topps.com/pages/topps-black-and-white-baseball",
         "priority": 100
+      },
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-black-and-white-baseball",
+        "priority": 70
       },
       {
         "id": "waxstat",
