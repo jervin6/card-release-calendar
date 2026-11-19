@@ -5432,12 +5432,6 @@
     "managedBy": "release-sync",
     "sources": [
       {
-        "id": "hobby-monitor",
-        "name": "Hobby Monitor",
-        "url": "https://www.hobbymonitor.com/release/2026-topps-finest-formula-1-racing-checklist",
-        "priority": 70
-      },
-      {
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-finest-formula-1-racing-hobby-box",
@@ -6110,6 +6104,12 @@
     "managedBy": "release-sync",
     "sources": [
       {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-royalty-wwe",
+        "priority": 70
+      },
+      {
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-royalty-wwe-wrestling-hobby-box",
@@ -6669,6 +6669,34 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-black-and-white-baseball-hobby-lite-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-composite-formula-1-racing-sports",
+    "title": "2026 Topps Composite Formula 1 Racing",
+    "startsAt": "2026-12-17T09:00:00-08:00",
+    "endsAt": "2026-12-17T10:00:00-08:00",
+    "notes": "Release date from Hobby Monitor. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "Hobby Monitor",
+    "sourceUrl": "https://www.hobbymonitor.com/release/2026-topps-composite-formula-1-racing",
+    "sourceId": "hobby-monitor",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Formula 1"
+    ],
+    "category": "sports",
+    "sport": "Formula 1",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "hobby-monitor",
+        "name": "Hobby Monitor",
+        "url": "https://www.hobbymonitor.com/release/2026-topps-composite-formula-1-racing",
         "priority": 70
       }
     ]
@@ -7248,6 +7276,34 @@
     ]
   },
   {
+    "id": "kamigawa-titanbreach-tcg",
+    "title": "Kamigawa: Titanbreach",
+    "startsAt": "2027-06-04T09:00:00-07:00",
+    "endsAt": "2027-06-04T10:00:00-07:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/kamigawa-titanbreach",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/kamigawa-titanbreach",
+        "priority": 100
+      }
+    ]
+  },
+  {
     "id": "2026-topps-chrome-update-series-baseball-sapphire-edition-sports",
     "title": "2026 Topps Chrome Update Series Baseball Sapphire Edition",
     "startsAt": "2027-06-30T09:00:00-07:00",
@@ -7331,6 +7387,34 @@
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/one-piece-trading-card-game-learn-together-luffy-zoro-nami-starter-deck-set-lt-01",
         "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "zhalfir-tcg",
+    "title": "Zhalfir",
+    "startsAt": "2027-10-01T09:00:00-07:00",
+    "endsAt": "2027-10-01T10:00:00-07:00",
+    "notes": "Release date from Magic: The Gathering. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "CONFIRMED",
+    "sourceName": "Magic: The Gathering",
+    "sourceUrl": "https://magic.wizards.com/en/products/zhalfir",
+    "sourceId": "magic-official",
+    "sourcePriority": 100,
+    "tags": [
+      "TCG",
+      "Magic: The Gathering"
+    ],
+    "category": "tcg",
+    "game": "Magic: The Gathering",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "magic-official",
+        "name": "Magic: The Gathering",
+        "url": "https://magic.wizards.com/en/products/zhalfir",
+        "priority": 100
       }
     ]
   }
