@@ -2557,7 +2557,7 @@ DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
  m/pages/topps-stadium-club-basketball\nAlso sourced from: Hobby Monitor - h
  ttps://www.hobbymonitor.com/release/2025-26-topps-stadium-club-basketball-c
  hecklist\; waxstat.com - https://www.waxstat.com/boxes/2025-26-topps-stadiu
- m-club-basketball-value-pack
+ m-club-basketball-hobby-box
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
@@ -2645,22 +2645,6 @@ URL:https://www.waxstat.com/boxes/2025-26-topps-true-soccer-bundesliga-hobb
  y-box
 END:VEVENT
 BEGIN:VEVENT
-UID:topps-merlin-uefa-club-competitions-2025-26-sports@card-release-calenda
- r
-DTSTAMP:20261121T071201Z
-DTSTART:20261203T170000Z
-DTEND:20261203T180000Z
-SUMMARY:Topps Merlin UEFA Club Competitions 2025/26
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-ucc-merlin
-STATUS:CONFIRMED
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-ucc-merlin
-END:VEVENT
-BEGIN:VEVENT
 UID:2025-26-topps-merlin-uefa-club-competitions-soccer-sports@card-release-
  calendar
 DTSTAMP:20261121T071201Z
@@ -2730,6 +2714,40 @@ URL:https://www.waxstat.com/boxes/2025-26-topps-uefa-champions-league-merli
  n-soccer-delight-box
 END:VEVENT
 BEGIN:VEVENT
+UID:topps-merlin-uefa-club-competitions-2025-26-sports@card-release-calenda
+ r
+DTSTAMP:20261121T071201Z
+DTSTART:20261203T170000Z
+DTEND:20261203T180000Z
+SUMMARY:Topps Merlin UEFA Club Competitions 2025/26
+DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
+ ify the exact drop time before release.\nDrop link: https://www.topps.com/p
+ ages/topps-ucc-merlin
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-ucc-merlin
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-bowman-university-signature-football-sports@card-release-calendar
+DTSTAMP:20261121T071201Z
+DTSTART:20261204T170000Z
+DTEND:20261204T180000Z
+SUMMARY:2026 Bowman University Signature Football
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2026-bowman-university-signature-football-hobby-box\nAlso sour
+ ced from: Hobby Monitor - https://www.hobbymonitor.com/release/2026-bowman-
+ university-signature-football
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2026-bowman-university-signature-football
+ -hobby-box
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-topps-royalty-wwe-sports@card-release-calendar
 DTSTAMP:20261121T071201Z
 DTSTART:20261204T170000Z
@@ -2762,24 +2780,6 @@ TRANSP:TRANSPARENT
 URL:https://www.topps.com/pages/2026-bowman-u-signature-football
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-bowman-university-signature-football-sports@card-release-calendar
-DTSTAMP:20261121T071201Z
-DTSTART:20261204T170000Z
-DTEND:20261204T180000Z
-SUMMARY:2026 Bowman University Signature Football
-DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
- \; verify the exact drop time before release.\nDrop link: https://www.waxst
- at.com/boxes/2026-bowman-university-signature-football-hobby-box\nAlso sour
- ced from: Hobby Monitor - https://www.hobbymonitor.com/release/2026-bowman-
- university-signature-football
-STATUS:TENTATIVE
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.waxstat.com/boxes/2026-bowman-university-signature-football
- -hobby-box
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-topps-chrome-update-series-baseball-sports@card-release-calendar
 DTSTAMP:20261121T071201Z
 DTSTART:20261209T170000Z
@@ -2790,7 +2790,7 @@ DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
  ages/topps-chrome-baseball-update-series\nAlso sourced from: Hobby Monitor 
  - https://www.hobbymonitor.com/release/2026-topps-chrome-update-series-base
  ball-checklist\; waxstat.com - https://www.waxstat.com/boxes/2026-topps-chr
- ome-update-series-baseball-jumbo-pack
+ ome-update-series-baseball-breaker-s-delight-box
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:SPORTS CARDS
@@ -2859,41 +2859,6 @@ TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/2026-panini-three-and-two-baseball
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-topps-chrome-football-sports@card-release-calendar
-DTSTAMP:20261121T071201Z
-DTSTART:20261216T170000Z
-DTEND:20261216T180000Z
-SUMMARY:2026 Topps Chrome® Football
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-chrome-football\nAlso sourced from: Hobby Monitor - https://www.
- hobbymonitor.com/release/2024-topps-chrome-football2025\; waxstat.com - htt
- ps://www.waxstat.com/boxes/2026-topps-chrome-football-mega-pack
-STATUS:CONFIRMED
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-chrome-football
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-topps-black-and-white-baseball-sports@card-release-calendar
-DTSTAMP:20261121T071201Z
-DTSTART:20261216T170000Z
-DTEND:20261216T180000Z
-SUMMARY:2026 Topps Black and White Baseball
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-black-and-white-baseball\nAlso sourced from: Hobby Monitor - htt
- ps://www.hobbymonitor.com/release/2026-topps-black-and-white-baseball\; wax
- stat.com - https://www.waxstat.com/boxes/2026-topps-black-and-white-basebal
- l-hobby-box
-STATUS:CONFIRMED
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-black-and-white-baseball
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-topps-chrome-mega-box-football-sports@card-release-calendar
 DTSTAMP:20261121T071201Z
 DTSTART:20261216T170000Z
@@ -2940,6 +2905,40 @@ TRANSP:TRANSPARENT
 URL:https://www.hobbymonitor.com/release/2026-27-panini-donruss-basketball
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-topps-black-and-white-baseball-sports@card-release-calendar
+DTSTAMP:20261121T071201Z
+DTSTART:20261216T170000Z
+DTEND:20261216T180000Z
+SUMMARY:2026 Topps Black and White Baseball
+DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
+ ify the exact drop time before release.\nDrop link: https://www.topps.com/p
+ ages/topps-black-and-white-baseball\nAlso sourced from: Hobby Monitor - htt
+ ps://www.hobbymonitor.com/release/2026-topps-black-and-white-baseball\; wax
+ stat.com - https://www.waxstat.com/boxes/2026-topps-black-and-white-basebal
+ l-hobby-box
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-black-and-white-baseball
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-topps-chrome-football-sports@card-release-calendar
+DTSTAMP:20261121T071201Z
+DTSTART:20261216T170000Z
+DTEND:20261216T180000Z
+SUMMARY:2026 Topps Chrome® Football
+DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
+ ify the exact drop time before release.\nDrop link: https://www.topps.com/p
+ ages/topps-chrome-football\nAlso sourced from: waxstat.com - https://www.wa
+ xstat.com/boxes/2026-topps-chrome-football-mega-box
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-chrome-football
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-topps-black-and-white-baseball-hobby-lite-sports@card-release-cale
  ndar
 DTSTAMP:20261121T071201Z
@@ -2955,21 +2954,6 @@ CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/2026-topps-black-and-white-baseball-hobby
  -lite-box
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-topps-composite-formula-1-sports@card-release-calendar
-DTSTAMP:20261121T071201Z
-DTSTART:20261217T170000Z
-DTEND:20261217T180000Z
-SUMMARY:2026 Topps Composite Formula 1®
-DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
- ify the exact drop time before release.\nDrop link: https://www.topps.com/p
- ages/topps-composite-formula-1
-STATUS:CONFIRMED
-LOCATION:Online
-CATEGORIES:SPORTS CARDS
-TRANSP:TRANSPARENT
-URL:https://www.topps.com/pages/topps-composite-formula-1
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-topps-stadium-club-football-sports@card-release-calendar
@@ -3006,6 +2990,21 @@ CATEGORIES:SPORTS CARDS
 TRANSP:TRANSPARENT
 URL:https://www.waxstat.com/boxes/2026-topps-composite-formula-1-racing-hob
  by-box
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-topps-composite-formula-1-sports@card-release-calendar
+DTSTAMP:20261121T071201Z
+DTSTART:20261217T170000Z
+DTEND:20261217T180000Z
+SUMMARY:2026 Topps Composite Formula 1®
+DESCRIPTION:Release date from Topps. Time is a 9:00 AM PT placeholder\; ver
+ ify the exact drop time before release.\nDrop link: https://www.topps.com/p
+ ages/topps-composite-formula-1
+STATUS:CONFIRMED
+LOCATION:Online
+CATEGORIES:SPORTS CARDS
+TRANSP:TRANSPARENT
+URL:https://www.topps.com/pages/topps-composite-formula-1
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-panini-immaculate-football-sports@card-release-calendar

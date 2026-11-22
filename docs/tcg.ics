@@ -664,7 +664,7 @@ DTEND:20261124T190000Z
 SUMMARY:2026 Topps Chrome® Marvel Studios
 DESCRIPTION:Official drop time from Topps.\nDrop link: https://www.topps.co
  m/pages/topps-marvel-studios-chrome\nAlso sourced from: waxstat.com - https
- ://www.waxstat.com/boxes/2025-26-topps-chrome-marvel-studios-value-box
+ ://www.waxstat.com/boxes/2025-topps-chrome-marvel-studios-value-box
 STATUS:CONFIRMED
 LOCATION:Online
 CATEGORIES:TCG
@@ -950,6 +950,22 @@ LOCATION:Online
 CATEGORIES:TCG
 TRANSP:TRANSPARENT
 URL:https://magic.wizards.com/en/products/kamigawa-titanbreach
+END:VEVENT
+BEGIN:VEVENT
+UID:2025-26-topps-chrome-marvel-studios-tcg@card-release-calendar
+DTSTAMP:20261121T071201Z
+DTSTART:20270630T160000Z
+DTEND:20270630T170000Z
+SUMMARY:2025-26 Topps Chrome Marvel Studios
+DESCRIPTION:Release date from waxstat.com. Time is a 9:00 AM PT placeholder
+ \; verify the exact drop time before release.\nDrop link: https://www.waxst
+ at.com/boxes/2025-26-topps-chrome-marvel-studios-hobby-box
+STATUS:TENTATIVE
+LOCATION:Online
+CATEGORIES:TCG
+TRANSP:TRANSPARENT
+URL:https://www.waxstat.com/boxes/2025-26-topps-chrome-marvel-studios-hobby
+ -box
 END:VEVENT
 BEGIN:VEVENT
 UID:one-piece-trading-card-game-learn-together-luffy-zoro-and-nami-starter-
