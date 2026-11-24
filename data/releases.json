@@ -5537,7 +5537,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2025-topps-chrome-marvel-studios-value-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-chrome-marvel-studios-breaker-s-delight-box",
         "priority": 70
       }
     ]
@@ -7387,6 +7387,35 @@
     ]
   },
   {
+    "id": "2025-26-bowman-university-s-best-basketball-sports",
+    "title": "2025-26 Bowman University's Best Basketball",
+    "startsAt": "2027-06-30T09:00:00-07:00",
+    "endsAt": "2027-06-30T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2025-26-bowman-university-s-best-basketball-breaker-s-delight-10-box-case",
+    "sourceCalendarUrl": "https://www.waxstat.com/2025-26-topps-cards-release-calendar",
+    "sourceId": "waxstat:2025-26-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Basketball"
+    ],
+    "category": "sports",
+    "sport": "Basketball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2025-26-bowman-university-s-best-basketball-breaker-s-delight-10-box-case",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2025-26-topps-chrome-marvel-studios-tcg",
     "title": "2025-26 Topps Chrome Marvel Studios",
     "startsAt": "2027-06-30T09:00:00-07:00",
@@ -7540,7 +7569,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-hobby-16-box-case",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-hobby-compact-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -7555,7 +7584,36 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-hobby-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-stadium-club-baseball-hobby-compact-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-series-1-baseball-sports",
+    "title": "2026 Topps Series 1 Baseball",
+    "startsAt": "2027-06-30T09:00:00-07:00",
+    "endsAt": "2027-06-30T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-series-1-baseball-retail-pack",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-series-1-baseball-mega-box",
         "priority": 70
       }
     ]
@@ -7743,7 +7801,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-bowman-draft-baseball-hta-choice-6-box-case",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-bowman-draft-baseball-hta-choice-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -7758,7 +7816,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-bowman-draft-baseball-hta-choice-6-box-case",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-draft-baseball-hta-choice-box",
         "priority": 70
       }
     ]
@@ -7830,7 +7888,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-bowman-university-chrome-football-hobby-box",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-bowman-university-chrome-football-breaker-s-delight-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -7845,7 +7903,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-bowman-university-chrome-football-hobby-box",
+        "url": "https://www.waxstat.com/boxes/2026-bowman-university-chrome-football-breaker-s-delight-box",
         "priority": 70
       }
     ]
@@ -7880,6 +7938,35 @@
     ]
   },
   {
+    "id": "2026-topps-archives-signature-series-active-player-edition-baseball-sports",
+    "title": "2026 Topps Archives Signature Series Active Player Edition Baseball",
+    "startsAt": "2027-06-30T09:00:00-07:00",
+    "endsAt": "2027-06-30T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-archives-signature-series-active-player-edition-baseball-hobby-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-archives-signature-series-active-player-edition-baseball-hobby-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
     "id": "2026-topps-archives-signature-series-retired-player-edition-baseball-sports",
     "title": "2026 Topps Archives Signature Series Retired Player Edition Baseball",
     "startsAt": "2027-06-30T09:00:00-07:00",
@@ -7904,6 +7991,35 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-archives-signature-series-retired-player-edition-baseball-hobby-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-big-league-baseball-sports",
+    "title": "2026 Topps Big League Baseball",
+    "startsAt": "2027-06-30T09:00:00-07:00",
+    "endsAt": "2027-06-30T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-big-league-baseball-value-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-big-league-baseball-value-box",
         "priority": 70
       }
     ]
@@ -7946,7 +8062,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-cosmic-chrome-football-hobby-12-box-case",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-cosmic-chrome-football-hobby-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -7961,7 +8077,7 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-cosmic-chrome-football-hobby-12-box-case",
+        "url": "https://www.waxstat.com/boxes/2026-topps-cosmic-chrome-football-hobby-box",
         "priority": 70
       }
     ]
@@ -8062,7 +8178,7 @@
     "location": "Online",
     "status": "TENTATIVE",
     "sourceName": "waxstat.com",
-    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-resurgence-football-value-box",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-resurgence-football-mega-box",
     "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
     "sourceId": "waxstat:2026-topps-cards-release-calendar",
     "sourcePriority": 70,
@@ -8077,7 +8193,36 @@
       {
         "id": "waxstat",
         "name": "waxstat.com",
-        "url": "https://www.waxstat.com/boxes/2026-topps-resurgence-football-value-box",
+        "url": "https://www.waxstat.com/boxes/2026-topps-resurgence-football-mega-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-series-2-baseball-monster-sports",
+    "title": "2026 Topps Series 2 Baseball Monster",
+    "startsAt": "2027-06-30T09:00:00-07:00",
+    "endsAt": "2027-06-30T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-series-2-baseball-monster-box",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-series-2-baseball-monster-box",
         "priority": 70
       }
     ]
@@ -8107,6 +8252,35 @@
         "id": "waxstat",
         "name": "waxstat.com",
         "url": "https://www.waxstat.com/boxes/2026-topps-signature-class-football-value-box",
+        "priority": 70
+      }
+    ]
+  },
+  {
+    "id": "2026-topps-sterling-baseball-sports",
+    "title": "2026 Topps Sterling Baseball",
+    "startsAt": "2027-06-30T09:00:00-07:00",
+    "endsAt": "2027-06-30T10:00:00-07:00",
+    "notes": "Release date from waxstat.com. Time is a 9:00 AM PT placeholder; verify the exact drop time before release.",
+    "location": "Online",
+    "status": "TENTATIVE",
+    "sourceName": "waxstat.com",
+    "sourceUrl": "https://www.waxstat.com/boxes/2026-topps-sterling-baseball-hobby-4-box-case",
+    "sourceCalendarUrl": "https://www.waxstat.com/2026-topps-cards-release-calendar",
+    "sourceId": "waxstat:2026-topps-cards-release-calendar",
+    "sourcePriority": 70,
+    "tags": [
+      "Sports cards",
+      "Baseball"
+    ],
+    "category": "sports",
+    "sport": "Baseball",
+    "managedBy": "release-sync",
+    "sources": [
+      {
+        "id": "waxstat",
+        "name": "waxstat.com",
+        "url": "https://www.waxstat.com/boxes/2026-topps-sterling-baseball-hobby-4-box-case",
         "priority": 70
       }
     ]
